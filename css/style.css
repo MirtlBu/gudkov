@@ -3,11 +3,11 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: Helvetica, Arial, sans-serif;
 }
 
 body {
-
+    position: relative;
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
 }
 
 input, textarea, button {
@@ -32,10 +32,12 @@ h1, h2, h3 {
     font-weight: normal;
 }
 
-.container-960 {
-    width: 960px;
+.container {
+    width: 1000px;
     height: 100%;
     margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .flexbox {
@@ -64,11 +66,17 @@ h1, h2, h3 {
     color: #fff;
 }
 
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
 .logo__img {
-    width: 13px;
-    height: 13px;
-    border-radius: 5px;
-    background-color: #fe0000;
+    width: 14px;
+    height: 14px;
+    background-image: url(../images/icon-point.png);
+    background-repeat: no-repeat;
     display: inline-block;
 }
 
@@ -76,6 +84,26 @@ h1, h2, h3 {
     display: inline-block;
     text-transform: uppercase;
     line-height: 1.9;
+}
+
+.breadcrumbs {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.breadcrumbs__image {
+    width: 25px;
+    height: 30px;
+    background-image: url(../images/icon-breadcrumb.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.breadcrumbs__text {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .directions__link {
@@ -86,14 +114,40 @@ h1, h2, h3 {
     line-height: 1.9;
 }
 
-.directions__link:hover {
+.header__directions--right .directions__link {
     background-color: #ec1b21;
 }
 
-.slogan {
-    padding: 70px 45px;
-    box-sizing: border-box;
+.main {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:  0 auto;
+    top: 47%;
+    transform: translateY(-50%);
+}
+
+.background {
+    position: absolute;
+    height: 38%;
+    width: 100%;
+    top: 30px;
     background-image: url(../images/background__main.jpg);
+    z-index: -1;
+}
+
+.background:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, .9),  rgba(255, 255, 255, 0))
+}
+
+.slogan {
+    padding: 70px 0;
+    box-sizing: border-box;
+
 }
 
 .slogan__title {
@@ -107,7 +161,7 @@ h1, h2, h3 {
 }
 
 .voite {
-    padding: 25px 45px;
+    padding: 25px 0;
 }
 
 .voite__item {
@@ -125,23 +179,30 @@ h1, h2, h3 {
     flex: 6;
 }
 
-.voite__note {
+.main .note {
     flex: 3;
+    position: relative;
+}
+
+.note:after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 51px;
+    top: 3px;
+    left: -25px;
+    background-image: url(../images/icon-exclamation.png);
+    background-repeat: no-repeat;
+}
+
+.note__bold {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .voite .button {
     margin-bottom: 10px;
-}
-
-.voite__bold {
-    margin-top: 15px;
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.counter {
-    padding: 40px 45px;
-    box-sizing: border-box;
 }
 
 .counter__item {
@@ -154,16 +215,26 @@ h1, h2, h3 {
 }
 
 .counter__text {
-    width: 95px;
-    font-weight: 700;
+    width: 85px;
+    font-weight: 500;
 }
 
 .counter__num, .counter__text {
     display: inline-block;
+    vertical-align: middle;
+}
+
+.main .counter {
+    padding: 40px 0;
 }
 
 .footer {
     height: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    margin:  0 auto;
     background-color: #c9c9c9;
 }
 
