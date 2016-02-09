@@ -8,6 +8,8 @@ html, body {
 body {
     position: relative;
     font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 input, textarea, button {
@@ -45,6 +47,14 @@ h1, h2, h3 {
     justify-content: space-between;
 }
 
+.text-big {
+    font-size: 20px;
+}
+
+.text-small {
+    font-size: 13px;
+}
+
 .button {
     width: 240px;
     height: 40px;
@@ -60,9 +70,83 @@ h1, h2, h3 {
     background-color: #0195ff;
 }
 
+.button--blue:hover {
+    background-color: #0183de;
+}
+
+.button--red {
+    background-color: #ff0000;
+}
+
+.button--red:hover {
+    background-color: #c40008;
+}
+
+.button--pressed {
+    box-shadow: inset 0px 2px 6px 0px rgba(0, 0, 0, 0.23);
+}
+
+.text-link {
+    color: #0096ff;
+    border-bottom: 1px solid #0096ff;
+}
+
+.text-link:hover {
+    color: #ff0000;
+    border-bottom: 1px solid #ff0000;
+}
+
+.icon-close {
+    width: 19px;
+    height: 21px;
+    background-image: url(../images/icon-close.png);
+    background-repeat: no-repeat;
+    background-size: 39px 21px;
+    background-position: 0 0;
+}
+
+.icon-close:hover {
+    background-position: -19px 0;
+}
+
+.form {
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #e5f7fd;
+}
+
+.form__input {
+    height: 40px;
+    border: 1px solid #e8e4de;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    box-shadow:  inset 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+}
+
+.form__input:focus {
+    box-shadow: none;
+    border: 1px solid #b1daf4;
+}
+
+.form__input--error {
+    box-shadow: none;
+    border: 1px solid #ff0000;
+}
+
+.form__label {
+    width: 130px;
+    display: inline-block;
+}
+
+
 .header {
     height: 30px;
     background: #000;
+    font-size: 13px;
     color: #fff;
 }
 
@@ -82,6 +166,7 @@ h1, h2, h3 {
 
 .logo__text {
     display: inline-block;
+    font-size: 14px;
     text-transform: uppercase;
     line-height: 1.9;
 }
@@ -92,18 +177,30 @@ h1, h2, h3 {
 }
 
 .breadcrumbs__image {
-    width: 25px;
+    width: 26px;
     height: 30px;
     background-image: url(../images/icon-breadcrumb.png);
     background-repeat: no-repeat;
+    background-size: 52px 30px;
+    background-position: 0 0;
     display: inline-block;
     vertical-align: middle;
+    /*transition: background-position .2s; поменять картинку и менять бэкграунд*/
 }
 
 .breadcrumbs__text {
     font-size: 12px;
     display: inline-block;
     vertical-align: middle;
+    /*transition: color .2s;*/
+}
+
+.breadcrumbs:hover .breadcrumbs__image {
+    background-position: -26px 0;
+}
+
+.breadcrumbs:hover .breadcrumbs__text {
+    color: #ff0000;
 }
 
 .directions__link {
@@ -111,11 +208,21 @@ h1, h2, h3 {
     display: inline-block;
     padding: 0 20px;
     box-sizing: border-box;
-    line-height: 1.9;
+    line-height: 2.1;
 }
 
 .header__directions--right .directions__link {
-    background-color: #ec1b21;
+    background-color: #ed1c24;
+   /* transition: background .2s;*/
+}
+
+.header__directions--left:hover .directions__link {
+    color: #ed1c24;
+   /* transition: color .2s;*/
+}
+
+.header__directions--right:hover .directions__link {
+    background-color: #c40008;
 }
 
 .main {
@@ -216,7 +323,8 @@ h1, h2, h3 {
 
 .counter__text {
     width: 85px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .counter__num, .counter__text {
