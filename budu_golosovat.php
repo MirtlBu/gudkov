@@ -4,6 +4,7 @@
         <title>Gudkov</title>
         <link href='https://fonts.googleapis.com/css?family=Ubuntu:500,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/static/css/social-likes_birman.css">
+        <link rel="stylesheet" href="/static/vendors/FancySelect/fancySelect.css" type="text/css">
         <link rel="stylesheet" href="/static/css/style.css" type="text/css">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -84,6 +85,12 @@
                         <div class="form__row">
                             <label for="street" class="form__label">Где прописан</label>
                             <input id="street" class="form__input" type="text" required>
+                            <span class="form__kostili"></span>
+                            <select id="fancyselect" class="form__input">
+                                <option>Народного ополчения</option>
+                                <option>Народных гуляний</option>
+                                <option>Ленина</option>
+                            </select>
                             <div class="form__note text-small">Так мы сможем отметить всех наших сторонников на карте</div>
                             <div class="form__help text-small">Улица и дом</div>
                         </div>
@@ -104,6 +111,7 @@
                         <div class="form__row">
                             <label for="phone" class="form__label">Телефон</label>
                             <input id="phone" class="form__input" type="tel" required>
+                            <span class="form__kostili"></span>
                             <div class="form__note text-small">Так мы сможем вести учет голосов, оповещать вас о встречах с Дмитрие Гудковым в вашем районе,
                                 а также напомним вам о выборах в день голосования.</div>
 
@@ -153,6 +161,7 @@
 
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="/static/vendors/FancySelect/fancySelect.js"></script>
         <script src="/static/js/social-likes.min.js"></script>
         <script src="/static/js/script.js" type="text/javascript"></script>
 

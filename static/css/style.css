@@ -3,6 +3,7 @@
 @import url("header.css");
 @import url("footer.css");
 @import url("modal.css");
+@import url("select.css");
 
 
 
@@ -64,8 +65,12 @@ p {
 }
 
 .flexbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .text-bigger {
@@ -128,21 +133,26 @@ p {
     height: 100%;
     top: 0;
     left: 0;
-    background: -webkit-linear-gradient(right, rgba(255, 255, 255, .9),  rgba(255, 255, 255, 0));
     z-index: -1;
 }
 
 .slogan__title {
     font-size: 54px;
-    flex: 6;
+    -webkit-flex: 6;
+        -ms-flex: 6;
+            flex: 6;
 }
 
 .slogan__text {
-    flex: 3;
+    -webkit-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
 }
 
 .slogan .flexbox {
-    align-items: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     z-index: 1;
 }
 
@@ -162,7 +172,9 @@ p {
 }
 
 .voite__directions {
-    flex: 6;
+    -webkit-flex: 6;
+        -ms-flex: 6;
+            flex: 6;
 }
 
 .note {
@@ -187,15 +199,21 @@ p {
 }
 
 .golosuem .note {
-    flex: 3;
+    -webkit-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
 }
 
-.budu_golosovat .info {
-    flex: 6;
+.budu_golosovat .info, .privel .info {
+    -webkit-flex: 6;
+        -ms-flex: 6;
+            flex: 6;
 }
 
-.budu_golosovat .note {
-    flex: 3;
+.budu_golosovat .note, .privel .note {
+    -webkit-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
     top: 42px;
 }
 
@@ -220,7 +238,7 @@ p {
     vertical-align: middle;
 }
 
-.budu_golosovat {
+.budu_golosovat, .privel {
     padding: 45px 0;
 }
 
@@ -232,7 +250,7 @@ p {
     width: 540px;
 }
 
-.budu_golosovat .counter {
+.budu_golosovat .counter, .privel .counter {
     margin: 30px auto;
 }
 

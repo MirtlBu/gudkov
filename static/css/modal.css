@@ -7,6 +7,11 @@
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, .1);
+    display: none;
+}
+
+.modal-wrap--active {
+    display: block;
 }
 
 .modal {
@@ -17,7 +22,9 @@
     top: 50%;
     left: 0;
     right: 0;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     margin: 0 auto;
     padding: 40px;
     box-sizing: border-box;
@@ -33,7 +40,9 @@
 }
 
 .modal .flexbox__item {
-    flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     position: relative;
     padding-bottom: 60px;
 }

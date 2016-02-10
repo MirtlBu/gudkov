@@ -26,9 +26,13 @@
 }
 
 .footer__links .flexbox__item {
-    flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
 }
 
 .footer__links .flexbox__item:last-of-type {
-    flex: 2;
+    -webkit-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
 }
