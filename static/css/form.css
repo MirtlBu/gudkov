@@ -1,0 +1,106 @@
+.form {
+    display: inline-block;
+    padding: 30px 30px 45px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #e5f7fd;
+}
+
+.form__row {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form__row--cluster {
+    margin-bottom: 0;
+}
+
+.form__row--button {
+    border-top: 1px solid #fff;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.form__row--button .button {
+    display: inline-block;
+}
+
+.form__input {
+    position: relative;
+    width: 240px;
+    height: 40px;
+    border: 1px solid #e8e4de;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    /*box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.05) inset;*/
+    font-size: 16px;
+}
+
+.form__input:focus {
+    box-shadow: none;
+    border: 1px solid #b1daf4;
+}
+
+.form__input--error {
+    box-shadow: none;
+    border: 1px solid #ff0000;
+}
+
+.form__input--top {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.form__input--middle {
+    border-radius: 0px;
+}
+
+.form__input--bottom {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.form__row--cluster .form__input {
+    border-bottom:  1px solid transparent;
+}
+
+.form__row--cluster .form__input:focus {
+    border-bottom: 1px solid #b1daf4;
+}
+
+#street, #social {
+    width: 360px;
+}
+
+.form__label {
+    width: 130px;
+    display: inline-block;
+}
+
+.form__help {
+    position: relative;
+    left: 134px;
+    top: 2px;
+}
+
+.form__error {
+    display: inline-block;
+    margin-left: 10px;
+    color: #ff0000;
+}
+
+.form__note {
+    width: 300px;
+}
+
+.form__note:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: #000;
+    left: 0;
+    top: 0;
+}

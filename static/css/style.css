@@ -1,0 +1,248 @@
+@import url("button.css");
+@import url("form.css");
+@import url("header.css");
+@import url("footer.css");
+
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #010101;
+}
+
+input, textarea, button {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.main {
+    height: auto;
+}
+
+.main--fixed {
+    height: 100%;
+}
+
+.container {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-big {
+    font-size: 20px;
+}
+
+.text-small {
+    font-size: 13px;
+}
+
+.text-link {
+    color: #0096ff;
+    border-bottom: 1px solid #0096ff;
+    transition: color .2s;
+}
+
+.text-link:hover {
+    color: #ff0000;
+    border-bottom: 1px solid #ff0000;
+}
+
+.icon-close {
+    width: 19px;
+    height: 21px;
+    background-image: url(../images/icon-close.png);
+    background-repeat: no-repeat;
+    background-size: 39px 21px;
+    background-position: 0 0;
+}
+
+.icon-close:hover {
+    background-position: -19px 0;
+}
+
+.golosuem {
+    height: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin:  0 auto;
+}
+
+.slogan {
+    height: 34%;
+    box-sizing: border-box;
+    background-image: url(../images/background__main.jpg);
+    position: relative;
+    z-index: 0;
+}
+
+.slogan:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, .9),  rgba(255, 255, 255, 0));
+    z-index: -1;
+}
+
+.slogan__title {
+    font-size: 54px;
+    flex: 6;
+}
+
+.slogan__text {
+    font-size: 20px;
+    flex: 3;
+}
+
+.slogan .flexbox {
+    align-items: center;
+    z-index: 1;
+}
+
+.voite {
+    padding: 25px 0;
+}
+
+.voite__item {
+    width: 240px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.voite__item:last-of-type {
+    margin-right: 0;
+}
+
+.voite__directions {
+    flex: 6;
+}
+
+.note {
+    position: relative;
+}
+
+.note:after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 51px;
+    top: 3px;
+    left: -25px;
+    background-image: url(../images/icon-exclamation.png);
+    background-repeat: no-repeat;
+}
+
+.note__bold {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.golosuem .note {
+    flex: 3;
+}
+
+.budu_golosovat .info {
+    flex: 6;
+}
+
+.budu_golosovat .note {
+    flex: 3;
+    top: 42px;
+}
+
+.counter__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.counter__num {
+    font-size: 36px;
+    margin-right: 5px;
+}
+
+.counter__text {
+    width: 85px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.counter__num, .counter__text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.budu_golosovat {
+    padding: 45px 0;
+}
+
+.info__title {
+    font-size: 28px;
+}
+
+.info__text {
+    width: 540px;
+}
+
+.budu_golosovat .counter {
+    margin: 30px auto;
+}
+
+.centered {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+
+
+}
+

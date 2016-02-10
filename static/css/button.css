@@ -1,0 +1,40 @@
+.button {
+    height: 40px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 7px;
+    line-height: 2.3;
+    cursor: pointer;
+    transition: background: .2s;
+}
+
+.button--blue {
+    background-color: #0195ff;
+}
+
+.button--blue:hover {
+    background-color: #0183de;
+}
+
+.button--red {
+    background-color: #ff0000;
+}
+
+.button--red:hover {
+    background-color: #c40008;
+}
+
+.button--pressed {
+    box-shadow: inset 0px 2px 6px 0px rgba(0, 0, 0, 0.23);
+}
+
+.voite .button {
+    margin-bottom: 10px;
+}
+
+.form .button--blue {
+    width: 160px;
+}
