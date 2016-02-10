@@ -2,6 +2,7 @@
 @import url("form.css");
 @import url("header.css");
 @import url("footer.css");
+@import url("modal.css");
 
 
 
@@ -67,6 +68,10 @@ p {
     justify-content: space-between;
 }
 
+.text-bigger {
+    font-size: 28px;
+}
+
 .text-big {
     font-size: 20px;
 }
@@ -91,8 +96,9 @@ p {
     height: 21px;
     background-image: url(../images/icon-close.png);
     background-repeat: no-repeat;
-    background-size: 39px 21px;
+    background-size: 38px 21px;
     background-position: 0 0;
+    cursor: pointer;
 }
 
 .icon-close:hover {
@@ -132,7 +138,6 @@ p {
 }
 
 .slogan__text {
-    font-size: 20px;
     flex: 3;
 }
 
