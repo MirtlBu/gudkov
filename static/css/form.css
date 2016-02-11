@@ -1,6 +1,7 @@
 .form {
+    width: 540px;
     display: inline-block;
-    padding: 30px 30px 45px 20px;
+    padding: 20px 10px 45px 20px;
     box-sizing: border-box;
     border-radius: 5px;
     background-color: #e5f7fd;
@@ -22,25 +23,32 @@
     background-color: #e5f7fd;
 }
 
+.form__textarea +.form__kostili {
+    top: 10px;
+}
+
 .form__row--cluster {
     margin-bottom: 0;
 }
 
 .form__row--button {
-    border-top: 1px solid #fff;
     margin-top: 40px;
-    padding-top: 20px;
 }
 
 .form__row--button .button {
     display: inline-block;
 }
 
-.form__title {
-
+.form__row--lined {
+    padding-top: 25px;
+    border-top: 1px solid #fff;
 }
 
-.form__input {
+.form__title {
+    font-weight: 500;
+}
+
+.form__input, .form__textarea {
     position: relative;
     width: 240px;
     height: 40px;
@@ -51,10 +59,17 @@
     box-sizing: border-box;
     /*box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.05) inset;*/
     font-size: 16px;
-    z-index: 1;
+    z-index: 2;
 }
 
-.form__input:focus {
+.form__textarea {
+    height: 80px;
+    vertical-align: top;
+    padding-top: 11px;
+    resize: vertical;
+}
+
+.form__input:focus, .form__textarea:focus {
     box-shadow: none;
     border: 1px solid #b1daf4;
 }
@@ -65,15 +80,18 @@
 }
 
 .form__input--top {
+    height: 35px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
 }
 
 .form__input--middle {
+    height: 35px;
     border-radius: 0px;
 }
 
 .form__input--bottom {
+    height: 35px;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
 }
@@ -86,19 +104,28 @@
     border-bottom: 1px solid #b1daf4;
 }
 
-#street, #social {
+.form__input--long {
     width: 360px;
 }
 
+.form__input--short {
+    width: 80px;
+}
+
 .form__label {
-    width: 130px;
+    width: 125px;
     display: inline-block;
+}
+
+.form__label[for="other"] {
+    position: relative;
+    top: 12px;
 }
 
 .form__help {
     position: relative;
-    left: 134px;
-    top: 2px;
+    left: 131px;
+    top: 0;
 }
 
 .form__error {
@@ -122,4 +149,36 @@
     background-color: rgba(0, 0, 0, .3);
     left: -210px;
     top: 10px;
+}
+
+.form__radio-label {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    padding: 5px 0;
+    border: 1px solid #00aeef;
+    border-radius: 7px;
+    text-align: center;
+    /*line-height: 2;*/
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 5px 1px 0 0;
+}
+
+input[name = "loyalty"] {
+    position: absolute;
+    left: -9000px;
+}
+
+input[name = "loyalty"]:checked+.form__radio-label {
+    background-color: #00aeef;
+    color: #fff;
+}
+
+label[for = "align"] {
+    vertical-align: text-top;
+}
+
+.form__radio-label+.form__help {
+    margin-top: -8px;
 }

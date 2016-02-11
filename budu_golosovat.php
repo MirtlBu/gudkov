@@ -32,19 +32,19 @@
         <form class="form">
             <div class="form__row form__row--cluster">
                 <label for="surname" class="form__label">Фамилия,</label>
-                <input id="surname" class="form__input form__input--top" type="text" required>
+                <input id="surname" name="surname" class="form__input form__input--top" type="text" pattern="[a-zA-Z,а-яА-Я]+" required>
             </div>
             <div class="form__row form__row--cluster">
                 <label for="name" class="form__label">имя,</label>
-                <input id="name" class="form__input form__input--middle" type="text" required>
+                <input id="name" name="name" class="form__input form__input--middle" type="text" pattern="[a-zA-Z,а-яА-Я]+" required>
             </div>
             <div class="form__row">
                 <label for="middlename" class="form__label">отчество</label>
-                <input id="middlename" class="form__input form__input--bottom" type="text" required>
+                <input id="middlename" name="middlename" class="form__input form__input--bottom" type="text" pattern="[a-zA-Z,а-яА-Я]+" required>
             </div>
             <div class="form__row">
                 <label for="street" class="form__label">Где прописан</label>
-                <input id="street" class="form__input" type="text" required>
+                <input id="street" name="street" class="form__input form__input--long" type="text" required>
                 <span class="form__kostili"></span>
                 <select id="fancyselect" class="form__input">
                     <option>Народного ополчения</option>
@@ -56,27 +56,27 @@
             </div>
             <div class="form__row">
                 <label for="appartment" class="form__label"></label>
-                <input id="appartment" class="form__input" type="text" required>
+                <input id="appartment" name="appartment" class="form__input form__input--short" type="text" maxlength="5" pattern="[0-9]+" required>
                 <div class="form__help text-small">Квартира</div>
             </div>
             <div class="form__row">
-                <label for="birthdate" class="form__label">Год рождения</label>
-                <input id="birthdate" class="form__input" type="text" required>
+                <label for="year" class="form__label">Год рождения</label>
+                <input id="year" name="year" class="form__input form__input--short" type="text" maxlength="4" pattern="[0-9]{4}" required>
             </div>
             <div class="form__row">
-                <label for="social" class="form__label">Ваши соцсети</label>
-                <input id="social" class="form__input" type="text" required>
+                <label for="social" class="form__label">Ваши соц. сети</label>
+                <input id="social" name="social" class="form__input form__input--long" type="text">
                 <div class="form__help text-small">Ссылки на Фейсбук, ВКонтакте и др. (Необязательно)</div>
             </div>
             <div class="form__row">
                 <label for="phone" class="form__label">Телефон</label>
-                <input id="phone" class="form__input" type="tel" required>
+                <input id="phone" name="phone" class="form__input" type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required>
                 <span class="form__kostili"></span>
                 <div class="form__note text-small">Так мы сможем вести учет голосов, оповещать вас о встречах с Дмитрие Гудковым в вашем районе,
-                    а также напомним вам о выборах в день голосования.</div>
-
+                    а также напомним вам о выборах в день голосования.
+                </div>
             </div>
-            <div class="form__row form__row--button">
+            <div class="form__row form__row--button form__row--lined">
                 <label class="form__label"></label>
                 <button class="button button--blue" type="submit">Отправить</button>
                 <div class="form__error text-small">

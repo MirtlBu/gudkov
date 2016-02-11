@@ -26,6 +26,8 @@ input, textarea, button {
     background: transparent;
     border: none;
     outline: none;
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    font-size: 16px;
 }
 
 a {
@@ -225,17 +227,24 @@ p {
 .counter__num {
     font-size: 36px;
     margin-right: 5px;
+    line-height: 1.15;
+    letter-spacing: -1px;
 }
 
 .counter__text {
-    width: 85px;
+    width: 75px;
     font-size: 14px;
     font-weight: 600;
+    line-height: 1.1;
 }
 
 .counter__num, .counter__text {
     display: inline-block;
     vertical-align: middle;
+}
+
+.counter__item:nth-child(2) .counter__num {
+    transform: translateY(-3px);
 }
 
 .budu_golosovat, .privel {

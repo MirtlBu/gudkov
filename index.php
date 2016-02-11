@@ -11,9 +11,7 @@
     </head>
     <body>
 
-
         <?php include "header.php";?>
-
 
             <?php
                 if(file_exists(basename('.' . $_SERVER['REQUEST_URI'] . '.php'))) {
@@ -29,10 +27,6 @@
         </div>
 
         <?php include "footer.php";?>
-
-
-
-
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="/static/vendors/FancySelect/fancySelect.js"></script>
