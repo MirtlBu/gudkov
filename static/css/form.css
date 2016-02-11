@@ -7,9 +7,17 @@
     background-color: #e5f7fd;
 }
 
+.pomogat .form {
+    width: 100%;
+}
+
 .form__row {
     margin-bottom: 20px;
     position: relative;
+}
+
+.pomogat .form__row:first-of-type {
+    text-align: center;
 }
 
 .form__kostili {
@@ -125,7 +133,7 @@
 .form__help {
     position: relative;
     left: 131px;
-    top: 0;
+    top: 3px;
 }
 
 .form__error {
@@ -151,26 +159,31 @@
     top: 10px;
 }
 
-.form__radio-label {
+.pomogat .form__note {
+    right: 0;
+}
+
+.form__radio-button {
     display: inline-block;
     width: 32px;
     height: 32px;
-    padding: 5px 0;
+    margin: 5px 1px 0 0;
     border: 1px solid #00aeef;
     border-radius: 7px;
     text-align: center;
-    /*line-height: 2;*/
+    line-height: 2;
+    font-weight: 500;
     cursor: pointer;
     box-sizing: border-box;
-    margin: 5px 1px 0 0;
+
 }
 
-input[name = "loyalty"] {
+input[type="radio"] {
     position: absolute;
     left: -9000px;
 }
 
-input[name = "loyalty"]:checked+.form__radio-label {
+input[type="radio"]:checked+.form__radio-button {
     background-color: #00aeef;
     color: #fff;
 }
@@ -179,6 +192,13 @@ label[for = "align"] {
     vertical-align: text-top;
 }
 
-.form__radio-label+.form__help {
+.form__radio-button+.form__help {
     margin-top: -8px;
+}
+
+input[name="district"]+.form__radio-button {
+    width: 180px;
+    height: 40px;
+    line-height: 2.4;
+    margin-right: 15px;
 }

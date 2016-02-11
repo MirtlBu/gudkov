@@ -90,7 +90,7 @@ p {
 .text-link {
     color: #0096ff;
     border-bottom: 1px solid #0096ff;
-    transition: color .2s;
+    transition: color .2s, border .2s;
 }
 
 .text-link:hover {
@@ -206,7 +206,7 @@ p {
             flex: 3;
 }
 
-.budu_golosovat .info, .privel .info {
+.budu_golosovat .info, .privel .info, .pomogat .info {
     -webkit-flex: 6;
         -ms-flex: 6;
             flex: 6;
@@ -217,6 +217,17 @@ p {
         -ms-flex: 3;
             flex: 3;
     top: 42px;
+}
+
+.pomogat .note {
+    -webkit-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    top: 74px;
+}
+
+.counter {
+    margin: 30px auto;
 }
 
 .counter__item {
@@ -247,7 +258,7 @@ p {
     transform: translateY(-3px);
 }
 
-.budu_golosovat, .privel {
+.budu_golosovat, .privel, .pomogat {
     padding: 45px 0;
 }
 
@@ -259,8 +270,8 @@ p {
     width: 540px;
 }
 
-.budu_golosovat .counter, .privel .counter {
-    margin: 30px auto;
+.golosuem .counter {
+    margin: 40px auto;
 }
 
 .centered {
