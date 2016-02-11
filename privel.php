@@ -9,7 +9,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-
         <div class="header">
             <div class="container">
                 <div class="flexbox">
@@ -35,19 +34,16 @@
                 </div>
             </div>
         </div>
-
         <div class="main">
-            <div class="budu_golosovat">
+            <div class="privel">
                 <div class="container">
                     <div class="flexbox">
                         <div class="info">
-                            <div class="info__title">Я буду голосовать сам</div>
+                            <div class="info__title">Я привёл человека</div>
                             <div class="info__text">
-                                <p>Нам нужна информация о вас, чтобы мы смогли пригласить вас на встречу с Дмитрием,
-                                 когда она пройдёт в вашем районе, прислать вам открытку и напомнить вам о голосовании.</p>
-                                 <p>Это правда важно — независимые кандидаты проигрывают выборы потому,
-                                    что наши избиратели не приходят на участок (а избиратель кандидата от власти будет приведён начальником).
-                                    Позвольте нам напомнить вам о выборах перед ними.</p>
+                                <p>Если ваши родители, дедушка с&nbsp;бабушкой или&nbsp;другие знакомые рассматривают возможность проголосовать
+                                    за&nbsp;Дмитрия Гудкова, пожалуйста, сообщите нам информацию о&nbsp;них.</p>
+                                 <p>Мы пригласим их на встречу, когда она будет в их районе, ответим на их вопросы и напомним им о дне голосования.</p>
                             </div>
                         </div>
                         <div class="note">
@@ -82,10 +78,7 @@
                             <input id="middlename" class="form__input form__input--bottom" type="text" required>
                         </div>
                         <div class="form__row">
-                            <label for="street" class="form__label">Где прописан</label>
-                            <input id="street" class="form__input" type="text" required>
-                            <div class="form__note text-small">Так мы сможем отметить всех наших сторонников на карте</div>
-                            <div class="form__help text-small">Улица и дом</div>
+
                         </div>
                         <div class="form__row">
                             <label for="appartment" class="form__label"></label>
@@ -120,7 +113,6 @@
                 </div>
             </div>
         </div>
-
         <div class="footer">
             <div class="container">
                 <div class="footer__social">
@@ -150,7 +142,6 @@
                 </div>
             </div>
         </div>
-
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="/static/js/social-likes.min.js"></script>

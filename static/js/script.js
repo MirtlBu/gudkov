@@ -16,4 +16,11 @@ $(function() {
         $('.modal-wrap').removeClass('modal-wrap--active');
     });
 
+    $('.button').on('mousedown', function() {
+        $(this).addClass('button--pressed');
+    });
+    $('.button').on('mouseup', function() {
+        $(this).removeClass('button--pressed');
+    });
+
 })
