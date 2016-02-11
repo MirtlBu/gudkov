@@ -26,9 +26,17 @@
             ?>
         </div>
 
+        <center>
+            <div id="map"></div>
+        </center>
+
         <?php include "footer.php";?>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=<?=$apiKey;?>&signed_in=true&callback=gdMap.init"></script>
+        <script src="/static/js/markerclusterer_compiled.js"></script>
+
         <script src="/static/vendors/FancySelect/fancySelect.js"></script>
         <script src="/static/js/social-likes.min.js"></script>
         <script src="/static/js/script.js" type="text/javascript"></script>
