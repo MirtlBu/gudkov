@@ -26,9 +26,7 @@
             ?>
         </div>
 
-        <center>
-            <div id="map"></div>
-        </center>
+        <?php include "map.php";?>
 
         <?php include "footer.php";?>
 
