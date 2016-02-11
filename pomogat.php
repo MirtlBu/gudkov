@@ -38,7 +38,13 @@
                 <label for="phone" class="form__label">Телефон</label>
                 <input id="phone" name="phone" class="form__input" type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required>
                 <span class="form__kostili"></span>
+                <div class="form__note text-small">Через Телеграм у вас будет возможность быстро и просто связываться с координатором,
+                    задавать ему любые вопросы и узнавать самые последние новости о кампании.</div>
                 <div class="form__help text-small">В работе понадобится <a href="#" class="text-link">Телеграм</a></div>
+            </div>
+            <div class="form__row">
+                <label for="middlename" class="form__label">Эл. почта</label>
+                <input id="middlename" name="middlename" class="form__input" type="email" required>
             </div>
             <div class="form__row">
                 <label for="street" class="form__label">Адрес</label>
@@ -51,6 +57,43 @@
                 </select>
                 <div class="form__note text-small">Так мы сможем отметить всех наших сторонников на карте</div>
                 <div class="form__help text-small">Улица и дом</div>
+            </div>
+            <div class="form__row">
+                <label for="" class="form__label">Прописка в округе</label>
+                <input id="registered" name="registration" value="yes" type="radio" checked>
+                <label for="registered" class="form__radio-button">Есть</label>
+                <input id="unregistered" name="registration" value="no" type="radio">
+                <label for="unregistered" class="form__radio-button">Нет</label>
+            </div>
+            <div class="form__row form__row--lined">
+                <label for="" class="form__label">Социальные сети</label>
+                <div class="flexbox form__socials">
+                    <div class="flexbox__item">
+                        <div class="form__row">
+                            <label for="vk" class="form__label text-small">ВКонтакте</label>
+                            <input id="vk" name="vk" class="form__input" type="text">
+                        </div>
+                        <div class="form__row">
+                            <label for="facebook" class="form__label text-small">Фейсбук</label>
+                            <input id="facebook" name="facebook" class="form__input" type="text">
+                        </div>
+                        <div class="form__row">
+                            <label for="twitter" class="form__label text-small">Твиттер</label>
+                            <input id="twitter" name="twitter" class="form__input" type="text">
+                        </div>
+                    </div>
+                    <div class="flexbox__item">
+                        <div class="form__row">
+                            <label for="ok" class="form__label text-small">ОК</label>
+                            <input id="ok" name="ok" class="form__input" type="text">
+                        </div>
+                        <div class="form__row">
+                            <label for="othersocial" class="form__label text-small">Другое</label>
+                            <input id="othersocial" name="othersocial" class="form__input" type="text">
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <div class="form__row form__row--button form__row--lined">

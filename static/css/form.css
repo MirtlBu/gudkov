@@ -160,7 +160,7 @@
 }
 
 .pomogat .form__note {
-    right: 0;
+    right: 50px;
 }
 
 .form__radio-button {
@@ -201,4 +201,19 @@ input[name="district"]+.form__radio-button {
     height: 40px;
     line-height: 2.4;
     margin-right: 15px;
+}
+
+input[name="registration"]+.form__radio-button {
+    width: 60px;
+    height: 32px;
+    line-height: 1.7;
+    margin-right: 15px;
+}
+
+.form__socials {
+    width: 760px;
+}
+
+.form__socials .form__label {
+    text-align: right;
 }
