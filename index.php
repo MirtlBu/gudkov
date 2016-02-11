@@ -21,12 +21,11 @@
                 else {
                     echo "<div class='main main--fixed'>";
                     include "golosuem.php";
-                    include "modal.php";
+                    include "modal1.php";
+                    // include "modal2.php";
                 }
             ?>
         </div>
-
-        <?php include "map.php";?>
 
         <?php include "footer.php";?>
 

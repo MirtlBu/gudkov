@@ -16,7 +16,6 @@
 
 .modal {
     width: 560px;
-    height: 340px;
     background-color: #fff;
     position: absolute;
     top: 50%;
@@ -26,7 +25,7 @@
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
     margin: 0 auto;
-    padding: 40px;
+    padding: 30px 40px;
     box-sizing: border-box;
     border-radius: 10px;
     text-align: center;
@@ -44,26 +43,34 @@
         -ms-flex: 1;
             flex: 1;
     position: relative;
-    padding-bottom: 60px;
+    padding-bottom: 55px;
 }
 
 .flexbox__item:first-of-type {
     margin-right: 20px;
 }
 
-.modal__title {
+.modal1 .modal__title {
+    margin-bottom: 40px;
+}
+
+.modal2 .modal__title {
     margin-bottom: 30px;
 }
 
-.modal__title .text-bigger {
-    margin-bottom: 5px;
+.modal1 .text-bigger {
+    margin-bottom: 10px;
 }
 
 .modal__text {
     text-align: left;
 }
 
-.modal .button {
+.modal2 .modal__text {
+    padding-bottom: 20px;
+}
+
+.modal1 .button {
     position: absolute;
     bottom: 0;
     left: 0;
