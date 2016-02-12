@@ -16,10 +16,10 @@
             </div>
         </div>
         <form class="form">
-            <div class="form__row">
-                <input id="indistrict" name="district" value="in" type="radio" checked>
+            <div class="form__row align-centered">
+                <input id="indistrict" name="district" value="in" type="radio" class="form__input--hidden" checked>
                 <label for="indistrict" class="form__radio-button">Проживаю в округе</label>
-                <input id="outdistrict" name="district" value="in" type="radio">
+                <input id="outdistrict" name="district" value="in" class="form__input--hidden" type="radio">
                 <label for="outdistrict" class="form__radio-button">За пределами округа</label>
             </div>
             <div class="form__row form__row--cluster">
@@ -60,9 +60,9 @@
             </div>
             <div class="form__row">
                 <label for="" class="form__label">Прописка в округе</label>
-                <input id="registered" name="registration" value="yes" type="radio" checked>
+                <input id="registered" name="registration" value="yes" class="form__input--hidden" type="radio" checked>
                 <label for="registered" class="form__radio-button">Есть</label>
-                <input id="unregistered" name="registration" value="no" type="radio">
+                <input id="unregistered" name="registration" value="no" class="form__input--hidden" type="radio">
                 <label for="unregistered" class="form__radio-button">Нет</label>
             </div>
             <div class="form__row form__row--lined">
@@ -93,8 +93,105 @@
                         </div>
                     </div>
                 </div>
-
             </div>
+
+            <div class="form__row form__row--lined flexbox">
+                <label for="" class="form__label">Как готов помогать</label>
+                <div class="form__checkboxes">
+                    <div class="flexbox">
+                        <div class="flexbox__item">
+                            <div class="form__row">
+                                <input id="help1" name="help" value="check-supply" class="form__input form__input--hidden" type="checkbox">
+                                <label for="help1" class="form__checkbox text-small">
+                                    <span>Проверять доходит ли агитация</span>
+                                </label>
+                            </div>
+                            <div class="form__row">
+                                <input id="help2" name="help" value="supply-porch" class="form__input form__input--hidden" type="checkbox">
+                                <label for="help2" class="form__checkbox text-small">
+                                    <span>Забирать агитматериалы и раскладывать по своему подъезду</span>
+                                </label>
+                            </div>
+                            <div class="form__row">
+                                <input id="help3" name="help" value="supply-house" class="form__input form__input--hidden" type="checkbox">
+                                <label for="help3" class="form__checkbox text-small">
+                                    <span>Забирать материалы и раскладывать по всему дому</span>
+                                </label>
+                            </div>
+                            <div class="form__row">
+                                <input id="help4" name="help" value="agit-points" class="form__input form__input--hidden" type="checkbox">
+                                <label for="help4" class="form__checkbox text-small">
+                                    <span>Приходить на агитационные точки (укажите дни и время, когда удобно)</span>
+                                </label>
+                            </div>
+                            <div class="form__row">
+                                <input id="help4-1" name="help" class="form__input" type="text">
+                            </div>
+                        </div>
+                        <div class="flexbox__item">
+                            <div class="form__row">
+                                <input id="help5" name="help" value="help-headquarters" class="form__input form__input--hidden" type="checkbox">
+                                <label for="help5" class="form__checkbox text-small">
+                                    <span>Помогать в штабе, в развозке материалов</span>
+                                </label>
+                            </div>
+                            <div class="form__row">
+                                <input id="help6" name="help" value="help-storage" class="form__input form__input--hidden" type="checkbox">
+                                <label for="help6" class="form__checkbox text-small">
+                                    <span>Предоставить место для склада (гараж либо комнату)</span>
+                                </label>
+                            </div>
+                            <div class="form__row">
+                                <input id="help7" name="help" value="agit-neighbors" class="form__input form__input--hidden" type="checkbox">
+                                <label for="help7" class="form__checkbox text-small">
+                                    <span>Агитировать соседей лично (составить список готовых голосовать с адресами и телефонами)</span>
+                                </label>
+                            </div>
+                            <div class="form__row">
+                                <input id="help8" name="help" value="help-host" class="form__input form__input--hidden" type="checkbox">
+                                <label for="help8" class="form__checkbox text-small">
+                                    <span>Предоставить комнату для проживания агитатора</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form__row flexbox flexbox--start">
+                <label for="" class="form__label">Как часто обращаться</label>
+                <div class="form__radios">
+                    <div class="form__row">
+                        <input id="periodicity1" name="periodicity" value="onceinmonth" class="form__input form__input--hidden" type="radio" checked>
+                        <label for="periodicity1" class="form__radio-circle text-small">
+                            <span>Не чаще раза в месяц</span>
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <input id="periodicity2" name="periodicity" value="onceinweek" class="form__input form__input--hidden" type="radio">
+                        <label for="periodicity2" class="form__radio-circle text-small">
+                            <span>Не чаще раза в неделю</span>
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <input id="periodicity3" name="periodicity" value="fewinweek" class="form__input form__input--hidden" type="radio">
+                        <label for="periodicity3" class="form__radio-circle text-small">
+                            <span>Несколько раз в неделю</span>
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <input id="periodicity4" name="periodicity" value="asneed" class="form__input form__input--hidden" type="radio">
+                        <label for="periodicity4" class="form__radio-circle text-small">
+                            <span>Столько, сколько нужно</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form__row">
+                <label for="otherhelp" class="form__label">Чем ещё вы можете помочь</label>
+                <textarea id="otherhelp" name="otherhelp" class="form__textarea form__input--long"></textarea>
+            </div>
+
 
             <div class="form__row form__row--button form__row--lined">
                 <label class="form__label"></label>

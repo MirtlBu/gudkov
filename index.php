@@ -21,7 +21,7 @@
                 else {
                     echo "<div class='main main--fixed'>";
                     include "golosuem.php";
-                    include "modal2.php";
+                    include "modal.php";
                 }
             ?>
         </div>

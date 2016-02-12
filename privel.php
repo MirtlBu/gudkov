@@ -101,34 +101,34 @@
             <div class="form__row">
                 <label for="align" class="form__label">На сколько сторонник</label>
 
-                <input id="loyalty1" name="loyalty" value="1" type="radio">
+                <input id="loyalty1" name="loyalty" value="1" class="form__input--hidden" type="radio">
                 <label for="loyalty1" class="form__radio-button">1</label>
 
-                <input id="loyalty2" name="loyalty" value="2" type="radio">
+                <input id="loyalty2" name="loyalty" value="2" class="form__input--hidden" type="radio">
                 <label for="loyalty2" class="form__radio-button">2</label>
 
-                <input id="loyalty3" name="loyalty" value="3" type="radio">
+                <input id="loyalty3" name="loyalty" value="3" class="form__input--hidden" type="radio">
                 <label for="loyalty3" class="form__radio-button">3</label>
 
-                <input id="loyalty4" name="loyalty" value="4" type="radio">
+                <input id="loyalty4" name="loyalty" value="4" class="form__input--hidden" type="radio">
                 <label for="loyalty4" class="form__radio-button">4</label>
 
-                <input id="loyalty5" name="loyalty" value="5" type="radio" checked>
+                <input id="loyalty5" name="loyalty" value="5" class="form__input--hidden" type="radio" checked>
                 <label for="loyalty5" class="form__radio-button">5</label>
 
-                <input id="loyalty6" name="loyalty" value="6" type="radio">
+                <input id="loyalty6" name="loyalty" value="6" class="form__input--hidden" type="radio">
                 <label for="loyalty6" class="form__radio-button">6</label>
 
-                <input id="loyalty7" name="loyalty" value="7" type="radio">
+                <input id="loyalty7" name="loyalty" value="7" class="form__input--hidden" type="radio">
                 <label for="loyalty7" class="form__radio-button">7</label>
 
-                <input id="loyalty8" name="loyalty" value="8" type="radio">
+                <input id="loyalty8" name="loyalty" value="8" class="form__input--hidden" type="radio">
                 <label for="loyalty8" class="form__radio-button">8</label>
 
-                <input id="loyalty9" name="loyalty" value="9" type="radio">
+                <input id="loyalty9" name="loyalty" value="9" class="form__input--hidden" type="radio">
                 <label for="loyalty9" class="form__radio-button">9</label>
 
-                <input id="loyalty10" name="loyalty" value="10" type="radio">
+                <input id="loyalty10" name="loyalty" value="10" class="form__input--hidden" type="radio">
                 <label for="loyalty10" class="form__radio-button">10</label>
 
                 <div class="form__help text-small">1 — совсем не стронник, 10 — ярый сторонник</div>

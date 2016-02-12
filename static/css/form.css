@@ -16,10 +16,6 @@
     position: relative;
 }
 
-.pomogat .form__row:first-of-type {
-    text-align: center;
-}
-
 .form__kostili {
     display: inline-block;
     width: 10px;
@@ -80,6 +76,11 @@
 .form__input:focus, .form__textarea:focus {
     box-shadow: none;
     border: 1px solid #b1daf4;
+}
+
+.form__input--hidden {
+    position: absolute;
+    left: -9999px;
 }
 
 .form__input--error {
@@ -178,11 +179,6 @@
 
 }
 
-input[type="radio"] {
-    position: absolute;
-    left: -9000px;
-}
-
 input[type="radio"]:checked+.form__radio-button {
     background-color: #00aeef;
     color: #fff;
@@ -216,4 +212,82 @@ input[name="registration"]+.form__radio-button {
 
 .form__socials .form__label {
     text-align: right;
+}
+
+.form__checkboxes {
+    /*display: inline-block;
+    vertical-align: top;*/
+    margin-left: 37px;
+}
+
+.form__checkbox:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    border: 1px solid #e8e4de;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.form__checkbox:after {
+    content: none;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 4px;
+    left: 5px;
+    background-image: url(../images/icon-check.png);
+    background-repeat: no-repeat;
+}
+
+input[name="help"]:checked+.form__checkbox:after {
+    content: '';
+}
+
+.form__checkbox span, .form__radio-circle span {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+
+.form__checkboxes .flexbox__item {
+    flex: 1;
+}
+
+#help4-1 {
+    margin-left: 30px;
+}
+
+.form__radio-circle {
+    position: relative;
+}
+
+.form__radio-circle:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    border: 1px solid #e8e4de;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.form__radio-circle:after {
+    content: none;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    background-color: #0096ff;
+}
+
+input[name="periodicity"]:checked+.form__radio-circle:after {
+    content: '';
 }

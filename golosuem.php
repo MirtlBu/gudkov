@@ -6,7 +6,7 @@
             </div>
         </div>
     </div>
-    <div class="centered">
+    <div class="">
         <div class="voite">
             <div class="container flexbox">
                 <div class="voite__directions">
