@@ -50,14 +50,6 @@ p {
     margin: 12px 0;
 }
 
-.main {
-    height: auto;
-}
-
-.main--fixed {
-    height: 100%;
-}
-
 .container {
     width: 1000px;
     height: 100%;
@@ -76,7 +68,9 @@ p {
 }
 
 .flexbox--start {
-    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
 }
 
 .text-bigger {
@@ -116,7 +110,6 @@ p {
     background-position: -19px 0;
 }
 
-
 .budu_golosovat, .privel, .pomogat {
     padding: 45px 0;
 }
@@ -124,17 +117,19 @@ p {
 .golosuem {
     height: 100%;
     position: relative;
+    top: -30px;
     left: 0;
     right: 0;
     margin:  0 auto;
 }
 
 .slogan {
-    height: 34%;
+    height: calc(100% - 80px - 50%);
     box-sizing: border-box;
     background-image: url(../images/background__main.jpg);
     position: relative;
     z-index: 0;
+    background-position: bottom;
 }
 
 .slogan:before {
@@ -144,10 +139,12 @@ p {
     height: 100%;
     top: 0;
     left: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, .9));
     z-index: -1;
 }
 
 .slogan__title {
+    line-height: 52px;
     font-size: 54px;
     -webkit-flex: 6;
         -ms-flex: 6;
@@ -155,6 +152,9 @@ p {
 }
 
 .slogan__text {
+    position: relative;
+    top: 7px;
+    font-weight: 500;
     -webkit-flex: 3;
         -ms-flex: 3;
             flex: 3;
@@ -167,22 +167,27 @@ p {
     z-index: 1;
 }
 
-.voite {
-    padding: 25px 0;
+.guide {
+    padding: 15px 0;
 }
 
-.voite__item {
+.guide__item {
     width: 240px;
     display: inline-block;
     vertical-align: top;
-    margin-right: 20px;
+    margin-right: 17px;
 }
 
-.voite__item:last-of-type {
+.guide__text {
+    line-height: 20px;
+    margin-left: 3px;
+}
+
+.guide__item:last-of-type {
     margin-right: 0;
 }
 
-.voite__directions {
+.guide__directions {
     -webkit-flex: 6;
         -ms-flex: 6;
             flex: 6;
@@ -260,11 +265,17 @@ p {
 }
 
 .counter__item:nth-child(2) .counter__num {
-    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+            transform: translateY(-3px);
 }
 
 .budu_golosovat .counter, .privel .counter, .pomogat .counter {
     margin: 15px 0 55px 0;
+}
+
+.golosuem .counter {
+    margin: 30px auto;
 }
 
 .info__title {
@@ -275,19 +286,24 @@ p {
     width: 540px;
 }
 
-.golosuem .counter {
-    margin: 40px auto;
-}
-
 .align-centered {
     text-align: center;
 }
 
-#map {
-    height: 590px;
-    width: 1200px;
+.align-middle-wrap {
+    height: 45%;
+    position: relative;
 }
 
+.align-middle {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
 
 @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
 

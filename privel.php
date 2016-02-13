@@ -1,8 +1,8 @@
-<div class="privel">
+<div class="content privel">
     <div class="container">
         <div class="flexbox">
             <div class="info">
-                <div class="info__title">Я привёл человека</div>
+                <h2 class="info__title">Я привёл человека</h2>
                 <div class="info__text">
                     <p>Если ваши родители, бабушка с&nbsp;дедушкой, другие знакомые или&nbsp;родственники прописаны в&nbsp;округе
                      и&nbsp;рассматривают возможность проголосовать за&nbsp;Дмитрия, сообщите нам информацию о&nbsp;них.</p>

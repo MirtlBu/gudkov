@@ -1,8 +1,8 @@
-<div class="pomogat">
+<div class="content pomogat">
     <div class="container">
         <div class="flexbox">
             <div class="info">
-                <div class="info__title">Для желающих помогать на&nbsp;предвыборной&nbsp;кампании</div>
+                <h2 class="info__title">Для желающих помогать на&nbsp;предвыборной&nbsp;кампании</h2>
                 <div class="info__text">
                     <p>Нам очень важна помощь людей, живущих в округе (именно проживающих, тут не важна прописка).
                         Даже если вы проживаете за пределами округа, всё равно заполните анкету.</p>

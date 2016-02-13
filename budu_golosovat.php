@@ -1,8 +1,8 @@
-<div class="budu_golosovat">
+<div class="content budu_golosovat">
     <div class="container">
         <div class="flexbox">
             <div class="info">
-                <div class="info__title">Я буду голосовать сам</div>
+                <h2 class="info__title">Я буду голосовать сам</h2>
                 <div class="info__text">
                     <p>Нам нужна информация о вас, чтобы мы смогли пригласить вас на встречу с Дмитрием,
                      когда она пройдёт в вашем районе, прислать вам открытку и напомнить вам о голосовании.</p>

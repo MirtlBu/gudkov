@@ -1,4 +1,4 @@
-<div class="header header--fixed">
+<header class="header">
     <div class="container">
         <div class="flexbox">
             <div class="flexbox__item">
@@ -22,4 +22,4 @@
             </div>
         </div>
     </div>
-</div>
+</header>

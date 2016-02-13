@@ -13,18 +13,14 @@
 
         <?php include "header.php";?>
 
-            <?php
-                if(file_exists(basename('.' . $_SERVER['REQUEST_URI'] . '.php'))) {
-                    echo "<div class='main'>";
-                    include (basename('.' . $_SERVER['REQUEST_URI'] . '.php'));
-                }
-                else {
-                    echo "<div class='main main--fixed'>";
-                    include "golosuem.php";
-                    include "modal.php";
-                }
-            ?>
-        </div>
+        <?php
+            if(file_exists(basename('.' . $_SERVER['REQUEST_URI'] . '.php'))) {
+                include (basename('.' . $_SERVER['REQUEST_URI'] . '.php'));
+            }
+            else {
+                include "golosuem.php";
+            }
+        ?>
 
         <?php include "footer.php";?>
 

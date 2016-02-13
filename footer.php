@@ -1,14 +1,4 @@
-<?php
-        if(basename($_SERVER['REQUEST_URI']) !== '') {
-
-            echo "<div class='footer'>";
-        }
-        else {
-            echo "<div class='footer footer--fixed'>";
-        }
-?>
-
-
+<footer class='footer'>
     <div class="container">
         <div class="footer__social">
             <div class="footer__text">Расскажи друзьям о кампании</div>
@@ -36,4 +26,4 @@
 
         </div>
     </div>
-</div>
+</footer>

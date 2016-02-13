@@ -255,7 +255,9 @@ input[name="help"]:checked+.form__checkbox:after {
 }
 
 .form__checkboxes .flexbox__item {
-    flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
 }
 
 #help4-1 {

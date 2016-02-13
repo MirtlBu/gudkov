@@ -9,7 +9,7 @@
     z-index: 1;
 }
 
-.footer--fixed {
+.golosuem ~ .footer {
     position: absolute;
 }
 

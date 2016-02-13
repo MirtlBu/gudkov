@@ -11,6 +11,10 @@
     transition: background .2s;
 }
 
+a.button {
+    line-height: 2.5;
+}
+
 .button--blue {
     background-color: #0195ff;
 }
@@ -31,7 +35,7 @@
     box-shadow: inset 0px 2px 6px 0px rgba(0, 0, 0, 0.23);
 }
 
-.voite .button {
+.guide .button {
     margin-bottom: 10px;
 }
 
