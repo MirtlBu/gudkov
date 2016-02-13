@@ -6,7 +6,7 @@
     font-weight: 500;
     color: #fff;
     border-radius: 7px;
-    line-height: 2.4;
+    line-height: 2.1;
     cursor: pointer;
     transition: background .2s;
 }
@@ -42,4 +42,13 @@
 .modal2 .button {
     width: 220px;
     margin: 0 auto;
+}
+
+.form__block-outdistrict .button--red {
+    width: 220px;
+}
+
+
+.form__row--button {
+    margin-top: 30px;
 }

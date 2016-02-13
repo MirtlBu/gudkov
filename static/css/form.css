@@ -1,18 +1,20 @@
 .form {
     width: 540px;
     display: inline-block;
-    padding: 20px 10px 45px 20px;
+    padding: 20px 10px 40px 20px;
     box-sizing: border-box;
     border-radius: 5px;
     background-color: #e5f7fd;
+    margin-left: -20px;
 }
 
 .pomogat .form {
     width: 100%;
+    margin-top: 30px;
 }
 
 .form__row {
-    margin-bottom: 20px;
+    margin-bottom: 19px;
     position: relative;
 }
 
@@ -35,9 +37,6 @@
     margin-bottom: 0;
 }
 
-.form__row--button {
-    margin-top: 40px;
-}
 
 .form__row--button .button {
     display: inline-block;
@@ -67,7 +66,7 @@
 }
 
 .form__textarea {
-    height: 80px;
+    height: 100px;
     vertical-align: top;
     padding-top: 11px;
     resize: vertical;
@@ -166,17 +165,19 @@
 
 .form__radio-button {
     display: inline-block;
-    width: 32px;
-    height: 32px;
-    margin: 5px 1px 0 0;
     border: 1px solid #00aeef;
     border-radius: 7px;
     text-align: center;
-    line-height: 2;
     font-weight: 500;
     cursor: pointer;
     box-sizing: border-box;
+}
 
+.privel .form__radio-button {
+    width: 32px;
+    height: 32px;
+    line-height: 1.8;
+    margin: 5px 1px 0 0;
 }
 
 input[type="radio"]:checked+.form__radio-button {
@@ -195,15 +196,15 @@ label[for = "align"] {
 input[name="district"]+.form__radio-button {
     width: 180px;
     height: 40px;
-    line-height: 2.4;
     margin-right: 15px;
+    line-height: 2.3;
 }
 
 input[name="registration"]+.form__radio-button {
     width: 60px;
-    height: 32px;
-    line-height: 1.7;
+    height: 40px;
     margin-right: 15px;
+    line-height: 2.3;
 }
 
 .form__socials {
@@ -223,8 +224,8 @@ input[name="registration"]+.form__radio-button {
 .form__checkbox:before {
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     top: 0;
     left: 0;
     border: 1px solid #e8e4de;
@@ -238,7 +239,7 @@ input[name="registration"]+.form__radio-button {
     width: 12px;
     height: 12px;
     top: 4px;
-    left: 5px;
+    left: 4px;
     background-image: url(../images/icon-check.png);
     background-repeat: no-repeat;
 }
@@ -268,8 +269,8 @@ input[name="help"]:checked+.form__checkbox:after {
 .form__radio-circle:before {
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     top: 0;
     left: 0;
     border: 1px solid #e8e4de;
@@ -282,12 +283,29 @@ input[name="help"]:checked+.form__checkbox:after {
     position: absolute;
     width: 12px;
     height: 12px;
-    top: 5px;
-    left: 5px;
+    top: 4px;
+    left: 4px;
     border-radius: 50%;
     background-color: #0096ff;
 }
 
 input[name="periodicity"]:checked+.form__radio-circle:after {
     content: '';
+}
+
+.form__block--hidden {
+    display: none;
+}
+
+.form__row.align-centered {
+    margin-bottom: 30px;
+}
+
+.form__label.label-social {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.form__socials .form__row {
+    margin-bottom: 10px;
 }

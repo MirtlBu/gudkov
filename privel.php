@@ -32,16 +32,16 @@
                 <div class="form__title text-big">Ваши данные</div>
             </div>
             <div class="form__row form__row--cluster">
-                <label for="surname" class="form__label">Фамилия,</label>
-                <input id="surname" name="surname" class="form__input form__input--top" type="text" pattern="[a-zA-Z,а-яА-Я]+" title="Только буквы" required>
+                <label for="name" class="form__label">Имя,</label>
+                <input id="name" name="name" class="form__input form__input--top" type="text" pattern="[a-zA-Z,а-яА-Я]+" title="Только буквы" required>
             </div>
             <div class="form__row form__row--cluster">
-                <label for="name" class="form__label">имя,</label>
-                <input id="name" name="name" class="form__input form__input--middle" type="text" pattern="[a-zA-Z,а-яА-Я]+" title="Только буквы" required>
+                <label for="middlename" class="form__label">отчество</label>
+                <input id="middlename" name="middlename" class="form__input form__input--middle" type="text" pattern="[a-zA-Z,а-яА-Я]+" title="Только буквы" required>
             </div>
             <div class="form__row">
-                <label for="middlename" class="form__label">отчество</label>
-                <input id="middlename" name="middlename" class="form__input form__input--bottom" type="text" pattern="[a-zA-Z,а-яА-Я]+" title="Только буквы" required>
+                <label for="surname" class="form__label">фамилия</label>
+                <input id="surname" name="surname" class="form__input form__input--bottom" type="text" pattern="[a-zA-Z,а-яА-Я]+" title="Только буквы" required>
             </div>
             <div class="form__row">
                 <label for="phone" class="form__label">Ваш телефон</label>
@@ -52,16 +52,16 @@
                 <div class="form__title text-big">Данные человека, которого вы привели</div>
             </div>
             <div class="form__row form__row--cluster">
-                <label for="surname-other" class="form__label">Фамилия,</label>
-                <input id="surname-other" name="surname-other" class="form__input form__input--top" type="text" pattern="[a-zA-Z,а-яА-Я]+" title="Только буквы" required>
+                <label for="name-other" class="form__label">Имя,</label>
+                <input id="name-other" name="name-other" class="form__input form__input--top" type="text" pattern="[a-zA-Z,а-яА-Я]+" title="Только буквы" required>
             </div>
             <div class="form__row form__row--cluster">
-                <label for="name-other" class="form__label">имя,</label>
-                <input id="name-other" name="name-other" class="form__input form__input--middle" type="text" pattern="[a-zA-Z,а-яА-Я]+" title="Только буквы" required>
+                <label for="middlename-other" class="form__label">отчество</label>
+                <input id="middlename-other" name="middlename-other" class="form__input form__input--middle" type="text" pattern="[a-zA-Z,а-яА-Я]+" title="Только буквы" required>
             </div>
             <div class="form__row">
-                <label for="middlename-other" class="form__label">отчество</label>
-                <input id="middlename-other" name="middlename-other" class="form__input form__input--bottom" type="text" pattern="[a-zA-Z,а-яА-Я]+" title="Только буквы" required>
+                <label for="surname-other" class="form__label">фамилия</label>
+                <input id="surname-other" name="surname-other" class="form__input form__input--bottom" type="text" pattern="[a-zA-Z,а-яА-Я]+" title="Только буквы" required>
             </div>
             <div class="form__row">
                 <label for="phone-other" class="form__label">Телефон</label>

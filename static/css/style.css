@@ -47,7 +47,7 @@ h1, h2, h3 {
 }
 
 p {
-    margin: 10px 0;
+    margin: 12px 0;
 }
 
 .main {
@@ -114,6 +114,11 @@ p {
 
 .icon-close:hover {
     background-position: -19px 0;
+}
+
+
+.budu_golosovat, .privel, .pomogat {
+    padding: 45px 0;
 }
 
 .golosuem {
@@ -230,10 +235,6 @@ p {
     top: 74px;
 }
 
-.counter {
-    margin: 30px auto;
-}
-
 .counter__item {
     display: inline-block;
     vertical-align: middle;
@@ -262,8 +263,8 @@ p {
     transform: translateY(-3px);
 }
 
-.budu_golosovat, .privel, .pomogat {
-    padding: 45px 0;
+.budu_golosovat .counter, .privel .counter, .pomogat .counter {
+    margin: 15px 0 55px 0;
 }
 
 .info__title {
