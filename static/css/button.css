@@ -52,7 +52,11 @@ a.button {
     width: 220px;
 }
 
-
 .form__row--button {
     margin-top: 30px;
+}
+
+.form__row--button .button {
+    display: inline-block;
+    vertical-align: top;
 }

@@ -3,8 +3,9 @@
     <head>
         <title>Gudkov</title>
         <link href='https://fonts.googleapis.com/css?family=Ubuntu:500,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/static/css/social-likes_birman.css">
+        <link rel="stylesheet" href="/static/css/likely.css">
         <link rel="stylesheet" href="/static/vendors/FancySelect/fancySelect.css" type="text/css">
+        <link rel="icon" href="ico.ico.png" sizes="16x16">
         <link rel="stylesheet" href="/static/css/style.css" type="text/css">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +28,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
         <script src="/static/vendors/FancySelect/fancySelect.js"></script>
-        <script src="/static/js/social-likes.min.js"></script>
+        <script src="/static/js/likely.js"></script>
         <script src="/static/js/script.js" type="text/javascript"></script>
 
     </body>

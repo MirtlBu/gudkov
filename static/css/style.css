@@ -47,7 +47,7 @@ h1, h2, h3 {
 }
 
 p {
-    margin: 12px 0;
+    margin: 10px 0;
 }
 
 .container {
@@ -202,19 +202,25 @@ p {
     position: absolute;
     width: 12px;
     height: 51px;
-    top: 3px;
+    top: 5px;
     left: -25px;
     background-image: url(../images/icon-exclamation.png);
     background-repeat: no-repeat;
 }
 
+.note__text {
+    line-height: 20px;
+}
+
 .note__bold {
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 16px;
     font-weight: 500;
+    line-height: 20px;
 }
 
 .golosuem .note {
+    top: -5px;
     -webkit-flex: 3;
         -ms-flex: 3;
             flex: 3;
@@ -280,10 +286,15 @@ p {
 
 .info__title {
     font-size: 28px;
+    line-height: 30px;
 }
 
 .info__text {
     width: 540px;
+}
+
+.info__text p {
+    line-height: 20px;
 }
 
 .align-centered {
@@ -305,8 +316,27 @@ p {
             transform: translateY(-50%);
 }
 
-@media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (max-height: 700px) {
 
+    .golosuem {
+        height: auto;
+        top: 0;
+    }
+
+    .slogan {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .align-middle {
+        position: relative;
+        top: 10px;
+        transform: translateY(0);
+    }
+
+    .golosuem ~ .footer {
+        position: relative;
+    }
 
 }
 
