@@ -213,9 +213,8 @@ input[name="registration"]+.form__radio-button {
 }
 
 .form__checkboxes {
-    /*display: inline-block;
-    vertical-align: top;*/
     margin-left: 37px;
+    cursor: pointer;
 }
 
 .form__checkbox:before {
@@ -263,6 +262,7 @@ input[name="help"]:checked+.form__checkbox:after {
 
 .form__radio-circle {
     position: relative;
+    cursor: pointer;
 }
 
 .form__radio-circle:before {
@@ -290,6 +290,10 @@ input[name="help"]:checked+.form__checkbox:after {
 
 input[name="periodicity"]:checked+.form__radio-circle:after {
     content: '';
+}
+
+.form__radio-circle span, .form__checkbox span {
+    cursor: pointer;
 }
 
 .form__block--hidden {

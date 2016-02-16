@@ -32,7 +32,7 @@
             </div>
             <div class="flexbox__item">
                 <div class="footer__link">
-                    <span class="text-small">Предвыборная кампания в Мосгордуму 2016</span>
+                    <span class="text-small">Предвыборная кампания в Госдуму 2016</span>
                 </div>
             </div>
 
