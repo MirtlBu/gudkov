@@ -37,11 +37,6 @@
     margin-bottom: 0;
 }
 
-
-.form__row--button .button {
-    display: inline-block;
-}
-
 .form__row--lined {
     padding-top: 25px;
     border-top: 1px solid #fff;
@@ -138,6 +133,8 @@
 
 .form__error {
     display: inline-block;
+    width: 180px;
+    vertical-align: top;
     margin-left: 10px;
     color: #ff0000;
 }
@@ -310,4 +307,8 @@ input[name="periodicity"]:checked+.form__radio-circle:after {
 
 .form__socials .form__row {
     margin-bottom: 10px;
+}
+
+input[name="street"] {
+    z-index: 99;
 }
