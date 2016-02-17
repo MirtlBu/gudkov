@@ -9,6 +9,7 @@ gdMap = {
 
     gdMap.map = new google.maps.Map(document.getElementById('map'), {
     zoom: 13,
+	scrollwheel: false,
     center: {lat: 55.76, lng: 37.64}
     });
 
