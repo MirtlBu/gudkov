@@ -12,7 +12,7 @@
     </head>
     <body>
 
-        <?php include "header.php";?>
+        <?php include "header2.php";?>
 
         <?php
             if(file_exists(basename('.' . $_SERVER['REQUEST_URI'] . '.php'))) {
@@ -20,6 +20,7 @@
             }
             else {
                 include "golosuem.php";
+                include "modal3.php";
             }
         ?>
 

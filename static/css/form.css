@@ -170,6 +170,14 @@
     box-sizing: border-box;
 }
 
+.form__radio-button:hover {
+    color: #00aeef;
+}
+
+.form__radio-button--pressed {
+
+}
+
 .privel .form__radio-button {
     width: 32px;
     height: 32px;
@@ -180,6 +188,19 @@
 input[type="radio"]:checked+.form__radio-button {
     background-color: #00aeef;
     color: #fff;
+}
+
+input[type="radio"]:checked+.form__radio-button:hover {
+    border: 1px solid transparent;
+    background-color: #0183de;
+    color: #fff;
+}
+
+input[type="radio"]:checked+.form__radio-button--pressed {
+    border: 1px solid transparent;
+    background-color: #0183de;
+    color: #fff;
+    box-shadow: inset 0px 2px 6px 0px rgba(0, 0, 0, 0.23);
 }
 
 label[for = "align"] {
@@ -217,6 +238,10 @@ input[name="registration"]+.form__radio-button {
     cursor: pointer;
 }
 
+.form__checkbox, .form__radio-circle {
+    transition: color .2s;
+}
+
 .form__checkbox:before {
     content: '';
     position: absolute;
@@ -238,6 +263,10 @@ input[name="registration"]+.form__radio-button {
     left: 4px;
     background-image: url(../images/icon-check.png);
     background-repeat: no-repeat;
+}
+
+.form__checkbox:hover, .form__radio-circle:hover {
+    color: #0096ff;
 }
 
 input[name="help"]:checked+.form__checkbox:after {
@@ -288,7 +317,7 @@ input[name="help"]:checked+.form__checkbox:after {
     background-color: #0096ff;
 }
 
-input[name="periodicity"]:checked+.form__radio-circle:after {
+input[type="radio"]:checked+.form__radio-circle:after {
     content: '';
 }
 
@@ -315,4 +344,43 @@ input[name="periodicity"]:checked+.form__radio-circle:after {
 
 input[name="street"] {
     z-index: 99;
+}
+
+.add__button {
+    width: 33px;
+    height: 33px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.add__image {
+    width: 14px;
+    height: 13px;
+    position: relative;
+    top: 8px;
+    left: 0;
+    margin: 0 auto;
+    background-image: url(../images/icon-plus.png);
+    background-repeat: no-repeat;
+    background-size: 28px 13px;
+    background-position: 0 0;
+}
+
+.add__button:hover .add__image {
+    background-position: -14px 0;
+}
+
+.add__text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form__label--separated {
+    width: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.signin {
+    text-align: left;
 }

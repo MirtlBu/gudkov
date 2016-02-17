@@ -60,3 +60,7 @@ a.button {
     display: inline-block;
     vertical-align: top;
 }
+
+.signin .button {
+    width: 140px;
+}

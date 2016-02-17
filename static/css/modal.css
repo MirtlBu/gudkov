@@ -79,3 +79,24 @@
     left: 0;
     right: 0;
 }
+
+.modal3 {
+    padding: 35px 40px 65px 40px;
+}
+
+.modal3 .modal__title {
+    margin-bottom: 30px;
+}
+
+.modal3 .modal__text {
+    text-align: center;
+}
+
+.signin {
+    text-align: left;
+    padding: 50px 40px 30px 40px;
+}
+
+.signin .form__row--button {
+    margin-top: 20px;
+}

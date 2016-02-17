@@ -146,15 +146,24 @@ p {
 .slogan__title {
     line-height: 52px;
     font-size: 54px;
-    -webkit-flex: 6;
-        -ms-flex: 6;
-            flex: 6;
 }
 
 .slogan__text {
     position: relative;
     top: 7px;
     font-weight: 500;
+    -webkit-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+}
+
+.golosuem .slogan__title {
+    -webkit-flex: 6;
+        -ms-flex: 6;
+            flex: 6;
+}
+
+.golosuem .slogan__text {
     -webkit-flex: 3;
         -ms-flex: 3;
             flex: 3;
@@ -316,6 +325,166 @@ p {
             transform: translateY(-50%);
 }
 
+.nabiraem .slogan__title {
+    line-height: 52px;
+    font-size: 54px;
+    margin-bottom: 20px;
+}
+
+.nabiraem .slogan__info {
+    width: 280px;
+    display: inline-block;
+    text-align: left;
+}
+
+.nabiraem .slogan__left {
+    flex: 5;
+}
+
+.nabiraem .slogan__right {
+    flex: 3;
+    text-align: center;
+}
+
+.nabiraem .slogan__district {
+    width: 450px;
+}
+
+.nabiraem .slogan__district div {
+    display: inline-block;
+    font-weight: 500;
+}
+
+.nabiraem .form__label {
+    vertical-align: middle;
+}
+
+.baloon {
+    width: 280px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+.baloon--home {
+    position: relative;
+    width: 300px;
+    padding: 10px;
+}
+
+.baloon--home:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -8px;
+    left: -8px;
+    border-radius: 50%;
+    background-color: #0096ff;
+}
+
+.baloon--home .button {
+    width: 100%;
+}
+
+.baloon--home .button:first-of-type {
+    margin-bottom: 10px;
+}
+
+.baloon__title {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.baloon__list {
+    margin: 20px 0 0 3px;
+}
+
+.baloon__num {
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: -2px;
+    line-height: 37px;
+}
+
+.baloon .list__item {
+    margin-bottom: 7px;
+    font-size: 13px;
+}
+
+.baloon .list__count {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.baloon .list__count:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    background-image: url(../images/icon-square.png);
+    background-repeat: no-repeat;
+}
+
+.baloon .list__item--few .list__count:before {
+    opacity: .6;
+}
+
+.baloon .list__item--no .list__count:before {
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    background-color: #8a8181;
+    background-image: none;
+}
+
+.baloon .list__count, .baloon .list__text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.baloon .list__num {
+    display: block;
+    width: 100%;
+    position: relative;
+    top: 7px;
+    left: 0;
+    text-align: center;
+}
+
+.nabiraem .slogan {
+    padding: 40px 0;
+}
+
+.flexbox--triple, .flexbox--double {
+    justify-content: flex-start;
+}
+
+.flexbox--triple .flexbox__item {
+    width: 140px;
+}
+
+.flexbox--double .flexbox__item {
+    width: 90px;
+}
+
+.map {
+    height: 800px;
+}
+
+#map {
+    width: 100%;
+}
+
 @media screen and (max-height: 700px) {
 
     .golosuem {
@@ -339,6 +508,7 @@ p {
     }
 
 }
+
 
 @media screen and (max-width: 420px) {
 
