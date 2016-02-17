@@ -365,10 +365,11 @@ p {
     border-radius: 15px;
     padding: 20px 10px;
     box-sizing: border-box;
+    position: absolute;
+    z-index: 99;
 }
 
 .baloon--home {
-    position: relative;
     width: 300px;
     padding: 10px;
 }
@@ -400,6 +401,7 @@ p {
 
 .baloon__list {
     margin: 20px 0 0 3px;
+    text-align: left;
 }
 
 .baloon__num {
@@ -478,11 +480,29 @@ p {
 }
 
 .map {
-    height: 800px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.map .container {
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    right: 0;
+    height: auto;
 }
 
 #map {
     width: 100%;
+    height: 590px;
+}
+
+.map__info {
+    width: 160px;
+}
+
+.mailme {
+    width: 280px;
 }
 
 @media screen and (max-height: 700px) {

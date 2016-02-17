@@ -165,13 +165,16 @@
     border: 1px solid #00aeef;
     border-radius: 7px;
     text-align: center;
+    color: #00aeef;
     font-weight: 500;
     cursor: pointer;
     box-sizing: border-box;
+    transition: color .3s, border .2s;
 }
 
 .form__radio-button:hover {
-    color: #00aeef;
+    color: #ff0000;
+    border: 1px solid #ff0000;
 }
 
 .form__radio-button--pressed {
@@ -186,14 +189,9 @@
 }
 
 input[type="radio"]:checked+.form__radio-button {
-    background-color: #00aeef;
-    color: #fff;
-}
-
-input[type="radio"]:checked+.form__radio-button:hover {
-    border: 1px solid transparent;
-    background-color: #0183de;
-    color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    cursor: default;
 }
 
 input[type="radio"]:checked+.form__radio-button--pressed {
@@ -215,14 +213,14 @@ input[name="district"]+.form__radio-button {
     width: 180px;
     height: 40px;
     margin-right: 15px;
-    line-height: 2.3;
+    line-height: 2.2;
 }
 
 input[name="registration"]+.form__radio-button {
     width: 60px;
     height: 40px;
     margin-right: 15px;
-    line-height: 2.3;
+    line-height: 2.2;
 }
 
 .form__socials {
@@ -346,6 +344,10 @@ input[name="street"] {
     z-index: 99;
 }
 
+.add {
+    cursor: pointer;
+}
+
 .add__button {
     width: 33px;
     height: 33px;
@@ -357,7 +359,7 @@ input[name="street"] {
     width: 14px;
     height: 13px;
     position: relative;
-    top: 8px;
+    top: 9px;
     left: 0;
     margin: 0 auto;
     background-image: url(../images/icon-plus.png);
@@ -366,13 +368,22 @@ input[name="street"] {
     background-position: 0 0;
 }
 
-.add__button:hover .add__image {
+.add__text {
+    color: #0096ff;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.add:hover .add__button {
+    border: 1px solid #ff0000;
+}
+
+.add:hover .add__image {
     background-position: -14px 0;
 }
 
-.add__text {
-    display: inline-block;
-    vertical-align: middle;
+.add:hover .add__text {
+    color: #ff0000;
 }
 
 .form__label--separated {
@@ -383,4 +394,8 @@ input[name="street"] {
 
 .signin {
     text-align: left;
+}
+
+.tenant2 {
+    display: none;
 }
