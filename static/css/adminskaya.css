@@ -1,0 +1,47 @@
+.tasklist {
+    width: 540px;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.tasklist__item {
+    display: block;
+    margin: 0 0 7px -20px;
+    padding: 9px 20px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border .2s;
+}
+
+.tasklist__item:hover {
+    border: 1px solid #ff0000;
+}
+
+.tasklist__title {
+    display: inline-block;
+    margin-bottom: 7px;
+    border-bottom: 1px solid #a3ceff;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0096ff;
+    line-height: 21px;
+    transition: color .2s, border .2s;
+}
+
+.tasklist__item:hover .tasklist__title {
+    color: #ff0000;
+    border-bottom: 1px solid #ff0000;
+
+}
+
+.tasklist .text-bigger {
+    margin-bottom: 17px;
+}
+
+.tasklist__item .text-small {
+    color: #000;
+    opacity: .5;
+    font-weight: 500;
+}
+
