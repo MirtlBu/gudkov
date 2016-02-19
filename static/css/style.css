@@ -53,6 +53,7 @@ p {
 }
 
 .container {
+    position: relative;
     width: 1000px;
     height: 100%;
     margin: 0 auto;
@@ -509,6 +510,48 @@ p {
 
 .mailme {
     width: 280px;
+}
+
+.breadcrumbs-content {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    transition: color 0s;
+}
+
+.breadcrumbs-content:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: -15px;
+    top: 5px;
+    background-image: url(../images/icon-back.png);
+    background-size: 20px 10px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.breadcrumbs-content:hover:before {
+    background-position: -10px 0;
+}
+
+.filter {
+    position: relative;
+    padding-right: 25px;
+    color: #0096ff;
+}
+
+.filter:after {
+    content: '';
+    position: absolute;
+    width: 19px;
+    height: 12px;
+    right: 0;
+    top: 5px;
+    background-image: url(../images/icon-filter.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
 }
 
 @media screen and (max-height: 700px) {

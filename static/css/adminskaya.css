@@ -35,13 +35,66 @@
 
 }
 
-.tasklist .text-bigger {
+.tasklist .text-bigger, .singletask .text-bigger {
     margin-bottom: 17px;
 }
 
-.tasklist__item .text-small {
+.text-date {
+    font-size: 13px;
     color: #000;
     opacity: .5;
     font-weight: 500;
+}
+
+.singletask {
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.steps {
+    width: 360px;
+    margin-left: -20px;
+    padding: 10px 10px 30px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #e5f4ff;
+}
+
+.steps .text-date {
+    margin-bottom: 20px;
+}
+
+.steps__item {
+    margin-bottom: 20px;
+}
+
+.steps__title {
+    margin-bottom: 10px;
+}
+
+.steps__item .text-big {
+    margin-bottom: 5px;
+}
+
+.table {
+    width: 520px;
+}
+
+.table__header {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ccc;
+    align-items: flex-end;
+}
+
+.table__header .text-small {
+    font-weight: 500;
+}
+
+.table__header .flex__item:last-child {
+    width: 145px;
+}
+
+.table__header .filter {
+    margin-top: 5px;
 }
 
