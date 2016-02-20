@@ -38,12 +38,42 @@
                 </div>
                 <div class="flexbox__item table">
                     <div class="table__header flexbox">
-                        <div class="flex__item text-small">Координаторы (Всего 24)</div>
-                        <div class="flex__item text-small">
+                        <div class="text-small flexbox__item">Координаторы (Всего 24)</div>
+                        <div class="text-small flexbox__item">
                             <div>Сколько помощников выполнили</div>
                             <div class="filter">Сначала худшие</div>
                         </div>
                     </div>
+                    <a href="" class="table__row flexbox person-link">
+                        <div class="flexbox__item">
+                            <div class="text-big text-link">Алексей Шпановский</div>
+                            <div class="text-small">+7 904 335-66-45</div>
+                            <div class="text-small">Митино, УИК 32546</div>
+                        </div>
+                        <div class="flexbox__item">
+                            <div class="text-big">40 из 234</div>
+                        </div>
+                    </a>
+                    <a href="" class="table__row flexbox person-link">
+                        <div class="flexbox__item">
+                            <div class="text-big text-link">Валера Кизякин</div>
+                            <div class="text-small">+7 904 335-66-45</div>
+                            <div class="text-small">Митино, УИК 32546</div>
+                        </div>
+                        <div class="flexbox__item">
+                            <div class="text-big">40 из 234</div>
+                        </div>
+                    </a>
+                    <a href="" class="table__row flexbox person-link">
+                        <div class="flexbox__item">
+                            <div class="text-big text-link">Игнат Баранов</div>
+                            <div class="text-small">+7 904 335-66-45</div>
+                            <div class="text-small">Митино, УИК 32546</div>
+                        </div>
+                        <div class="flexbox__item">
+                            <div class="text-big">40 из 234</div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

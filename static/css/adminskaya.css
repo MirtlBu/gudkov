@@ -4,39 +4,34 @@
     box-sizing: border-box;
 }
 
-.tasklist__item {
+.person-link {
     display: block;
     margin: 0 0 7px -20px;
-    padding: 9px 20px;
+    padding: 9px 0 9px 20px;
     box-sizing: border-box;
     border: 1px solid transparent;
     border-radius: 8px;
     transition: border .2s;
 }
 
-.tasklist__item:hover {
+.person-link:hover {
     border: 1px solid #ff0000;
 }
 
-.tasklist__title {
+.person-link .text-big {
     display: inline-block;
-    margin-bottom: 7px;
-    border-bottom: 1px solid #a3ceff;
-    font-size: 20px;
+    margin-bottom: 6px;
     font-weight: 500;
-    color: #0096ff;
-    line-height: 21px;
-    transition: color .2s, border .2s;
+    line-height: 20px;
 }
 
-.tasklist__item:hover .tasklist__title {
+.person-link:hover .text-link {
     color: #ff0000;
     border-bottom: 1px solid #ff0000;
-
 }
 
 .tasklist .text-bigger, .singletask .text-bigger {
-    margin-bottom: 17px;
+    margin-bottom: 28px;
 }
 
 .text-date {
@@ -81,7 +76,8 @@
 }
 
 .table__header {
-    padding-bottom: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 7px;
     border-bottom: 1px solid #ccc;
     align-items: flex-end;
 }
@@ -90,11 +86,16 @@
     font-weight: 500;
 }
 
-.table__header .flex__item:last-child {
-    width: 145px;
+.table__header .text-small:last-child, .table__row .flexbox__item:last-child {
+    width: 155px;
 }
 
 .table__header .filter {
     margin-top: 5px;
+}
+
+.table__row .text-small {
+    line-height: 15px;
+    margin-bottom: 3px;
 }
 

@@ -540,6 +540,7 @@ p {
     position: relative;
     padding-right: 25px;
     color: #0096ff;
+    cursor: pointer;
 }
 
 .filter:after {
@@ -547,8 +548,8 @@ p {
     position: absolute;
     width: 19px;
     height: 12px;
-    right: 0;
-    top: 5px;
+    right: 25px;
+    top: 3px;
     background-image: url(../images/icon-filter.png);
     background-repeat: no-repeat;
     background-position: 0 0;
