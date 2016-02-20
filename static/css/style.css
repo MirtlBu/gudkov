@@ -106,6 +106,7 @@ p {
     color: #0096ff;
     border-bottom: 1px solid #a3ceff;
     transition: color .2s, border .2s;
+    cursor: pointer;
 }
 
 .text-link:hover {

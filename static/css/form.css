@@ -1,7 +1,7 @@
 .form {
     width: 540px;
     display: inline-block;
-    padding: 20px 10px 40px 20px;
+    padding: 30px 10px 40px 20px;
     box-sizing: border-box;
     border-radius: 8px;
     background-color: #e5f7fd;
@@ -399,4 +399,25 @@ input[name="street"] {
 
 .tenant2 {
     display: none;
+}
+
+.form__input--keygen {
+    width: 205px;
+    border: 1px solid transparent;
+    margin: 0 10px 0 -11px;
+    text-align: center;
+    font-weight: 500;
+    z-index: 0;
+}
+
+.form__input--keygen:focus {
+    border: 1px solid transparent;
+}
+
+.forma_agitator .form__row--button {
+    margin: 0 auto 11px auto;
+}
+
+.form__label.text-small {
+    margin-right: 5px;
 }
