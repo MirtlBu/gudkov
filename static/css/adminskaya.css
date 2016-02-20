@@ -7,7 +7,7 @@
 .person-link {
     display: block;
     margin: 0 0 7px -20px;
-    padding: 9px 0 9px 20px;
+    padding: 9px 20px 9px 20px;
     box-sizing: border-box;
     border: 1px solid transparent;
     border-radius: 8px;
@@ -31,7 +31,7 @@
 }
 
 .tasklist .text-bigger, .singletask .text-bigger {
-    margin-bottom: 28px;
+    margin-bottom: 25px;
 }
 
 .text-date {
@@ -97,5 +97,9 @@
 .table__row .text-small {
     line-height: 15px;
     margin-bottom: 3px;
+}
+
+.table__row .flexbox__item:last-child {
+    margin-right: -20px;
 }
 
