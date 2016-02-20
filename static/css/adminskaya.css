@@ -1,11 +1,18 @@
-.tasklist {
+a.text-bigger {
+    display: inline-block;
+}
+
+span.text-link {
+    display: inline-block;
+}
+
+.tasks {
     width: 540px;
     padding: 40px 0;
     box-sizing: border-box;
 }
 
-.person-link {
-    display: block;
+.listitem {
     margin: 0 0 7px -20px;
     padding: 9px 20px 9px 20px;
     box-sizing: border-box;
@@ -14,45 +21,46 @@
     transition: border .2s;
 }
 
-.person-link:hover {
+.listitem--link {
+    display: block;
+}
+
+.listitem--link:hover {
     border: 1px solid #ff0000;
 }
 
-.person-link .text-big {
+.listitem .text-big {
     display: inline-block;
     margin-bottom: 6px;
     font-weight: 500;
     line-height: 20px;
 }
 
-.person-link:hover .text-link {
+.listitem--link:hover .text-link {
     color: #ff0000;
     border-bottom: 1px solid #ff0000;
 }
 
-.tasklist .text-bigger, .singletask .text-bigger {
+.tasks .text-bigger, .singletask .text-bigger, .coordinator .text-bigger {
     margin-bottom: 25px;
 }
 
-.text-date {
-    font-size: 13px;
-    color: #000;
-    opacity: .5;
-    font-weight: 500;
-}
-
-.singletask {
+.singletask, .coordinator {
     padding: 40px 0;
     box-sizing: border-box;
 }
 
 .steps {
     width: 360px;
-    margin-left: -20px;
-    padding: 10px 10px 30px 20px;
+    margin: 0 0 10px -20px;
+    padding: 10px 10px 20px 20px;
     box-sizing: border-box;
     border-radius: 8px;
     background-color: #e5f4ff;
+}
+
+.steps .flexbox:first-child {
+    margin-bottom: 18px;
 }
 
 .steps .text-date {
@@ -73,6 +81,10 @@
 
 .table {
     width: 520px;
+}
+
+.coordinator .table {
+    padding: 30px 0;
 }
 
 .table__header {
@@ -102,4 +114,3 @@
 .table__row .flexbox__item:last-child {
     margin-right: -20px;
 }
-

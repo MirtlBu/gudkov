@@ -88,8 +88,18 @@ p {
     font-size: 20px;
 }
 
+.text-big--done {
+    color: #39b54a;
+}
+
 .text-small {
     font-size: 13px;
+}
+
+.text-small--light {
+    opacity: .5;
+    font-weight: 500;
+    line-height: 17px;
 }
 
 .text-link {
