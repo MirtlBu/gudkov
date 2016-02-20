@@ -238,6 +238,7 @@ input[name="registration"]+.form__radio-button {
 
 .form__checkbox, .form__radio-circle {
     transition: color .2s;
+    position: relative;
 }
 
 .form__checkbox:before {

@@ -52,9 +52,7 @@
                 <div class="flexbox__item table">
                     <div class="table__header flexbox">
                         <div class="text-small flexbox__item">Помощники (Всего 123)</div>
-                        <div class="text-small flexbox__item">
-                            <div>Выполнили шагов</div>
-                        </div>
+                        <div class="text-small flexbox__item">Выполнили шагов</div>
                     </div>
                     <div class="table__row flexbox listitem">
                         <div class="flexbox__item">

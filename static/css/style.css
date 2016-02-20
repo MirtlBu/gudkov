@@ -547,6 +547,7 @@ p {
 }
 
 .filter {
+    display: inline-block;
     position: relative;
     padding-right: 25px;
     color: #0096ff;
@@ -558,7 +559,7 @@ p {
     position: absolute;
     width: 19px;
     height: 12px;
-    right: 25px;
+    right: 0;
     top: 3px;
     background-image: url(../images/icon-filter.png);
     background-repeat: no-repeat;

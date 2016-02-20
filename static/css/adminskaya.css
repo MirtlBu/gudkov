@@ -32,7 +32,7 @@ span.text-link {
 .listitem .text-big {
     display: inline-block;
     margin-bottom: 6px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 20px;
 }
 
@@ -41,11 +41,11 @@ span.text-link {
     border-bottom: 1px solid #ff0000;
 }
 
-.tasks .text-bigger, .singletask .text-bigger, .coordinator .text-bigger {
+.tasks .text-bigger, .singletask .text-bigger, .coordinator .text-bigger, .errors .text-bigger {
     margin-bottom: 25px;
 }
 
-.singletask, .coordinator {
+.singletask, .coordinator, .errors {
     padding: 40px 0;
     box-sizing: border-box;
 }
@@ -113,4 +113,33 @@ span.text-link {
 
 .table__row .flexbox__item:last-child {
     margin-right: -20px;
+}
+
+.errors .table {
+    width: 100%;
+}
+
+.errors .table .flexbox__item {
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.errors .table .flexbox__item:nth-child(1) {
+    flex: 2;
+}
+
+.errors .table .flexbox__item:nth-child(2) {
+    flex: 2.5;
+}
+
+.errors .table .flexbox__item:nth-child(3) {
+    flex: 3;
+}
+
+.errors .table .flexbox__item:nth-child(4) {
+    flex: 1;
+}
+
+.errors .table__header {
+    margin-bottom: 0;
 }
