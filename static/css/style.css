@@ -385,6 +385,8 @@ p {
     box-sizing: border-box;
     position: absolute;
     z-index: 99;
+	left: 10px;
+	top: 10px;
 }
 
 .baloon--home {
@@ -503,11 +505,11 @@ p {
 }
 
 .map .container {
-    position: absolute;
     bottom: 35px;
     left: 0;
     right: 0;
     height: auto;
+    margin-top: 15px;
 }
 
 #map {
