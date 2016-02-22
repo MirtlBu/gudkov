@@ -11,10 +11,6 @@
     z-index: 8888;
 }
 
-.modal-wrap--active {
-    display: block;
-}
-
 .modal {
     width: 560px;
     background-color: #fff;

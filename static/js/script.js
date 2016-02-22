@@ -10,7 +10,7 @@ $(function() {
     });
 
     $('.modal-wrap').on('click', '.icon-close', function() {
-        $('.modal-wrap').removeClass('modal-wrap--active');
+        $('.modal-wrap').css('display', 'none');
     });
 
     $('.button').on('mousedown', function() {
