@@ -41,11 +41,11 @@ span.text-link {
     border-bottom: 1px solid #ff0000;
 }
 
-.tasks .text-bigger, .singletask .text-bigger, .coordinator .text-bigger, .errors .text-bigger, .forma_agitator .text-bigger, .forma_coordinator .text-bigger {
+.tasks .text-bigger, .singletask .text-bigger, .coordinator .text-bigger, .errors .text-bigger, .forma_agitator .text-bigger, .forma_coordinator .text-bigger, .forma_pomoschnik .text-bigger {
     margin-bottom: 25px;
 }
 
-.singletask, .coordinator, .errors, .forma_agitator, .forma_coordinator {
+.singletask, .coordinator, .errors, .forma_agitator, .forma_coordinator, .forma_pomoschnik {
     padding: 40px 0;
     box-sizing: border-box;
 }
@@ -144,6 +144,3 @@ span.text-link {
     margin-bottom: 0;
 }
 
-.forma_agitator .form {
-    width: 100%;
-}

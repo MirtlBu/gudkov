@@ -1,4 +1,4 @@
-<header class="header header2">
+<header class="header header3">
     <div class="container">
         <div class="flexbox">
             <div class="flexbox__item">
@@ -13,15 +13,10 @@
             <div class="flexbox__item">
                 <div class="header__directions">
                     <span class="header__directions--left">
-                        <a href="#" class="directions__link">Хочу помогать</a>
+                        <a href="#" class="directions__link">Валера Ктопочев</a>
                     </span>
                     <span class="header__directions--right">
-                        <a href="#" class="directions__link">Пожертвовать</a>
-                    </span>
-                    <span class="header__directions--last">
-                        <a href="#" class="directions__link">
-                            <span>Личный кабинет</span>
-                        </a>
+                        <a href="#" class="directions__link">Выйти</a>
                     </span>
                 </div>
             </div>

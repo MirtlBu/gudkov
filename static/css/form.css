@@ -421,3 +421,7 @@ input[name="street"] {
 .form__label.text-small {
     margin-right: 5px;
 }
+
+.forma_agitator .form, .forma_coordinator .form, .forma_pomoschnik .form {
+    width: 100%;
+}
