@@ -41,11 +41,11 @@ span.text-link {
     border-bottom: 1px solid #ff0000;
 }
 
-.tasks .text-bigger, .singletask .text-bigger, .coordinator .text-bigger, .errors .text-bigger, .forma_agitator .text-bigger{
+.tasks .text-bigger, .singletask .text-bigger, .coordinator .text-bigger, .errors .text-bigger, .forma_agitator .text-bigger, .forma_coordinator .text-bigger {
     margin-bottom: 25px;
 }
 
-.singletask, .coordinator, .errors, .forma_agitator {
+.singletask, .coordinator, .errors, .forma_agitator, .forma_coordinator {
     padding: 40px 0;
     box-sizing: border-box;
 }
