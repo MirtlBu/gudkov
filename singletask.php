@@ -46,9 +46,14 @@
                     </div>
                     <a href="" class="table__row flexbox listitem listitem--link">
                         <div class="flexbox__item">
-                            <div class="text-big text-link">Алексей Шпановский</div>
-                            <div class="text-small">+7 904 335-66-45</div>
-                            <div class="text-small">Митино, УИК 32546</div>
+                            <div class="listitem__img">
+                                <img src="/static/images/userpic.jpg">
+                            </div>
+                            <div class="listitem__text">
+                                <div class="text-big text-link">Алексей Шпановский</div>
+                                <div class="text-small">+7 904 335-66-45</div>
+                                <div class="text-small">Митино, УИК 32546</div>
+                            </div>
                         </div>
                         <div class="flexbox__item">
                             <div class="text-big">40 из 234</div>
@@ -56,9 +61,14 @@
                     </a>
                     <a href="" class="table__row flexbox listitem listitem--link">
                         <div class="flexbox__item">
-                            <div class="text-big text-link">Валера Кизякин</div>
-                            <div class="text-small">+7 904 335-66-45</div>
-                            <div class="text-small">Митино, УИК 32546</div>
+                            <div class="listitem__img">
+                                <img src="/static/images/userpic.jpg">
+                            </div>
+                            <div class="listitem__text">
+                                <div class="text-big text-link">Валера Кизякин</div>
+                                <div class="text-small">+7 904 335-66-45</div>
+                                <div class="text-small">Митино, УИК 32546</div>
+                            </div>
                         </div>
                         <div class="flexbox__item">
                             <div class="text-big">40 из 234</div>
@@ -66,9 +76,14 @@
                     </a>
                     <a href="" class="table__row flexbox listitem listitem--link">
                         <div class="flexbox__item">
-                            <div class="text-big text-link">Игнат Баранов</div>
-                            <div class="text-small">+7 904 335-66-45</div>
-                            <div class="text-small">Митино, УИК 32546</div>
+                            <div class="listitem__img">
+                                <img src="/static/images/userpic.jpg">
+                            </div>
+                            <div class="listitem__text">
+                                <div class="text-big text-link">Игнат Баранов</div>
+                                <div class="text-small">+7 904 335-66-45</div>
+                                <div class="text-small">Митино, УИК 32546</div>
+                            </div>
                         </div>
                         <div class="flexbox__item">
                             <div class="text-big">40 из 234</div>

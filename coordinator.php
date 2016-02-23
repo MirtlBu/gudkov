@@ -10,11 +10,25 @@
             <div class="flexbox">
                 <div class="flexbox__item">
                     <div class="steps">
-                        <div class="flexbox__item">
+                        <div class="steps__item">
                             <div class="text-small text-small--light">Координатор</div>
                             <div class="text-big">Алексей Шпановский</div>
                             <span class="text-small">+7 904 335-66-45</span>
-                            <span class="text-small">Митино, УИК 32546</span>
+                            <span class="text-small">Митино</span>
+                        </div>
+                        <div class="flexbox flexbox--start">
+                            <div class="flexbox__item">
+                                <div class="text-small steps__row">УИКи</div>
+                                <div class="steps__row">343565</div>
+                                <div class="steps__row">45346</div>
+                                <div class="steps__row">343434</div>
+                            </div>
+                            <div class="flexbox__item">
+                                <div class="text-small steps__row">Выполнили</div>
+                                <div class="steps__row">23 из 34</div>
+                                <div class="steps__row">3 из 4</div>
+                                <div class="steps__row">55 из 134</div>
+                            </div>
                         </div>
                     </div>
                     <div class="steps">
@@ -52,12 +66,21 @@
                 <div class="flexbox__item table">
                     <div class="table__header flexbox">
                         <div class="text-small flexbox__item">Помощники (Всего 123)</div>
-                        <div class="text-small flexbox__item">Выполнили шагов</div>
+                        <div class="text-small flexbox__item">
+                            <div>Выполнили шагов</div>
+                            <div class="filter">По алфавиту</div>
+                        </div>
                     </div>
+                    <div class="table__row text-big">УИК 343456 (Выполнили 135 из 134)</div>
                     <div class="table__row flexbox listitem">
                         <div class="flexbox__item">
-                            <div class="text-big">Алексей Шпановский</div>
-                            <div class="text-small">+7 904 335-66-45</div>
+                            <div class="listitem__img">
+                                <img src="/static/images/userpic.jpg">
+                            </div>
+                            <div class="listitem__text">
+                                <div class="text-big">Алексей Шпановский</div>
+                                <div class="text-small">+7 904 335-66-45</div>
+                            </div>
                         </div>
                         <div class="flexbox__item">
                             <div class="text-big">1 из 23</div>
@@ -65,17 +88,28 @@
                     </div>
                     <div class="table__row flexbox listitem">
                         <div class="flexbox__item">
-                            <div class="text-big">Валера Кизякин</div>
-                            <div class="text-small">+7 904 335-66-45</div>
+                            <div class="listitem__img">
+                                <img src="/static/images/userpic.jpg">
+                            </div>
+                            <div class="listitem__text">
+                                <div class="text-big">Валера Кизякин</div>
+                                <div class="text-small">+7 904 335-66-45</div>
+                            </div>
                         </div>
                         <div class="flexbox__item">
                             <div class="text-big">40 из 234</div>
                         </div>
                     </div>
+                    <div class="table__row text-big">УИК 343456 (Выполнили 135 из 134)</div>
                     <div class="table__row flexbox listitem">
                         <div class="flexbox__item">
-                            <div class="text-big">Игнат Баранов</div>
-                            <div class="text-small">+7 904 335-66-45</div>
+                            <div class="listitem__img">
+                                <img src="/static/images/userpic.jpg">
+                            </div>
+                            <div class="listitem__text">
+                                <div class="text-big">Игнат Баранов</div>
+                                <div class="text-small">+7 904 335-66-45</div>
+                            </div>
                         </div>
                         <div class="flexbox__item">
                             <div class="text-big text-big--done">Выполнил</div>
@@ -83,8 +117,13 @@
                     </div>
                     <div class="table__row flexbox listitem">
                         <div class="flexbox__item">
-                            <div class="text-big">Валера Кизякин</div>
-                            <div class="text-small">+7 904 335-66-45</div>
+                            <div class="listitem__img">
+                                <img src="/static/images/userpic.jpg">
+                            </div>
+                            <div class="listitem__text">
+                                <div class="text-big">Алексей Шпановский</div>
+                                <div class="text-small">+7 904 335-66-45</div>
+                            </div>
                         </div>
                         <div class="flexbox__item">
                             <div class="text-big">40 из 234</div>
@@ -92,8 +131,13 @@
                     </div>
                     <div class="table__row flexbox listitem">
                         <div class="flexbox__item">
-                            <div class="text-big">Алексей Шпановский</div>
-                            <div class="text-small">+7 904 335-66-45</div>
+                            <div class="listitem__img">
+                                <img src="/static/images/userpic.jpg">
+                            </div>
+                            <div class="listitem__text">
+                                <div class="text-big">Игнат Баранов</div>
+                                <div class="text-small">+7 904 335-66-45</div>
+                            </div>
                         </div>
                         <div class="flexbox__item">
                             <div class="text-big">40 из 234</div>
