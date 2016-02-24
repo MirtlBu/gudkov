@@ -12,6 +12,14 @@
     transition: background .2s;
 }
 
+.button--small {
+    height: 30px;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
 a.button {
     line-height: 2.5;
 }
@@ -30,6 +38,14 @@ a.button {
 
 .button--red:hover {
     background-color: #c40008;
+}
+
+.button--green {
+    background-color: #39b54a;
+}
+
+.button--green:hover {
+    background-color: #319c40;
 }
 
 .button--pressed {
@@ -65,4 +81,19 @@ a.button {
 .button--keygen {
     position: relative;
     z-index: 1;
+}
+
+.dashboard .button {
+    width: 240px;
+    margin-bottom: 10px;
+}
+
+.coordinatorskaya .button {
+    margin-bottom: 30px;
+}
+
+.dashboard__rate .button {
+    width: auto;
+    display: inline-block;
+    margin: 15px 10px 0 0;
 }

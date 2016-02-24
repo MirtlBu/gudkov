@@ -23,6 +23,7 @@ span.text-link {
 
 .listitem--link {
     display: block;
+    cursor: pointer;
 }
 
 .listitem--link:hover {
@@ -117,10 +118,6 @@ span.text-link {
     width: 155px;
 }
 
-.table__header .filter {
-    margin-top: 5px;
-}
-
 .table__row .text-small {
     line-height: 15px;
     margin-bottom: 3px;
@@ -174,5 +171,45 @@ span.text-link {
 .steps__row {
     margin-bottom: 3px;
 }
+
+.coordinatorskaya .tasks {
+    width: 100%;
+}
+
+.listitem__deadline {
+    width: 280px;
+}
+
+.listitem__done {
+    width: 270px;
+    margin-left: 65px;
+}
+
+.tasks .flexbox__item--left {
+    flex: 1.78;
+}
+
+.tasks .flexbox__item--right {
+    flex: 1;
+    text-align: left;
+}
+
+.tasks__header .flexbox__item--right {
+    margin-left: -40px;
+}
+
+.tasks__uiks {
+    margin-bottom: 7px;
+}
+
+.tasks__uiks div:first-child {
+    flex: 1;
+}
+
+.tasks__uiks div:last-child {
+    flex: 1.5;
+}
+
+
 
 

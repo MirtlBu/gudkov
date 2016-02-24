@@ -76,6 +76,14 @@ p {
             justify-content: flex-start;
 }
 
+.flexbox--verticalmiddle {
+    align-items: center;
+}
+
+.flexbox--verticalbottom {
+    align-items: flex-end;
+}
+
 .flexbox__container {
     display: inline-block;
 }
@@ -549,12 +557,17 @@ p {
     background-position: -10px 0;
 }
 
+.filter-wrap {
+    width: 140px;
+}
+
 .filter {
     display: inline-block;
     position: relative;
-    padding-right: 25px;
+    padding-right: 30px;
     color: #0096ff;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .filter:after {

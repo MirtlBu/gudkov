@@ -1,6 +1,6 @@
 <div class="content">
     <div class="dashboard">
-        <div class="container flexbox">
+        <div class="container flexbox flexbox--verticalbottom">
             <div class="flexbox__item">
                 <div class="flexbox__container">
                     <div class="dashboard__title">Админская</div>
@@ -25,7 +25,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="forma_agitator">
+        <div class="coordinatorskaya">
             <div class="text-bigger">Добавить агитатора</div>
             <form class="form">
                 <div class="form__row form__row--cluster">

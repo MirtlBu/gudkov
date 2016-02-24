@@ -1,6 +1,6 @@
 <div class="content">
     <div class="dashboard">
-        <div class="container flexbox">
+        <div class="container flexbox flexbox--verticalbottom">
             <div class="flexbox__item">
                 <div class="flexbox__container">
                     <div class="dashboard__title">Админская</div>

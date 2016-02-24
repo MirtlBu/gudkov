@@ -7,10 +7,6 @@
     background-position: bottom;
 }
 
-.dashboard .flexbox {
-    align-items: flex-end;
-}
-
 .dashboard .flexbox__item {
     flex: 1;
 }
@@ -37,7 +33,7 @@
     font-weight: 500;
 }
 
-.dashboard__tasks {
+.dashboard__tasks, .dashboard__row {
     margin-bottom: 10px;
 }
 
@@ -45,7 +41,10 @@
     color: #ff0000;
 }
 
-.dashboard .button {
-    width: 240px;
-    margin-bottom: 10px;
+.dashboard__row {
+    text-align: left;
+}
+
+.dashboard__bold {
+    font-weight: 500;
 }
