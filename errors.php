@@ -50,32 +50,19 @@
                         <div class="">Какие-то подробности, в каком-то виде пока мне непонятном</div>
                     </div>
                     <div class="flexbox__item">
-                        <div class="text-big">Алексей Шпановский</div>
-                        <div class="text-small">+7 904 335-66-45</div>
-                        <span class="text-small">Митино, УИК 32546</span>
-                        <span class="text-small">Рядовой</span>
+                        <div class="listitem__img">
+                            <img src="/static/images/userpic.jpg">
+                        </div>
+                        <div class="listitem__text">
+                            <div class="text-big">Валера Кизякин</div>
+                            <div class="text-small">+7 904 335-66-45</div>
+                            <span class="text-small">Митино, УИК 32546</span>
+                            <span class="text-small">Рядовой</span>
+                        </div>
                     </div>
                     <div class="flexbox__item">
-                        <input id="errors" name="help" value="" class="form__input form__input--hidden" type="checkbox" checked>
-                        <label for="errors" class="form__checkbox"></label>
-                    </div>
-                </div>
-                <div class="table__row flexbox listitem">
-                    <div class="flexbox__item">
-                        <div class="">Телефон, дом</div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="">Какие-то подробности, в каком-то виде пока мне непонятном</div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="text-big">Алексей Шпановский</div>
-                        <div class="text-small">+7 904 335-66-45</div>
-                        <span class="text-small">Митино, УИК 32546</span>
-                        <span class="text-small">Рядовой</span>
-                    </div>
-                    <div class="flexbox__item">
-                        <input id="errors" name="help" value="" class="form__input form__input--hidden" type="checkbox" checked>
-                        <label for="errors" class="form__checkbox"></label>
+                        <input id="errors1" name="help" value="" class="form__input form__input--hidden" type="checkbox" checked>
+                        <label for="errors1" class="form__checkbox"></label>
                     </div>
                 </div>
                 <div class="table__row flexbox listitem">
@@ -86,14 +73,65 @@
                         <div class="">Какие-то подробности, в каком-то виде пока мне непонятном</div>
                     </div>
                     <div class="flexbox__item">
-                        <div class="text-big">Алексей Шпановский</div>
-                        <div class="text-small">+7 904 335-66-45</div>
-                        <span class="text-small">Митино, УИК 32546</span>
-                        <span class="text-small">Рядовой</span>
+                        <div class="listitem__img">
+                            <img src="/static/images/userpic.jpg">
+                        </div>
+                        <div class="listitem__text">
+                            <span class="text-big">Константин Константинопольский</span>
+                            <div class="text-small">+7 904 335-66-45</div>
+                            <span class="text-small">Митино, УИК 32546</span>
+                            <span class="text-small">Рядовой</span>
+                        </div>
                     </div>
                     <div class="flexbox__item">
-                        <input id="errors" name="help" value="" class="form__input form__input--hidden" type="checkbox" checked>
-                        <label for="errors" class="form__checkbox"></label>
+                        <input id="errors2" name="help" value="" class="form__input form__input--hidden" type="checkbox">
+                        <label for="errors2" class="form__checkbox"></label>
+                    </div>
+                </div>
+                <div class="table__row flexbox listitem">
+                    <div class="flexbox__item">
+                        <div class="">Телефон, дом</div>
+                    </div>
+                    <div class="flexbox__item">
+                        <div class="">Какие-то подробности, в каком-то виде пока мне непонятном</div>
+                    </div>
+                    <div class="flexbox__item">
+                        <div class="listitem__img">
+                            <img src="/static/images/userpic.jpg">
+                        </div>
+                        <div class="listitem__text">
+                            <div class="text-big">Алексей Шпановский</div>
+                            <div class="text-small">+7 904 335-66-45</div>
+                            <span class="text-small">Митино, УИК 32546</span>
+                            <span class="text-small">Рядовой</span>
+                        </div>
+                    </div>
+                    <div class="flexbox__item">
+                        <input id="errors3" name="help" value="" class="form__input form__input--hidden" type="checkbox">
+                        <label for="errors3" class="form__checkbox"></label>
+                    </div>
+                </div>
+                <div class="table__row flexbox listitem">
+                    <div class="flexbox__item">
+                        <div class="">Телефон, дом</div>
+                    </div>
+                    <div class="flexbox__item">
+                        <div class="">Какие-то подробности, в каком-то виде пока мне непонятном</div>
+                    </div>
+                    <div class="flexbox__item">
+                        <div class="listitem__img">
+                            <img src="/static/images/userpic.jpg">
+                        </div>
+                        <div class="listitem__text">
+                            <div class="text-big">Игнат Баранов</div>
+                            <div class="text-small">+7 904 335-66-45</div>
+                            <span class="text-small">Митино, УИК 32546</span>
+                            <span class="text-small">Рядовой</span>
+                        </div>
+                    </div>
+                    <div class="flexbox__item">
+                        <input id="errors4" name="help" value="" class="form__input form__input--hidden" type="checkbox">
+                        <label for="errors4" class="form__checkbox"></label>
                     </div>
                 </div>
             </div>

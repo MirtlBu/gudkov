@@ -158,6 +158,10 @@ span.text-link {
     margin-bottom: 0;
 }
 
+.errors .table .flexbox__item:nth-child(3) .listitem__text {
+    width: 210px;
+}
+
 .steps .flexbox--start .flexbox__item:first-child {
     flex: 2;
 }
