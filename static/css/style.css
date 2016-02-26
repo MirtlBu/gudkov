@@ -671,5 +671,150 @@ p {
     .note {
         margin-bottom: 30px;
     }
+
+    .note:after {
+        left: -15px;
+    }
+
+    .guide__text {
+        margin-bottom: 30px;
+    }
+
+    .golosuem .counter {
+        margin: 10px auto 25px auto;
+    }
+
+    .counter__item {
+        vertical-align: top;
+    }
+
+    .counter__text, .counter__num {
+        display: block;
+    }
+
+    .counter__item:nth-child(3) .counter__text {
+        margin-left: 7px;
+    }
+
+    .footer__text {
+        margin-bottom: 15px;
+    }
+
+    .likely .likely__widget {
+        display: block;
+    }
+
+    .footer__links .flexbox__item:last-of-type {
+        margin-top: 20px;
+        align-self: flex-start;
+        text-align: left;
+    }
+
+    .info__text {
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .form__label {
+        margin-bottom: 5px;
+    }
+
+    .form__help {
+        left: 0px;
+    }
+
+    .form__note {
+/*        position: relative;
+        left: 0;*/
+        display: none;
+    }
+
+    .form__input--long, .form__socials {
+        width: 100%;
+    }
+
+    .form__note:before {
+        content: none;
+    }
+
+    .form__kostili {
+        display: none;
+    }
+
+    div.fancy-select ul.options {
+        width: 100%;
+        left: 0;
+    }
+
+    .form__row--cluster {
+        margin-bottom: 10px;
+    }
+
+    .form__row--cluster .form__input, .form__input--bottom {
+        height: 40px;
+        border: 1px solid #e8e4de;
+        border-radius: 8px;
+    }
+
+    .form__label--block, label[for="year-other"] {
+        display: block;
+        width: auto;
+    }
+
+    .privel .form__radio-button {
+        width: 40px;
+        height: 40px;
+        line-height: 2.3;
+        margin: 10px 10px 0 0;
+    }
+
+    .form__radio-button+.form__help {
+        margin-top: 5px;
+    }
+
+    .form__label[for="other"] {
+        top: 0;
+    }
+
+    label[for="appartment-other"], .form__row--button .form__label {
+        display: none;
+    }
+
+    .form .button--blue {
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+
+    .form__error {
+        display: block;
+        width: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .form__error div {
+        display: inline-block;
+    }
+
+    .form__socials .form__label {
+        text-align: left;
+        display: block;
+    }
+
+    .pomogat .note {
+        top: 20px;
+    }
+
+    label[for="indistrict"] {
+        margin-bottom: 10px;
+    }
+
+    .form__checkboxes, #help4-1 {
+        margin-left: 0;
+    }
 }
 

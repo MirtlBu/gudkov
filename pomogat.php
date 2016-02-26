@@ -17,7 +17,7 @@
     <div class="container">
         <div class="flexbox">
             <div class="info">
-                <h2 class="info__title">Для желающих помогать на&nbsp;предвыборной&nbsp;кампании</h2>
+                <h2 class="info__title">Для желающих помогать <br>на&nbsp;предвыборной кампании</h2>
                 <div class="info__text">
                     <p>Нам очень важна помощь людей, живущих в округе (именно проживающих, тут не важна прописка).
                         Даже если вы проживаете за пределами округа, всё равно заполните анкету.</p>
@@ -93,7 +93,7 @@
                     <div class="form__help text-small">Улица и дом</div>
                 </div>
                 <div class="form__row">
-                    <label for="" class="form__label">Прописка в округе</label>
+                    <label for="" class="form__label form__label--block">Прописка в округе</label>
                     <input id="registered" name="registration" value="yes" class="form__input--hidden indistrict_visa" type="radio" checked>
                     <label for="registered" class="form__radio-button">Есть</label>
                     <input id="unregistered" name="registration" value="no" class="form__input--hidden indistrict_visa" type="radio">

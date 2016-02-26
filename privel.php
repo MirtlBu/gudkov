@@ -99,7 +99,7 @@
                 <div class="form__help text-small">Ссылки на Фейсбук, ВКонтакте и др. (Необязательно)</div>
             </div>
             <div class="form__row">
-                <label for="align" class="form__label">На сколько сторонник</label>
+                <label for="align" class="form__label form__label--block">На сколько сторонник</label>
 
                 <input id="loyalty1" name="loyalty" value="1" class="form__input--hidden" type="radio">
                 <label for="loyalty1" class="form__radio-button">1</label>
