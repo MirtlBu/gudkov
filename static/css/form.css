@@ -422,6 +422,6 @@ input[name="street"] {
     margin-right: 5px;
 }
 
-.forma_agitator .form, .forma_coordinator .form, .forma_pomoschnik .form {
+.forma_agitator .form, .forma_coordinator .form, .forma_pomoschnik .form, .coordinatorskaya .form {
     width: 100%;
 }

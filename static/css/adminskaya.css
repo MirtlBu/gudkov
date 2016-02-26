@@ -8,8 +8,6 @@ span.text-link {
 
 .tasks {
     width: 540px;
-    padding: 40px 0;
-    box-sizing: border-box;
 }
 
 .listitem {
@@ -61,11 +59,11 @@ span.text-link {
     vertical-align: top;
 }
 
-.tasks .text-bigger, .singletask .text-bigger, .coordinator .text-bigger, .errors .text-bigger, .forma_agitator .text-bigger, .forma_coordinator .text-bigger, .forma_pomoschnik .text-bigger {
+.tasks .text-bigger, .singletask .text-bigger, .coordinator .text-bigger, .errors .text-bigger, .forma_agitator .text-bigger, .forma_coordinator .text-bigger, .forma_pomoschnik .text-bigger, .coordinatorskaya .text-bigger {
     margin-bottom: 25px;
 }
 
-.singletask, .coordinator, .errors, .forma_agitator, .forma_coordinator, .forma_pomoschnik {
+.singletask, .coordinator, .errors, .forma_agitator, .forma_coordinator, .forma_pomoschnik, .coordinatorskaya .container {
     padding: 40px 0;
     box-sizing: border-box;
 }

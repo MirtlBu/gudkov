@@ -17,7 +17,7 @@
             <div class="flexbox__item">
                 <div class="flexbox__container">
                     <button class="button button--blue" type="button">Добавить помощника</button>
-                    <div class="dashboard__row dashboard__bold">УИКи</div>
+                    <div class="dashboard__row dashboard__bold">УИКи:</div>
                     <div class="flexbox">
                         <div class="flexbox__item">
                             <div class="dashboard__row">23534667</div>
