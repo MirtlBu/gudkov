@@ -5,7 +5,7 @@
                 <div class="flexbox__container">
                     <div class="dashboard__title">Координаторская</div>
                     <div class="dashboard__tablo">
-                        <div class="dashboard__row">Валера, как прошёл день?</div>
+                        <div class="">Валера, как прошёл день?</div>
                         <div class="dashboard__rate">
                             <button class="button button--small button--red">Хренова</button>
                             <button class="button button--small button--blue">Нормально</button>

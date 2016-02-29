@@ -104,6 +104,10 @@ p {
     font-size: 13px;
 }
 
+.text-bold {
+    font-weight: 500;
+}
+
 .text-small--light {
     opacity: .5;
     font-weight: 500;
@@ -619,6 +623,10 @@ p {
         line-height: 31px;
     }
 
+    .logo__img {
+        margin-top: 6px;
+    }
+
     .breadcrumbs {
         display: none;
     }
@@ -697,6 +705,7 @@ p {
     }
 
     .footer__text {
+        display: block;
         margin-bottom: 15px;
     }
 
@@ -780,7 +789,7 @@ p {
         top: 0;
     }
 
-    label[for="appartment-other"], .form__row--button .form__label {
+    label[for="appartment-other"], .form__row--button .form__label, label[for="appartment"] {
         display: none;
     }
 
