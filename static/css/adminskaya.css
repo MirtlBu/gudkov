@@ -63,9 +63,13 @@ span.text-link {
     margin-bottom: 25px;
 }
 
-.singletask, .coordinator, .errors, .forma_agitator, .forma_coordinator, .forma_pomoschnik, .coordinatorskaya .container {
+.singletask, .coordinator, .errors, .forma_agitator, .forma_coordinator, .forma_pomoschnik, .coordinatorskaya .container, .pomoshnik .container {
     padding: 40px 0;
     box-sizing: border-box;
+}
+
+.coordinatorskaya .dashboard .container, .pomoshnik .dashboard .container {
+    padding: 0;
 }
 
 .steps {
@@ -246,5 +250,52 @@ span.text-link {
 .pomoshnik .button--dashboard {
     margin: 30px auto 20px auto;
 }
+
+.your__info .form {
+    width: 360px;
+    padding: 10px 10px 10px 20px;
+}
+
+.yourprogress,  {
+    margin-bottom: 10px;
+}
+
+.progressbar {
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.progressbar-outer {
+    width: 100%;
+    height: 10px;
+    border: 1px solid #ececed;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progressbar-inner {
+    height: 100%;
+}
+
+.yourprogress .progressbar-inner {
+    width: 40%;
+    background-color: #39b54a;
+}
+
+.campaignprogress .progressbar-inner {
+    width: 10%;
+    background-color: #0096ff;
+}
+
+.yourmedals .flexbox__item {
+    flex: 1;
+    margin-left: -7px;
+}
+
+.medal__img, .medal__text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 
 
