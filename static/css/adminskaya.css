@@ -341,7 +341,7 @@ span.text-link {
     border-bottom: 1px solid #ffa3a3;
 }
 
-.task__status--showed {
+.task__status--success {
     color: #39b54a;
 }
 
@@ -351,6 +351,16 @@ span.text-link {
 
 .task__start--showed, .task__steps--showed, .task__status--showed {
     display: block;
+}
+
+.listitem--inactive {
+    color: #959595;
+    pointer-events: none;
+}
+
+.listitem--inactive .text-link {
+    color: #959595;
+    border-bottom: 1px solid #959595;
 }
 
 

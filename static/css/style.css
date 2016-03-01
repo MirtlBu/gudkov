@@ -109,7 +109,7 @@ p {
 }
 
 .text-small--light {
-    opacity: .5;
+    color: #959595;
     font-weight: 500;
     line-height: 17px;
 }
