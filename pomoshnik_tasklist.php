@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="yourmedals">
-                    <div>Медали — 5 штук</div>
+                    <div class="text-bold">Медали — 5 штук</div>
                     <div class="flexbox">
                         <div class="flexbox__item">
                             <div class="medal">
@@ -90,6 +90,73 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="tasks">
+            <div class="tasks__header">
+                <div class="">
+                    <div class="text-bigger">Список заданий</div>
+                </div>
+            </div>
+            <a class="flexbox tasks__body listitem listitem--link">
+                <div class="flexbox__item flexbox__item--left">
+                    <div class="tasks__gain tasks__gain--exp text-small text-small--light">+ опыт</div>
+                    <div class="tasks__body">
+                        <div class="text-big text-link">Разнести газетки по подъездам</div>
+                        <div class="flexbox listitem__deadline">
+                            <div class="text-small text-small--light">Поставлено 25 февраля</div>
+                            <div class="text-small text-small--light">Дедлайн 5 марта</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox__item flexbox__item--right">
+                    <div class="task__start task__start--showed">
+                        <div class="button button--blue">Начать</div>
+                        <div class="text-link text-bold">Отказаться</div>
+                    </div>
+                    <div class="task__status">Успешно завершёно</div>
+                    <div class="task__steps">Выполнено 5 шагов из 7</div>
+                </div>
+            </a>
+            <a class="flexbox tasks__body listitem listitem--link">
+                <div class="flexbox__item flexbox__item--left">
+                    <div class="tasks__gain tasks__gain--exp text-small text-small--light">+ опыт</div>
+                    <div class="tasks__body">
+                        <div class="text-big text-link">Убраться у дизйнера в квартире</div>
+                        <div class="flexbox listitem__deadline">
+                            <div class="text-small text-small--light">Поставлено 25 февраля</div>
+                            <div class="text-small text-small--light">Дедлайн 5 марта</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox__item flexbox__item--right">
+                    <div class="task__start">
+                        <div class="button button--blue">Начать</div>
+                        <div class="text-link text-bold">Отказаться</div>
+                    </div>
+                    <div class="task__status">Успешно завершёно</div>
+                    <div class="task__steps task__steps--showed">Выполнено 5 шагов из 7</div>
+                </div>
+            </a>
+            <a class="flexbox tasks__body listitem listitem--link">
+                <div class="flexbox__item flexbox__item--left">
+                    <div class="tasks__gain tasks__gain--medal text-small text-small--light">+ медаль</div>
+                    <div class="tasks__body">
+                        <div class="text-big text-link">Поиграть в ФИФУ с Кацем</div>
+                        <div class="flexbox listitem__deadline">
+                            <div class="text-small text-small--light">Поставлено 25 февраля</div>
+                            <div class="text-small text-small--light">Дедлайн 5 марта</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox__item flexbox__item--right">
+                    <div class="task__start">
+                        <div class="button button--blue">Начать</div>
+                        <div class="text-link text-bold">Отказаться</div>
+                    </div>
+                    <div class="task__status task__status--showed">Успешно завершёно</div>
+                    <div class="task__steps">Выполнено 5 шагов из 7</div>
+                </div>
+            </a>
         </div>
     </div>
 </div>

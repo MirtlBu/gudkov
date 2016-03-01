@@ -297,5 +297,66 @@ span.text-link {
     vertical-align: middle;
 }
 
+.pomoshnik .tasks {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.tasks__gain {
+    width: 70px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.tasks__gain--exp {
+    border: 1px solid #39b54a;
+}
+
+.tasks__gain--medal {
+    border: 1px solid #959595;
+}
+
+.tasks__body {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.task__start div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.task__start .button {
+    padding: 0 13px;
+    margin-right: 15px;
+}
+
+.task__start .text-link {
+    color: #ff0000;
+    border-bottom: 1px solid #ffa3a3;
+}
+
+.task__status--showed {
+    color: #39b54a;
+}
+
+.task__start, .task__steps, .task__status {
+    display: none;
+}
+
+.task__start--showed, .task__steps--showed, .task__status--showed {
+    display: block;
+}
+
+
+
+
+
+
 
 

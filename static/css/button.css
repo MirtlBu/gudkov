@@ -20,7 +20,7 @@
     box-sizing: border-box;
 }
 
-a.button {
+a.button, div.button {
     line-height: 2.5;
 }
 
