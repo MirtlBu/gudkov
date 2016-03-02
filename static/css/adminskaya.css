@@ -234,6 +234,10 @@ span.text-link {
     padding: 20px 0;
 }
 
+.pomoshnik .dashboard__tablo {
+    margin-left: 0;
+}
+
 .pomoshnik .dashboard__img, .pomoshnik .dashboard__title {
     display: inline-block;
     vertical-align: middle;
@@ -254,15 +258,16 @@ span.text-link {
 .your__info .form {
     width: 360px;
     padding: 10px 10px 10px 20px;
+    margin-left: 0;
 }
 
-.yourprogress,  {
-    margin-bottom: 10px;
+.yourprogress  {
+    margin-bottom: 15px;
 }
 
 .progressbar {
     width: 500px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .progressbar-outer {
@@ -318,7 +323,19 @@ span.text-link {
 }
 
 .tasks__gain--medal {
-    border: 1px solid #959595;
+    position: relative;
+}
+
+.tasks__gain--medal:before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 47px;
+    top: 0;
+    left: 0;
+    background-image: url(../images/medal2.png);
+    background-repeat: no-repeat;
+    z-index: -1;
 }
 
 .tasks__body {
@@ -361,6 +378,50 @@ span.text-link {
 .listitem--inactive .text-link {
     color: #959595;
     border-bottom: 1px solid #959595;
+}
+
+.listitem--inactive .tasks__gain--medal {
+    visibility: hidden;
+}
+
+.pomoshnik .steps {
+    width: 580px;
+    padding: 10px 20px;
+}
+
+.pomoshnik .steps__point, .pomoshnik .steps__num {
+    display: inline-block;
+}
+
+.pomoshnik .steps__num {
+    margin-right: 5px;
+    vertical-align: baseline;
+}
+
+.pomoshnik .steps__point {
+    width: 340px;
+    vertical-align: text-top;
+}
+
+.pomoshnik .steps__error {
+    padding: 15px 20px 20px 20px;
+    box-sizing: border-box;
+    background-color: #fe0000;
+    color: #fff;
+    line-height: 22px;
+    border-radius: 8px;
+}
+
+.steps__error {
+    display: none;
+}
+
+.steps__item--error .steps__num, .steps__item--error .steps__point {
+    color: #fe0000;
+}
+
+.steps__item--error .steps__error {
+    display: block;
 }
 
 

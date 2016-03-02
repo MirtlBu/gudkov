@@ -126,6 +126,14 @@ p {
     border-bottom: 1px solid #ffa3a3;
 }
 
+.text-link--dropdown {
+    border-bottom: 1px dashed #a3ceff;
+}
+
+.text-link--dropdown:hover {
+    border-bottom: 1px dashed #ffa3a3;
+}
+
 .icon-close {
     width: 19px;
     height: 21px;

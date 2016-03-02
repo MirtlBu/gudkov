@@ -257,21 +257,22 @@ input[name="registration"]+.form__radio-button {
 .form__checkbox:after {
     content: none;
     position: absolute;
-    width: 12px;
+    width: 24px;
     height: 12px;
     top: 4px;
     left: 4px;
     background-image: url(../images/icon-check.png);
     background-repeat: no-repeat;
+    background-position: 0 0;
 }
 
 .form__checkbox:hover, .form__radio-circle:hover {
     color: #0096ff;
 }
 
-input[name="help"]:checked+.form__checkbox:after {
+/*input[name="help"]:checked+.form__checkbox:after {
     content: '';
-}
+}*/
 
 .form__checkbox span, .form__radio-circle span {
     display: inline-block;
@@ -317,7 +318,7 @@ input[name="help"]:checked+.form__checkbox:after {
     background-color: #0096ff;
 }
 
-input[type="radio"]:checked+.form__radio-circle:after {
+input[type="radio"]:checked+.form__radio-circle:after, input[type="checkbox"]:checked+.form__checkbox:after {
     content: '';
 }
 
@@ -425,4 +426,17 @@ input[name="street"] {
 
 .forma_agitator .form, .forma_coordinator .form, .forma_pomoschnik .form, .coordinatorskaya .form {
     width: 100%;
+}
+
+.steps .form__checkbox:after {
+    background-position: -12px 0;
+}
+
+.steps .form__checkbox span {
+    visibility: hidden;
+    color: #39b54a;
+}
+
+.steps input[type="checkbox"]:checked+.form__checkbox span {
+    visibility: visible;
 }

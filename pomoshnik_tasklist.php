@@ -59,31 +59,31 @@
                     </div>
                 </div>
                 <div class="yourmedals">
-                    <div class="text-bold">Медали — 5 штук</div>
+                    <div class=""><span class="text-bold text-link text-link--dropdown">Медали</span> — 5 штук</div>
                     <div class="flexbox">
                         <div class="flexbox__item">
                             <div class="medal">
-                                <img class="medal__img" src="/static/images/medal.png">
+                                <img class="medal__img" src="/static/images/medal1.png">
                                 <div class="medal__text text-small">За красивые глаза</div>
                             </div>
                             <div class="medal">
-                                <img class="medal__img" src="/static/images/medal.png">
+                                <img class="medal__img" src="/static/images/medal1.png">
                                 <div class="medal__text text-small">За активность</div>
                             </div>
                         </div>
                         <div class="flexbox__item">
                             <div class="medal">
-                                <img class="medal__img" src="/static/images/medal.png">
+                                <img class="medal__img" src="/static/images/medal1.png">
                                 <div class="medal__text text-small">За битву при Сомме</div>
                             </div>
                             <div class="medal">
-                                <img class="medal__img" src="/static/images/medal.png">
+                                <img class="medal__img" src="/static/images/medal1.png">
                                 <div class="medal__text text-small">Имени Гудкова</div>
                             </div>
                         </div>
                         <div class="flexbox__item">
                             <div class="medal">
-                                <img class="medal__img" src="/static/images/medal.png">
+                                <img class="medal__img" src="/static/images/medal1.png">
                                 <div class="medal__text text-small">Кацевская</div>
                             </div>
                         </div>
