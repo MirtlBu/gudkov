@@ -108,14 +108,14 @@
                                     <div>Загрузить аватарку</div>
                                     <div class="imageload">
                                         <div class="imageload__prev">
-                                            <img src="#" id="imgprev">
+                                            <img src="" id="imgprev">
                                         </div>
-                                        <input id="imginp" type='file' class="form__load form__input--hidden" onchange="readURL(event.target)">
+                                        <input id="imginp" type='file' class="form__load form__input--hidden" onchange="avatarUpload(event.target)">
                                         <label for="imginp" class="form__radio-button">
                                             <span class="text-link">Выбрать файл</span>
                                         </label>
                                         <script type="text/javascript">
-                                            function readURL(input) {
+                                            function avatarUpload(input) {
                                                 if (input.files && input.files[0]) {
                                                     var reader = new FileReader();
                                                     reader.onload = function (e) {
@@ -173,17 +173,17 @@
             <div class="flexbox__item">
                 <form class="loadphoto steps">
                     <div class="text-big">Фотографии с задания</div>
-                    <input id="photoinp" type='file' class="form__load form__input--hidden" onchange="readURL(event.target)" multiple>
-                    <label for="photoinp" class="form__radio-button">
+                    <input id="photoupload" type='file' class="form__load form__input--hidden" onchange="photoUpload(event.target)" multiple>
+                    <label for="photoupload" class="form__radio-button">
                         <span class="text-link">Выбрать файлы</span>
                     </label>
                     <script type="text/javascript">
-                        function readURL(input) {
+                        function photoUpload(input) {
                             if (input.files && input.files[0]) {
                                 var reader = new FileReader();
                                 reader.onload = function (e) {
                                     Array.prototype.forEach.call(input.files, function(v,i) {
-                                        $('<span>' + v.name + ', ' + '</span>').appendTo('.loadphoto__names');
+                                        $('<div>' + v.name + '</div>').appendTo('.loadphoto__names');
                                     })
                                 }
                                 reader.readAsDataURL(input.files[0]);

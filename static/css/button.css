@@ -99,6 +99,7 @@ a.button, div.button {
 }
 
 .steps__item .button{
+    width: 160px;
     margin-left: 22px;
     vertical-align: middle;
 }

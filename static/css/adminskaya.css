@@ -437,6 +437,7 @@ span.text-link {
     margin-right: 5px;
     border-radius: 50%;
     overflow: hidden;
+    background-color: #e7e7e8;
 }
 
 .imageload__prev img {
@@ -462,6 +463,10 @@ span.text-link {
 
 .pomoshnik .loadphoto {
     width: 280px;
+}
+
+.loadphoto__names div:last-child {
+    margin-bottom: 20px;
 }
 
 .pomoshnik .loadphoto .text-big {
