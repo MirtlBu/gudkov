@@ -36,10 +36,10 @@
         </div>
     </div>
     <div class="container">
-        <a href="" class="breadcrumbs-content text-link">Все задания</a>
+        <a href="" class="breadcrumbs-content text-link" onClick="admin.displayContainer('tasksList'); return false;">Все задания</a>
         <div class="coordinator">
             <a href="" class="">
-                <span class="text-link text-bigger">Разнести газеты по подъездам</span>
+                <span class="text-link text-bigger taskname">Разнести газеты по подъездам</span>
                 <span class="text-small--light">(Все координаторы)</span>
             </a>
             <div class="flexbox">
@@ -54,12 +54,14 @@
                         <div class="flexbox flexbox--start">
                             <div class="flexbox__item">
                                 <div class="text-small steps__row">УИКи</div>
+								<div class="steps_uiks_left"></div>
                                 <div class="steps__row">343565</div>
                                 <div class="steps__row">45346</div>
                                 <div class="steps__row">343434</div>
                             </div>
                             <div class="flexbox__item">
                                 <div class="text-small steps__row">Выполнили</div>
+								<div class="steps_uiks_right"></div>
                                 <div class="steps__row">23 из 34</div>
                                 <div class="steps__row">3 из 4</div>
                                 <div class="steps__row">55 из 134</div>
@@ -68,8 +70,8 @@
                     </div>
                     <div class="steps">
                         <div class="flexbox">
-                            <div class="text-small text-small--light">Поставлено 26 февраля</div>
-                            <div class="text-small text-small--light">Дедлайн 12 марта</div>
+                            <div class="text-small text-small--light">Поставлено <span class="created_at">26 февраля</span></div>
+                            <div class="text-small text-small--light">Дедлайн <span class="deadline_at">12 марта</span></div>
                         </div>
                         <div class="text-big steps__title">Шаги</div>
                         <div class="steps__item">
@@ -100,7 +102,7 @@
                 </div>
                 <div class="flexbox__item table">
                     <div class="table__header flexbox">
-                        <div class="text-small flexbox__item">Помощники (Всего 123)</div>
+                        <div class="text-small flexbox__item">Помощники (Всего <span class="total_helpers">123</span>)</div>
                         <div class="text-small flexbox__item">
                             <div>Выполнили шагов</div>
                             <div class="filter">По алфавиту</div>
@@ -116,11 +118,11 @@
                                 <img src="/static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
-                                <div class="text-big">Алексей Шпановский</div>
-                                <div class="text-small">+7 904 335-66-45</div>
+                                <div class="text-big helper_name">Алексей Шпановский</div>
+                                <div class="text-small helper_phone">+7 904 335-66-45</div>
                             </div>
                         </div>
-                        <div class="flexbox__item">
+                        <div class="flexbox__item task_status">
                             <div class="text-big">1 из 23</div>
                         </div>
                     </div>
@@ -130,11 +132,11 @@
                                 <img src="/static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
-                                <div class="text-big">Валера Кизякин</div>
-                                <div class="text-small">+7 904 335-66-45</div>
+                                <div class="text-big helper_name">Валера Кизякин</div>
+                                <div class="text-small helper_phone">+7 904 335-66-45</div>
                             </div>
                         </div>
-                        <div class="flexbox__item">
+                        <div class="flexbox__item task_status">
                             <div class="text-big">40 из 234</div>
                         </div>
                     </div>
@@ -148,11 +150,11 @@
                                 <img src="/static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
-                                <div class="text-big">Игнат Баранов</div>
-                                <div class="text-small">+7 904 335-66-45</div>
+                                <div class="text-big helper_name">Игнат Баранов</div>
+                                <div class="text-small helper_phone">+7 904 335-66-45</div>
                             </div>
                         </div>
-                        <div class="flexbox__item">
+                        <div class="flexbox__item task_status">
                             <div class="text-big text-big--done">Выполнил</div>
                         </div>
                     </div>
@@ -162,11 +164,11 @@
                                 <img src="/static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
-                                <div class="text-big">Алексей Шпановский</div>
-                                <div class="text-small">+7 904 335-66-45</div>
+                                <div class="text-big helper_name">Алексей Шпановский</div>
+                                <div class="text-small helper_phone">+7 904 335-66-45</div>
                             </div>
                         </div>
-                        <div class="flexbox__item">
+                        <div class="flexbox__item task_status">
                             <div class="text-big">40 из 234</div>
                         </div>
                     </div>
@@ -176,11 +178,11 @@
                                 <img src="/static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
-                                <div class="text-big">Игнат Баранов</div>
-                                <div class="text-small">+7 904 335-66-45</div>
+                                <div class="text-big helper_name">Игнат Баранов</div>
+                                <div class="text-small helper_phone">+7 904 335-66-45</div>
                             </div>
                         </div>
-                        <div class="flexbox__item">
+                        <div class="flexbox__item task_status">
                             <div class="text-big">40 из 234</div>
                         </div>
                     </div>
