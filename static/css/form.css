@@ -440,3 +440,19 @@ input[name="street"] {
 .steps input[type="checkbox"]:checked+.form__checkbox span {
     visibility: visible;
 }
+
+.steps__item .form__radio-button, .loadphoto .form__radio-button {
+    width: 160px;
+    height: 40px;
+    line-height: 2.4;
+    vertical-align: middle;
+}
+
+.loadphoto .form__radio-button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.steps__item textarea {
+    margin-top: 15px;
+}

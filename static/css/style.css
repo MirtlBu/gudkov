@@ -114,6 +114,11 @@ p {
     line-height: 17px;
 }
 
+.text-light {
+    color: #959595;
+    line-height: 17px;
+}
+
 .text-link {
     color: #0096ff;
     border-bottom: 1px solid #a3ceff;

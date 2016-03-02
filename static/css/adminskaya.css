@@ -408,12 +408,13 @@ span.text-link {
     box-sizing: border-box;
     background-color: #fe0000;
     color: #fff;
-    line-height: 22px;
+    line-height: 20px;
     border-radius: 8px;
+    display: none;
 }
 
-.steps__error {
-    display: none;
+.pomoshnik .steps__error .text-bold {
+    margin-top: 7px;
 }
 
 .steps__item--error .steps__num, .steps__item--error .steps__point {
@@ -422,6 +423,49 @@ span.text-link {
 
 .steps__item--error .steps__error {
     display: block;
+}
+
+.imageload {
+    margin-top: 15px;
+}
+
+.imageload__prev {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imageload__prev img {
+    width: 50px;
+}
+
+.steps__item .form__radio-button span, .loadphoto .form__radio-button span {
+    line-height: 1;
+    transition: color .3s, border .2s;
+    pointer-events: none;
+}
+
+.form__radio-button:hover span {
+    color: #ff0000;
+    border-bottom: 1px solid #ff0000;
+}
+
+.steps__note {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.pomoshnik .loadphoto {
+    width: 280px;
+}
+
+.pomoshnik .loadphoto .text-big {
+    margin-bottom: 15px;
 }
 
 

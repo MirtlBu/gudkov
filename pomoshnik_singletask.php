@@ -35,7 +35,7 @@
         </div>
         <div class="flexbox">
             <div class="flexbox__item">
-                <div class="steps form">
+                <form class="steps">
                     <div class="flexbox">
                         <div class="flexbox listitem__deadline">
                             <div class="text-small text-small--light">Поставлено 26 февраля</div>
@@ -81,11 +81,118 @@
                             <div class="text-bold">Исправь и снова поставь галочку!</div>
                         </div>
                     </div>
+                    <div class="steps__item">
+                        <div class="flexbox">
+                            <div class="flexbox__item">
+                                <div class="text-big steps__num">3</div>
+                                <div class="steps__point">На следующий день проверить, как там дела</div>
+                            </div>
+                            <div class="flexbox__item">
+                                <input id="step3" name="step3" value="step3" class="form__input form__input--hidden" type="checkbox">
+                                <label for="step3" class="form__checkbox">
+                                    <span>Готово!</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="steps__error">Что-то пошло не так! Косяк какой! Когда я пришёл, оно уже так было!
+                            Что-то пошло не так! Косяк какой! Когда я пришёл, оно уже так было! Что-то пошло не так! Косяк какой! Когда я пришёл, оно уже так было!
+                            Что-то пошло не так! Косяк какой! Когда я пришёл, оно уже так было! Что-то пошло не так! Косяк какой! Когда я пришёл, оно уже так было!
+                            <div class="text-bold">Исправь и снова поставь галочку!</div>
+                        </div>
+                    </div>
+                    <div class="steps__item">
+                        <div class="flexbox">
+                            <div class="flexbox__item">
+                                <div class="text-big steps__num">4</div>
+                                <div class="steps__point">
+                                    <div>Загрузить аватарку</div>
+                                    <div class="imageload">
+                                        <div class="imageload__prev">
+                                            <img src="#" id="imgprev">
+                                        </div>
+                                        <input id="imginp" type='file' class="form__load form__input--hidden" onchange="readURL(event.target)">
+                                        <label for="imginp" class="form__radio-button">
+                                            <span class="text-link">Выбрать файл</span>
+                                        </label>
+                                        <script type="text/javascript">
+                                            function readURL(input) {
+                                                if (input.files && input.files[0]) {
+                                                    var reader = new FileReader();
+                                                    reader.onload = function (e) {
+                                                        $('#imgprev').attr('src', e.target.result);
+                                                    }
+                                                    reader.readAsDataURL(input.files[0]);
+                                                }
+                                            }
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flexbox__item">
+                                <input id="step4" name="step4" value="step4" class="form__input form__input--hidden" type="checkbox">
+                                <label for="step4" class="form__checkbox">
+                                    <span>Готово!</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="steps__error">Что-то пошло не так! Косяк какой! Когда я пришёл, оно уже так было!
+                            Что-то пошло не так! Косяк какой! Когда я пришёл, оно уже так было! Что-то пошло не так! Косяк какой! Когда я пришёл, оно уже так было!
+                            Что-то пошло не так! Косяк какой! Когда я пришёл, оно уже так было! Что-то пошло не так! Косяк какой! Когда я пришёл, оно уже так было!
+                            <div class="text-bold">Исправь и снова поставь галочку!</div>
+                        </div>
+                    </div>
+                    <div class="steps__item">
+                        <div class="flexbox">
+                            <div class="flexbox__item">
+                                <div class="text-big steps__num">5</div>
+                                <div class="steps__point">
+                                    <div>Пару слов о ходе выполнении задания</div>
+                                    <textarea name="other" class="form__textarea form__input--long"></textarea>
+                                </div>
 
-
-                </div>
+                            </div>
+                            <div class="flexbox__item">
+                                <input id="step5" name="step5" value="step5" class="form__input form__input--hidden" type="checkbox">
+                                <label for="step5" class="form__checkbox">
+                                    <span>Готово!</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="steps__error">Что-то пошло не так! Косяк какой! Когда я пришёл, оно уже так было!
+                            Что-то пошло не так! Косяк какой! Когда я пришёл, оно уже так было! Что-то пошло не так! Косяк какой! Когда я пришёл, оно уже так было!
+                            Что-то пошло не так! Косяк какой! Когда я пришёл, оно уже так было! Что-то пошло не так! Косяк какой! Когда я пришёл, оно уже так было!
+                            <div class="text-bold">Исправь и снова поставь галочку!</div>
+                        </div>
+                    </div>
+                    <div class="steps__item">
+                        <button class="button button--blue" type="submit">Завершить</button>
+                        <div class="steps__note text-small">Все изменения сохранены</div>
+                    </div>
+                </form>
             </div>
             <div class="flexbox__item">
+                <form class="loadphoto steps">
+                    <div class="text-big">Фотографии с задания</div>
+                    <input id="photoinp" type='file' class="form__load form__input--hidden" onchange="readURL(event.target)" multiple>
+                    <label for="photoinp" class="form__radio-button">
+                        <span class="text-link">Выбрать файлы</span>
+                    </label>
+                    <script type="text/javascript">
+                        function readURL(input) {
+                            if (input.files && input.files[0]) {
+                                var reader = new FileReader();
+                                reader.onload = function (e) {
+                                    Array.prototype.forEach.call(input.files, function(v,i) {
+                                        $('<span>' + v.name + ', ' + '</span>').appendTo('.loadphoto__names');
+                                    })
+                                }
+                                reader.readAsDataURL(input.files[0]);
+                            }
+                        }
+                    </script>
+                    <div id="photo__names" class="loadphoto__names text-light"></div>
+                    <button class="button button--blue" type="submit">Отправить</button>
+                </form>
 
             </div>
         </div>

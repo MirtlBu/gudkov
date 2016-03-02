@@ -97,3 +97,12 @@ a.button, div.button {
     display: inline-block;
     margin: 15px 10px 0 0;
 }
+
+.steps__item .button{
+    margin-left: 22px;
+    vertical-align: middle;
+}
+
+.loadphoto .button {
+    width: 100%;
+}
