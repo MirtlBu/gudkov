@@ -59,7 +59,7 @@ span.text-link {
     vertical-align: top;
 }
 
-.tasks .text-bigger, .singletask .text-bigger, .coordinator .text-bigger, .errors .text-bigger, .forma_agitator .text-bigger, .forma_coordinator .text-bigger, .forma_pomoschnik .text-bigger, .coordinatorskaya .text-bigger {
+.tasks .text-bigger, .singletask .text-bigger, .coordinator .text-bigger, .errors .text-bigger, .forma_agitator .text-bigger, .forma_coordinator .text-bigger, .forma_pomoschnik .text-bigger, .coordinatorskaya .text-bigger, .pomoshnik .text-bigger {
     margin-bottom: 25px;
 }
 

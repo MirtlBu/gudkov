@@ -31,7 +31,7 @@
     <div class="container">
         <a href="" class="breadcrumbs-content text-link">Все задания</a>
         <div>
-            <span class="text-bigger">Разнести газеты по подъездам</span>
+            <div class="text-bigger">Разнести газеты по подъездам</div>
         </div>
         <div class="flexbox">
             <div class="flexbox__item">

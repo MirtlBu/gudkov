@@ -35,9 +35,9 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container coordinator">
         <a href="" class="breadcrumbs-content text-link" onClick="admin.displayContainer('tasksList'); return false;">Все задания</a>
-        <div class="coordinator">
+        <div class="">
             <a href="" class="">
                 <span class="text-link text-bigger taskname">Разнести газеты по подъездам</span>
                 <span class="text-small--light">(Все координаторы)</span>
