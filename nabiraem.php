@@ -36,10 +36,10 @@
                 </div>
 
 				<div class="template_flat">
-					
+
 				</div>
-				
-				
+
+
 				<div class="form__row form__row--lined">
 					<div class="add" onClick="mapForm.addNewFlat();">
 						<div class="add__button form__radio-button">
@@ -48,7 +48,7 @@
 						<div class="text-small add__text">Добавить eщё квартиру в доме</div>
 					</div>
 				</div>
-				
+
                 <div class="form__row form__row--button form__row--lined">
                     <label class="form__label"></label>
                     <button class="button button--blue" type="button" onClick="mapForm.sendFormAboutPeople();">Отправить</button>
@@ -57,8 +57,8 @@
                         <div id="error-message"></div>
                     </div>
                 </div>
-				
-				
+
+
             </form>
             <div class="mailme">
                 Если у вас много другой нужной нам информации, отправьте её на почту  <a href="" class="text-link">shtab@gudkov.ru</a>
@@ -84,7 +84,7 @@
                     <input id="" name="" class="form__input form__input--short amount_flat" type="text" pattern="[0-9]+" required>
                 </div>
             </div>
-			
+
 			<div class="template_entrances">
 				<div class="form__row">
 					<label for="middlename" class="form__label form__label--separated">Коды от домофонов</label>
@@ -98,10 +98,10 @@
 							<label for="middlename" class="form__label text-small">код</label>
 						</div>
 					</div>
-				</div>			
+				</div>
 			</div>
 
-					
+
 			<div class="form__row addNewEntrance"  onClick="mapForm.addNewEntrance(this);">
 				<div class="add" id="">
 					<div class="add__button form__radio-button">
@@ -132,15 +132,15 @@
 		</div>
 		<div class="form__row form__row--cluster">
 			<label for="name1" class="form__label">Имя,</label>
-			<input id="name1" name="name1" class="form__input form__input--top" type="text" pattern="[a-zA-Z,а-яА-Я]+" required>
+			<input id="name1" name="name1" class="form__input form__input--top" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
 		</div>
 		<div class="form__row form__row--cluster">
 			<label for="middlename1" class="form__label">отчество</label>
-			<input id="middlename1" name="middlename1" class="form__input form__input--middle" type="text" pattern="[a-zA-Z,а-яА-Я]+" required>
+			<input id="middlename1" name="middlename1" class="form__input form__input--middle" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
 		</div>
 		<div class="form__row">
 			<label for="surname1" class="form__label">фамилия</label>
-			<input id="surname1" name="surname1" class="form__input form__input--bottom" type="text" pattern="[a-zA-Z,а-яА-Я]+" required>
+			<input id="surname1" name="surname1" class="form__input form__input--bottom" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
 		</div>
 		<div class="form__row">
 			<label for="party1" class="form__label">Какой партии симпатизирует</label>
@@ -179,7 +179,7 @@
 		</div>
 	</div>
 
-	
+
 </div>
 
 <div class="formflat_tmp hide">
@@ -187,9 +187,9 @@
 		<label for="middlename" class="form__label">№ квартиры</label>
 		<input id="middlename" name="middlename" class="form__input form__input--short flat_number" type="text" pattern="[0-9]+" required>
 	</div>
-	
+
 	<div class="template_tenants"></div>
-	
+
 	<div class="form__row addNewTenant"  onClick="mapForm.addNewTenant(this);">
 		<div class="add" id="">
 			<div class="add__button form__radio-button">
@@ -213,5 +213,5 @@
 				<label for="middlename" class="form__label text-small">код</label>
 			</div>
 		</div>
-	</div>			
+	</div>
 </div>

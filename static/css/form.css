@@ -456,3 +456,62 @@ input[name="street"] {
 .steps__item textarea {
     margin-top: 15px;
 }
+
+.pomoshnik .form__radios {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pomoshnik .form__radio-circle span {
+    padding: 0;
+}
+
+.form--tenant {
+    width: 620px;
+    margin-left: 0;
+    position: relative;
+    padding-top: 20px;
+}
+
+.pomoshnik .form--tenant .form__textarea {
+    width: 440px;
+}
+
+.pomoshnik .form__edit {
+    width: 140px;
+    padding-left: 26px;
+    font-weight: 400;
+    line-height: 2.3;
+    position: relative;
+}
+
+.pomoshnik .form__edit:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 11px;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/icon-edit.png);
+    background-repeat: no-repeat;
+}
+
+.pomoshnik .form__title {
+    width: 125px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.form--disabled .form__input, .form--disabled .form__textarea, .form--disabled .form__radio-circle:before {
+    background-color: #e5f7fd;
+}
+
+.form--disabled .form__checkbox:hover, .form--disabled .form__radio-circle:hover {
+    color: #010101;
+}
+
+
+
+
+
+

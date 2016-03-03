@@ -10,15 +10,15 @@
                 </div>
                 <div class="form__row form__row--cluster">
                     <label for="name" class="form__label">Имя,</label>
-                    <input id="name" name="name" class="form__input form__input--top name" type="text" pattern="[a-zA-Z,а-яА-Я]+" required>
+                    <input id="name" name="name" class="form__input form__input--top name" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
                 </div>
                 <div class="form__row form__row--cluster">
                     <label for="middlename" class="form__label">отчество</label>
-                    <input id="middlename" name="middlename" class="form__input form__input--middle middlename" type="text" pattern="[a-zA-Z,а-яА-Я]+" required>
+                    <input id="middlename" name="middlename" class="form__input form__input--middle middlename" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
                 </div>
                 <div class="form__row">
                     <label for="surname" class="form__label">фамилия</label>
-                    <input id="surname" name="surname" class="form__input form__input--bottom surname" type="text" pattern="[a-zA-Z,а-яА-Я]+" required>
+                    <input id="surname" name="surname" class="form__input form__input--bottom surname" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
                 </div>
                 <div class="form__row">
                     <label for="phone_indistrict" class="form__label">Телефон</label>

@@ -115,7 +115,7 @@
                     </div>
                     <div class="form__row">
                         <label for="relation" class="form__label">Кем приходится</label>
-                        <input id="relation" name="relation" class="form__input form__input--long" type="text" pattern="[a-zA-Z,а-яА-Я]+" required>
+                        <input id="relation" name="relation" class="form__input form__input--long" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
                         <div class="form__help text-small">Например, сосед по лестничной клетке</div>
                     </div>
                     <div class="form__row">
