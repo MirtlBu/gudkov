@@ -10,12 +10,12 @@
                         <div class="dashboard__title">Валерия</div>
                     </div>
 
-                    <div class="dashboard__tablo">
+                    <div class="dashboard__tablo mood_block">
                         <div class="">Валерия, как прошёл день?</div>
                         <div class="dashboard__rate">
-                            <button class="button button--small button--red">Хренова</button>
-                            <button class="button button--small button--blue">Нормально</button>
-                            <button class="button button--small button--green">Огонь!</button>
+                            <button class="button button--small button--red bad_mood">Хренова</button>
+                            <button class="button button--small button--blue average_mood">Нормально</button>
+                            <button class="button button--small button--green perfect_mood">Огонь!</button>
                         </div>
                     </div>
                 </div>
