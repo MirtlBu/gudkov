@@ -181,7 +181,7 @@
 
 }
 
-.privel .form__radio-button {
+.privel .form__radio-button, .pomoshnik .form__radio-button {
     width: 32px;
     height: 32px;
     line-height: 1.8;
@@ -257,7 +257,7 @@ input[name="registration"]+.form__radio-button {
 .form__checkbox:after {
     content: none;
     position: absolute;
-    width: 24px;
+    width: 12px;
     height: 12px;
     top: 4px;
     left: 4px;
