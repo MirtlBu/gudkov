@@ -90,6 +90,7 @@ span.text-link {
 }
 
 .steps__item {
+    position: relative;
     margin-bottom: 20px;
 }
 
@@ -302,6 +303,10 @@ span.text-link {
     vertical-align: middle;
 }
 
+.pomoshnik .container > .flexbox {
+    margin-left: 20px;
+}
+
 .pomoshnik .tasks {
     width: 100%;
     margin-top: 40px;
@@ -389,22 +394,9 @@ span.text-link {
     padding: 10px 20px;
 }
 
-.pomoshnik .steps__point, .pomoshnik .steps__num {
-    display: inline-block;
-}
-
-.pomoshnik .steps__num {
-    margin-right: 5px;
-    vertical-align: baseline;
-}
-
-.pomoshnik .steps__point {
-    width: 340px;
-    vertical-align: text-top;
-}
-
 .pomoshnik .steps__error {
-    padding: 15px 20px 20px 20px;
+    margin-top: 15px;
+    padding: 15px 20px 28px 20px;
     box-sizing: border-box;
     background-color: #fe0000;
     color: #fff;
@@ -444,7 +436,7 @@ span.text-link {
     width: 50px;
 }
 
-.steps__item .form__radio-button span, .loadphoto .form__radio-button span {
+.loadphoto .form__radio-button span {
     line-height: 1;
     transition: color .3s, border .2s;
     pointer-events: none;
@@ -467,6 +459,11 @@ span.text-link {
 
 .pomoshnik .loadphoto {
     width: 280px;
+    padding: 20px;
+}
+
+.loadphoto__names {
+    line-height: 23px;
 }
 
 .loadphoto__names div:last-child {
@@ -595,13 +592,9 @@ span.text-link {
     position: absolute;
 }
 
-/*.created_at, .deadline_at {
-    display: inline-block;
+.form--steps .dates {
+    margin-bottom: 20px;
 }
-
-.created_at {
-    margin-right: 20px;
-}*/
 
 .dates .text-small {
     display: inline-block;
@@ -611,6 +604,20 @@ span.text-link {
     margin-right: 20px;
 }
 
+.form--steps .steps__item {
+    margin-bottom: 35px;
+}
+
+.form--steps .steps__num {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.form--steps .steps__point {
+    width: 420px;
+    display: inline-block;
+    vertical-align: text-top;
+}
 
 
 

@@ -13,16 +13,16 @@
                     <div class="dashboard__tablo mood_block">
                         <div class="">Валерия, как прошёл день?</div>
                         <div class="dashboard__rate">
-                            <button class="button button--small button--red bad_mood">Хренова</button>
-                            <button class="button button--small button--blue average_mood">Нормально</button>
-                            <button class="button button--small button--green perfect_mood">Огонь!</button>
+                            <button class="button button--small button--red bad_mood">Плохо</button>
+                            <button class="button button--small button--blue average_mood">Всё по плану</button>
+                            <button class="button button--small button--green perfect_mood">Отлично</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="flexbox__item">
                 <div class="flexbox__container">
-                    <button class="button button--blue button--dashboard" type="button">Я привёл человека</button>
+                    <button class="button button--blue button--dashboard" type="button">+1 голос к победе</button>
                     <div class="text-link text-bold">Добавить информацию о доме</div>
                 </div>
             </div>
@@ -43,7 +43,7 @@
             </div>
             <div class="flexbox__item progressboard">
                 <div class="yourprogress">
-                    <div class="text-bold">Твой личный опыт</div>
+                    <div class="text-bold">Мои задания</div>
                     <div class="progressbar">
                         <div class="progressbar-outer">
                             <div class="progressbar-inner"></div>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="campaignprogress">
-                    <div class="text-bold">Успешность кампании</div>
+                    <div class="text-bold">Прогресс кампании</div>
                     <div class="progressbar">
                         <div class="progressbar-outer">
                             <div class="progressbar-inner"></div>

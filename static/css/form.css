@@ -428,33 +428,9 @@ input[name="street"] {
     width: 100%;
 }
 
-.steps .form__checkbox:after {
-    background-position: -12px 0;
-}
-
-.steps .form__checkbox span {
-    visibility: hidden;
-    color: #39b54a;
-}
-
-.steps input[type="checkbox"]:checked+.form__checkbox span {
-    visibility: visible;
-}
-
-.steps__item .form__radio-button, .loadphoto .form__radio-button {
-    width: 160px;
-    height: 40px;
-    line-height: 2.4;
-    vertical-align: middle;
-}
-
 .loadphoto .form__radio-button {
     width: 100%;
     margin-bottom: 10px;
-}
-
-.steps__item textarea {
-    margin-top: 15px;
 }
 
 .pomoshnik .form__radios {
@@ -504,10 +480,57 @@ input[name="street"] {
 
 .form--disabled .form__input, .form--disabled .form__textarea, .form--disabled .form__radio-circle:before {
     background-color: #e5f7fd;
+    pointer-events: none;
 }
 
 .form--disabled .form__checkbox:hover, .form--disabled .form__radio-circle:hover {
     color: #010101;
+}
+
+.form--steps {
+    width: 580px;
+    padding: 6px 20px 40px 20px
+}
+
+.form--steps .form__checkbox:after {
+    background-position: -12px 0;
+}
+
+.form--steps .form__checkbox span {
+    visibility: hidden;
+    color: #39b54a;
+}
+
+.form--steps input[type="checkbox"]:checked+.form__checkbox span {
+    visibility: visible;
+}
+
+.form--steps .form__radio-button {
+    width: 160px;
+    height: 40px;
+    line-height: 2.4;
+    vertical-align: middle;
+}
+
+.loadphoto .form__radio-button {
+    height: 40px;
+    line-height: 2.4;
+}
+
+.form--steps .form__textarea {
+    width: 400px;
+    height: 160px;
+    margin-top: 15px;
+}
+
+.steps__item .form__radio-button span {
+    line-height: 1;
+    transition: color .3s, border .2s;
+    pointer-events: none;
+}
+
+.form__accept {
+    position: absolute;
 }
 
 

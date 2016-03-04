@@ -129,19 +129,13 @@
                                         <div class="form__row">
                                             <input id="help1" name="help" value="check-supply" class="form__input form__input--hidden" type="checkbox">
                                             <label for="help1" class="form__checkbox text-small">
-                                                <span>Проверять доходит ли агитация</span>
+                                                <span>Проверять качество доставки материалов</span>
                                             </label>
                                         </div>
                                         <div class="form__row">
                                             <input id="help2" name="help" value="supply-porch" class="form__input form__input--hidden" type="checkbox">
                                             <label for="help2" class="form__checkbox text-small">
-                                                <span>Забирать агитматериалы и раскладывать по своему подъезду</span>
-                                            </label>
-                                        </div>
-                                        <div class="form__row">
-                                            <input id="help3" name="help" value="supply-house" class="form__input form__input--hidden" type="checkbox">
-                                            <label for="help3" class="form__checkbox text-small">
-                                                <span>Забирать материалы и раскладывать по всему дому</span>
+                                                <span>Распространять агитматериалы по почтовым ящикам</span>
                                             </label>
                                         </div>
                                         <div class="form__row">

@@ -1,8 +1,8 @@
 <div class="modal-wrap modal-wrap--active">
     <div class="modal modal1">
         <div class="modal__title">
-            <div class="text-bigger">Спасибо!</div>
-            <div class="text-big">Не забудьте прийти на выборы</div>
+            <div class="text-bigger">Спасибо за информацию.</div>
+            <div class="text-big">Приходите на выборы.</div>
         </div>
         <div class="flexbox">
             <div class="flexbox__item">

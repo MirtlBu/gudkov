@@ -5,7 +5,7 @@
 	}
 
 	#map {
-		
+
 	}
 </style>
 
@@ -14,7 +14,7 @@
   <div id="map"></div>
   <div class="baloon">
                 <div class="baloon__title">
-                    <span class="baloon__num">100</span> из <span class="baloon__num">4100</span> помощников уже&nbsp;нашлись
+                    <span class="baloon__num">100</span> из <span class="baloon__num">4100</span> сторонников уже с&nbsp;нами
                 </div>
                 <a href="" class="button button--blue">Хочу помогать</a>
                 <ul class="baloon__list">
@@ -47,59 +47,59 @@
 
 
 gdMapAdmin = {
-	
+
 	init: function(){
 		google.maps.event.addListener(gdMap.map, 'click', gdMapAdmin.onMapClicked);
 		google.maps.event.addListener(gdMap.map, 'click touchstart', gdMapAdmin.onMapClicked);
 	},
-	
+
 	onMapClicked: function(event){
 		gdMap.click = event ;
 
 		var position = {lat: gdMap.click.latLng.lat(), lng: gdMap.click.latLng.lng()};
 
-		
+
 		return ;
 		var template = $('.balloon-add-homeinfo_tmp');
-		
+
 		var newBuildingWindow = new google.maps.InfoWindow({
 			position: position,
 			content: template.html(),
-		});	
+		});
 
 		newBuildingWindow.open(gdMap.map);
-				
+
 		return ;
 		smartAjax('/ajax/ajax_map.php', {
 			context: 'getStreetNameByCoords',
 			position: position,
 		}, function(msg){
-				
-				
-			
-			
+
+
+
+
 			template.find('.address').attr('value', msg.streets_list[0]);
 			template.find('.lat').attr('value', msg.position.lat);
 			template.find('.lng').attr('value', msg.position.lng);
 			template.find('.newBuildingWindow').attr('id', 'd' + msg.position.lat + msg.position.lng);
-					
+
 				var newBuildingWindow = new google.maps.InfoWindow({
 					position: msg.position,
 					content: template.html(),
-				});	
+				});
 
 			template.find('.newBuildingWindow').attr('id', 'd');
 
 				newBuildingWindow.open(gdMap.map);
-	
-		});	
-		
-		
+
+		});
+
+
 
 	},
 
 	addNewBuildingFromWindow: function(_this){
-		
+
 		var container = $(_this).closest('.newBuildingWindow');
 
 		smartAjax('/ajax/ajax_map.php', {
@@ -111,13 +111,13 @@ gdMapAdmin = {
 			region_id: container.find('.region_id').val(),
 			building_type: container.find('.building_type').val(),
 		}, function(msg){
-					
+
 			alert('OK');
-			
-			
-	
-		});	
-		
+
+
+
+		});
+
 	},
 };
 
@@ -129,13 +129,13 @@ gdMap = {
 	regions: <?=json_encode($map_regions);?>,
 	markersList: [],
 	clustererObject: "undefined",
-	
+
 	init: function(){
 		gdMap.initMap();
 	},
-	
+
 	initMap: function(){
-		
+
 		gdMap.map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 13,
 		center: {lat: 55.80758869866716, lng: 37.46141795117189},
@@ -146,9 +146,9 @@ gdMap = {
 		});
 
 		gdMapAdmin.init();
-		
-		
-		
+
+
+
 		// load markers by ajax
 		//google.maps.event.addListener(gdMap.map, 'idle', gdMap.showMarkers);
 
@@ -156,12 +156,12 @@ gdMap = {
 
 		gdMap.drawRegions();
 	},
-	
 
-	
+
+
 	drawRegions: function(){
 		//console.log(gdMap.regions);
-				
+
 		// Define the LatLng coordinates for the polygon's path.
 
 		$.each(gdMap.regions, function(key, region){
@@ -179,41 +179,41 @@ gdMap = {
 			strokeWeight: 2,
 			fillColor: region.fill_color,
 			fillOpacity: 0.25
-			});		
+			});
 
 			google.maps.event.addListener(regionPolygon, 'click', gdMapAdmin.onMapClicked);
-			
+
 			regionPolygon.setMap(gdMap.map);
 
 
-			
+
 		});
 
 
 	},
-	
+
 	findInArrayById: function(key, value, list){
-		
+
 		for (var i = 0; i < list.length; i++){
 			if (list[i][key] == value) return list[i] ;
 		}
-		
+
 		return false ;
-		
+
 	},
 
-	
+
 	drawMarkersOnMap: function(buildings_viewport){
-		
-		
+
+
 		if (gdMap.clustererObject != "undefined"){
 			//gdMap.clustererObject.clearMarkers();
-			
+
 			//if (gdMap.map.getZoom() <= 15)
 				//gdMap.markersList = [];
 		}
-				
-		
+
+
 		/*
 			Возможные состояния:
 			1. Меткая новая, её нет в данный момент на карте, но есть во вьюпорте (рисовать)
@@ -223,10 +223,10 @@ gdMap = {
 
 		var tmpMarkersList = gdMap.markersList ;
 		gdMap.markersList = [];
-		
+
 		// Метка есть на карте, но её нет во вьюпорте
 		$.each(tmpMarkersList, function(key, value){
-			
+
 			if (gdMap.findInArrayById('building_id', value.building_id, buildings_viewport) == false){
 				//delete tmpMarkersList[key] ;
 				gdMap.log('Remove ' + value.building_id);
@@ -235,15 +235,15 @@ gdMap = {
 			else {
 				gdMap.markersList.push(value);
 			}
-			
+
 		});
-		
-		
-		
+
+
+
 		$.each(buildings_viewport, function(key, value){
-			
+
 			//if (gdMap.map.getZoom() > 15) return ;
-			
+
 			// Метка новая
 			if (gdMap.findInArrayById('building_id', value.building_id, gdMap.markersList) == false){
 				var image = '/static/images/icon_map_' + value.building_type + '.png';
@@ -260,20 +260,20 @@ gdMap = {
 					house_number: value.house_number,
 					street_name: value.street_name,
 				});
-					
-				marker.addListener('click', gdMap.onMarkerClicked);					
 
-				gdMap.markersList.push({marker: marker, building_id: value.building_id });				
+				marker.addListener('click', gdMap.onMarkerClicked);
+
+				gdMap.markersList.push({marker: marker, building_id: value.building_id });
 			}
 			// Метка есть на карте и во вьюпорте
 			else {
 				gdMap.log('Do not redraw ' + value.building_id);
 			}
-			
-		});  		
-		
+
+		});
+
 		var markersForCluesterer = [] ;
-		
+
 		$.each(gdMap.markersList, function(key, value){
 			markersForCluesterer.push(value.marker);
 		});
@@ -285,12 +285,12 @@ gdMap = {
 				'maxZoom': 14,
 				'calculator': gdMap.customCalculator,
 			});
-			
+
 			gdMap.clustererObject.setCalculator(gdMap.customCalculator);
 		}
 		*/
 	},
-		
+
 	 fromLatLngToPoint: function(latLng, map) {
 		var topRight = map.getProjection().fromLatLngToPoint(map.getBounds().getNorthEast());
 		var bottomLeft = map.getProjection().fromLatLngToPoint(map.getBounds().getSouthWest());
@@ -307,36 +307,36 @@ gdMap = {
 
 		baloon.css({
 			'left': parseInt(point.x) - 1,
-			'top': parseInt(point.y) + (this.anchorPoint.y / 2) - 2,			
+			'top': parseInt(point.y) + (this.anchorPoint.y / 2) - 2,
 		});
-		
+
 		baloon.show();
-		
+
 		$('input.mapForm_address').attr('building_id', this.building_id).val(this.street_name + ' ' + this.house_number);
 
 	},
-		
+
 	customCalculator: function(markers) {
 
 			var total_supporters = 0;
-			
+
 			$.each(markers, function(key, value){
 				total_supporters += value.supporters ;
 			});
-			
+
 			return {
 			  text: total_supporters,
 			  index: 1
 			};
-		},	
-	
+		},
+
 	showMarkers: function() {
 		var bounds = gdMap.map.getBounds();
 
 		var southWest = bounds.getSouthWest();
-		var northEast = bounds.getNorthEast();		
-		
-		
+		var northEast = bounds.getNorthEast();
+
+
 		smartAjax('/ajax/ajax_map.php', {
 			context: 'getMarkersByViewport',
 			data: {
@@ -346,88 +346,88 @@ gdMap = {
 				'tolng': northEast.lng(),
 			}
 		}, function(msg){
-				
+
 				gdMap.drawMarkersOnMap(msg.buildings);
-	
-				
-		});	
+
+
+		});
 	},
-	
+
 	log: function(text){
 		//console.log(text);
 	},
-  
+
 };
 
 
 mapForm = {
-	
+
 	people_form: {},
 	houseinfo_form: {},
-	
+
 	max_tenants: 5,
-	
+
 	init: function(){
 		mapForm.people_form = $('.form.form_about_people');
 		mapForm.houseinfo_form = $('.form.form_about_house');
 	},
-	
+
 	openAboutHouseForm: function(){
-		
+
 		mapForm.houseinfo_form.fadeIn(500);
-		
+
 		mapForm.people_form.fadeOut();
 	},
-	
+
 	openAboutPeopleForm: function(){
 		mapForm.people_form.fadeIn(500);
-		
+
 		mapForm.houseinfo_form.fadeOut();
-		
+
 		mapForm.resetFormAboutPeople();
-		
+
 		mapForm.addNewFlat();
 		mapForm.addNewTenant(mapForm.people_form.find('.form__row.addNewTenant'));
-		
+
 	},
-	
+
 	resetFormAboutPeople: function(){
 		mapForm.people_form.find('.template_flat').html('');
 	},
-	
+
 	addNewTenant: function(_this){
 
 		mapForm.prev = _this ;
-	
+
 		var tenants_container = $(_this).prev() ;
-	
+
 		var tenant_number = tenants_container.find('.tenant').length + 1 ; // Считаем число добавленных жильцов и задаём новый номер новому жильцу
-		
+
 		if (tenant_number > mapForm.max_tenants){
 			alert('Слишком много жильцов для одной квартиры');
 			return ;
 		}
-		
+
 		var tenant_template = $('.formtenant_tmp');
-		
+
 		tenant_template.find('.tenant_number').text(tenant_number);
-		
+
 		tenants_container.append(tenant_template.html());
-		
+
 		// animate opacity to 1
 		tenants_container.find('div.withOpacity').animate({opacity: 1}, 500);
 	},
-	
+
 	addNewFlat: function(){
 		mapForm.people_form.find('.template_flat').append($('.formflat_tmp').html());
 	},
-	
+
 	sendFormAboutPeople: function(){
-		
+
 		var mapForm = [] ;
-		
+
 		console.log('sendFormAboutPeople');
-		
+
 	},
 };
 
@@ -435,7 +435,7 @@ $(document).ready(function(){
 	mapForm.init();
 });
 
-</script>	
+</script>
 
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1QFnZAC1l-koq08KZi8tQilnvf_FbLGo&signed_in=true&callback=gdMap.init"></script>
 

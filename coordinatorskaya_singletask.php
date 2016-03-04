@@ -7,9 +7,9 @@
                     <div class="dashboard__tablo">
                         <div class="">Валера, как прошёл день?</div>
                         <div class="dashboard__rate">
-                            <button class="button button--small button--red">Хренова</button>
-                            <button class="button button--small button--blue">Нормально</button>
-                            <button class="button button--small button--green">Огонь!</button>
+                            <button class="button button--small button--red">Плохо</button>
+                            <button class="button button--small button--blue">Всё по плану</button>
+                            <button class="button button--small button--green">Отлично</button>
                         </div>
                     </div>
                 </div>

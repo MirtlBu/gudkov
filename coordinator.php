@@ -56,9 +56,9 @@
                         </div>
                     </div>
                     <div class="steps">
-                        <div class="flexbox">
-                            <div class="text-small text-small--light">Поставлено 26 февраля</div>
-                            <div class="text-small text-small--light">Дедлайн 12 марта</div>
+                        <div class="dates">
+                            <div class="text-small text-small--light">Поставлено <span class="created_at">26 февраля</span></div>
+                            <div class="text-small text-small--light">Дедлайн <span class="deadline_at">12 марта</span></div>
                         </div>
                         <div class="text-big steps__title">Шаги</div>
                         <div class="steps__item">

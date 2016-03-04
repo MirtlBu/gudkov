@@ -13,16 +13,16 @@
                     <div class="dashboard__tablo">
                         <div class="">Валерия, как прошёл день?</div>
                         <div class="dashboard__rate">
-                            <button class="button button--small button--red">Хренова</button>
-                            <button class="button button--small button--blue">Нормально</button>
-                            <button class="button button--small button--green">Огонь!</button>
+                            <button class="button button--small button--red">Плохо</button>
+                            <button class="button button--small button--blue">Всё по плану</button>
+                            <button class="button button--small button--green">Отлично</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="flexbox__item">
                 <div class="flexbox__container">
-                    <button class="button button--blue button--dashboard" type="button">Я привёл человека</button>
+                    <button class="button button--blue button--dashboard" type="button">+1 голос к победе</button>
                     <div class="text-link text-bold">Добавить информацию о доме</div>
                 </div>
             </div>
@@ -35,12 +35,10 @@
         </div>
         <div class="flexbox">
             <div class="flexbox__item">
-                <form class="steps">
-                    <div class="flexbox">
-                        <div class="flexbox listitem__deadline">
-                            <div class="text-small text-small--light">Поставлено 26 февраля</div>
-                            <div class="text-small text-small--light">Дедлайн 12 марта</div>
-                        </div>
+                <form class="form form--steps">
+                    <div class="dates">
+                        <div class="text-small text-small--light">Поставлено <span class="created_at">26 февраля</span></div>
+                        <div class="text-small text-small--light">Дедлайн <span class="deadline_at">12 марта</span></div>
                     </div>
                     <div class="text-big steps__title">Шаги</div>
                     <div class="steps__item">

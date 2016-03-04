@@ -2,7 +2,7 @@
     <div class="slogan">
         <div class="container flexbox">
             <h1 class="slogan__title flexbox__item">Голосуем за Дмитрия&nbsp;Гудкова</h1>
-            <div class="slogan__text text-big flexbox__item">Единственнный независимый депутат Госдумы может переизбраться только с&nbsp;нашей&nbsp;помощью.
+            <div class="slogan__text text-big flexbox__item">Единственный независимый депутат действующей&nbsp;Госдумы может перезибраться только с&nbsp;нашей&nbsp;помощью.
             </div>
         </div>
     </div>
@@ -18,9 +18,9 @@
                             </div>
                         </div>
                         <div class="guide__item">
-                            <a href="#" class="button button--blue">Я привёл человека</a>
+                            <a href="#" class="button button--blue">+1 голос к победе</a>
                             <div class="guide__text">
-                                Если ваши родители, дедушка с&nbsp;бабушкой или&nbsp;другие знакомые рассматривают возможность проголосовать за&nbsp;Дмитрия Гудкова, пожалуйста, расскажите нам&nbsp;о&nbsp;них.
+                                Если члены вашей семьи или&nbsp;знакомые, прописанные в&nbsp;округе, готовы проголосовать за&nbsp;Дмитрия&nbsp;Гудкова, пожалуйста, расскажите нам о&nbsp;них.
                             </div>
                         </div>
                     </div>
