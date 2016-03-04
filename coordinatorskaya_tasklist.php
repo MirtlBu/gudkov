@@ -51,9 +51,9 @@
             <a class="flexbox tasks__body listitem listitem--link">
                 <div class="flexbox__item flexbox__item--left">
                     <div class="text-big text-link">Разнести газетки по подъездам</div>
-                    <div class="flexbox listitem__deadline">
-                        <div class="text-small text-small--light">Поставлено 25 февраля</div>
-                        <div class="text-small text-small--light">Дедлайн 5 марта</div>
+                    <div class="dates">
+                        <div class="text-small text-small--light">Поставлено <span class="created_at">26 февраля</span></div>
+                        <div class="text-small text-small--light">Дедлайн <span class="deadline_at">12 марта</span></div>
                     </div>
                 </div>
                 <div class="flexbox__item flexbox__item--right">
@@ -74,9 +74,9 @@
             <a class="flexbox tasks__body listitem listitem--link">
                 <div class="flexbox__item flexbox__item--left">
                     <div class="text-big text-link">Починить столы и стулья в офисе на Тверской 9</div>
-                    <div class="flexbox listitem__deadline">
-                        <div class="text-small text-small--light">Поставлено 25 февраля</div>
-                        <div class="text-small text-small--light">Дедлайн 5 марта</div>
+                    <div class="dates">
+                        <div class="text-small text-small--light">Поставлено <span class="created_at">26 февраля</span></div>
+                        <div class="text-small text-small--light">Дедлайн <span class="deadline_at">12 марта</span></div>
                     </div>
                 </div>
                 <div class="flexbox__item flexbox__item--right">
@@ -89,9 +89,9 @@
             <a class="flexbox tasks__body listitem listitem--link">
                 <div class="flexbox__item flexbox__item--left">
                     <div class="text-big text-link">Убраться у дизайнера в квартире</div>
-                    <div class="flexbox listitem__deadline">
-                        <div class="text-small text-small--light">Поставлено 25 февраля</div>
-                        <div class="text-small text-small--light">Дедлайн 5 марта</div>
+                    <div class="dates">
+                        <div class="text-small text-small--light">Поставлено <span class="created_at">26 февраля</span></div>
+                        <div class="text-small text-small--light">Дедлайн <span class="deadline_at">12 марта</span></div>
                     </div>
                 </div>
                 <div class="flexbox__item flexbox__item--right">

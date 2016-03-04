@@ -595,6 +595,22 @@ span.text-link {
     position: absolute;
 }
 
+/*.created_at, .deadline_at {
+    display: inline-block;
+}
+
+.created_at {
+    margin-right: 20px;
+}*/
+
+.dates .text-small {
+    display: inline-block;
+}
+
+.dates .created_at {
+    margin-right: 20px;
+}
+
 
 
 

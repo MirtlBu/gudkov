@@ -30,8 +30,8 @@
             <a href="" class="listitem listitem--link">
                 <div class="text-big text-link">Разнести газетки по подъездам</div>
                 <div class="flexbox">
-                    <div class="text-small text-small--light">Поставлено 25 февраля</div>
-                    <div class="text-small text-small--light">Дедлайн 5 марта</div>
+                    <div class="text-small text-small--light">Поставлено <span class="created_at">26 февраля</span></div>
+                    <div class="text-small text-small--light">Дедлайн <span class="deadline_at">12 марта</span></div>
                 </div>
             </a>
             <a href="" class="listitem listitem--link">

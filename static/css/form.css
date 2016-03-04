@@ -496,7 +496,7 @@ input[name="street"] {
     background-repeat: no-repeat;
 }
 
-.pomoshnik .form__title {
+.pomoshnik .form--tenant .form__title {
     width: 125px;
     display: inline-block;
     vertical-align: bottom;
