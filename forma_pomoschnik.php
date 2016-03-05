@@ -141,7 +141,7 @@
                                         <div class="form__row">
                                             <input id="help4" name="help" value="agit-points" class="form__input form__input--hidden" type="checkbox">
                                             <label for="help4" class="form__checkbox text-small">
-                                                <span>Приходить на агитационные точки (укажите дни и время, когда удобно)</span>
+                                                <span>Распространять агитматериалы на улице (укажите дни и время, когда удобно)</span>
                                             </label>
                                         </div>
                                         <div class="form__row">
@@ -152,19 +152,19 @@
                                         <div class="form__row">
                                             <input id="help5" name="help" value="help-headquarters" checked="checked" class="form__input form__input--hidden" type="checkbox">
                                             <label for="help5" class="form__checkbox text-small">
-                                                <span>Помогать в штабе, в развозке материалов</span>
+                                                <span>Грузоперевозки на личном автомобиле</span>
                                             </label>
                                         </div>
                                         <div class="form__row">
                                             <input id="help6" name="help" value="help-storage" checked="checked" class="form__input form__input--hidden" type="checkbox">
                                             <label for="help6" class="form__checkbox text-small">
-                                                <span>Предоставить место для склада (гараж либо комнату)</span>
+                                                <span>Предоставить помещение для склада (гараж или комнату)</span>
                                             </label>
                                         </div>
                                         <div class="form__row">
                                             <input id="help7" name="help" value="agit-neighbors" class="form__input form__input--hidden" type="checkbox">
                                             <label for="help7" class="form__checkbox text-small">
-                                                <span>Агитировать соседей лично (составить список готовых голосовать с адресами и телефонами)</span>
+                                                <span>Агитировать соседей лично</span>
                                             </label>
                                         </div>
                                         <div class="form__row">

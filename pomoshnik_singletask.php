@@ -188,7 +188,20 @@
                             }
                         }
                     </script>
-                    <div id="photo__names" class="loadphoto__names text-light"></div>
+                    <div id="photo__names" class="loadphoto__names text-light">
+                        <div>
+                            <img class="loadphoto__img" src="/static/images/userpic.jpg"></img>
+                        </div>
+                        <div>
+                            <img class="loadphoto__img" src="/static/images/userpic.jpg"></img>
+                        </div>
+                        <div>
+                            <img class="loadphoto__img" src="/static/images/userpic.jpg"></img>
+                        </div>
+                        <div>
+                            <img class="loadphoto__img" src="/static/images/userpic.jpg"></img>
+                        </div>
+                    </div>
                     <button class="button button--blue" type="submit">Отправить</button>
                 </form>
 

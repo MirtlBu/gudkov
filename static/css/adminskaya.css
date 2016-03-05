@@ -619,6 +619,11 @@ span.text-link {
     vertical-align: text-top;
 }
 
+.loadphoto__img {
+    width: 100%;
+    margin-bottom: 6px;
+}
+
 
 
 
