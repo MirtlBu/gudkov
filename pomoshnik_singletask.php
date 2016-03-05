@@ -188,18 +188,14 @@
                             }
                         }
                     </script>
-                    <div id="photo__names" class="loadphoto__names text-light">
-                        <div>
-                            <img class="loadphoto__img" src="/static/images/userpic.jpg"></img>
+                    <div id="photo__names">
+                        <div class="loadphoto__img">
+                            <img src="/static/images/userpic.jpg"></img>
+                            <div class="icon-close"></div>
                         </div>
-                        <div>
-                            <img class="loadphoto__img" src="/static/images/userpic.jpg"></img>
-                        </div>
-                        <div>
-                            <img class="loadphoto__img" src="/static/images/userpic.jpg"></img>
-                        </div>
-                        <div>
-                            <img class="loadphoto__img" src="/static/images/userpic.jpg"></img>
+                        <div class="loadphoto__img">
+                            <img src="/static/images/ron.jpg"></img>
+                            <div class="icon-close"></div>
                         </div>
                     </div>
                     <button class="button button--blue" type="submit">Отправить</button>

@@ -462,14 +462,6 @@ span.text-link {
     padding: 20px;
 }
 
-.loadphoto__names {
-    line-height: 23px;
-}
-
-.loadphoto__names div:last-child {
-    margin-bottom: 20px;
-}
-
 .pomoshnik .loadphoto .text-big {
     margin-bottom: 15px;
 }
@@ -620,10 +612,26 @@ span.text-link {
 }
 
 .loadphoto__img {
-    width: 100%;
-    margin-bottom: 6px;
+    position: relative;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    cursor: pointer;
 }
 
+.loadphoto__img img {
+    height: 60px;
+}
+
+.loadphoto__img .icon-close {
+    right: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255, .5);
+    display: none;
+}
+
+.loadphoto__img:hover .icon-close {
+    display: block;
+}
 
 
 
