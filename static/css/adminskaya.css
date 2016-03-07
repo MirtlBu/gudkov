@@ -606,7 +606,8 @@ span.text-link {
 }
 
 .form--steps .steps__point {
-    width: 420px;
+    width: 370px;
+    margin-right: 50px;
     display: inline-block;
     vertical-align: text-top;
 }
@@ -633,6 +634,31 @@ span.text-link {
     display: block;
 }
 
+.breadcrumbs--adminskaya {
+    position: absolute;
+    width: 100%;
+}
+
+.breadcrumbs--adminskaya .breadcrumbs-content {
+    position: relative;
+}
+
+.breadcrumbs--adminskaya .flexbox .flexbox__item:first-child {
+    width: 560px;
+    margin-left: -20px;
+}
+
+.breadcrumbs--adminskaya .flexbox .flexbox__item:last-child {
+    margin-left: 40px;
+}
+
+.allcoords .listitem__img {
+    margin-left: 30px;
+}
+
+.allcoords .listitem__img, .allcoords .listitem__text {
+    vertical-align: middle;
+}
 
 
 

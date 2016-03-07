@@ -530,8 +530,8 @@ input[name="street"] {
 }
 
 .accept {
-    position: relative;
-    margin-left: 90px;
+    position: absolute;
+    margin-left: 80px;
 }
 
 .accept__message {
@@ -542,18 +542,37 @@ input[name="street"] {
 
 .accept__message--active {
     display: block;
+    position: relative;
+    margin-top: -10px;
+    z-index: 99;
+}
+
+.accept__message--active:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #e5f7fd;
+    top: 15px;
+    left: -10px;
+    transform: skewX(-60deg);
+    transform-origin: right bottom;
 }
 
 .accept__icon {
     position: absolute;
     top: -10px;
     left: -30px;
-    width: 38px;
+    width: 39px;
     height: 35px;
     background-image: url(../images/icon-accept.png);
     background-repeat: no-repeat;
     background-position: 0 0;
     cursor: pointer;
+}
+
+.accept__icon--filled {
+    background-position: -39px 0;
 }
 
 .accept__icon--inactive {

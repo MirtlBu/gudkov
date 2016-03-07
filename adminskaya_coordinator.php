@@ -1,4 +1,4 @@
-<div class="content">
+<div class="content adminskaya">
     <div class="dashboard">
         <div class="container flexbox">
             <div class="flexbox__item">
@@ -25,12 +25,33 @@
         </div>
     </div>
     <div class="container">
-        <a href="" class="breadcrumbs-content text-link">Все задания</a>
+        <div class="breadcrumbs--adminskaya">
+            <div class="flexbox flexbox--start">
+                <div class="flexbox__item">
+                    <a href="" class="breadcrumbs-content text-link">Все задания</a>
+                </div>
+                <div class="flexbox__item">
+                    <a href="" class="breadcrumbs-content text-link">Все помощники у координатора</a>
+                </div>
+            </div>
+        </div>
         <div class="coordinator">
-            <a href="" class="">
-                <span class="text-link text-bigger">Разнести газеты по подъездам</span>
-                <span class="text-small--light">(Все координаторы)</span>
-            </a>
+            <div class="flexbox flexbox--start">
+                <div class="flexbox__item">
+                    <a href="" class="">
+                        <span class="text-link text-bigger">Разнести газеты по подъездам</span>
+                        <span class="text-small--light">(Все координаторы)</span>
+                    </a>
+                </div>
+                <div class="flexbox__item allcoords">
+                    <div class="listitem__img">
+                        <img src="/static/images/userpic.jpg">
+                    </div>
+                    <div class="listitem__text">
+                        <div class="text-big helper_name">Алексей Шпановский</div>
+                    </div>
+                </div>
+            </div>
             <div class="flexbox">
                 <div class="flexbox__item">
                     <form class="form form--steps">
@@ -39,7 +60,7 @@
                             <div class="text-small text-small--light">Дедлайн <span class="deadline_at">12 марта</span></div>
                         </div>
                         <div class="text-big steps__title">Шаги</div>
-                        <div class="steps__item flexbox">
+                        <div class="steps__item flexbox flexbox--start">
                             <div class="flexbox__item">
                                 <div class="flexbox">
                                     <div class="flexbox__item">
@@ -67,7 +88,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="steps__item steps__item--error flexbox">
+                        <div class="steps__item steps__item--error flexbox flexbox--start">
                             <div class="flexbox__item">
                                 <div class="flexbox">
                                     <div class="flexbox__item">
@@ -94,9 +115,36 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-                        <div class="steps__item flexbox">
+                        <div class="steps__item flexbox flexbox--start">
+                            <div class="flexbox__item">
+                                <div class="flexbox">
+                                    <div class="flexbox__item">
+                                        <div class="text-big steps__num">3</div>
+                                        <div class="steps__point">Доложить координаторам обстановку.</div>
+                                    </div>
+                                    <div class="flexbox__item">
+                                        <input id="step2" name="step2" value="step2" class="form__input form__input--hidden" type="checkbox">
+                                        <label for="step2" class="form__checkbox">
+                                            <span>Готово!</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flexbox__item">
+                                <div class="accept">
+                                    <div class="accept__icon accept__icon--filled"></div>
+                                    <div class="form accept__message">
+                                        <textarea name="accept_message" class="form__textarea"></textarea>
+                                        <div class="accept__controls">
+                                            <button class="button button--blue" type="button">Сохранить</button>
+                                            <div class="icon-close"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="steps__item flexbox flexbox--start">
                             <div class="flexbox__item">
                                 <div class="flexbox">
                                     <div class="flexbox__item">
@@ -124,42 +172,69 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="steps__item">
-                            <div class="flexbox">
-                                <div class="flexbox__item">
-                                    <div class="text-big steps__num">4</div>
-                                    <div class="steps__point">
-                                        <div>Загрузить аватарку</div>
-                                        <div class="imageload">
-                                            <div class="imageload__prev">
-                                                <img src="/static/images/userpic.jpg" id="imgprev">
+                        <div class="steps__item flexbox flexbox--start">
+                            <div class="flexbox__item">
+                                <div class="flexbox">
+                                    <div class="flexbox__item">
+                                        <div class="text-big steps__num">4</div>
+                                        <div class="steps__point">
+                                            <div>Загрузить аватарку</div>
+                                            <div class="imageload">
+                                                <div class="imageload__prev">
+                                                    <img src="/static/images/userpic.jpg" id="imgprev">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="flexbox__item">
+                                        <input id="step3" name="step3" value="step3" class="form__input form__input--hidden" type="checkbox">
+                                        <label for="step3" class="form__checkbox">
+                                            <span>Готово!</span>
+                                        </label>
+                                    </div>
                                 </div>
-                                <div class="flexbox__item">
-                                    <input id="step4" name="step4" value="step4" class="form__input form__input--hidden" type="checkbox">
-                                    <label for="step4" class="form__checkbox">
-                                        <span>Готово!</span>
-                                    </label>
+                            </div>
+                            <div class="flexbox__item">
+                                <div class="accept">
+                                    <div class="accept__icon"></div>
+                                    <div class="form accept__message">
+                                        <textarea name="accept_message" class="form__textarea"></textarea>
+                                        <div class="accept__controls">
+                                            <button class="button button--blue" type="button">Сохранить</button>
+                                            <div class="icon-close"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="steps__item">
-                            <div class="flexbox form--disabled">
-                                <div class="flexbox__item">
-                                    <div class="text-big steps__num">5</div>
-                                    <div class="steps__point">
-                                        <div>Пару слов о ходе выполнении задания</div>
-                                        <textarea name="other" class="form__textarea form__input--long"></textarea>
+                        <div class="steps__item flexbox flexbox--start">
+                            <div class="flexbox__item">
+                                <div class="flexbox">
+                                    <div class="flexbox__item">
+                                        <div class="text-big steps__num">5</div>
+                                        <div class="steps__point">
+                                            <div>Пару слов о ходе выполнении задания</div>
+                                            <textarea name="other" class="form__textarea form__input--long"></textarea>
+                                        </div>
                                     </div>
-
+                                    <div class="flexbox__item">
+                                        <input id="step1" name="step1" value="step1" class="form__input form__input--hidden" type="checkbox" checked>
+                                        <label for="step1" class="form__checkbox">
+                                            <span>Готово!</span>
+                                        </label>
+                                    </div>
                                 </div>
-                                <div class="flexbox__item">
-                                    <input id="step5" name="step5" value="step5" class="form__input form__input--hidden" type="checkbox">
-                                    <label for="step5" class="form__checkbox">
-                                        <span>Готово!</span>
-                                    </label>
+                            </div>
+                            <div class="flexbox__item">
+                                <div class="accept">
+                                    <div class="accept__icon"></div>
+                                    <div class="form accept__message">
+                                        <textarea name="accept_message" class="form__textarea"></textarea>
+                                        <div class="accept__controls">
+                                            <button class="button button--blue" type="button">Сохранить</button>
+                                            <div class="icon-close"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
