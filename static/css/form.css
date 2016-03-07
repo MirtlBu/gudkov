@@ -599,6 +599,11 @@ input[name="street"] {
     right: 10px;
 }
 
+.form--slider {
+    width: 580px;
+    padding: 15px 20px 40px 20px;
+}
+
 
 
 

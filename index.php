@@ -4,6 +4,7 @@
         <title>Gudkov</title>
         <link href='https://fonts.googleapis.com/css?family=Ubuntu:500,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/static/css/likely.css">
+        <link rel="stylesheet" href="/static/css/fotorama.css">
         <link rel="stylesheet" href="/static/vendors/FancySelect/fancySelect.css" type="text/css">
         <link rel="icon" href="ico.ico.png" sizes="16x16">
         <link rel="stylesheet" href="/static/css/style.css" type="text/css">
@@ -30,6 +31,7 @@
 
         <script src="/static/vendors/FancySelect/fancySelect.js"></script>
         <script src="/static/js/likely.js"></script>
+        <script src="/static/js/fotorama.js"></script>
         <script src="/static/js/script.js" type="text/javascript"></script>
 
     </body>

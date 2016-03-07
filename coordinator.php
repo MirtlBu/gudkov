@@ -105,7 +105,7 @@
                                 <img src="/static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
-                                <div class="text-big">Алексей Шпановский</div>
+                                <div class="text-big text-link">Алексей Шпановский</div>
                                 <div class="text-small">+7 904 335-66-45</div>
                             </div>
                         </div>
@@ -119,7 +119,7 @@
                                 <img src="/static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
-                                <div class="text-big">Валера Кизякин</div>
+                                <div class="text-big text-link">Валера Кизякин</div>
                                 <div class="text-small">+7 904 335-66-45</div>
                             </div>
                         </div>
@@ -137,7 +137,7 @@
                                 <img src="/static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
-                                <div class="text-big">Игнат Баранов</div>
+                                <div class="text-big text-link">Игнат Баранов</div>
                                 <div class="text-small">+7 904 335-66-45</div>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
                                 <img src="/static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
-                                <div class="text-big">Алексей Шпановский</div>
+                                <div class="text-big text-link">Алексей Шпановский</div>
                                 <div class="text-small">+7 904 335-66-45</div>
                             </div>
                         </div>
@@ -165,7 +165,7 @@
                                 <img src="/static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
-                                <div class="text-big">Игнат Баранов</div>
+                                <div class="text-big text-link">Игнат Баранов</div>
                                 <div class="text-small">+7 904 335-66-45</div>
                             </div>
                         </div>
