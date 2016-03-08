@@ -393,6 +393,7 @@ span.text-link {
     display: inline-block;
     vertical-align: top;
     float: right;
+    cursor: pointer;
 }
 
 .comment__photo {
@@ -428,10 +429,18 @@ span.text-link {
 
 .listitem--inactive {
     color: #959595;
+    cursor: default;
+}
+
+.listitem--inactive:hover {
+    border-color: transparent;
+}
+
+.listitem--inactive .flexbox__item--left {
     pointer-events: none;
 }
 
-.listitem--inactive .text-link {
+.listitem--inactive .text-link, .listitem--inactive:hover .text-link {
     color: #959595;
     border-bottom: 1px solid #959595;
 }
