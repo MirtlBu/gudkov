@@ -43,23 +43,57 @@
             </div>
             <div class="flexbox__item progressboard">
                 <div class="yourprogress">
-                    <div class="text-bold">Мои задания</div>
-                    <div class="progressbar">
-                        <div class="progressbar-outer">
-                            <div class="progressbar-inner"></div>
-                        </div>
+                    <div class="text-bold">Твой личный опыт</div>
+                    <div class="yourprogress__progressbar flexbox flexbox--start">
+                        <div class="yourprogress__item yourprogress__item--finished"></div>
+                        <div class="yourprogress__item yourprogress__item--finished"></div>
+                        <div class="yourprogress__item yourprogress__item--finished"></div>
+                        <div class="yourprogress__item yourprogress__item--inprogress"></div>
+                        <div class="yourprogress__item yourprogress__item--inprogress"></div>
+                        <div class="yourprogress__item yourprogress__item--inprogress"></div>
+                        <div class="yourprogress__item yourprogress__item--unfinished"></div>
+                        <div class="yourprogress__item yourprogress__item--unfinished"></div>
+                        <div class="yourprogress__item yourprogress__item--unfinished"></div>
+                        <div class="yourprogress__item yourprogress__item--unfinished"></div>
+                        <div class="yourprogress__item yourprogress__item--unfinished"></div>
+                        <div class="yourprogress__item"></div>
+                        <div class="yourprogress__item"></div>
+                    </div>
+                    <div class="yourprogress__status">
+                        <span class="yourprogress__item--finished text-small">Завершённые</span>
+                        <span class="yourprogress__item--inprogress text-small">В процессе</span>
+                        <span class="yourprogress__item--unfinished text-small">Невыполненные</span>
                     </div>
                 </div>
                 <div class="campaignprogress">
-                    <div class="text-bold">Прогресс кампании</div>
-                    <div class="progressbar">
-                        <div class="progressbar-outer">
-                            <div class="progressbar-inner"></div>
+                    <div class="text-bold">Успешность кампании</div>
+                    <div class="counter">
+                        <div class="counter__item">
+                            <div class="counter__num">4584</div>
+                            <div class="counter__text">голосов у&nbsp;нас есть</div>
+                        </div>
+                        <div class="counter__item">
+                            <div class="counter__num">/</div>
+                        </div>
+                        <div class="counter__item">
+                            <div class="counter__num">125 000</div>
+                            <div class="counter__text">нужно для&nbsp;победы</div>
+                        </div>
+                        <div class="counter__item counter__item--deadline">
+                            <div class="counter__num">135</div>
+                            <div class="counter__text">дней до конца кампании</div>
                         </div>
                     </div>
                 </div>
-                <div class="yourmedals">
-                    <div class=""><span class="text-bold text-link text-link--dropdown">Медали</span> — 5 штук</div>
+                <div class="yourreward">
+                    <div class="flexbox">
+                        <div class="flexbox__item">
+                            <div class="yourreward__medals"><span class="text-bold text-link text-link--dropdown">Медали</span> — 5 штук</div>
+                        </div>
+                        <div class="flexbox__item">
+                            <div class="yourreward__bonuses"><span class="text-bold text-link text-link--dropdown">Бонусы</span></div>
+                        </div>
+                    </div>
                     <div class="flexbox">
                         <div class="flexbox__item">
                             <div class="medal">
@@ -115,6 +149,14 @@
                     </div>
                     <div class="task__status">Успешно завершёно</div>
                     <div class="task__steps">Выполнено 5 шагов из 7</div>
+                    <div class="task__comment">
+                        <div class="comment">
+                            <div class="comment__photo">
+                                <img src="/static/images/ron.jpg">
+                            </div>
+                            <div class="comment__bang"></div>
+                        </div>
+                    </div>
                 </div>
             </a>
             <a class="flexbox tasks__body listitem listitem--link">
@@ -135,6 +177,14 @@
                     </div>
                     <div class="task__status">Успешно завершёно</div>
                     <div class="task__steps task__steps--showed">Выполнено 5 шагов из 7</div>
+                    <div class="task__comment">
+                        <div class="comment">
+                            <div class="comment__photo">
+                                <img src="/static/images/ron.jpg">
+                            </div>
+                            <div class="comment__bang"></div>
+                        </div>
+                    </div>
                 </div>
             </a>
             <a class="flexbox tasks__body listitem listitem--link">
@@ -155,6 +205,14 @@
                     </div>
                     <div class="task__status task__status--success task__status--showed">Успешно завершёно</div>
                     <div class="task__steps">Выполнено 5 шагов из 7</div>
+                    <div class="task__comment">
+                        <div class="comment">
+                            <div class="comment__photo">
+                                <img src="/static/images/ron.jpg">
+                            </div>
+                            <div class="comment__bang"></div>
+                        </div>
+                    </div>
                 </div>
             </a>
             <a class="flexbox tasks__body listitem listitem--link listitem--inactive">
@@ -175,6 +233,14 @@
                     </div>
                     <div class="task__status task__status--showed">Отказано</div>
                     <div class="task__steps">4 шага из 7</div>
+                    <div class="task__comment task__comment--showed">
+                        <div class="comment">
+                            <div class="comment__photo">
+                                <img src="/static/images/ron.jpg">
+                            </div>
+                            <div class="comment__bang"></div>
+                        </div>
+                    </div>
                 </div>
             </a>
             <a class="flexbox tasks__body listitem listitem--link listitem--inactive">
@@ -195,6 +261,14 @@
                     </div>
                     <div class="task__status task__status--showed">Невыполнено в срок</div>
                     <div class="task__steps task__steps--showed">4 шага из 7</div>
+                    <div class="task__comment">
+                        <div class="comment">
+                            <div class="comment__photo">
+                                <img src="/static/images/ron.jpg">
+                            </div>
+                            <div class="comment__bang"></div>
+                        </div>
+                    </div>
                 </div>
             </a>
         </div>

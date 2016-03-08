@@ -193,7 +193,7 @@ span.text-link {
 }
 
 .tasks .flexbox__item--left {
-    flex: 1.78;
+    flex: 1.7;
 }
 
 .tasks .flexbox__item--right {
@@ -256,46 +256,67 @@ span.text-link {
     margin: 30px auto 20px auto;
 }
 
+.progressboard {
+    width: 500px;
+}
+
+.your__info {
+    align-items: flex-start;
+}
+
 .your__info .form {
     width: 360px;
     padding: 10px 10px 10px 20px;
     margin-left: 0;
 }
 
-.yourprogress  {
-    margin-bottom: 15px;
+.yourprogress, .campaignprogress  {
+    margin-bottom: 25px;
 }
 
-.progressbar {
-    width: 500px;
-    margin-bottom: 15px;
+.yourprogress__item {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 3px;
+    border: 1px solid #959595;
+    box-sizing: border-box;
 }
 
-.progressbar-outer {
-    width: 100%;
-    height: 10px;
-    border: 1px solid #ececed;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.progressbar-inner {
-    height: 100%;
-}
-
-.yourprogress .progressbar-inner {
-    width: 40%;
+.yourprogress__item--finished {
+    color: #39b54a;
     background-color: #39b54a;
+    border: 1px solid transparent;
 }
 
-.campaignprogress .progressbar-inner {
-    width: 10%;
+.yourprogress__item--unfinished {
+    color: #ff0000;
+    background-color: #ff0000;
+    border: 1px solid transparent;
+}
+
+.yourprogress__item--inprogress {
+    color: #0096ff;
     background-color: #0096ff;
+    border: 1px solid transparent;
 }
 
-.yourmedals .flexbox__item {
+.yourprogress__status span {
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.yourprogress__progressbar {
+    margin: 5px 0;
+}
+
+.yourreward .flexbox__item {
     flex: 1;
     margin-left: -7px;
+}
+
+.yourreward__bonuses {
+    text-align: right;
 }
 
 .medal__img, .medal__text {
@@ -367,12 +388,42 @@ span.text-link {
     color: #39b54a;
 }
 
-.task__start, .task__steps, .task__status {
+.task__comment {
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
+.comment__photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.comment__photo img {
+    width: 50px;
+}
+
+.comment__bang {
+    width: 39px;
+    height: 35px;
+    margin-left: -10px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(../images/icon-bang.png);
+    background-repeat: no-repeat;
+}
+
+.task__start, .task__steps, .task__status, .task__comment {
     display: none;
 }
 
-.task__start--showed, .task__steps--showed, .task__status--showed {
-    display: block;
+.task__start--showed, .task__steps--showed, .task__status--showed, .task__comment--showed {
+    display: inline-block;
 }
 
 .listitem--inactive {
@@ -682,6 +733,7 @@ span.text-link {
 
 .fotorama__arr,.fotorama__fullscreen-icon,.fotorama__video-close,.fotorama__video-play {
     background-image: url(../images/icon-arrows.png);
+    background-repeat: no-repeat;
 }
 
 .fotorama__nav.fotorama__nav--thumbs {
@@ -692,12 +744,5 @@ span.text-link {
 .fotorama__thumb-border {
     border-color: #ff0000;
 }
-
-
-
-
-
-
-
 
 

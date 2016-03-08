@@ -332,6 +332,14 @@ p {
             transform: translateY(-3px);
 }
 
+.counter__item--deadline {
+    margin-left: 30px;
+}
+
+.counter__item--deadline .counter__text {
+    width: 100px;
+}
+
 .budu_golosovat .counter, .privel .counter, .pomogat .counter {
     margin: 15px 0 55px 0;
 }
