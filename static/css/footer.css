@@ -23,11 +23,12 @@
 
 .footer__text {
     margin-right: 10px;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .likely {
-    vertical-align: top;
+    vertical-align: middle;
+    margin: 0;
 }
 
 .footer__links .flexbox__item {
@@ -50,4 +51,57 @@
 
 .footer__links .flexbox__item:last-of-type .text-small {
     color: #707070;
+}
+
+.likely .likely__widget {
+    height: auto;
+    margin: .5em;
+    line-height: 1.5;
+    border: 0;
+    text-align: left;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.likely .likely__icon {
+    display: none;
+}
+
+.likely .likely__button {
+    padding: 0 15px;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.likely__button.likely__button_twitter {
+    background-color: #3cc6ee;
+}
+
+.likely__button.likely__button_twitter:hover {
+    background-color: #0ebaec;
+}
+
+.likely__button.likely__button_vkontakte {
+    background-color: #6e8eb3;
+}
+
+.likely__button.likely__button_vkontakte:hover {
+    background-color: #4c75a3;
+}
+
+.likely__button.likely__button_facebook {
+    background-color: #5f77af;
+}
+
+.likely__button.likely__button_facebook:hover {
+    background-color: #3a589e;
+}
+
+.likely__button.likely__button_odnoklassniki {
+    background-color: #ee9853;
+}
+
+.likely__button.likely__button_odnoklassniki:hover {
+    background-color: #ed812b;
 }

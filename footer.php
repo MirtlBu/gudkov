@@ -1,11 +1,12 @@
 <footer class='footer'>
     <div class="container">
         <div class="footer__social">
-            <div class="footer__text">Расскажи друзьям о кампании</div>
-            <div class="likely">
-                <div class="twitter">Твитнуть</div>
-                <div class="facebook">Поделиться</div>
-                <div class="vkontakte">Поделиться</div>
+            <div class="footer__text">Расскажи друзьям о кампании:</div>
+            <div class="likely" data-url="ссылка на сайт" data-title="Гудков" >
+                <div class="twitter" data-via="gudkov" >в Твиттере</div>
+                <div class="vkontakte">ВКонтакте</div>
+                <div class="facebook">Фейсбуке</div>
+                <div class="odnoklassniki">Одноклассниках</div>
             </div>
         </div>
         <div class="footer__links flexbox">

@@ -752,3 +752,7 @@ span.text-link {
     margin-bottom: 10px;
 }
 
+.accept__controls .button {
+    margin-bottom: 0;
+}
+

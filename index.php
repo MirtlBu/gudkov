@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="/static/css/style.css" type="text/css">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:image" content="path/to/картинка для фэйсбучных шэров" />
     </head>
     <body>
 

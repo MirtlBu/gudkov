@@ -55,9 +55,15 @@
     border-radius: 8px;
     padding: 0 15px;
     box-sizing: border-box;
-    /*box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.05) inset;*/
+    -webkit-box-shadow: inset 0px 1px 2px 1px rgba(150, 150, 150, 0.05);
+    -moz-box-shadow:    inset 0px 1px 2px 1px rgba(150, 150, 150, 0.05);
+    box-shadow:         inset 0px 1px 2px 1px rgba(150, 150, 150, 0.05);
     font-size: 16px;
     z-index: 2;
+}
+
+.form__input--middle, .form__input--bottom {
+    box-shadow: none;
 }
 
 .form__textarea {
@@ -306,6 +312,7 @@ input[name="registration"]+.form__radio-button {
     border: 1px solid #e8e4de;
     border-radius: 8px;
     background-color: #fff;
+    box-shadow: inset 0px 1px 2px 1px rgba(150, 150, 150, 0.05);
 }
 
 .form__radio-circle:after {
@@ -418,7 +425,7 @@ input[name="street"] {
     margin-right: 5px;
 }
 
-.forma_agitator .form, .forma_coordinator .form, .forma_pomoschnik .form, .coordinatorskaya .form {
+.forma_agitator .form, .forma_coordinator .form, .forma_pomoschnik .form {
     width: 100%;
 }
 
@@ -493,6 +500,11 @@ input[name="street"] {
 
 .form--disabled .form__checkbox:hover, .form--disabled .form__radio-circle:hover {
     color: #010101;
+}
+
+.form--disabled .form__textarea[name="accept_message"] {
+    background-color: #fff;
+    pointer-events: visible;
 }
 
 .form--steps {
@@ -632,6 +644,10 @@ input[name="street"] {
 
 .form--tenant .add {
     display: inline-block;
+}
+
+.form--addhelper {
+    width: 100%;
 }
 
 
