@@ -40,7 +40,7 @@ span.text-link {
     border-bottom: 1px solid #ff0000;
 }
 
-.listitem__img, .dashboard__img {
+.listitem__img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -217,44 +217,7 @@ span.text-link {
     flex: 1.5;
 }
 
-.dashboard__img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    overflow: hidden;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 10px;
-}
 
-.dashboard__img img {
-    width: 80px;
-}
-
-.pomoshnik .dashboard {
-    padding: 20px 0;
-}
-
-.pomoshnik .dashboard__tablo {
-    margin-left: 0;
-}
-
-.pomoshnik .dashboard__img, .pomoshnik .dashboard__title {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.pomoshnik .dashboard__title {
-    margin-bottom: 0;
-}
-
-.dashboard__user {
-    margin-bottom: 20px;
-}
-
-.pomoshnik .button--dashboard {
-    margin: 30px auto 20px auto;
-}
 
 .progressboard {
     width: 500px;
@@ -754,4 +717,38 @@ span.text-link {
     border-color: #ff0000;
 }
 
+.steps__header {
+    margin-bottom: 35px;
+}
+
+.steps-coordinator__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.steps-coordinator__img img {
+    width: 80px;
+}
+
+.steps-coordinator__img, .steps-coordinator__info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.steps__coordinator > .text-small--light{
+    margin-bottom: 10px;
+}
+
+.steps__header .text-small--light {
+    line-height: 13px;
+}
+
+.steps__dates > div {
+    margin-bottom: 10px;
+}
 

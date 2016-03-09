@@ -308,10 +308,82 @@
                 </div>
             </div>
         </div>
-        <form class="form form--disabled form--tenant">
+        <form class="form form--tenant">
             <div class="form__row">
-                <div class="form__title text-big">Жилец <span class="tenant_number"></span></div>
-                <div class="form__edit form__edit--edit button button--small button--blue">Редактировать</div>
+                <div class="form__title text-big">Жилец 1<span class="tenant_number"></span></div>
+            </div>
+            <div class="form__row form__row--cluster">
+                <label for="name1" class="form__label">Имя,</label>
+                <input id="name1" name="name1" class="form__input form__input--top" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
+            </div>
+            <div class="form__row form__row--cluster">
+                <label for="middlename1" class="form__label">отчество</label>
+                <input id="middlename1" name="middlename1" class="form__input form__input--middle" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
+            </div>
+            <div class="form__row">
+                <label for="surname1" class="form__label">фамилия</label>
+                <input id="surname1" name="surname1" class="form__input form__input--bottom" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
+            </div>
+            <div class="form__row">
+                <label for="phone_indistrict" class="form__label">Телефон</label>
+                <input id="phone_indistrict" name="phone_indistrict" class="form__input phone" placeholder="+7 912 456-68-61" type="text" required>
+            </div>
+            <div class="form__row">
+                <label for="party1" class="form__label">За кого</label>
+                <div class="form__radios">
+                    <div class="flexbox">
+                        <div class="flexbox__item">
+                            <div class="form__row">
+                                <input id="gudkov" name="party" value="gudkov" class="form__input form__input--hidden" type="radio" checked>
+                                <label for="gudkov" class="form__radio-circle">
+                                    <span class="party-icon party-icon--1"></span>
+                                    <span>За Гудкова</span>
+                                </label>
+                            </div>
+                            <div class="form__row">
+                                <input id="kprf" name="party" value="kprf" class="form__input form__input--hidden" type="radio" checked>
+                                <label for="kprf" class="form__radio-circle">
+                                    <span class="party-icon party-icon--2"></span>
+                                    <span>КПРФ</span>
+                                </label>
+                            </div>
+                            <div class="form__row">
+                                <input id="edro" name="party" value="edro" class="form__input form__input--hidden" type="radio" checked>
+                                <label for="edro" class="form__radio-circle">
+                                    <span class="party-icon party-icon--3"></span>
+                                    <span>За Единую Россию</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="flexbox__item">
+                            <div class="form__row">
+                                <input id="other" name="party" value="other" class="form__input form__input--hidden" type="radio" checked>
+                                <label for="other" class="form__radio-circle">
+                                    <span class="party-icon party-icon--4"></span>
+                                    <span>Другое</span>
+                                </label>
+                            </div>
+                            <div class="form__row">
+                                <input id="novoite" name="party" value="novoite" class="form__input form__input--hidden" type="radio" checked>
+                                <label for="novoite" class="form__radio-circle">
+                                    <span class="party-icon party-icon--5"></span>
+                                    <span>Не ходит на выборы</span>
+                                </label>
+                            </div>
+                            <div class="form__row">
+                                <input id="nodata" name="party" value="nodata" class="form__input form__input--hidden" type="radio" checked>
+                                <label for="nodata" class="form__radio-circle">
+                                    <span class="party-icon party-icon--6"></span>
+                                    <span>Неизвестно</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form__row form__row--lined">
+                <div class="form__title text-big">Жилец 2<span class="tenant_number"></span></div>
+                <div class="form__edit form__edit--remove text-link">Удалить</div>
             </div>
             <div class="form__row form__row--cluster">
                 <label for="name1" class="form__label">Имя,</label>
@@ -383,10 +455,26 @@
                 </div>
             </div>
             <div class="form__row">
+                <label for="relation" class="form__label">Связь с первым</label>
+                <input id="relation" name="relation" class="form__input" type="text" required>
+            </div>
+            <div class="form__row">
+                <label for="" class="form__label"></label>
+                <div class="add">
+                    <div class="add__button form__radio-button">
+                        <div class="add__image"></div>
+                    </div>
+                    <div class="text-small add__text">Добавить жильца</div>
+                </div>
+            </div>
+            <div class="form__row form__row--lined">
                 <label for="other1" class="form__label">Комментарий</label>
                 <textarea id="other1" name="other1" class="form__textarea form__input--long"></textarea>
             </div>
-            <div class="icon-close"></div>
+            <div class="form__row form__row--lined">
+                <label class="form__label"></label>
+                <button class="button button--blue" type="button">Сохранить</button>
+            </div>
         </form>
 
     </div>

@@ -48,3 +48,42 @@
 .dashboard__bold {
     font-weight: 500;
 }
+
+.dashboard__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.dashboard__img img {
+    width: 80px;
+}
+
+.pomoshnik .dashboard {
+    padding: 20px 0;
+}
+
+.pomoshnik .dashboard__tablo {
+    margin-left: 0;
+}
+
+.pomoshnik .dashboard__img, .pomoshnik .dashboard__title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pomoshnik .dashboard__title {
+    margin-bottom: 0;
+}
+
+.dashboard__user {
+    margin-bottom: 20px;
+}
+
+.pomoshnik .button--dashboard {
+    margin: 30px auto 20px auto;
+}

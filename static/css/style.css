@@ -524,11 +524,11 @@ p {
     padding: 40px 0;
 }
 
-.flexbox--triple, .flexbox--double {
+.flexbox--triple, .flexbox--double, .flexbox--multiply {
     justify-content: flex-start;
 }
 
-.flexbox--triple .flexbox__item {
+.flexbox--triple .flexbox__item, .flexbox--multiply .flexbox__item {
     width: 140px;
 }
 

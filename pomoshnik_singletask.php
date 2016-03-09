@@ -36,10 +36,38 @@
         <div class="flexbox">
             <div class="flexbox__item">
                 <form class="form form--steps">
-                    <div class="dates">
-                        <div class="text-small text-small--light">Поставлено <span class="created_at">26 февраля</span></div>
-                        <div class="text-small text-small--light">Дедлайн <span class="deadline_at">12 марта</span></div>
+                    <div class="steps__header">
+                        <div class="flexbox">
+                            <div class="flexbox__item steps__coordinator">
+                                <div class="text-small text-small--light">Задачу поставил:</div>
+                                <div class="steps-coordinator__img">
+                                    <img src="/static/images/userpic.jpg">
+                                </div>
+                                <div class="steps-coordinator__info">
+                                    <div class="steps-coordinator__name text-big">Алексей Шпановский</div>
+                                    <div class="steps-coordinator__socials">
+                                        <div>
+                                            <a class="text-small text-link">Вконтакте</a>
+                                        </div>
+                                        <div>
+                                            <a class="text-small text-link">Фейсбук</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flexbox__item steps__dates">
+                                <div class="">
+                                    <div class="text-small text-small--light">Поставлено</div>
+                                    <span class="text-small created_at">26 февраля</span>
+                                </div>
+                                <div class="">
+                                    <div class="text-small text-small--light">Дедлайн</div>
+                                    <span class="text-small deadline_at">12 марта</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                     <div class="text-big steps__title">Шаги</div>
                     <div class="steps__item">
                         <div class="flexbox">
