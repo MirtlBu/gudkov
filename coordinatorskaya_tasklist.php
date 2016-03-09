@@ -42,9 +42,13 @@
                     <div class="text-bigger">Список заданий</div>
                 </div>
                 <div class="flexbox__item flexbox__item--right">
-                    <div class="text-small flexbox__container filter-wrap">
-                        <div>Сколько помощников выполнили</div>
-                        <div class="filter">Сначала худшие</div>
+                    <div class="text-small flexbox__item filter">
+                        <div class="filter__title">Выполнили шагов</div>
+                        <select class="filter__dropdown">
+                            <option class="filter__option">Решённые</option>
+                            <option class="filter__option">Нерешённые</option>
+                            <option class="filter__option">Все ошибки</option>
+                        </select>
                     </div>
                 </div>
             </div>

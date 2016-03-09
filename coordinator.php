@@ -91,8 +91,14 @@
                     <div class="table__header flexbox">
                         <div class="text-small flexbox__item">Помощники (Всего 123)</div>
                         <div class="text-small flexbox__item">
-                            <div>Выполнили шагов</div>
-                            <div class="filter">По алфавиту</div>
+                            <div class="text-small flexbox__item filter">
+                                <div class="filter__title">Выполнили шагов</div>
+                                <select class="filter__dropdown">
+                                    <option class="filter__option">Решённые</option>
+                                    <option class="filter__option">Нерешённые</option>
+                                    <option class="filter__option">Все ошибки</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                     <div class="table__row">

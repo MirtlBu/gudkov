@@ -64,8 +64,14 @@
                     <div class="table__header flexbox">
                         <div class="text-small flexbox__item">Координаторы (Всего 24)</div>
                         <div class="text-small flexbox__item">
-                            <div>Сколько помощников выполнили</div>
-                            <div class="filter">Сначала худшие</div>
+                            <div class="text-small flexbox__item filter">
+                                <div class="filter__title">Выполнили шагов</div>
+                                <select class="filter__dropdown">
+                                    <option class="filter__option">Решённые</option>
+                                    <option class="filter__option">Нерешённые</option>
+                                    <option class="filter__option">Все ошибки</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                     <a href="" class="table__row flexbox listitem listitem--link">

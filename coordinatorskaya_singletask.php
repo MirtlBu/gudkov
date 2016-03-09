@@ -38,13 +38,13 @@
     <div class="container coordinator">
         <a href="" class="breadcrumbs-content text-link" onClick="admin.displayContainer('tasksList'); return false;">Все задания</a>
         <div class="">
-            <a href="" class="">
-                <span class="text-link text-bigger taskname">Разнести газеты по подъездам</span>
+            <div class="">
+                <span class="text-bigger taskname">Разнести газеты по подъездам</span>
                 <span class="text-small--light">(Все координаторы)</span>
-            </a>
+            </div>
             <div class="flexbox">
                 <div class="flexbox__item">
-                    <div class="steps">
+                    <!-- <div class="steps">
                         <div class="steps__item">
                             <div class="text-small text-small--light">Координатор</div>
                             <div class="text-big">Алексей Шпановский</div>
@@ -67,7 +67,7 @@
                                 <div class="steps__row">55 из 134</div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="steps">
                         <div class="dates">
                             <div class="text-small text-small--light">Поставлено <span class="created_at">26 февраля</span></div>
@@ -103,9 +103,13 @@
                 <div class="flexbox__item table">
                     <div class="table__header flexbox">
                         <div class="text-small flexbox__item">Помощники (Всего <span class="total_helpers">123</span>)</div>
-                        <div class="text-small flexbox__item">
-                            <div>Выполнили шагов</div>
-                            <div class="filter">По алфавиту</div>
+                        <div class="text-small flexbox__item filter">
+                            <div class="filter__title">Выполнили шагов</div>
+                            <select class="filter__dropdown">
+                                <option class="filter__option">Решённые</option>
+                                <option class="filter__option">Нерешённые</option>
+                                <option class="filter__option">Все ошибки</option>
+                            </select>
                         </div>
                     </div>
                     <div class="table__row">
@@ -118,8 +122,8 @@
                                 <img src="/static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
-                                <div class="text-big helper_name">Алексей Шпановский</div>
-                                <div class="text-small helper_phone">+7 904 335-66-45</div>
+                                <a href="" class="text-big text-link helper_name">Алексей Шпановский</a>
+                                <div class="text-small text-linkhelper_phone">+7 904 335-66-45</div>
                             </div>
                         </div>
                         <div class="flexbox__item task_status">
@@ -132,7 +136,7 @@
                                 <img src="/static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
-                                <div class="text-big helper_name">Валера Кизякин</div>
+                                <a href="" class="text-big text-link helper_name">Валера Кизякин</a>
                                 <div class="text-small helper_phone">+7 904 335-66-45</div>
                             </div>
                         </div>
@@ -150,7 +154,7 @@
                                 <img src="/static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
-                                <div class="text-big helper_name">Игнат Баранов</div>
+                                <a href="" class="text-big text-link helper_name">Игнат Баранов</a>
                                 <div class="text-small helper_phone">+7 904 335-66-45</div>
                             </div>
                         </div>
@@ -164,7 +168,7 @@
                                 <img src="/static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
-                                <div class="text-big helper_name">Алексей Шпановский</div>
+                                <a href="" class="text-big text-link helper_name">Алексей Шпановский</a>
                                 <div class="text-small helper_phone">+7 904 335-66-45</div>
                             </div>
                         </div>
@@ -178,7 +182,7 @@
                                 <img src="/static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
-                                <div class="text-big helper_name">Игнат Баранов</div>
+                                <a href="" class="text-big text-link helper_name">Игнат Баранов</a>
                                 <div class="text-small helper_phone">+7 904 335-66-45</div>
                             </div>
                         </div>

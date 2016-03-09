@@ -650,6 +650,10 @@ input[name="street"] {
     width: 100%;
 }
 
+#street-other {
+    z-index: 51;
+}
+
 
 
 

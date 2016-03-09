@@ -32,8 +32,14 @@
             <div class="table">
                 <div class="table__header flexbox">
                     <div class="text-small flexbox__item">
-                        <div>Типы ошибки</div>
-                        <div class="filter">Все типы</div>
+                        <div class="text-small flexbox__item filter">
+                            <div class="filter__title">Выполнили шагов</div>
+                            <select class="filter__dropdown">
+                                <option class="filter__option">Решённые</option>
+                                <option class="filter__option">Нерешённые</option>
+                                <option class="filter__option">Все ошибки</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="text-small flexbox__item">Подробности</div>
                     <div class="text-small flexbox__item">Кто накосячил</div>

@@ -476,6 +476,11 @@ span.text-link {
     margin-left: 15px;
 }
 
+.coordinator .text-bigger {
+    display: inline-block;
+    margin: 0 0 34px 0;
+}
+
 .pomoshnik .text-bigger {
     margin: 0 0 34px 20px;
 }

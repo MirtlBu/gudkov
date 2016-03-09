@@ -299,7 +299,7 @@ p {
     -webkit-flex: 3;
         -ms-flex: 3;
             flex: 3;
-    top: 74px;
+    top: 70px;
 }
 
 .counter__item {
@@ -586,29 +586,15 @@ p {
     background-position: -10px 0;
 }
 
-.filter-wrap {
-    width: 140px;
-}
-
 .filter {
-    display: inline-block;
     position: relative;
-    padding-right: 30px;
-    color: #0096ff;
+    display: inline-block;
     cursor: pointer;
     margin-top: 5px;
 }
 
-.filter:after {
-    content: '';
-    position: absolute;
-    width: 19px;
-    height: 12px;
-    right: 0;
-    top: 3px;
-    background-image: url(../images/icon-filter.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
+.filter__title {
+    margin-bottom: 5px;
 }
 
 .hr {
