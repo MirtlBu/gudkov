@@ -14,7 +14,7 @@
                     <div class="donate__text">Кампания работает только на&nbsp;ваши пожертвования.
                         Без денег газеты не&nbsp;напечатаешь, грузчиков, не наймешь и&nbsp;штаб не&nbsp;арендуешь.
                     </div>
-                    <button class="donate__button button button--red" type="button">Помочь деньгми</button>
+                    <button class="donate__button button button--red" type="button">Помочь деньгами</button>
                     <div class="counter">
                         <div class="counter__item">
                             <span class="counter__num">200</span>
@@ -32,6 +32,13 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="eventswitcher">
+            <div class="eventswitcher__title">События</div>
+            <div class="eventswitcher__button eventswitcher__button--active">на карте</div>
+            <div class="eventswitcher__button">списком</div>
         </div>
     </div>
 </div>
