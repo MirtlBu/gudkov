@@ -52,6 +52,11 @@ p {
     margin: 10px 0;
 }
 
+
+.containers {
+	min-height: 600px;
+}
+
 .container {
     position: relative;
     width: 1000px;
