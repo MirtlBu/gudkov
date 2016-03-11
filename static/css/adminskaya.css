@@ -693,35 +693,6 @@ span.text-link {
     padding-bottom: 0;
 }
 
-.fotorama__arr {
-    width: 27px;
-    height: 40px;
-    margin-top: -15px;
-    transform: none;
-}
-
-.fotorama__arr--next {
-    background-position: -27px 0;
-}
-
-.fotorama__arr:focus, .fotorama__fullscreen-icon:focus {
-    border-radius: 0;
-}
-
-.fotorama__arr,.fotorama__fullscreen-icon,.fotorama__video-close,.fotorama__video-play {
-    background-image: url(../images/icon-arrows.png);
-    background-repeat: no-repeat;
-}
-
-.fotorama__nav.fotorama__nav--thumbs {
-    text-align: left;
-    margin-left: 32px;
-}
-
-.fotorama__thumb-border {
-    border-color: #ff0000;
-}
-
 .steps__header {
     margin-bottom: 35px;
 }

@@ -246,7 +246,7 @@
                                 <div class="fotorama" data-width="100%"
                                                       data-maxheight="330"
                                                       data-nav="thumbs"
-                                                      data-arrows="true"
+                                                      data-arrows="always"
                                                       data-click="true"
                                                       data-swipe="true"
                                                       data-thumbmargin="10"

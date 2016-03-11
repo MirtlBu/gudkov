@@ -41,11 +41,9 @@
             <div class="eventswitcher__button">списком</div>
         </div>
     </div>
-    <div class="hr-wrap">
+    <div class="onmap">
         <div class="hr"></div>
-    </div>
-    <div class="container">
-        <div class="onmap">
+        <div class="container">
             <div class="calendar">
                 <div class="calendar__items flexbox flexbox--start">
                     <div class="calendar__item calendar__item--active">
@@ -90,6 +88,98 @@
                     </div>
                 </div>
                 <div class="calendar__control"></div>
+            </div>
+        </div>
+        <div class="map">
+            <div class="map-container"><!--сюда карту--></div>
+            <div class="container">
+                <div class="slider fotorama" data-width="280"
+                                             data-height="550"
+                                             data-nav="false"
+                                             data-arrows="always"
+                                             data-click="true"
+                                             data-swipe="true">
+                    <div class="event">
+                        <div class="event__container">
+                            <div class="event__title">Пикет в Щукино</div>
+                            <div class="event__task">
+                                <span class="event__bold">Задачи:</span> раздавать материалы, общаться с избирателями, собирать контакты
+                            </div>
+                        </div>
+                        <a href="" class="event__button button button--blue">Записаться</a>
+                        <div class="event__container">
+                            <div class="event__date">
+                                <span class="event__bold">Время:</span> с 16 до 20:00/ Можно прийти на час или больше
+                            </div>
+                            <p>На каждом пикете есть опытный агитатор, он вам всё раскажет, если нужно проведёт краткое обучение.</p>
+                            <div class="event__organizer">
+                                <div class="event__bold">Организатор:</div>
+                                <div class="organizer">
+                                    <div class="organizer__img">
+                                        <img src="/static/images/userpic.jpg">
+                                    </div>
+                                    <div class="organizer__name">Александра Серова</div>
+                                </div>
+                            </div>
+                            <div class="quote">«Отличная погода, приходите со мной агитировать за Гудкова»</div>
+                        </div>
+                        <div class="event__more">Ещё активности</div>
+                    </div>
+                    <div class="event">
+                        <div class="event__container">
+                            <div class="event__title">Пикет в Бутово</div>
+                            <div class="event__task">
+                                <span class="event__bold">Задачи:</span> собирать контакты
+                            </div>
+                        </div>
+                        <a href="" class="event__button button button--blue">Записаться</a>
+                        <div class="event__container">
+                            <div class="event__date">
+                                <span class="event__bold">Время:</span> с 16 до 20:00
+                            </div>
+                            <p>На каждом пикете есть опытный агитатор.</p>
+                            <div class="event__organizer">
+                                <div class="event__bold">Организатор:</div>
+                                <div class="organizer">
+                                    <div class="organizer__img">
+                                        <img src="/static/images/userpic.jpg">
+                                    </div>
+                                    <div class="organizer__name">Александра Серова</div>
+                                </div>
+                            </div>
+                            <div class="quote">«Отличная погода!»</div>
+                        </div>
+                        <div class="event__more">Ещё активности</div>
+                    </div>
+                    <div class="event">
+                        <div class="event__container">
+                            <div class="event__title">Пикет в Щукино</div>
+                            <div class="event__task">
+                                <span class="event__bold">Задачи:</span> раздавать материалы, общаться с избирателями, собирать контакты, раздавать материалы, общаться с избирателями, собирать контакты
+                            </div>
+                        </div>
+                        <a href="" class="event__button button button--blue">Записаться</a>
+                        <div class="event__container">
+                            <div class="event__date">
+                                <span class="event__bold">Время:</span> с 16 до 20:00/ Можно прийти на час или больше
+                            </div>
+                            <p>На каждом пикете есть опытный агитатор, он вам всё раскажет, если нужно проведёт краткое обучение.</p>
+                            <p>На каждом пикете есть опытный агитатор, он вам всё раскажет, если нужно проведёт краткое обучение.</p>
+                            <p>На каждом пикете есть опытный агитатор, он вам всё раскажет, если нужно проведёт краткое обучение.</p>
+                            <div class="event__organizer">
+                                <div class="event__bold">Организатор:</div>
+                                <div class="organizer">
+                                    <div class="organizer__img">
+                                        <img src="/static/images/userpic.jpg">
+                                    </div>
+                                    <div class="organizer__name">Александра Серова</div>
+                                </div>
+                            </div>
+                            <div class="quote">«Отличная погода, приходите со мной агитировать за Гудкова, Отличная погода, приходите со мной агитировать за Гудкова»</div>
+                            <div class="event__more">Ещё активности</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
