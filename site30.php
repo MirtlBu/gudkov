@@ -41,4 +41,56 @@
             <div class="eventswitcher__button">списком</div>
         </div>
     </div>
+    <div class="hr-wrap">
+        <div class="hr"></div>
+    </div>
+    <div class="container">
+        <div class="onmap">
+            <div class="calendar">
+                <div class="calendar__items flexbox flexbox--start">
+                    <div class="calendar__item calendar__item--active">
+                        <div class="calendar__num">5 марта</div>
+                        <div class="calendar__day">Вторник</div>
+                    </div>
+                    <div class="calendar__item">
+                        <div class="calendar__num">6 марта</div>
+                        <div class="calendar__day">Среда</div>
+                    </div>
+                    <div class="calendar__item">
+                        <div class="calendar__num">7 марта</div>
+                        <div class="calendar__day">Четверг</div>
+                    </div>
+                    <div class="calendar__item">
+                        <div class="calendar__num">8 марта</div>
+                        <div class="calendar__day">Пятница</div>
+                    </div>
+                    <div class="calendar__item">
+                        <div class="calendar__num">9 марта</div>
+                        <div class="calendar__day">Суббота</div>
+                    </div>
+                    <div class="calendar__item">
+                        <div class="calendar__num">10 марта</div>
+                        <div class="calendar__day">Воскресенье</div>
+                    </div>
+                    <div class="calendar__item">
+                        <div class="calendar__num">11 марта</div>
+                        <div class="calendar__day">Понедельник</div>
+                    </div>
+                    <div class="calendar__item">
+                        <div class="calendar__num">12 марта</div>
+                        <div class="calendar__day">Вторник</div>
+                    </div>
+                    <div class="calendar__item">
+                        <div class="calendar__num">13 марта</div>
+                        <div class="calendar__day">Среда</div>
+                    </div>
+                    <div class="calendar__item">
+                        <div class="calendar__num">14 марта</div>
+                        <div class="calendar__day">Четверг</div>
+                    </div>
+                </div>
+                <div class="calendar__control"></div>
+            </div>
+        </div>
+    </div>
 </div>
