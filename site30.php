@@ -91,7 +91,9 @@
             </div>
         </div>
         <div class="map">
-            <div class="map-container"><!--сюда карту--></div>
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
             <div class="container">
                 <div class="slider fotorama" data-width="280"
                                              data-height="550"
@@ -184,3 +186,31 @@
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+
+gdMap = {
+
+	init: function(){
+		gdMap.initMap();
+	},
+
+	initMap: function(){
+
+		gdMap.map = new google.maps.Map(document.getElementById('map'), {
+		zoom: 13,
+		center: {lat: 55.80758869866716, lng: 37.46141795117189},
+		scrollwheel : false,
+		navigationControl: false,
+		scaleControl: false,
+		mapTypeControl: false,
+		});
+
+	},
+
+};
+
+</script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1QFnZAC1l-koq08KZi8tQilnvf_FbLGo&signed_in=true&callback=gdMap.init&v=3"></script>
+
