@@ -182,6 +182,55 @@
                         </div>
                     </div>
                 </div>
+                <div class="map__eventinfo">
+                    <div class="eventinfo__text">
+                        Ежедневно нужно звонить избирателям, агитировать на пикетах, организовывать работу в штабе и ходить по квартирам.
+                    </div>
+                    <div class="eventinfo__counter">
+                        <div class="counter">
+                            <div class="counter__item">
+                                <span class="counter__num">25</span>
+                                <span class="counter__text">придут сегодня</span>
+                            </div>
+                            <div class="counter__item">
+                                <div class="counter__num">/</div>
+                            </div>
+                            <div class="counter__item">
+                                <span class="counter__num">400</span>
+                                <span class="counter__text">нужно</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map__baloon">Пикет в Митино</div>
+        </div>
+        <div class="container">
+            <div class="needhelp">
+                <p>Нужны люди, готовые помогать в своих подъездах и живущие в районах:</p>
+                <p class="text-bold">Митино, Строгино, Покровское-Стрешнево, Хорошево-Мневники, Щукино, Южное Тушино</p>
+                <a htef="" class="needhelp__button button button--blue">Живу в округе и хочу помогать</a>
+                <div class="needhelp__counter">
+                    <div class="counter">
+                        <div class="counter__item">
+                            <span class="counter__num">245</span>
+                            <div class="counter__text">
+                                <div>уже</div>
+                                <div>с нами</div>
+                            </div>
+                        </div>
+                        <div class="counter__item">
+                            <div class="counter__num">/</div>
+                        </div>
+                        <div class="counter__item">
+                            <span class="counter__num">400</span>
+                            <div class="counter__text">
+                                <div>нужно</div>
+                                <div>для победы</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
