@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Gudkov</title>
-        <link href='https://fonts.googleapis.com/css?family=Ubuntu:500,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/static/css/likely.css">
         <link rel="stylesheet" href="/static/css/fotorama.css">
         <link rel="stylesheet" href="/static/vendors/FancySelect/fancySelect.css" type="text/css">

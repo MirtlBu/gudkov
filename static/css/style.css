@@ -813,6 +813,7 @@ p {
 
 .onmap {
     padding-bottom: 40px;
+    display: none;
 }
 
 .calendar {
@@ -912,6 +913,10 @@ p {
 
 .event__task, .event__date, .event p, .event .quote {
     line-height: 19px;
+}
+
+.event .quote {
+    font-style: italic;
 }
 
 .organizer {
