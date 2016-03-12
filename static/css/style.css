@@ -849,12 +849,20 @@ p {
     font-size: 13px;
 }
 
+.calendar__today {
+    display: none;
+}
+
 .calendar__item--active .calendar__day {
     color: #000;
 }
 
 .calendar__item--active .calendar__num {
-    color: transparent;
+    display: none;
+}
+
+.calendar__item--active .calendar__today {
+    display: block;
 }
 
 .calendar__item--active .calendar__num:after {
