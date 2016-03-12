@@ -683,6 +683,7 @@ p {
 .events .fotorama__wrap {
     border-radius: 8px;
     overflow: hidden;
+    pointer-events: all;
 }
 
 .events {
@@ -971,6 +972,7 @@ p {
     bottom: 100px;
     left: 500px;
     cursor: pointer;
+    pointer-events: all;
 }
 
 .map__eventinfo {
@@ -982,6 +984,7 @@ p {
     top: 0;
     right: 0;
     border-radius: 14px;
+    pointer-events: all;
 }
 
 .eventinfo__text {
@@ -1289,6 +1292,7 @@ p {
 }
 
 .container.onmapContainer {
-	position: absolute;
-	left: 40px;		
+	/*position: absolute;
+	left: 40px;*/
+    pointer-events: none;
 }
