@@ -594,7 +594,6 @@ p {
 .filter {
     position: relative;
     display: inline-block;
-    cursor: pointer;
     margin-top: 5px;
 }
 
@@ -684,6 +683,7 @@ p {
 .events .fotorama__wrap {
     border-radius: 8px;
     overflow: hidden;
+    pointer-events: all;
 }
 
 .events {
@@ -812,8 +812,7 @@ p {
 }
 
 .onmap {
-    padding-bottom: 40px;
-    display: none;
+   /* display: none;*/
 }
 
 .calendar {
@@ -831,6 +830,7 @@ p {
     background-image: url(../images/icon-arrows.png);
     background-repeat: no-repeat;
     background-position: -27px 0;
+    cursor: pointer;
 }
 
 .calendar__item {
@@ -849,12 +849,20 @@ p {
     font-size: 13px;
 }
 
+.calendar__today {
+    display: none;
+}
+
 .calendar__item--active .calendar__day {
     color: #000;
 }
 
 .calendar__item--active .calendar__num {
-    color: transparent;
+    display: none;
+}
+
+.calendar__item--active .calendar__today {
+    display: block;
 }
 
 .calendar__item--active .calendar__num:after {
@@ -876,7 +884,7 @@ p {
     position: relative;
 }
 
-.event {
+.onmap .event {
     width: 280px;
     height: 100%;
     max-height: 550px;
@@ -887,7 +895,7 @@ p {
     overflow-y:  scroll;
 }
 
-.event__container {
+.onmap .event__container {
     padding: 0px 10px;
     box-sizing: border-box;
 }
@@ -896,7 +904,7 @@ p {
     font-weight: 500;
 }
 
-.event__button {
+.onmap .event__button {
     width: 100%;
     margin-bottom: 24px;
 }
@@ -937,7 +945,7 @@ p {
     width: 50px;
 }
 
-.event__more {
+.onmap .event__more {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -970,6 +978,7 @@ p {
     color: #fff;
     position: absolute;
     cursor: pointer;
+    pointer-events: all;
 }
 
 .map__eventinfo {
@@ -981,6 +990,7 @@ p {
     top: 0;
     right: 0;
     border-radius: 14px;
+    pointer-events: all;
 }
 
 .eventinfo__text {
@@ -1003,6 +1013,7 @@ p {
 .needhelp {
     width: 560px;
     margin-top: 35px;
+    padding-bottom: 40px;
 }
 
 .needhelp__button {
@@ -1019,6 +1030,31 @@ p {
     margin-left: 5px;
 }
 
+.bylist {
+    display: none;
+}
+
+.bylist .filter {
+    min-width: 150px;
+}
+
+.bylist .filter--district {
+    width: 175px;
+}
+
+.bylist__filters {
+    margin-bottom: 45px;
+}
+
+.bylist__col:nth-child(1) {
+    flex: 1.3;
+}
+.bylist__col:nth-child(2) {
+    flex: 6.3;
+}
+.bylist__col:nth-child(3) {
+    flex: 2.4;
+}
 
 @media screen and (max-height: 700px) {
 
@@ -1262,7 +1298,13 @@ p {
 }
 
 .container.onmapContainer {
+<<<<<<< HEAD
 	position: absolute;
 	left: 40px;		
 	width: 320px;
+=======
+	/*position: absolute;
+	left: 40px;*/
+    pointer-events: none;
+>>>>>>> origin/master
 }
