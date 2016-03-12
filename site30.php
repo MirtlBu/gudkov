@@ -37,11 +37,25 @@
     <div class="container">
         <div class="eventswitcher">
             <div class="eventswitcher__title">События</div>
-            <div class="eventswitcher__button eventswitcher__button--active">на карте</div>
-            <div class="eventswitcher__button">списком</div>
+            <div class="eventswitcher__button eventswitcher__button--active" data-view="map" onclick="switchEvents(this)">на карте</div>
+            <div class="eventswitcher__button" onclick="switchEvents(this)" data-view="list">списком</div>
         </div>
+        <script type="text/javascript">
+            function switchEvents(elem) {
+                if($(elem).hasClass('eventswitcher__button--active')) {
+                    return;
+                }
+                else {
+                    $('.view').removeClass('onmap--active').removeClass('onlist--active');
+                    $('.eventswitcher__button').removeClass('eventswitcher__button--active');
+                    $(elem).addClass('eventswitcher__button--active');
+                    view = $(elem).attr('data-view');
+                    $('.on' + view).addClass('on' + view + '--active');
+                }
+            }
+        </script>
     </div>
-    <div class="onmap">
+    <div class="view onmap onmap--active">
         <div class="hr"></div>
         <div class="container">
             <div class="calendar">
@@ -218,11 +232,9 @@
     </div>
 
 
-
-
-    <div class="bylist">
+    <div class="view onlist">
         <div class="container">
-            <div class="bylist__filters">
+            <div class="onlist__filters">
                 <div class="text-small filter filter--type">
                     <div class="filter__title">Сортировать по типу</div>
                     <select class="filter__dropdown">
@@ -243,10 +255,10 @@
                     </select>
                 </div>
             </div>
-            <div class="bylist__events">
+            <div class="onlist__events">
                 <div class="event">
                     <div class="flexbox">
-                        <div class="flexbox__item bylist__col">
+                        <div class="flexbox__item onlist__col">
                             <div class="event__dates">
                                 <div class="calendar__item">
                                     <div class="calendar__num">5 марта</div>
@@ -254,7 +266,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="flexbox__item bylist__col">
+                        <div class="flexbox__item onlist__col">
                             <div class="event__title">Пикет в Бутово</div>
                             <a href="" class="event__button button button--blue">Записаться</a>
                             <div class="event__task">
@@ -266,7 +278,7 @@
                             <p>На каждом пикете есть опытный агитатор. На каждом пикете есть опытный агитатор.</p>
                             <p>На каждом пикете есть опытный агитатор. На каждом пикете есть опытный агитатор. На каждом пикете есть опытный агитатор.</p>
                         </div>
-                        <div class="flexbox__item bylist__col">
+                        <div class="flexbox__item onlist__col">
                             <div class="event__organizer">
                                 <div class="event__bold">Организатор:</div>
                                 <div class="organizer">

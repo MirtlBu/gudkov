@@ -99,7 +99,7 @@ div.fancy-select ul.options li {
     margin: 10px 0;
 }
 
-.bylist .filter div.fancy-select div.trigger:after {
+.onlist .filter div.fancy-select div.trigger:after {
     content: none;
 }
 
