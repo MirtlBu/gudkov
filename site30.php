@@ -41,6 +41,7 @@
             <div class="eventswitcher__button" onclick="switchEvents(this)" data-view="list">списком</div>
         </div>
         <script type="text/javascript">
+        // just for test
             function switchEvents(elem) {
                 if($(elem).hasClass('eventswitcher__button--active')) {
                     return;
@@ -255,6 +256,7 @@
                     </select>
                 </div>
             </div>
+
             <div class="onlist__events">
                 <div class="event">
                     <div class="flexbox">
@@ -268,15 +270,14 @@
                         </div>
                         <div class="flexbox__item onlist__col">
                             <div class="event__title">Пикет в Бутово</div>
-                            <a href="" class="event__button button button--blue">Записаться</a>
+                            <a href="" class="event__button button button--blue button--small">Записаться</a>
                             <div class="event__task">
-                                <span class="event__bold">Задачи:</span> собирать контакты, собирать контакты, собирать контакты
+                                <span class="event__bold">Задачи:</span> раздавать материалы, общаться с избирателями, собирать контакты
                             </div>
                             <div class="event__date">
                                 <span class="event__bold">Время:</span> с 16 до 20:00
                             </div>
-                            <p>На каждом пикете есть опытный агитатор. На каждом пикете есть опытный агитатор.</p>
-                            <p>На каждом пикете есть опытный агитатор. На каждом пикете есть опытный агитатор. На каждом пикете есть опытный агитатор.</p>
+                            <p>На каждом пикете есть опытный агитатор, он вам всё раскажет, если нужно проведёт краткое обучение.</p>
                         </div>
                         <div class="flexbox__item onlist__col">
                             <div class="event__organizer">
@@ -291,8 +292,80 @@
                             <div class="quote">«Отличная погода! На каждом пикете есть опытный агитатор.»</div>
                         </div>
                     </div>
-                    <div class="event__more">Ещё активности</div>
                 </div>
+                <div class="event">
+                    <div class="flexbox">
+                        <div class="flexbox__item onlist__col">
+                            <div class="event__dates">
+                                <div class="calendar__item">
+                                    <div class="calendar__num">5 марта</div>
+                                    <div class="calendar__day">Вторник</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flexbox__item onlist__col">
+                            <div class="event__title">Пикет в Бутово</div>
+                            <a href="" class="event__button button button--blue button--small">Записаться</a>
+                            <div class="event__task">
+                                <span class="event__bold">Задачи:</span> раздавать материалы, общаться с избирателями, собирать контакты
+                            </div>
+                            <div class="event__date">
+                                <span class="event__bold">Время:</span> с 16 до 20:00
+                            </div>
+                            <p>На каждом пикете есть опытный агитатор, он вам всё раскажет, если нужно проведёт краткое обучение.
+                                На каждом пикете есть опытный агитатор, он вам всё раскажет, если нужно проведёт краткое обучение.
+                            </p>
+                            <p>На каждом пикете есть опытный агитатор, он вам всё раскажет, если нужно проведёт краткое обучение.</p>
+                        </div>
+                        <div class="flexbox__item onlist__col">
+                            <div class="event__organizer">
+                                <div class="event__bold">Организатор:</div>
+                                <div class="organizer">
+                                    <div class="organizer__img">
+                                        <img src="/static/images/userpic.jpg">
+                                    </div>
+                                    <div class="organizer__name">Александра Серова</div>
+                                </div>
+                            </div>
+                            <div class="quote">«Отличная погода! На каждом пикете есть опытный агитатор. Отличная погода!»</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="flexbox">
+                        <div class="flexbox__item onlist__col">
+                            <div class="event__dates">
+                                <div class="calendar__item">
+                                    <div class="calendar__num">5 марта</div>
+                                    <div class="calendar__day">Вторник</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flexbox__item onlist__col">
+                            <div class="event__title">Пикет в Бутово</div>
+                            <a href="" class="event__button button button--blue button--small">Записаться</a>
+                            <div class="event__task">
+                                <span class="event__bold">Задачи:</span> раздавать материалы, общаться с избирателями, собирать контакты
+                            </div>
+                            <div class="event__date">
+                                <span class="event__bold">Время:</span> с 16 до 20:00 На каждом пикете есть опытный агитатор.
+                            </div>
+                        </div>
+                        <div class="flexbox__item onlist__col">
+                            <div class="event__organizer">
+                                <div class="event__bold">Организатор:</div>
+                                <div class="organizer">
+                                    <div class="organizer__img">
+                                        <img src="/static/images/userpic.jpg">
+                                    </div>
+                                    <div class="organizer__name">Александра Серова</div>
+                                </div>
+                            </div>
+                            <div class="quote">«Отличная погода! На каждом пикете есть опытный агитатор.»</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event__more">Показать ещё</div>
             </div>
         </div>
         <div class="hr"></div>

@@ -24,6 +24,10 @@ a.button, div.button {
     line-height: 2.5;
 }
 
+a.button--small {
+    line-height: 2.2;
+}
+
 .button--blue {
     background-color: #0195ff;
 }
