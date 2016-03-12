@@ -358,7 +358,7 @@
                                     <div class="organizer__img">
                                         <img src="/static/images/userpic.jpg">
                                     </div>
-                                    <div class="organizer__name">Александра Серова</div>
+                                    <div class="organizer__name">Константин Константинопольский</div>
                                 </div>
                             </div>
                             <div class="quote">«Отличная погода! На каждом пикете есть опытный агитатор.»</div>

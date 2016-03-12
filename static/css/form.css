@@ -654,6 +654,16 @@ input[name="street"] {
     z-index: 51;
 }
 
+.addevent .form__row.otherme-text {
+    margin-top: -20px;
+}
+
+.addevent .flexbox__item .form__row {
+    margin-bottom: 10px;
+}
+
+
+
 
 
 

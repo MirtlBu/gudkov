@@ -750,7 +750,7 @@ p {
 .events span.counter__num, .events span.counter__text {
     width: auto;
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: top;
 }
 
 .events span.counter__num {
@@ -962,6 +962,10 @@ p {
     border-bottom-right-radius: 8px;
 }
 
+.organizer__name {
+    width: 100px;
+}
+
 .organizer__img, .organizer__name {
     display: inline-block;
     vertical-align: middle;
@@ -1122,6 +1126,36 @@ p {
 
 .eventswitcher__button:hover:after, .onlist .event__more:hover:after {
     border-bottom: 1px dashed #ff0000;
+}
+
+.addevent {
+    padding-bottom: 40px;
+}
+
+.addevent .dashboard {
+    background-color: #fff;
+    background-image: none;
+    margin-bottom: 0;
+}
+
+.addevent .calendar__item {
+    padding: 0;
+}
+
+.addevent .text-bigger {
+    margin-bottom: 5px;
+}
+
+.addevent .flexbox {
+    align-items: baseline;
+}
+
+.addevent .organizer {
+    margin: 5px 0 10px 0;
+}
+
+.addevent .eventinfo__counter {
+    margin-top: 20px;
 }
 
 @media screen and (max-height: 700px) {
@@ -1368,7 +1402,7 @@ p {
 .container.onmapContainer {
 <<<<<<< HEAD
 	position: absolute;
-	left: 40px;		
+	left: 40px;
 	width: 320px;
 =======
 	/*position: absolute;
