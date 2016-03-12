@@ -94,7 +94,7 @@
             <div class="map-container">
                 <div id="map"></div>
             </div>
-            <div class="container">
+            <div class="container onmapContainer">
                 <div class="slider fotorama" data-width="280"
                                              data-height="550"
                                              data-nav="false"
