@@ -974,15 +974,13 @@ p {
 }
 
 .map__baloon {
-    display: inline-block;
+    display: none;
     padding: 10px 15px;
     box-sizing: border-box;
     border-radius: 8px;
     background-color: #0096ff;
     color: #fff;
     position: absolute;
-    bottom: 100px;
-    left: 500px;
     cursor: pointer;
     pointer-events: all;
 }
@@ -1368,7 +1366,13 @@ p {
 }
 
 .container.onmapContainer {
+<<<<<<< HEAD
+	position: absolute;
+	left: 40px;		
+	width: 320px;
+=======
 	/*position: absolute;
 	left: 40px;*/
     pointer-events: none;
+>>>>>>> origin/master
 }
