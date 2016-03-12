@@ -26,6 +26,7 @@
     box-sizing: border-box;
     border-radius: 10px;
     text-align: center;
+    line-height: 21px;
     box-shadow: 0px 0px 60px 1px rgba(0, 0, 0, 0.5);
     z-index: 9999;
 }
@@ -99,4 +100,12 @@
 
 .modal5 {
     padding: 30px 40px 65px 40px;
+}
+
+.modal6 {
+    padding-bottom: 65px;
+}
+
+.modal6 .modal__title {
+    margin-bottom: 35px;
 }
