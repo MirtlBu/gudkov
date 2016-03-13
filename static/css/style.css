@@ -913,6 +913,19 @@ p {
     margin-bottom: 24px;
 }
 
+.event__button--hidden {
+    display: none;
+}
+
+.event__rolled {
+    margin-bottom: 25px;
+    display: none;
+}
+
+.event__rolled--active {
+    display: block;
+}
+
 .event__title {
     font-size: 20px;
     font-weight: 500;
@@ -1161,6 +1174,8 @@ p {
 .container.form--event {
     padding-bottom: 40px;
 }
+
+
 
 @media screen and (max-height: 700px) {
 

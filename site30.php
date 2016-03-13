@@ -133,6 +133,12 @@
                                 <span class="event__bold">Задачи:</span> раздавать материалы, общаться с избирателями, собирать контакты
                             </div>
                         </div>
+                        <div class="event__container event__rolled">
+                            <div>
+                                <span class="text-small text-link">25 уже записались</span>
+                             </div>
+                            <div class="text-small">400 нужно</div>
+                        </div>
                         <a href="" class="event__button button button--blue">Записаться</a>
                         <div class="event__container">
                             <div class="event__date">
@@ -159,6 +165,12 @@
                                 <span class="event__bold">Задачи:</span> собирать контакты
                             </div>
                         </div>
+                        <div class="event__container event__rolled">
+                            <div>
+                                <span class="text-small text-link">25 уже записались</span>
+                             </div>
+                            <div class="text-small">400 нужно</div>
+                        </div>
                         <a href="" class="event__button button button--blue">Записаться</a>
                         <div class="event__container">
                             <div class="event__date">
@@ -184,6 +196,12 @@
                             <div class="event__task">
                                 <span class="event__bold">Задачи:</span> раздавать материалы, общаться с избирателями, собирать контакты, раздавать материалы, общаться с избирателями, собирать контакты
                             </div>
+                        </div>
+                        <div class="event__container event__rolled">
+                            <div>
+                                <span class="text-small text-link">25 уже записались</span>
+                             </div>
+                            <div class="text-small">400 нужно</div>
                         </div>
                         <a href="" class="event__button button button--blue">Записаться</a>
                         <div class="event__container">
@@ -270,6 +288,12 @@
                         </div>
                         <div class="flexbox__item onlist__col">
                             <div class="event__title">Пикет в Бутово</div>
+                            <div class="event__container event__rolled">
+                                <div>
+                                    <span class="text-small text-link">25 уже записались</span>
+                                 </div>
+                                <div class="text-small">400 нужно</div>
+                            </div>
                             <a href="" class="event__button button button--blue button--small">Записаться</a>
                             <div class="event__task">
                                 <span class="event__bold">Задачи:</span> раздавать материалы, общаться с избирателями, собирать контакты
@@ -305,6 +329,12 @@
                         </div>
                         <div class="flexbox__item onlist__col">
                             <div class="event__title">Пикет в Бутово</div>
+                            <div class="event__container event__rolled">
+                                <div>
+                                    <span class="text-small text-link">25 уже записались</span>
+                                 </div>
+                                <div class="text-small">400 нужно</div>
+                            </div>
                             <a href="" class="event__button button button--blue button--small">Записаться</a>
                             <div class="event__task">
                                 <span class="event__bold">Задачи:</span> раздавать материалы, общаться с избирателями, собирать контакты
@@ -343,6 +373,12 @@
                         </div>
                         <div class="flexbox__item onlist__col">
                             <div class="event__title">Пикет в Бутово</div>
+                            <div class="event__container event__rolled">
+                                <div>
+                                    <span class="text-small text-link">25 уже записались</span>
+                                 </div>
+                                <div class="text-small">400 нужно</div>
+                            </div>
                             <a href="" class="event__button button button--blue button--small">Записаться</a>
                             <div class="event__task">
                                 <span class="event__bold">Задачи:</span> раздавать материалы, общаться с избирателями, собирать контакты
