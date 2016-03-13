@@ -9,7 +9,7 @@
                     Его не&nbsp;купить и&nbsp;не&nbsp;запугать. Независимых депутатов почти нет в&nbsp;Думе, но&nbsp;сейчас мы можем это&nbsp;изменить.
                 </div>
             </div>
-            <div class="flexbox__item">
+            <div class="flexbox__item flexbox__item--centered">
                 <div class="donate">
                     <div class="donate__text">Кампания работает только на&nbsp;ваши пожертвования.
                         Без денег газеты не&nbsp;напечатаешь, грузчиков, не наймешь и&nbsp;штаб не&nbsp;арендуешь.
@@ -31,6 +31,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="flexbox__item flexbox__item--hidden">
+                <a href="" class="button button--blue button--create">Создать событие</a>
             </div>
         </div>
     </div>

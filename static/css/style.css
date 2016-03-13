@@ -724,7 +724,7 @@ p {
     line-height: 20px;
 }
 
-.events .dashboard .flexbox__item:last-child {
+.flexbox__item--centered {
     text-align: left;
 }
 
@@ -1173,6 +1173,10 @@ p {
 
 .container.form--event {
     padding-bottom: 40px;
+}
+
+.flexbox__item--hidden {
+    display: none;
 }
 
 
