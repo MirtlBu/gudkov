@@ -1158,6 +1158,10 @@ p {
     margin-top: 20px;
 }
 
+.container.form--event {
+    padding-bottom: 40px;
+}
+
 @media screen and (max-height: 700px) {
 
     .golosuem {

@@ -27,4 +27,8 @@ $(function() {
         $(this).removeClass('button--pressed');
     });
 
+    $( "#datepicker" ).datepicker({
+      dateFormat: 'd.m'
+    });
+
 })

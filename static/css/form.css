@@ -71,6 +71,7 @@
     vertical-align: top;
     padding-top: 11px;
     resize: vertical;
+    resize: none;
 }
 
 .form__input:focus, .form__textarea:focus {
@@ -660,6 +661,56 @@ input[name="street"] {
 
 .addevent .flexbox__item .form__row {
     margin-bottom: 10px;
+}
+
+.radio-circles .form__row {
+    margin-bottom: 10px;
+}
+
+.radio-circles .flexbox__item:last-child {
+    margin-left: 10px;
+}
+
+.form--event .form {
+    width: 560px;
+}
+
+.form__label[for="event-participants"] {
+    vertical-align: bottom;
+}
+
+.form__input[name="event-participants"] {
+    margin-bottom: 10px;
+}
+
+.form__textarea[name="event-time-comment"] {
+    width: 250px;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.form--event .form__input--short {
+    width: 100px;
+}
+
+.datepicker {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/icon-datepicker.png);
+    top: 8px;
+    left: 195px;
+    z-index: 2;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+#datepicker {
+    cursor: pointer;
+}
+
+.form--event .text-bigger {
+    margin: 30px 0 20px 0;
 }
 
 
