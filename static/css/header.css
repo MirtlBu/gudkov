@@ -15,9 +15,8 @@
 }
 
 .logo {
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 20px;
+    vertical-align: middle;
 }
 
 .logo__img {
@@ -36,8 +35,26 @@
     background-color: #ff0000;
 }
 
-.breadcrumbs {
-    display: inline-block;
+.header2, .header3 {
+    background-color: #c6c6c6;
+    color: #010101;
+}
+
+.header2 .breadcrumbs__image, .header3 .breadcrumbs__image {
+    background-position: -26px 0;
+    background-color: #010101;
+}
+
+.header2 .logo__img, .header3 .logo__img {
+    background-color: #010101;
+    background-position: 0 0;
+}
+
+.header2 .logo__img:hover, .header3 .logo__img:hover {
+    background-color: #ff0000;
+}
+
+.header .breadcrumbs {
     vertical-align: middle;
 }
 
@@ -69,44 +86,34 @@
     color: #ff0000;
 }
 
-.directions__link {
+.header__others.flexbox {
+    justify-content: flex-end
+}
+
+.header__link {
     height: 30px;
     display: inline-block;
     padding: 0 20px;
     box-sizing: border-box;
+    font-size: 13px;
     line-height: 2.1;
 }
 
-.header__directions {
-    font-size: 0;
-}
-
-.header__directions .directions__link {
-    font-size: 13px;
-}
-
-.header__directions--right .directions__link {
-    color: #fff;
-    background-color: #ed1c24;
-    transition: background .2s;
-}
-
-.header__directions--left:hover .directions__link {
+.header__link:hover {
     color: #ed1c24;
-    transition: color .2s;
 }
 
-.header__directions--right:hover .directions__link {
-    background-color: #c40008;
+.header__item {
+    display: none;
 }
 
-.header__directions--last .directions__link {
+.header__item--privat {
     background-color: #494949;
     position: relative;
-    padding-right: 35px;
+    padding-right: 20px;
 }
 
-.header__directions--last .directions__link:after {
+.header__item--privat:after {
     content: '';
     position: absolute;
     top: 4px;
@@ -117,25 +124,26 @@
     background-repeat: no-repeat;
 }
 
-.header3 {
-    background-color: #c6c6c6;
-    color: #010101;
-}
-
-.header3 .header__directions--right .directions__link {
+.header__item--exit {
     background-color: #494949;
 }
 
-.header3 .breadcrumbs__image {
-    background-position: -26px 0;
-    background-color: #010101;
+.header__item--donate {
+    background-color: #ed1c24;
 }
 
-.header3 .logo__img {
-    background-color: #010101;
-    background-position: 0 0;
+.header__item--donate:hover {
+    background-color: #c40008;
 }
 
-.header3 .logo__img:hover {
-    background-color: #ff0000;
+.header__item--donate, .header__item--donate:hover a, .header__item--privat, .header__item--privat:hover a, .header__item--exit, .header__item--exit:hover a {
+    color: #fff;
+}
+
+.header__item--link a {
+    text-decoration: underline;
+}
+
+span.header__item--active, a.header__item--active {
+    display: inline-block;
 }
