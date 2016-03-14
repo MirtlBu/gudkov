@@ -1193,6 +1193,10 @@ p {
     width: 200px;
 }
 
+.likely .likely__widget {
+    background-color: transparent;
+}
+
 
 
 @media screen and (max-height: 700px) {
@@ -1320,6 +1324,7 @@ p {
 
     .likely .likely__widget {
         display: block;
+        margin-bottom: 10px;
     }
 
     .footer__links .flexbox__item:last-of-type {
