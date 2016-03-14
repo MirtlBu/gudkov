@@ -456,7 +456,9 @@ span.text-link {
     margin-right: 5px;
     border-radius: 50%;
     overflow: hidden;
-    background-color: #e7e7e8;
+    background-image: url(../images/userpic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .imageload__prev img {
