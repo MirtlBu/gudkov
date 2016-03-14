@@ -1,4 +1,4 @@
-<div class="modal-wrap modal-wrap--active" style="display: block">
+<div class="modal-wrap modal-wrap--active">
     <div class="modal enrolled">
         <div class="modal__title">
             <span class="text-bigger">Пикет в Щукино</span>
