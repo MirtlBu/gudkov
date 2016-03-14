@@ -16,7 +16,8 @@
             </div>
             <div class="flexbox__item">
                 <div class="flexbox__container">
-                    <button class="button button--blue" type="button">Добавить помощника</button>
+                    <a href="" class="button button--blue" type="button">Добавить помощника</a>
+                    <a href="" class="button button--blue" type="button">+1 голос к победе</a>
                     <div class="dashboard__row dashboard__bold">УИКи:</div>
                     <div class="flexbox">
                         <div class="flexbox__item">

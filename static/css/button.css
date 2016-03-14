@@ -90,16 +90,13 @@ a.button--small {
 .dashboard .button {
     width: 240px;
     margin-bottom: 10px;
-}
-
-.coordinatorskaya .button {
-    margin-bottom: 30px;
+    display: block;
 }
 
 .dashboard__rate .button {
     width: auto;
     display: inline-block;
-    margin: 15px 10px 0 0;
+    margin: 7px 10px 0 0;
 }
 
 .steps__item .button{

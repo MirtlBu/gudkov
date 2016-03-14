@@ -66,6 +66,12 @@
                     </div>
                 </div>
                 <div class="campaignprogress">
+                    <div class="counter counter--need">
+                        <div class="counter__num">13</div>
+                        <div class="counter__text">из</div>
+                        <div class="counter__num">135</div>
+                        <div class="counter__text counter__text--long">голосов ваших соседей нам нужно для победы</div>
+                    </div>
                     <div class="text-bold">Успешность кампании</div>
                     <div class="counter">
                         <div class="counter__item">

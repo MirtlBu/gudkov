@@ -1179,6 +1179,20 @@ p {
     display: none;
 }
 
+.counter--need {
+    margin-bottom: 25px;
+}
+
+.counter--need .counter__num, .counter--need .counter__text {
+    display: inline-block;
+    width: auto;
+    vertical-align: baseline;
+}
+
+.counter--need .counter__text--long {
+    width: 200px;
+}
+
 
 
 @media screen and (max-height: 700px) {

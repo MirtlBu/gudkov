@@ -233,7 +233,11 @@ span.text-link {
     margin-left: 0;
 }
 
-.yourprogress, .campaignprogress  {
+.yourprogress {
+    margin-bottom: 5px;
+}
+
+.campaignprogress {
     margin-bottom: 25px;
 }
 
