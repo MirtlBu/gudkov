@@ -31,7 +31,7 @@
         </div>
         <form class="form">
             <div class="form__row form__row--cluster">
-                <label for="name" class="form__label">Ммя,</label>
+                <label for="name" class="form__label">Имя,</label>
                 <input id="name" name="name" class="form__input form__input--top" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
             </div>
             <div class="form__row form__row--cluster">

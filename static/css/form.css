@@ -244,6 +244,10 @@ input[name="registration"]+.form__radio-button {
     cursor: pointer;
 }
 
+.form__checkboxes.advice_types {
+    margin-left: 15px;
+}
+
 .form__checkbox, .form__radio-circle {
     transition: color .2s;
     position: relative;

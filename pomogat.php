@@ -185,7 +185,7 @@
                     <label for="" class="form__label">Как часто обращаться</label>
                     <div class="form__radios">
                         <div class="form__row">
-                            <input id="periodicity1" name="periodicity" value="onceinmonth" class="form__input form__input--hidden" type="radio" checked>
+                            <input id="periodicity1" name="periodicity" value="onceinmonth" class="form__input form__input--hidden" type="radio">
                             <label for="periodicity1" class="form__radio-circle text-small">
                                 <span>Не чаще раза в месяц</span>
                             </label>
@@ -203,7 +203,7 @@
                             </label>
                         </div>
                         <div class="form__row">
-                            <input id="periodicity4" name="periodicity" value="asneed" class="form__input form__input--hidden" type="radio">
+                            <input id="periodicity4" name="periodicity" value="asneed" class="form__input form__input--hidden" type="radio" checked>
                             <label for="periodicity4" class="form__radio-circle text-small">
                                 <span>Столько, сколько нужно</span>
                             </label>
@@ -213,6 +213,12 @@
                 <div class="form__row">
                     <label for="otherhelp1" class="form__label">Чем ещё вы можете помочь</label>
                     <textarea id="otherhelp1" name="otherhelp1" class="form__textarea form__input--long otherhelp"></textarea>
+                    <div class="form__help text-small">Необязательно</div>
+                </div>
+                <div class="form__row form__row--lined">
+                    <label for="respect" class="form__label">Каких политиков, общественных деятелей или журналистов вы&nbsp;уважаете</label>
+                    <textarea id="respect" name="respect" class="form__textarea form__input--long respect"></textarea>
+                    <div class="form__help text-small">Необязательно</div>
                 </div>
             </div>
 
@@ -279,9 +285,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="form__row form__row--lined for">
+                <div class="form__row for">
                     <label for="otherhelp" class="form__label">Чем ещё вы можете помочь</label>
                     <textarea id="otherhelp" name="otherhelp" class="form__textarea form__input--long otherhelp"></textarea>
+                    <div class="form__help text-small">Необязательно</div>
                 </div>
             </div>
 

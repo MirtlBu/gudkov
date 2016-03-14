@@ -25,7 +25,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="coordinatorskaya">
+        <div class="forma_agitator">
             <div class="text-bigger">Добавить агитатора</div>
             <form class="form">
                 <div class="form__row form__row--cluster">
