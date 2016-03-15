@@ -1433,16 +1433,50 @@ p {
     .form__checkboxes, #help4-1 {
         margin-left: 0;
     }
+
+    /*третий сайт*/
+    .events .dashboard__logo {
+        width: 280px;
+        background-size: 100%;
+    }
+
+    .breadcrumbs.header__item--active {
+        display: none;
+    }
+
+    .logo {
+        line-height: 35px;
+    }
+
+    .events .donate {
+        float: none;
+    }
+
+    .events .donate__text {
+        margin: 20px 0;
+    }
+
+    .eventswitcher__title {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .calendar__item {
+        margin-bottom: 10px;
+    }
+
+    .calendar__control {
+        display: none;
+    }
+
+    /*.map__eventinfo {
+        display: in
+    }*/
 }
 
 .container.onmapContainer {
-<<<<<<< HEAD
-	position: absolute;
+/*	position: absolute;
 	left: 40px;
-	width: 320px;
-=======
-	/*position: absolute;
-	left: 40px;*/
+	width: 320px;*/
     pointer-events: none;
->>>>>>> origin/master
 }
