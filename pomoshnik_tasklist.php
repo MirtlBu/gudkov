@@ -45,7 +45,7 @@
                 <div class="yourprogress">
                     <div class="text-bold">Твой личный опыт</div>
                     <div class="yourprogress__progressbar flexbox flexbox--start">
-                        <div class="yourprogress__item yourprogress__item--finished"></div>
+                        <div class="yourprogress__item yourprogress__item--finished zoomIn"></div>
                         <div class="yourprogress__item yourprogress__item--finished"></div>
                         <div class="yourprogress__item yourprogress__item--finished"></div>
                         <div class="yourprogress__item yourprogress__item--inprogress"></div>

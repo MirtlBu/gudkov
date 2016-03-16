@@ -1468,10 +1468,6 @@ p {
     .calendar__control {
         display: none;
     }
-
-    /*.map__eventinfo {
-        display: in
-    }*/
 }
 
 .container.onmapContainer {
@@ -1479,4 +1475,33 @@ p {
 	left: 40px;
 	width: 320px;*/
     pointer-events: none;
+}
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(10.3, 10.3, 10.3);
+    transform: scale3d(10.3, 10.3, 10.3);
+  }
+
+  95% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(10.3, 10.3, 10.3);
+    transform: scale3d(10.3, 10.3, 10.3);
+  }
+
+  95% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn 1s;
+  animation: zoomIn 1s;
 }
