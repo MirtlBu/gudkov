@@ -174,3 +174,52 @@
 .enrolled__quote {
     line-height: 15px;
 }
+
+.cheerup {
+    padding: 40px;
+}
+
+.cheerup .cheerup__coordinator {
+    text-align: left;
+}
+
+.cheerup .cheerup__dash {
+    width: 55px;
+    height: 1px;
+    background-color: #000;
+    margin-top: 40px;
+}
+
+.cheerup .cheerup__quote {
+    font-style: italic;
+    margin-top: 28px;
+    line-height: 24px;
+}
+
+.cheerup .text-link {
+    display: inline-block;
+    line-height: 15px;
+}
+
+.cheerup__name {
+    line-height: 16px;
+}
+
+.cheerup__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px 5px 0;
+}
+
+.cheerup__img img {
+    width: 80px;
+}
+
+.cheerup .flexbox__item:first-of-type {
+    margin: 0;
+}
+
