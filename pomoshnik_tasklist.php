@@ -74,6 +74,7 @@
                     </div>
                     <div class="text-bold">Успешность кампании</div>
                     <div class="counter">
+                        <div class="counter__plusone bounceInRight"></div>
                         <div class="counter__item">
                             <div class="counter__num">4584</div>
                             <div class="counter__text">голосов у&nbsp;нас есть</div>

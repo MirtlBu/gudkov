@@ -258,7 +258,7 @@ span.text-link {
 }
 
 .yourprogress {
-    margin-bottom: 5px;
+    margin-bottom: 13px;
 }
 
 .campaignprogress {
@@ -266,8 +266,8 @@ span.text-link {
 }
 
 .yourprogress__item {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     margin-right: 3px;
     border: 1px solid #959595;
@@ -764,5 +764,15 @@ span.text-link {
 
 .accept__controls .button {
     margin-bottom: 0;
+}
+
+.counter__plusone {
+    position: absolute;
+    top: 0;
+    left: -62px;
+    width: 57px;
+    height: 45px;
+    background-image: url(../images/icon-plusone.png);
+    background-repeat: no-repeat;
 }
 
