@@ -55,8 +55,6 @@
     border-radius: 8px;
     padding: 0 15px;
     box-sizing: border-box;
-    -webkit-box-shadow: inset 0px 1px 2px 1px rgba(150, 150, 150, 0.05);
-    -moz-box-shadow:    inset 0px 1px 2px 1px rgba(150, 150, 150, 0.05);
     box-shadow:         inset 0px 1px 2px 1px rgba(150, 150, 150, 0.05);
     font-size: 16px;
     z-index: 2;
@@ -580,8 +578,12 @@ input[name="street"] {
     background: #e5f7fd;
     top: 15px;
     left: -10px;
-    transform: skewX(-60deg);
-    transform-origin: right bottom;
+    -webkit-transform: skewX(-60deg);
+        -ms-transform: skewX(-60deg);
+            transform: skewX(-60deg);
+    -webkit-transform-origin: right bottom;
+        -ms-transform-origin: right bottom;
+            transform-origin: right bottom;
 }
 
 .accept__icon {

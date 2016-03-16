@@ -41,7 +41,9 @@
     -webkit-flex: 2;
         -ms-flex: 2;
             flex: 2;
-    align-self: flex-end;
+    -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+            align-self: flex-end;
     text-align: right;
 }
 

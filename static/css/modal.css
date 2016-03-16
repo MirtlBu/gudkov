@@ -125,15 +125,21 @@
 }
 
 .enrolled__item .flexbox__item:nth-child(1){
-    flex: 2.4;
+    -webkit-flex: 2.4;
+        -ms-flex: 2.4;
+            flex: 2.4;
 }
 
 .enrolled__item .flexbox__item:nth-child(2){
-    flex: 2.5;
+    -webkit-flex: 2.5;
+        -ms-flex: 2.5;
+            flex: 2.5;
 }
 
 .enrolled__item .flexbox__item:nth-child(3){
-    flex: 3.3;
+    -webkit-flex: 3.3;
+        -ms-flex: 3.3;
+            flex: 3.3;
 }
 
 .enrolled__num {

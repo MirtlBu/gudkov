@@ -82,11 +82,15 @@ p {
 }
 
 .flexbox--verticalmiddle {
-    align-items: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .flexbox--verticalbottom {
-    align-items: flex-end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
 }
 
 .flexbox__container {
@@ -398,11 +402,15 @@ p {
 }
 
 .nabiraem .slogan__left {
-    flex: 5;
+    -webkit-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
 }
 
 .nabiraem .slogan__right {
-    flex: 3;
+    -webkit-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
     text-align: center;
 }
 
@@ -530,7 +538,9 @@ p {
 }
 
 .flexbox--triple, .flexbox--double, .flexbox--multiply {
-    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
 }
 
 .flexbox--triple .flexbox__item, .flexbox--multiply .flexbox__item {
@@ -612,7 +622,9 @@ p {
     width: 27px;
     height: 40px;
     margin-top: -15px;
-    transform: none;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
 }
 
 .fotorama__arr--next {
@@ -767,7 +779,9 @@ p {
 }
 
 .events .dashboard .counter__item:nth-child(2) .counter__num {
-    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+            transform: translateY(-10px);
 }
 
 .eventswitcher {
@@ -1072,16 +1086,22 @@ p {
 }
 
 .onlist__col:nth-child(1) {
-    flex: 1.3;
+    -webkit-flex: 1.3;
+        -ms-flex: 1.3;
+            flex: 1.3;
 }
 
 .onlist__col:nth-child(2) {
-    flex: 6.3;
+    -webkit-flex: 6.3;
+        -ms-flex: 6.3;
+            flex: 6.3;
     padding-right: 50px;
 }
 
 .onlist__col:nth-child(3) {
-    flex: 2.4;
+    -webkit-flex: 2.4;
+        -ms-flex: 2.4;
+            flex: 2.4;
 }
 
 .onlist .calendar__num {
@@ -1099,7 +1119,9 @@ p {
 }
 
 .onlist__events .flexbox {
-    align-items: baseline;
+    -webkit-align-items: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
 }
 
 .onlist .event {
@@ -1160,7 +1182,9 @@ p {
 }
 
 .addevent .flexbox {
-    align-items: baseline;
+    -webkit-align-items: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
 }
 
 .addevent .organizer {
@@ -1216,7 +1240,9 @@ p {
     .align-middle {
         position: relative;
         top: 10px;
-        transform: translateY(0);
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
     }
 
     .golosuem ~ .footer {
@@ -1259,7 +1285,9 @@ p {
     .align-middle {
         position: relative;
         top: 0;
-        transform: translateY(0);
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
     }
 
     .golosuem {
@@ -1268,7 +1296,9 @@ p {
     }
 
     .flexbox {
-        flex-direction: column;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .golosuem ~ .footer {
@@ -1280,7 +1310,9 @@ p {
     }
 
     .guide .flexbox {
-        flex-direction: column-reverse;;
+        -webkit-flex-direction: column-reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;;
     }
 
     .note {
@@ -1323,7 +1355,9 @@ p {
 
     .footer__links .flexbox__item:last-of-type {
         margin-top: 20px;
-        align-self: flex-start;
+        -webkit-align-self: flex-start;
+            -ms-flex-item-align: start;
+                align-self: flex-start;
         text-align: left;
     }
 
@@ -1503,5 +1537,6 @@ p {
 
 .zoomIn {
   -webkit-animation-name: zoomIn 1s;
-  animation: zoomIn 1s;
+  -webkit-animation: zoomIn 1s;
+          animation: zoomIn 1s;
 }
