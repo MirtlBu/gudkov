@@ -17,16 +17,18 @@
             </div>
             <div class="flexbox__item">
                 <div class="flexbox__container">
-                    <a href="" class="button button--blue">+1 голос к победе</a>
-                    <a href="" class="button button--blue">Добавить координатора</a>
-                    <a href="" class="button button--blue">Добавить помощника</a>
+                    <a href="" class="button button--blue button--small">+1 голос к победе</a>
+                    <a href="" class="button button--blue button--small">Добавить координатора</a>
+                    <div>Добавить помощника</div>
+                    <a href="" class="button button--blue button--small button--short">Из заявок</a>
+                    <a href="" class="button button--blue button--small button--short">Нового</a>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="breadcrumbs--adminskaya">
-            <div class="flexbox flexbox--start">
+            <div class="flexbox flexbox--start main-title">
                 <div class="flexbox__item">
                     <a href="" class="breadcrumbs-content text-link">Все задания</a>
                 </div>
@@ -37,10 +39,10 @@
         </div>
         <div class="coordinator">
             <div class="flexbox flexbox--start">
-                <div class="flexbox__item">
+                <div class="flexbox__item main-title">
                     <a href="" class="">
                         <span class="text-link text-bigger">Разнести газеты по подъездам</span>
-                        <span class="text-small--light">(Все координаторы)</span>
+                        <span class="text-small--light">(Все&nbsp;координаторы)</span>
                     </a>
                 </div>
                 <div class="flexbox__item allcoords">

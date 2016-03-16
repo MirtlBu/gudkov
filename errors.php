@@ -17,9 +17,11 @@
             </div>
             <div class="flexbox__item">
                 <div class="flexbox__container">
-                    <button class="button button--blue" type="button">Добавить агитатора</button>
-                    <button class="button button--blue" type="button">Добавить координатора</button>
-                    <button class="button button--blue" type="button">Добавить помощника</button>
+                    <a href="" class="button button--blue button--small">+1 голос к победе</a>
+                    <a href="" class="button button--blue button--small">Добавить координатора</a>
+                    <div>Добавить помощника</div>
+                    <a href="" class="button button--blue button--small button--short">Из заявок</a>
+                    <a href="" class="button button--blue button--small button--short">Нового</a>
                 </div>
             </div>
         </div>
@@ -27,7 +29,7 @@
     <div class="container">
         <div class="errors">
             <div class="">
-                <div class="text-bigger">Ошибки пользователей</div>
+                <div class="text-bigger main-title">Ошибки пользователей</div>
             </div>
             <div class="table">
                 <div class="table__header flexbox">

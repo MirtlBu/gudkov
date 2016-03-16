@@ -17,16 +17,18 @@
             </div>
             <div class="flexbox__item">
                 <div class="flexbox__container">
-                    <button class="button button--blue" type="button">Добавить агитатора</button>
-                    <button class="button button--blue" type="button">Добавить координатора</button>
-                    <button class="button button--blue" type="button">Добавить помощника</button>
+                    <a href="" class="button button--blue button--small">+1 голос к победе</a>
+                    <a href="" class="button button--blue button--small">Добавить координатора</a>
+                    <div>Добавить помощника</div>
+                    <a href="" class="button button--blue button--small button--short">Из заявок</a>
+                    <a href="" class="button button--blue button--small button--short">Нового</a>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="forma_coordinator">
-            <div class="text-bigger">Добавить координатора</div>
+            <div class="text-bigger main-title">Добавить координатора</div>
             <form class="form">
                 <div class="form__row">
                     <label for="uik" class="form__label">УИК</label>

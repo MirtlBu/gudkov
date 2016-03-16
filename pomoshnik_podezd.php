@@ -30,7 +30,7 @@
     </div>
     <div class="container">
         <a href="" class="breadcrumbs-content text-link">Все задания</a>
-        <div>
+        <div class="main-title">
             <div class="text-bigger">Расскажи про свой подъезд</div>
         </div>
         <div class="flexbox">

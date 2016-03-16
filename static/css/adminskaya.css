@@ -59,9 +59,9 @@ span.text-link {
     vertical-align: top;
 }
 
-.tasks .text-bigger, .singletask .text-bigger, .coordinator .text-bigger, .errors .text-bigger, .forma_agitator .text-bigger, .forma_coordinator .text-bigger, .forma_pomoschnik .text-bigger, .coordinatorskaya .text-bigger, .pomoshnik .text-bigger {
+/*.tasks .text-bigger, .errors .text-bigger, .forma_agitator .text-bigger, .forma_coordinator .text-bigger, .forma_pomoschnik .text-bigger, .coordinatorskaya .text-bigger, .pomoshnik .text-bigger {
     margin-bottom: 25px;
-}
+}*/
 
 .singletask, .coordinator, .errors, .forma_agitator, .forma_coordinator, .forma_pomoschnik, .coordinatorskaya .container, .pomoshnik .container {
     padding: 40px 0;
@@ -238,8 +238,6 @@ span.text-link {
         -ms-flex: 1.5;
             flex: 1.5;
 }
-
-
 
 .progressboard {
     width: 500px;
@@ -510,11 +508,10 @@ span.text-link {
 
 .coordinator .text-bigger {
     display: inline-block;
-    margin: 0 0 34px 0;
 }
 
 .pomoshnik .text-bigger {
-    margin: 0 0 34px 20px;
+    margin-left: 20px;
 }
 
 .pomoshnik .loadphoto {
@@ -791,6 +788,17 @@ span.text-link {
     background-color: #ff0000;
     transform: rotate(45deg);
 }
+
+.main-title {
+    margin-bottom: 34px;
+}
+
+.coordinator .main-title {
+    width: 570px;
+}
+
+.coordinatorskaya .dashboard
+
 
 
 

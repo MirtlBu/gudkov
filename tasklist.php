@@ -17,9 +17,11 @@
             </div>
             <div class="flexbox__item">
                 <div class="flexbox__container">
-                    <a href="" class="button button--blue">+1 голос к победе</a>
-                    <a href="" class="button button--blue">Добавить координатора</a>
-                    <a href="" class="button button--blue">Добавить помощника</a>
+                    <a href="" class="button button--blue button--small">+1 голос к победе</a>
+                    <a href="" class="button button--blue button--small">Добавить координатора</a>
+                    <div>Добавить помощника</div>
+                    <a href="" class="button button--blue button--small button--short">Из заявок</a>
+                    <a href="" class="button button--blue button--small button--short">Нового</a>
                 </div>
             </div>
         </div>

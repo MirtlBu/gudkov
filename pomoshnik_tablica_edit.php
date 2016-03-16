@@ -30,7 +30,7 @@
     </div>
     <div class="container">
         <a href="" class="breadcrumbs-content text-link">Все задания</a>
-        <div class="text-bigger">
+        <div class="text-bigger main-title">
             <span>Квартиры в твоём подъезде</span>
             <div class="text-normal">Ул. Генерала макарова, д. 23, подъезд 4</div>
         </div>

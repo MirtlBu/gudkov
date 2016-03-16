@@ -1,6 +1,6 @@
 <div class="content coordinatorskaya">
     <div class="dashboard">
-        <div class="container flexbox flexbox--verticalmiddle">
+        <div class="container flexbox">
             <div class="flexbox__item">
                 <div class="flexbox__container">
                     <div class="dashboard__title">Координаторская</div>
@@ -16,8 +16,10 @@
             </div>
             <div class="flexbox__item">
                 <div class="flexbox__container">
-                    <a href="" class="button button--blue" type="button">Добавить помощника</a>
-                    <a href="" class="button button--blue" type="button">+1 голос к победе</a>
+                    <a href="" class="button button--blue button--small" type="button">+1 голос к победе</a>
+                    <div>Добавить помощника</div>
+                    <a href="" class="button button--blue button--small button--short">Из заявок</a>
+                    <a href="" class="button button--blue button--small button--short">Нового</a>
                     <div class="dashboard__row dashboard__bold">УИКи:</div>
                     <div class="flexbox">
                         <div class="flexbox__item">
@@ -39,9 +41,9 @@
     <div class="container coordinator">
         <a href="" class="breadcrumbs-content text-link" onClick="admin.displayContainer('tasksList'); return false;">Все задания</a>
         <div class="">
-            <div class="">
+            <div class="main-title">
                 <span class="text-bigger taskname">Разнести газеты по подъездам</span>
-                <span class="text-small--light">(Все координаторы)</span>
+                <span class="text-small--light">(Все&nbsp;координаторы)</span>
             </div>
             <div class="flexbox">
                 <div class="flexbox__item">

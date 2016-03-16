@@ -108,3 +108,9 @@ a.button--small {
 .loadphoto .button {
     width: 100%;
 }
+
+.dashboard .button--short {
+    display: inline-block;
+    width: 120px;
+    margin-top: 5px;
+}

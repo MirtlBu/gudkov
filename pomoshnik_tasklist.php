@@ -134,7 +134,7 @@
         </div>
         <div class="tasks">
             <div class="tasks__header">
-                <div class="">
+                <div class="main-title">
                     <div class="text-bigger">Список заданий</div>
                 </div>
             </div>
