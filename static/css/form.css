@@ -690,7 +690,7 @@ input[name="street"] {
 }
 
 .form__label[for="event-participants"] {
-    vertical-align: bottom;
+    vertical-align: top;
 }
 
 .form__input[name="event-participants"] {
@@ -728,6 +728,11 @@ input[name="street"] {
 
 .form--event .form__textarea {
     height: 80px;
+}
+
+.event-time-comment {
+    width: 245px;
+    margin-left: 10px;
 }
 
 

@@ -16,7 +16,7 @@
 						<option select_value="Пикет">Пикет</option>
 						<option select_value="Митинг">Митинг</option>
 					</select>
-                </div>	
+                </div>
 
                 <div class="form__row">
                     <label for="datepicker2" class="form__label">Дата начала</label>
@@ -80,7 +80,7 @@
 						<option select_value="Митино">Митино</option>
 						<option select_value="Покровское-Стрешнево">Покровское-Стрешнево</option>
 					</select>
-                </div>		
+                </div>
                 <div class="form__row">
                     <label for="event-description" class="form__label">Описание</label>
                     <textarea id="event-description" name="brief_main" class="form__textarea form__input--long event-description ajax_arg"></textarea>
@@ -90,7 +90,7 @@
                     <input id="event-participants" name="people_needed" class="form__input form__input--short ajax_arg" type="text">
                     <div class="form__row">
                         <label for="" class="form__label"></label>
-                        <input id="need" name="need-roll" value="all" class="form__input form__input--hidden need" type="radio">
+                        <input id="need" name="need-roll" value="all" class="form__input form__input--hidden need" type="radio" checked>
                         <label for="need" class="form__radio-circle">
                             <span>Показывать сколько нужно и сколько записано</span>
                         </label>
@@ -115,7 +115,7 @@
 					<select class="ajax_arg" name="owner_id">
 						<option select_value="shukino" disabled>Организатор</option>
 					</select>
-                </div>		
+                </div>
                 <div class="form__row">
                     <label for="event-organizer-comment" class="form__label">Комментарий организатора</label>
                     <textarea id="event-organizer-comment" name="brief_owner" class="form__textarea form__input--long event-organizer-comment ajax_arg"></textarea>
