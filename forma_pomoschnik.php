@@ -123,6 +123,63 @@
                             </div>
                         </div>
 
+
+						<div class="form__row">
+							<label for="party1" class="form__label">За кого</label>
+							<div class="form__radios">
+								<div class="flexbox">
+									<div class="flexbox__item">
+										<div class="form__row">
+											<input id="gudkov" name="party" value="gudkov" class="form__input form__input--hidden" type="radio" checked>
+											<label for="gudkov" class="form__radio-circle">
+												<span class="party-icon party-icon--1"></span>
+												<span>За Гудкова</span>
+											</label>
+										</div>
+										<div class="form__row">
+											<input id="kprf" name="party" value="kprf" class="form__input form__input--hidden" type="radio" checked>
+											<label for="kprf" class="form__radio-circle">
+												<span class="party-icon party-icon--2"></span>
+												<span>КПРФ</span>
+											</label>
+										</div>
+										<div class="form__row">
+											<input id="edro" name="party" value="edro" class="form__input form__input--hidden" type="radio" checked>
+											<label for="edro" class="form__radio-circle">
+												<span class="party-icon party-icon--3"></span>
+												<span>За Единую Россию</span>
+											</label>
+										</div>
+									</div>
+									<div class="flexbox__item">
+										<div class="form__row">
+											<input id="other" name="party" value="other" class="form__input form__input--hidden" type="radio" checked>
+											<label for="other" class="form__radio-circle">
+												<span class="party-icon party-icon--4"></span>
+												<span>Другое</span>
+											</label>
+										</div>
+										<div class="form__row">
+											<input id="novoite" name="party" value="novoite" class="form__input form__input--hidden" type="radio" checked>
+											<label for="novoite" class="form__radio-circle">
+												<span class="party-icon party-icon--5"></span>
+												<span>Не ходит на выборы</span>
+											</label>
+										</div>
+										<div class="form__row">
+											<input id="nodata" name="party" value="nodata" class="form__input form__input--hidden" type="radio" checked>
+											<label for="nodata" class="form__radio-circle">
+												<span class="party-icon party-icon--6"></span>
+												<span>Неизвестно</span>
+											</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>						
+						
+						
+						
                         <div class="form__row form__row--lined flexbox">
                             <label for="" class="form__label">Как готов помогать</label>
                             <div class="form__checkboxes advice_types">
