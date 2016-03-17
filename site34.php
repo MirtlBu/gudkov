@@ -22,7 +22,7 @@
                     <input id="event-time" name="event-time" class="form__input form__input--short" type="text">
                     <textarea id="event-time-comment" name="event-time-comment" class="form__textarea event-time-comment"></textarea>
                 </div>
-                <div class="form__row flexbox flexbox--start">
+                <div class="form__row form__row--nomargin flexbox flexbox--start">
                     <label for="" class="form__label">Место сбора</label>
                     <div class="flexbox radio-circles">
                         <div class="flexbox__item">
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form__row">
+                <div class="form__row form__row--moremargin">
                     <label for="" class="form__label"></label>
                     <input id="headquarter-comment" name="headquarter-comment" class="form__input form__input--long" type="text">
                 </div>

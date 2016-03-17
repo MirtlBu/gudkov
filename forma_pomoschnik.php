@@ -183,7 +183,7 @@
                             <label for="" class="form__label">Как часто обращаться</label>
                             <div class="form__radios">
                                 <div class="form__row">
-                                    <input id="periodicity1" name="periodicity" value="onceinmonth" class="form__input form__input--hidden" type="radio" checked>
+                                    <input id="periodicity1" name="periodicity" value="onceinmonth" class="form__input form__input--hidden" type="radio">
                                     <label for="periodicity1" class="form__radio-circle text-small">
                                         <span>Не чаще раза в месяц</span>
                                     </label>
@@ -201,7 +201,7 @@
                                     </label>
                                 </div>
                                 <div class="form__row">
-                                    <input id="periodicity4" name="periodicity" value="asneed" class="form__input form__input--hidden" type="radio">
+                                    <input id="periodicity4" name="periodicity" value="asneed" class="form__input form__input--hidden" type="radio" checked>
                                     <label for="periodicity4" class="form__radio-circle text-small">
                                         <span>Столько, сколько нужно</span>
                                     </label>
