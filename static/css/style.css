@@ -581,6 +581,9 @@ p {
 
 .mailme {
     width: 280px;
+    position: absolute;
+    right: 90px;
+    top: 0;
 }
 
 .breadcrumbs-content {

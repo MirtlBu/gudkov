@@ -19,8 +19,32 @@
         </div>
     </div>
     <div class="map">
-        <?php include $_CFG['root'] . "modules/map_mirtl.php";?>
+        <div id="map" style="background-color: #ccc;"></div>
         <div class="container">
+            <div class="baloon">
+                <div class="baloon__title">
+                    <span class="baloon__num">100</span> из <span class="baloon__num">4100</span> помощников уже нашлись
+                </div>
+                <a href="" class="button button--blue">Хочу помогать</a>
+                <ul class="baloon__list">
+                    <li class="list__item">
+                        <div class="list__count"><span class="list__num">349</span></div>
+                        <div class="list__text">Дом полон сторонников</div>
+                    </li>
+                    <li class="list__item list__item--few">
+                        <div class="list__count"><span class="list__num">30</span></div>
+                        <div class="list__text">В этом доме нужны ещё люди</div>
+                    </li>
+                    <li class="list__item list__item--no">
+                        <div class="list__count"><span class="list__num"></span></div>
+                        <div class="list__text">Ещё нет сторонников</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="baloon baloon--home" style="display: none;">
+                <button class="button button--blue" type="button" onClick="mapForm.openAboutHouseForm();">Добавить информацию про дом</button>
+                <button class="button button--blue" type="button" onClick="mapForm.openAboutPeopleForm();">Про жильцов</button>
+            </div>
             <div class="map__info text-big">Кликни на дом и расскажи о нём</div>
         </div>
     </div>
@@ -123,92 +147,96 @@
 
 
 <div class="formtenant_tmp hide">
-	<div class="tenant withOpacity" id="" style="opacity: 0.1;">
-		<div class="form__row">
-			<div class="form__title text-big">Жилец <span class="tenant_number"></span></div>
-		</div>
-		<div class="form__row form__row--cluster">
-			<label for="name1" class="form__label">Имя,</label>
-			<input id="name1" name="name1" class="form__input form__input--top" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
-		</div>
-		<div class="form__row form__row--cluster">
-			<label for="middlename1" class="form__label">отчество</label>
-			<input id="middlename1" name="middlename1" class="form__input form__input--middle" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
-		</div>
-		<div class="form__row">
-			<label for="surname1" class="form__label">фамилия</label>
-			<input id="surname1" name="surname1" class="form__input form__input--bottom" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
-		</div>
-		<div class="form__row">
-			<label for="party1" class="form__label">Какой партии симпатизирует</label>
-			<input id="party1" name="party1" class="form__input form__input--long" type="text" required>
-		</div>
-		<div class="form__row">
-			<label for="age1" class="form__label">Возраст</label>
-			<input id="age1" name="age1" class="form__input form__input--short" type="text" pattern="[0-9]+" required>
-		</div>
-		<div class="form__row flexbox flexbox--start">
-			<label for="" class="form__label">Собирается ли на выборы</label>
-			<div class="form__radios">
-				<div class="form__row">
-					<input id="toelections-yes1" name="toelections1" value="yes" class="form__input form__input--hidden toelections_radio" type="radio" checked>
-					<label for="toelections-yes1" class="form__radio-circle">
-						<span>Да</span>
-					</label>
-				</div>
-				<div class="form__row">
-					<input id="toelections-no1" name="toelections1" value="no" class="form__input form__input--hidden toelections_radio" type="radio">
-					<label for="toelections-no1" class="form__radio-circle">
-						<span>Нет</span>
-					</label>
-				</div>
-				<div class="form__row">
-					<input id="toelections-unknown1" name="toelections1" value="unknown" class="form__input form__input--hidden toelections_radio" type="radio">
-					<label for="toelections-unknown1" class="form__radio-circle">
-						<span>Не удалось узнать</span>
-					</label>
-				</div>
-			</div>
-		</div>
-		<div class="form__row">
-			<label for="other1" class="form__label">Другое</label>
-			<textarea id="other1" name="other1" class="form__textarea form__input--long"></textarea>
-		</div>
-	</div>
-
-
+    <div class="container">
+            <div class="tenant withOpacity" id="" style="opacity: 0.1;">
+            <div class="form__row">
+                <div class="form__title text-big">Жилец <span class="tenant_number"></span></div>
+            </div>
+            <div class="form__row form__row--cluster">
+                <label for="name1" class="form__label">Имя,</label>
+                <input id="name1" name="name1" class="form__input form__input--top" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
+            </div>
+            <div class="form__row form__row--cluster">
+                <label for="middlename1" class="form__label">отчество</label>
+                <input id="middlename1" name="middlename1" class="form__input form__input--middle" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
+            </div>
+            <div class="form__row">
+                <label for="surname1" class="form__label">фамилия</label>
+                <input id="surname1" name="surname1" class="form__input form__input--bottom" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
+            </div>
+            <div class="form__row">
+                <label for="party1" class="form__label">Какой партии симпатизирует</label>
+                <input id="party1" name="party1" class="form__input form__input--long" type="text" required>
+            </div>
+            <div class="form__row">
+                <label for="age1" class="form__label">Возраст</label>
+                <input id="age1" name="age1" class="form__input form__input--short" type="text" pattern="[0-9]+" required>
+            </div>
+            <div class="form__row flexbox flexbox--start">
+                <label for="" class="form__label">Собирается ли на выборы</label>
+                <div class="form__radios">
+                    <div class="form__row">
+                        <input id="toelections-yes1" name="toelections1" value="yes" class="form__input form__input--hidden toelections_radio" type="radio" checked>
+                        <label for="toelections-yes1" class="form__radio-circle">
+                            <span>Да</span>
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <input id="toelections-no1" name="toelections1" value="no" class="form__input form__input--hidden toelections_radio" type="radio">
+                        <label for="toelections-no1" class="form__radio-circle">
+                            <span>Нет</span>
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <input id="toelections-unknown1" name="toelections1" value="unknown" class="form__input form__input--hidden toelections_radio" type="radio">
+                        <label for="toelections-unknown1" class="form__radio-circle">
+                            <span>Не удалось узнать</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form__row">
+                <label for="other1" class="form__label">Другое</label>
+                <textarea id="other1" name="other1" class="form__textarea form__input--long"></textarea>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="formflat_tmp hide">
-	<div class="form__row form__row--lined">
-		<label for="middlename" class="form__label">№ квартиры</label>
-		<input id="middlename" name="middlename" class="form__input form__input--short flat_number" type="text" pattern="[0-9]+" required>
-	</div>
+    <div class="container">
+        <div class="form__row form__row--lined">
+            <label for="middlename" class="form__label">№ квартиры</label>
+            <input id="middlename" name="middlename" class="form__input form__input--short flat_number" type="text" pattern="[0-9]+" required>
+        </div>
 
-	<div class="template_tenants"></div>
+        <div class="template_tenants"></div>
 
-	<div class="form__row addNewTenant"  onClick="mapForm.addNewTenant(this);">
-		<div class="add" id="">
-			<div class="add__button form__radio-button">
-				<div class="add__image"></div>
-			</div>
-			<div class="text-small add__text">Добавить жильца в квартиру</div>
-		</div>
-	</div>
-</div>
+        <div class="form__row addNewTenant"  onClick="mapForm.addNewTenant(this);">
+            <div class="add" id="">
+                <div class="add__button form__radio-button">
+                    <div class="add__image"></div>
+                </div>
+                <div class="text-small add__text">Добавить жильца в квартиру</div>
+            </div>
+        </div>
+    </div>
 
-<div class="entranceinfo_tmp hide">
-	<div class="form__row entranceinfo withOpacity" style="opacity: 0.1;">
-		<label for="middlename" class="form__label form__label--separated">Коды от домофонов</label>
-		<div class="flexbox flexbox--double">
-			<div class="flexbox__item">
-				<input id="middlename" name="middlename" class="form__input form__input--short entrance_number" type="text" pattern="" required>
-				<label for="middlename" class="form__label text-small">№ подъезда</label>
-			</div>
-			<div class="flexbox__item">
-				<input id="middlename" name="middlename" class="form__input form__input--short door_code" type="text" pattern="" required>
-				<label for="middlename" class="form__label text-small">код</label>
-			</div>
-		</div>
-	</div>
+    <div class="entranceinfo_tmp hide">
+        <div class="container">
+            <div class="form__row entranceinfo withOpacity" style="opacity: 0.1;">
+                <label for="middlename" class="form__label form__label--separated">Коды от домофонов</label>
+                <div class="flexbox flexbox--double">
+                    <div class="flexbox__item">
+                        <input id="middlename" name="middlename" class="form__input form__input--short entrance_number" type="text" pattern="" required>
+                        <label for="middlename" class="form__label text-small">№ подъезда</label>
+                    </div>
+                    <div class="flexbox__item">
+                        <input id="middlename" name="middlename" class="form__input form__input--short door_code" type="text" pattern="" required>
+                        <label for="middlename" class="form__label text-small">код</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
