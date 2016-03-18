@@ -441,13 +441,21 @@ input[name="street"] {
     margin-bottom: 10px;
 }
 
-.pomoshnik .form__radios {
+.pomoshnik .form__radios, .forma_pomoschnik .form__radios {
     display: inline-block;
     vertical-align: top;
 }
 
-.pomoshnik .form__radio-circle span {
+.pomoshnik .form__radio-circle span, .forma_pomoschnik .form__radio-circle span {
     padding: 0;
+}
+
+.forma_pomoschnik .form__radio-circle.text-small span {
+    padding-left: 30px;
+}
+
+.forma_pomoschnik .form__radios .flexbox__item {
+    margin-right: 30px;
 }
 
 .form--tenant {
