@@ -26,5 +26,11 @@ $(function() {
     $('.button').on('mouseup', function() {
         $(this).removeClass('button--pressed');
     });
+    // $('.form__radio-button').on('mousedown', function() {
+    //     $(this).addClass('button--pressed');
+    // });
+    // $('.form__radio-button').on('mouseup', function() {
+    //     $(this).removeClass('button--pressed');
+    // });
 
 })

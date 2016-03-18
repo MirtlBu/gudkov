@@ -114,3 +114,7 @@ a.button--small {
     width: 120px;
     margin-top: 5px;
 }
+
+.baloon .button {
+    width: 100%;
+}

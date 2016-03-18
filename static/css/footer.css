@@ -70,7 +70,7 @@
 }
 
 .likely .likely__button {
-    padding: 0 15px;
+    padding: 0 15px !important;
     line-height: 30px;
     color: #fff;
     border-radius: 4px;
