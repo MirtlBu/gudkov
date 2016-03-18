@@ -732,7 +732,8 @@ input[name="street"] {
 }
 
 .note-form {
-    margin-bottom: 30px;
+    width: 390px;
+    margin: 0 auto 30px auto;
 }
 
 

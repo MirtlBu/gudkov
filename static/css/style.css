@@ -1230,6 +1230,10 @@ p {
     background-color: transparent;
 }
 
+.events .dashboard .flexbox__item--centered {
+    text-align: left;
+}
+
 
 
 

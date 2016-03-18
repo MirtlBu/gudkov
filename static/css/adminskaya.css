@@ -659,7 +659,7 @@ span.text-link {
     margin-bottom: 35px;
 }
 
-.form--steps .steps__num {
+.form--steps .steps__num, .steps_container .steps__num {
     display: inline-block;
     vertical-align: baseline;
 }
