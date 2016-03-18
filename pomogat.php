@@ -21,10 +21,10 @@
                      <p>Можно агитировать на улице, а можно звонить, общаться с соседями, проверять доставку газет, агитировать в интернете, помогать в штабе.</p>
                 </div>
             </div>
-            <div class="note">
+<!--             <div class="note">
                 <div class="note__text">Голосовать могут только жители&nbsp;районов:</div>
                 <div class="note__bold">Митино, Строгино, <br> Покровское-Стрешнево, <br> Хорошево-Мневники,<br> Щукино, Южное Тушино</div>
-            </div>
+            </div> -->
         </div>
         <form class="form">
             <div class="form__row align-centered">
@@ -32,6 +32,10 @@
                 <label for="indistrict" class="form__radio-button switcher" onClick="advice.indistrict = 1;">Проживаю в округе</label>
                 <input id="outdistrict" name="district" value="out" class="form__input--hidden" type="radio">
                 <label for="outdistrict" class="form__radio-button switcher" onClick="advice.indistrict = 0;">За пределами округа</label>
+            </div>
+            <div class="note-form align-centered">
+                Районы, входящие в избирательный округ:
+                <div class="text-bold">Митино, Строгино, Покровское-Стрешнево, <br> Хорошево-Мневники, Щукино, Южное Тушино</div>
             </div>
             <script type="text/javascript">
                 (function() {

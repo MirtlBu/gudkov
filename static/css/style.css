@@ -118,7 +118,7 @@ p {
 }
 
 .text-bold {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .text-small--light {
@@ -280,7 +280,7 @@ p {
 .note__bold {
     margin-top: 10px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 20px;
 }
 
@@ -928,7 +928,7 @@ p {
 }
 
 .event__bold {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .onmap .event__button {

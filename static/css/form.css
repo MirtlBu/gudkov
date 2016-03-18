@@ -349,10 +349,6 @@ input[type="radio"]:checked+.form__radio-circle:after, input[type="checkbox"]:ch
     display: none;
 }
 
-.form__row.align-centered {
-    margin-bottom: 30px;
-}
-
 .form__label.label-social {
     width: 150px;
     margin-bottom: 15px;
@@ -733,6 +729,10 @@ input[name="street"] {
 .event-time-comment {
     width: 245px;
     margin-left: 10px;
+}
+
+.note-form {
+    margin-bottom: 30px;
 }
 
 
