@@ -123,6 +123,63 @@
                             </div>
                         </div>
 
+
+						<div class="form__row">
+							<label for="party1" class="form__label">За кого</label>
+							<div class="form__radios">
+								<div class="flexbox">
+									<div class="flexbox__item">
+										<div class="form__row">
+											<input id="gudkov" name="party" value="gudkov" class="form__input form__input--hidden" type="radio" checked>
+											<label for="gudkov" class="form__radio-circle">
+												<span class="party-icon party-icon--1"></span>
+												<span>За Гудкова</span>
+											</label>
+										</div>
+										<div class="form__row">
+											<input id="kprf" name="party" value="kprf" class="form__input form__input--hidden" type="radio" checked>
+											<label for="kprf" class="form__radio-circle">
+												<span class="party-icon party-icon--2"></span>
+												<span>КПРФ</span>
+											</label>
+										</div>
+										<div class="form__row">
+											<input id="edro" name="party" value="edro" class="form__input form__input--hidden" type="radio" checked>
+											<label for="edro" class="form__radio-circle">
+												<span class="party-icon party-icon--3"></span>
+												<span>За Единую Россию</span>
+											</label>
+										</div>
+									</div>
+									<div class="flexbox__item">
+										<div class="form__row">
+											<input id="other" name="party" value="other" class="form__input form__input--hidden" type="radio" checked>
+											<label for="other" class="form__radio-circle">
+												<span class="party-icon party-icon--4"></span>
+												<span>Другое</span>
+											</label>
+										</div>
+										<div class="form__row">
+											<input id="novoite" name="party" value="novoite" class="form__input form__input--hidden" type="radio" checked>
+											<label for="novoite" class="form__radio-circle">
+												<span class="party-icon party-icon--5"></span>
+												<span>Не ходит на выборы</span>
+											</label>
+										</div>
+										<div class="form__row">
+											<input id="nodata" name="party" value="nodata" class="form__input form__input--hidden" type="radio" checked>
+											<label for="nodata" class="form__radio-circle">
+												<span class="party-icon party-icon--6"></span>
+												<span>Неизвестно</span>
+											</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>						
+						
+						
+						
                         <div class="form__row form__row--lined flexbox">
                             <label for="" class="form__label">Как готов помогать</label>
                             <div class="form__checkboxes advice_types">
@@ -232,6 +289,18 @@
                             <input id="phone_outdistrict" name="phone_outdistrict" class="form__input phone" type="text" onFocus="$('#phone_outdistrict').formatPnoneNumber(); if (this.value == '') this.value = '+';" placeholder="+7 912 456-68-61" required>
                             <div class="form__help text-small">В работе понадобится <a href="#" class="text-link">Телеграм</a></div>
                         </div>
+						
+						
+					    <div class="form__row">
+							<label for="email1" class="form__label"></label>
+							<input id="inform_by_callcentre" name="help" value="true" class="form__input form__input--hidden" type="checkbox">
+							<label for="inform_by_callcentre" class="form__checkbox text-small">
+								<span>Оповещать из колл-центра</span>
+							</label>
+                        </div>
+											
+						
+						
                         <div class="form__row">
                             <label for="email2" class="form__label">Эл. почта</label>
                             <input id="email2" name="email2" class="form__input email" type="email" required>
@@ -265,9 +334,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form__row form__row--lined for">
-                            <label for="otherhelp" class="form__label">Чем может помочь</label>
-                            <textarea id="otherhelp" name="otherhelp" class="form__textarea form__input--long otherhelp"></textarea>
+                        <div class="form__row">
+                            <label for="otherhelp1" class="form__label">Чем может помочь</label>
+                            <textarea id="otherhelp1" name="otherhelp1" class="form__textarea form__input--long otherhelp"></textarea>
+							<div class="form__help text-small">Необязательно</div>
+                        </div>
+                        <div class="form__row form__row--lined">
+                            <label for="political_views" class="form__label">Каких политиков, общественных деятелей или журналистов вы уважаете</label>
+                            <textarea id="political_views" name="political_views" class="form__textarea form__input--long political_views"></textarea>
+							<div class="form__help text-small">Необязательно</div>
                         </div>
                     </div>
 
