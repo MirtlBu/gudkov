@@ -556,8 +556,9 @@ p {
 }
 
 .map {
-    position: relative;
-    padding-bottom: 20px;
+	position: relative;
+	padding-bottom: 20px;
+	height: 570px;
 }
 
 .nabiraem .map .container {
