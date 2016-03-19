@@ -17,18 +17,16 @@
                     <button class="donate__button button button--red" type="button">Помочь деньгами</button>
                     <div class="counter">
                         <div class="counter__item">
-                            <span class="counter__num">200</span>
-                            <span class="counter__text">тыс. ₽ </span>
-                            <div class="counter__text">пришло <br>за неделю</div>
+                            <span class="counter__num">200 000</span>
+                            <span class="counter__text">₽</span>
+                            <span class="counter__text">собрано <br>за 3 неделю</span>
                         </div>
-                        <div class="counter__item">
-                            <div class="counter__num">/</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="progressbar__outer">
+                            <div class="progressbar__inner" style="width: 50%;"></div>
                         </div>
-                        <div class="counter__item">
-                            <span class="counter__num">700</span>
-                            <span class="counter__text">тыс. ₽ </span>
-                            <div class="counter__text">необходимо</div>
-                        </div>
+                        <div class="pregressbar__text">700 000 ₽ необходимо</div>
                     </div>
                 </div>
             </div>
@@ -38,26 +36,35 @@
         </div>
     </div>
     <div class="container">
-        <div class="eventswitcher">
-            <div class="eventswitcher__title">События</div>
-            <div class="eventswitcher__button eventswitcher__button--active" data-view="map" onclick="switchEvents(this)">на карте</div>
-            <div class="eventswitcher__button" onclick="switchEvents(this)" data-view="list">списком</div>
+        <div class="flexbox events__nav">
+            <div class="flexbox__item">
+                <div class="eventswitcher">
+                    <div class="eventswitcher">События</div>
+                    <div class="eventswitcher__button" data-view="map" onclick="switchEvents(this)">на карте</div>
+                    <div class="eventswitcher">или</div>
+                    <div class="eventswitcher__button eventswitcher__button--clickable" onclick="switchEvents(this)" data-view="list">списком</div>
+                </div>
+                <script type="text/javascript">
+                // just for test
+                    function switchEvents(elem) {
+                        if($(elem).hasClass('eventswitcher__button--clickable')) {
+                            $('.view').removeClass('onmap--active').removeClass('onlist--active');
+                            $('.eventswitcher__button').addClass('eventswitcher__button--clickable');
+                            $(elem).removeClass('eventswitcher__button--clickable');
+                            view = $(elem).attr('data-view');
+                            $('.on' + view).addClass('on' + view + '--active');
+                        }
+                    }
+                </script>
+            </div>
+            <div class="flexbox__item events__help">
+                <a href="" class="button button--blue">Помочь из дома</a>
+                <div class="help__text">
+                    <div>Звонки, </div>
+                    <div>агитация ВКонтакте</div>
+                </div>
+            </div>
         </div>
-        <script type="text/javascript">
-        // just for test
-            function switchEvents(elem) {
-                if($(elem).hasClass('eventswitcher__button--active')) {
-                    return;
-                }
-                else {
-                    $('.view').removeClass('onmap--active').removeClass('onlist--active');
-                    $('.eventswitcher__button').removeClass('eventswitcher__button--active');
-                    $(elem).addClass('eventswitcher__button--active');
-                    view = $(elem).attr('data-view');
-                    $('.on' + view).addClass('on' + view + '--active');
-                }
-            }
-        </script>
     </div>
     <div class="view onmap onmap--active">
         <div class="hr"></div>
@@ -229,23 +236,23 @@
                     </div>
                 </div>
                 <div class="map__eventinfo">
-                    <div class="eventinfo__text">
-                        Ежедневно нужно звонить избирателям, агитировать на пикетах, организовывать работу в штабе и ходить по квартирам.
-                    </div>
                     <div class="eventinfo__counter">
                         <div class="counter">
                             <div class="counter__item">
-                                <span class="counter__num">25</span>
-                                <span class="counter__text">придут сегодня</span>
+                                <div class="counter__num">25</div>
+                                <div class="counter__text">придут сегодня</div>
                             </div>
                             <div class="counter__item">
                                 <div class="counter__num">/</div>
                             </div>
                             <div class="counter__item">
-                                <span class="counter__num">400</span>
-                                <span class="counter__text">нужно</span>
+                                <div class="counter__num">400</div>
+                                <div class="counter__text">нужно</div>
                             </div>
                         </div>
+                    </div>
+                    <div class="eventinfo__text">
+                        Ежедневно нужно звонить избирателям, агитировать на пикетах, организовывать работу в штабе и ходить по&nbsp;квартирам.
                     </div>
                 </div>
             </div>
