@@ -15,15 +15,11 @@
     </head>
     <body>
 
-        <?php include "header3.php";?>
+        <?php include "header.php";?>
 
         <?php
             if(file_exists(basename('.' . $_SERVER['REQUEST_URI'] . '.php'))) {
                 include (basename('.' . $_SERVER['REQUEST_URI'] . '.php'));
-            }
-            else {
-                include "golosuem.php";
-                include "modal3.php";
             }
         ?>
 

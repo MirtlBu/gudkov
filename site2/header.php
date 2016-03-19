@@ -23,6 +23,15 @@
                     <span class="header__item header__item--exit header__item--active">
                         <a href="#" class="header__link">Выйти</a>
                     </span>
+                    <span class="header__item">
+                        <a href="#" class="header__link">Хочу помогать</a>
+                    </span>
+                    <span class="header__item header__item--donate">
+                        <a href="#" class="header__link">Пожертвовать</a>
+                    </span>
+                    <span class="header__item header__item--privat">
+                        <a href="#" class="header__link">Личный кабинет</a>
+                    </span>
                 </div>
             </div>
         </div>
