@@ -1,0 +1,16 @@
+#!/bin/sh
+
+for site in site1 site2 site3; do
+    mkdir -p "html/$site"
+    for file in $(find $site -maxdepth 1 -type f); do
+        file=$(basename "$file")
+        name="${file%.*}"
+        if [ "$name" == header ]; then
+            continue
+        fi
+        pushd $site &> /dev/null
+        REQUEST_URI=/$name php index.php > "../html/$site/$name.html"
+        popd &> /dev/null
+    done
+    ln -s ../../static/ "html/$site"
+done
