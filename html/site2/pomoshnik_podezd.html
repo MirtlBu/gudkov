@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gudkov</title>
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="static/css/likely.css">
+        <link rel="stylesheet" href="static/css/fotorama.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/cupertino/jquery-ui.css">
+        <link rel="stylesheet" href="static/vendors/FancySelect/fancySelect.css" type="text/css">
+        <link rel="icon" href="ico.ico.png" sizes="16x16">
+        <link rel="stylesheet" href="static/css/style.css" type="text/css">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:image" content="path/to/картинка для фэйсбучных шэров" />
+    </head>
+    <body>
+
+        <header class="header header3">
+    <div class="container">
+        <div class="flexbox">
+            <div class="flexbox__item">
+                <div class="header__main">
+                    <a href="#" class="logo header__item--active">
+                        <div class="logo__img"></div>
+                    </a>
+                    <a href="#" class="breadcrumbs header__item header__item--active">
+                        <div class="breadcrumbs__image"></div>
+                        <div class="breadcrumbs__text">На главную</div>
+                    </a>
+                </div>
+            </div>
+            <div class="flexbox__item">
+                <div class="header__others flexbox">
+                    <span class="header__item header__item--link header__item--active">
+                        <a href="#" class="header__link">Сменить пароль</a>
+                    </span>
+                    <span class="header__item header__item--active">
+                        <a href="#" class="header__link">Валерия Ктопочева</a>
+                    </span>
+                    <span class="header__item header__item--exit header__item--active">
+                        <a href="#" class="header__link">Выйти</a>
+                    </span>
+                    <span class="header__item">
+                        <a href="#" class="header__link">Хочу помогать</a>
+                    </span>
+                    <span class="header__item header__item--donate">
+                        <a href="#" class="header__link">Пожертвовать</a>
+                    </span>
+                    <span class="header__item header__item--privat">
+                        <a href="#" class="header__link">Личный кабинет</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="content pomoshnik">
+    <div class="dashboard">
+        <div class="container flexbox">
+            <div class="flexbox__item">
+                <div class="flexbox__container">
+                    <div class="dashboard__user">
+                        <div class="dashboard__img">
+                            <img class="dashboard__img" src="static/images/userpic.jpg">
+                        </div>
+                        <div class="dashboard__title">Валерия</div>
+                    </div>
+
+                    <div class="dashboard__tablo">
+                        <div class="">Валерия, как прошёл день?</div>
+                        <div class="dashboard__rate">
+                            <button class="button button--small button--red">Плохо</button>
+                            <button class="button button--small button--blue">Всё по плану</button>
+                            <button class="button button--small button--green">Отлично</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flexbox__item">
+                <div class="flexbox__container">
+                    <button class="button button--blue button--dashboard" type="button">+1 голос к победе</button>
+                    <div class="text-link text-bold">Добавить информацию о доме</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <a href="" class="breadcrumbs-content text-link">Все задания</a>
+        <div class="main-title">
+            <div class="text-bigger">Расскажи про свой подъезд</div>
+        </div>
+        <div class="flexbox">
+            <div class="flexbox__item">
+                <form class="form form--steps forma_about_porch">
+                    <div class="steps__header">
+                        <div class="flexbox">
+                            <div class="flexbox__item steps__coordinator">
+                                <div class="text-small text-small--light">Задачу поставил:</div>
+                                <div class="steps-coordinator__img">
+                                    <img src="static/images/userpic.jpg">
+                                </div>
+                                <div class="steps-coordinator__info">
+                                    <div class="steps-coordinator__name text-big">Алексей Шпановский</div>
+                                    <div class="steps-coordinator__socials">
+                                        <div>
+                                            <a class="text-small text-link">Вконтакте</a>
+                                        </div>
+                                        <div>
+                                            <a class="text-small text-link">Фейсбук</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flexbox__item steps__dates">
+                                <div class="">
+                                    <div class="text-small text-small--light">Поставлено</div>
+                                    <span class="text-small created_at">26 февраля</span>
+                                </div>
+                                <div class="">
+                                    <div class="text-small text-small--light">Дедлайн</div>
+                                    <span class="text-small deadline_at">12 марта</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <label for="address" class="form__label form__label--separated">Адрес</label>
+                        <input id="address" name="address" class="form__input form__input--long" type="text" required>
+                    </div>
+                    <div class="form__row flexbox flexbox--multiply">
+                        <div class="flexbox__item">
+                            <label for="" class="form__label form__label--separated">№ подъезда,</label>
+                            <input id="" name="" class="form__input form__input--short porch_num" type="text" pattern="[0-9]+" required>
+                        </div>
+                        <div class="flexbox__item">
+                            <label for="" class="form__label form__label--separated">сколько этажей,</label>
+                            <input id="" name="" class="form__input form__input--short amount_floor" type="text" pattern="[0-9]+" required>
+                        </div>
+                        <div class="flexbox__item">
+                            <label for="" class="form__label form__label--separated">квартир,</label>
+                            <input id="" name="" class="form__input form__input--short amount_entrance" type="text" pattern="[0-9]+" required>
+                        </div>
+                        <div class="flexbox__item">
+                            <label for="" class="form__label form__label--separated">код домофона</label>
+                            <input id="" name="" class="form__input form__input--short porch_pass" type="text" pattern="[0-9]+" required>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <input id="inhabital_true" name="inhabital" value="inhabital_true" class="form__input form__input--hidden" type="radio" checked="">
+                        <label for="inhabital_true" class="form__radio-circle">
+                            <span>Частично жилой</span>
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <input id="inhabital_false" name="inhabital" value="inhabital_false" class="form__input form__input--hidden" type="radio" checked="">
+                        <label for="inhabital_false" class="form__radio-circle">
+                            <span>Первый этаж не жилой</span>
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <input id="inhabital_amount_entrance" name="inhabital_amount_entrance" class="form__input form__input--short" type="text" required>
+                        <div class="text-small">Сколько квартир</div>
+                    </div>
+                    <div class="form__row">
+                        <div class="add">
+                            <div class="add__button form__radio-button">
+                                <div class="add__image"></div>
+                            </div>
+                            <div class="text-small add__text">Добавить жильца в квартиру</div>
+                        </div>
+                    </div>
+                    <div class="form__row form__row--lined">
+                        <button class="button button--blue" type="button">Сохранить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+        <footer class='footer'>
+    <div class="container">
+        <div class="footer__social">
+            <div class="footer__text">Расскажи друзьям о кампании:</div>
+            <div class="likely" data-url="ссылка на сайт" data-title="Гудков" >
+                <div class="twitter" data-via="gudkov" >в Твиттере</div>
+                <div class="vkontakte">ВКонтакте</div>
+                <div class="facebook">Фейсбуке</div>
+                <div class="odnoklassniki">Одноклассниках</div>
+            </div>
+        </div>
+        <div class="footer__links flexbox">
+            <div class="flexbox__item">
+                <div class="footer__link">
+                    <a href="#" class="text-link text-small">Я буду голосовать сам</a>
+                </div>
+                <div class="footer__link">
+                    <a href="#" class="text-link text-small">Я привёл человека</a>
+                </div>
+            </div>
+            <div class="flexbox__item">
+                <div class="footer__link">
+                    <a href="#" class="text-link text-small">Хочу помогать на кампании</a>
+                </div>
+                <div class="footer__link">
+                    <a href="#" class="text-link text-small">Карта сторонников</a>
+                </div>
+            </div>
+            <div class="flexbox__item">
+                <div class="footer__link">
+                    <a href="#" class="text-link text-small">Поддержать кампанию</a>
+                </div>
+            </div>
+            <div class="flexbox__item">
+                <div class="footer__link">
+                    <span class="text-small">Предвыборная кампания в Госдуму 2016</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+        <script src="static/vendors/FancySelect/fancySelect.js"></script>
+        <script src="static/js/likely.js"></script>
+        <script src="static/js/fotorama.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="static/js/script.js" type="text/javascript"></script>
+
+    </body>
+</html>
