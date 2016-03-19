@@ -246,7 +246,7 @@ gdMap = {
 
 			// Метка новая
 			if (gdMap.findInArrayById('building_id', value.building_id, gdMap.markersList) == false){
-				var image = '/static/images/icon_map_' + value.building_type + '.png';
+				var image = 'static/images/icon_map_' + value.building_type + '.png';
 
 				//var text = '(УИК №' + value.uik_id + ') ' + value.address + '<br /> <div style="text-align: left;"><a target="_blank" href="/map_editor/delete/' + value.building_id + '" >Удалить</a> <br /> <a href="/map_editor/edit/' + value.building_id + '" target="_blank">Редактировать</a> <br /><a href="/map_editor/edit/new" target="_blank">Добавить новое</a> <br /></div>';
 
