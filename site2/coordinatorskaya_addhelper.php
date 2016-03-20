@@ -17,7 +17,7 @@
             <div class="flexbox__item">
                 <div class="flexbox__container">
                     <a href="" class="button button--blue button--small" type="button">+1 голос к победе</a>
-                    <div>Добавить помощника</div>
+                    <div>Добавить шефа</div>
                     <a href="" class="button button--blue button--small button--short">Из заявок</a>
                     <a href="" class="button button--blue button--small button--short">Нового</a>
                     <div class="dashboard__row dashboard__bold">УИКи:</div>
@@ -39,7 +39,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="text-bigger main-title">Добавить помощника</div>
+        <div class="text-bigger main-title">Добавить шефа</div>
             <form class="form form--addhelper">
                 <div class="form__row align-centered">
                     <input id="indistrict" name="district" value="in" type="radio" class="form__input--hidden" checked>

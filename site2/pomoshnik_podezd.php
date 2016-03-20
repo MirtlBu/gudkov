@@ -39,7 +39,7 @@
                     <div class="steps__header">
                         <div class="flexbox">
                             <div class="flexbox__item steps__coordinator">
-                                <div class="text-small text-small--light">Задачу поставил:</div>
+                                <div class="text-small text-small--light">Сделать предложил:</div>
                                 <div class="steps-coordinator__img">
                                     <img src="static/images/userpic.jpg">
                                 </div>

@@ -310,7 +310,7 @@
         </div>
         <form class="form form--tenant">
             <div class="form__row">
-                <div class="form__title text-big">Жилец 1<span class="tenant_number"></span></div>
+                <div class="form__title text-big">Сосед 1<span class="tenant_number"></span></div>
             </div>
             <div class="form__row form__row--cluster">
                 <label for="name1" class="form__label">Имя,</label>
@@ -382,7 +382,7 @@
                 </div>
             </div>
             <div class="form__row form__row--lined">
-                <div class="form__title text-big">Жилец 2<span class="tenant_number"></span></div>
+                <div class="form__title text-big">Сосед 2<span class="tenant_number"></span></div>
                 <div class="form__edit form__edit--remove text-link">Удалить</div>
             </div>
             <div class="form__row form__row--cluster">

@@ -37,7 +37,7 @@
                     <div>+7 904 335-66-45</div>
                 </div>
                 <div class="form__row">
-                    <div class="text-small text-small--light">Твой основной участок</div>
+                    <div class="text-small text-small--light">Твой подъезд</div>
                     <div class="">ул. Народных гуляний, д.104, подъезд 2</div>
                 </div>
             </div>
@@ -196,7 +196,7 @@
             </a>
             <a class="flexbox tasks__body listitem listitem--link">
                 <div class="flexbox__item flexbox__item--left">
-                    <div class="tasks__gain tasks__gain--medal text-small text-small--light">+ медаль</div>
+                    <div class="tasks__gain tasks__gain--medal text-small text-small--light">+ значок</div>
                     <div class="tasks__body">
                         <div class="text-big text-link">Поиграть в ФИФУ с Кацем</div>
                         <div class="dates">
@@ -224,7 +224,7 @@
             </a>
             <a class="flexbox tasks__body listitem listitem--link listitem--inactive">
                 <div class="flexbox__item flexbox__item--left">
-                    <div class="tasks__gain tasks__gain--medal text-small text-small--light">+ медаль</div>
+                    <div class="tasks__gain tasks__gain--medal text-small text-small--light">+ значок</div>
                     <div class="tasks__body">
                         <div class="text-big text-link">Починить столы и стулья в офисе на Тверской 9</div>
                         <div class="dates">
@@ -252,7 +252,7 @@
             </a>
             <a class="flexbox tasks__body listitem listitem--link listitem--inactive">
                 <div class="flexbox__item flexbox__item--left">
-                    <div class="tasks__gain tasks__gain--medal text-small text-small--light">+ медаль</div>
+                    <div class="tasks__gain tasks__gain--medal text-small text-small--light">+ значок</div>
                     <div class="tasks__body">
                         <div class="text-big text-link">Не просрать дедлайн</div>
                         <div class="dates">

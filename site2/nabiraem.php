@@ -82,7 +82,7 @@
 
             </form>
             <div class="mailme">
-                Если у вас много другой нужной нам информации, отправьте её на почту  <a href="" class="text-link">shtab@gudkov.ru</a>
+                Если у вас есть другая нужная нам информация, пришлите ее на почту <a href="" class="text-link">shtab@gudkov.ru</a>
             </div>
         </div>
 
@@ -150,7 +150,7 @@
     <div class="container">
             <div class="tenant withOpacity" id="" style="opacity: 0.1;">
             <div class="form__row">
-                <div class="form__title text-big">Жилец <span class="tenant_number"></span></div>
+                <div class="form__title text-big">Сосед <span class="tenant_number"></span></div>
             </div>
             <div class="form__row form__row--cluster">
                 <label for="name1" class="form__label">Имя,</label>

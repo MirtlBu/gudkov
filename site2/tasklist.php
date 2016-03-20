@@ -19,7 +19,7 @@
                 <div class="flexbox__container">
                     <a href="" class="button button--blue button--small">+1 голос к победе</a>
                     <a href="" class="button button--blue button--small">Добавить координатора</a>
-                    <div>Добавить помощника</div>
+                    <div>Добавить шефа</div>
                     <a href="" class="button button--blue button--small button--short">Из заявок</a>
                     <a href="" class="button button--blue button--small button--short">Нового</a>
                 </div>

@@ -19,7 +19,7 @@
                 <div class="flexbox__container">
                     <a href="" class="button button--blue button--small">+1 голос к победе</a>
                     <a href="" class="button button--blue button--small">Добавить координатора</a>
-                    <div>Добавить помощника</div>
+                    <div>Добавить шефа</div>
                     <a href="" class="button button--blue button--small button--short">Из заявок</a>
                     <a href="" class="button button--blue button--small button--short">Нового</a>
                 </div>
@@ -28,7 +28,7 @@
     </div>
     <div class="container">
         <div class="forma_pomoschnik">
-            <div class="text-bigger main-title">Добавить помощника</div>
+            <div class="text-bigger main-title">Добавить шефа</div>
                 <form class="form">
                     <div class="form__row align-centered">
                         <input id="indistrict" name="district" value="in" type="radio" class="form__input--hidden" checked>
@@ -176,10 +176,10 @@
 									</div>
 								</div>
 							</div>
-						</div>						
-						
-						
-						
+						</div>
+
+
+
                         <div class="form__row form__row--lined flexbox">
                             <label for="" class="form__label">Как готов помогать</label>
                             <div class="form__checkboxes advice_types">
@@ -289,8 +289,8 @@
                             <input id="phone_outdistrict" name="phone_outdistrict" class="form__input phone" type="text" onFocus="$('#phone_outdistrict').formatPnoneNumber(); if (this.value == '') this.value = '+';" placeholder="+7 912 456-68-61" required>
                             <div class="form__help text-small">В работе понадобится <a href="#" class="text-link">Телеграм</a></div>
                         </div>
-						
-						
+
+
 					    <div class="form__row">
 							<label for="email1" class="form__label"></label>
 							<input id="inform_by_callcentre" name="help" value="true" class="form__input form__input--hidden" type="checkbox">
@@ -298,9 +298,9 @@
 								<span>Оповещать из колл-центра</span>
 							</label>
                         </div>
-											
-						
-						
+
+
+
                         <div class="form__row">
                             <label for="email2" class="form__label">Эл. почта</label>
                             <input id="email2" name="email2" class="form__input email" type="email" required>

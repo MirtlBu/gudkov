@@ -72,7 +72,7 @@
                     <span class="form__kostili"></span>
                     <div class="form__note text-small">Через Телеграм у вас будет возможность быстро и просто связываться с координатором,
                         задавать ему любые вопросы и узнавать самые последние новости о кампании.</div>
-                    <div class="form__help text-small">В работе понадобится <a href="#" class="text-link">Телеграм</a></div>
+                    <div class="form__help text-small">для координации со штабом понадобится <a href="#" class="text-link">Телеграм</a></div>
                 </div>
                 <div class="form__row">
                     <label for="email1" class="form__label">Эл. почта</label>
@@ -131,19 +131,19 @@
                         <div class="flexbox">
                             <div class="flexbox__item">
                                 <div class="form__row">
-                                    <input id="help1" name="help" value="check-supply" class="form__input form__input--hidden" type="checkbox">
+                                    <input id="help1" name="help" value="check-supply" checked="checked" class="form__input form__input--hidden" type="checkbox">
                                     <label for="help1" class="form__checkbox text-small">
                                         <span>Проверять качество доставки материалов</span>
                                     </label>
                                 </div>
                                 <div class="form__row">
-                                    <input id="help2" name="help" value="supply-porch" class="form__input form__input--hidden" type="checkbox">
+                                    <input id="help2" name="help" value="supply-porch" checked="checked" class="form__input form__input--hidden" type="checkbox">
                                     <label for="help2" class="form__checkbox text-small">
                                         <span>Распространять агитматериалы по почтовым ящикам</span>
                                     </label>
                                 </div>
                                 <div class="form__row">
-                                    <input id="help4" name="help" value="agit-points" class="form__input form__input--hidden" type="checkbox">
+                                    <input id="help4" name="help" value="agit-points" checked="checked" class="form__input form__input--hidden" type="checkbox">
                                     <label for="help4" class="form__checkbox text-small">
                                         <span>Распространять агитматериалы на улице (укажите дни и время, когда удобно)</span>
                                     </label>
@@ -166,13 +166,13 @@
                                     </label>
                                 </div>
                                 <div class="form__row">
-                                    <input id="help7" name="help" value="agit-neighbors" class="form__input form__input--hidden" type="checkbox">
+                                    <input id="help7" name="help" value="agit-neighbors" checked="checked" class="form__input form__input--hidden" type="checkbox">
                                     <label for="help7" class="form__checkbox text-small">
                                         <span>Агитировать соседей лично</span>
                                     </label>
                                 </div>
                                 <div class="form__row">
-                                    <input id="help8" name="help" value="help-host" class="form__input form__input--hidden" type="checkbox">
+                                    <input id="help8" name="help" value="help-host" checked="checked" class="form__input form__input--hidden" type="checkbox">
                                     <label for="help8" class="form__checkbox text-small">
                                         <span>Предоставить комнату для проживания агитатора</span>
                                     </label>
@@ -203,7 +203,7 @@
                             </label>
                         </div>
                         <div class="form__row">
-                            <input id="periodicity4" name="periodicity" value="asneed" class="form__input form__input--hidden" type="radio" checked>
+                            <input id="periodicity4" name="periodicity" value="asneed" checked="checked" class="form__input form__input--hidden" type="radio">
                             <label for="periodicity4" class="form__radio-circle text-small">
                                 <span>Столько, сколько нужно</span>
                             </label>
@@ -250,7 +250,7 @@
                     <span class="form__kostili"></span>
                     <div class="form__note text-small">Через Телеграм у вас будет возможность быстро и просто связываться с координатором,
                         задавать ему любые вопросы и узнавать самые последние новости о кампании.</div>
-                    <div class="form__help text-small">В работе понадобится <a href="#" class="text-link">Телеграм</a></div>
+                    <div class="form__help text-small">для координации со штабом понадобится <a href="#" class="text-link">Телеграм</a></div>
                 </div>
                 <div class="form__row">
                     <label for="email2" class="form__label">Эл. почта</label>

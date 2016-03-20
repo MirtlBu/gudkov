@@ -310,7 +310,7 @@
         </div>
         <form class="form form--disabled form--tenant">
             <div class="form__row">
-                <div class="form__title text-big">Жилец <span class="tenant_number"></span></div>
+                <div class="form__title text-big">Сосед <span class="tenant_number"></span></div>
                 <div class="form__edit form__edit--edit button button--small button--blue">Редактировать</div>
             </div>
             <div class="form__row form__row--cluster">
