@@ -1623,3 +1623,12 @@ p {
 .bounceInRight {
   animation: bounceInRight 1s;
 }
+
+
+.modal-wrap {
+	z-index: 100;
+}
+
+.steps_container label[for="avatar_upload_input"] {
+	width: 160px;
+}

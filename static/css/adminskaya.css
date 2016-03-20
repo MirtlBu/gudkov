@@ -523,7 +523,8 @@ span.text-link {
 }
 
 .pomoshnik .loadphoto .text-big {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	text-align: center;
 }
 
 .pomoshnik .note {
