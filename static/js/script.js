@@ -4,7 +4,8 @@ $(function() {
 
     var street = $('#street');
 
-    $('#fancyselect').fancySelect();
+    $('#fancyselect, .fancible_select').fancySelect();
+	
     $('#street').focus(function() {
         $('.trigger').trigger('click.fs');
     });
