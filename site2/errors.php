@@ -59,7 +59,7 @@
                     </div>
                     <div class="flexbox__item">
                         <div class="listitem__img">
-                            <img src="static/images/userpic.jpg">
+                            <img src="../../static/images/userpic.jpg">
                         </div>
                         <div class="listitem__text">
                             <div class="text-big">Валера Кизякин</div>
@@ -82,7 +82,7 @@
                     </div>
                     <div class="flexbox__item">
                         <div class="listitem__img">
-                            <img src="static/images/userpic.jpg">
+                            <img src="../../static/images/userpic.jpg">
                         </div>
                         <div class="listitem__text">
                             <span class="text-big">Константин Константинопольский</span>
@@ -105,7 +105,7 @@
                     </div>
                     <div class="flexbox__item">
                         <div class="listitem__img">
-                            <img src="static/images/userpic.jpg">
+                            <img src="../../static/images/userpic.jpg">
                         </div>
                         <div class="listitem__text">
                             <div class="text-big">Алексей Шпановский</div>
@@ -128,7 +128,7 @@
                     </div>
                     <div class="flexbox__item">
                         <div class="listitem__img">
-                            <img src="static/images/userpic.jpg">
+                            <img src="../../static/images/userpic.jpg">
                         </div>
                         <div class="listitem__text">
                             <div class="text-big">Игнат Баранов</div>

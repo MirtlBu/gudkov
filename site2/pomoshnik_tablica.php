@@ -5,7 +5,7 @@
                 <div class="flexbox__container">
                     <div class="dashboard__user">
                         <div class="dashboard__img">
-                            <img class="dashboard__img" src="static/images/userpic.jpg">
+                            <img class="dashboard__img" src="../../static/images/userpic.jpg">
                         </div>
                         <div class="dashboard__title">Валерия</div>
                     </div>

@@ -122,7 +122,7 @@
                     <div class="table__row flexbox listitem">
                         <div class="flexbox__item">
                             <div class="listitem__img">
-                                <img src="static/images/userpic.jpg">
+                                <img src="../../static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
                                 <a href="" class="text-big text-link helper_name">Алексей Шпановский</a>
@@ -136,7 +136,7 @@
                     <div class="table__row flexbox listitem">
                         <div class="flexbox__item">
                             <div class="listitem__img">
-                                <img src="static/images/userpic.jpg">
+                                <img src="../../static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
                                 <a href="" class="text-big text-link helper_name">Валера Кизякин</a>
@@ -154,7 +154,7 @@
                     <div class="table__row flexbox listitem">
                         <div class="flexbox__item">
                             <div class="listitem__img">
-                                <img src="static/images/userpic.jpg">
+                                <img src="../../static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
                                 <a href="" class="text-big text-link helper_name">Игнат Баранов</a>
@@ -168,7 +168,7 @@
                     <div class="table__row flexbox listitem">
                         <div class="flexbox__item">
                             <div class="listitem__img">
-                                <img src="static/images/userpic.jpg">
+                                <img src="../../static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
                                 <a href="" class="text-big text-link helper_name">Алексей Шпановский</a>
@@ -182,7 +182,7 @@
                     <div class="table__row flexbox listitem">
                         <div class="flexbox__item">
                             <div class="listitem__img">
-                                <img src="static/images/userpic.jpg">
+                                <img src="../../static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
                                 <a href="" class="text-big text-link helper_name">Игнат Баранов</a>

@@ -13,5 +13,5 @@ for site in site1 site2 site3; do
         REQUEST_URI=/$name php index.php > "../html/$site/$name.html"
         popd &> /dev/null
     done
-    ln -s ../../static/ "html/$site"
+    ln -s ../../../../static/ "html/$site"
 done

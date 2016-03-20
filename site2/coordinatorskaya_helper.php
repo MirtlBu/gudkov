@@ -59,7 +59,7 @@
                 </div>
                 <div class="flexbox__item allcoords">
                     <div class="listitem__img">
-                        <img src="static/images/userpic.jpg">
+                        <img src="../../static/images/userpic.jpg">
                     </div>
                     <div class="listitem__text">
                         <div class="text-big helper_name">Алексей Шпановский</div>
@@ -196,7 +196,7 @@
                                                 <div>Загрузить аватарку</div>
                                                 <div class="imageload">
                                                     <div class="imageload__prev">
-                                                        <img src="static/images/userpic.jpg" id="imgprev">
+                                                        <img src="../../static/images/userpic.jpg" id="imgprev">
                                                     </div>
                                                 </div>
                                             </div>
@@ -267,10 +267,10 @@
                                                       data-thumbborderwidth="1"
                                                       data-thumbwidth="90"
                                                       data-thumbheight="60">
-                                    <img class="fotorama__item" src="static/images/landing.jpg">
-                                    <img class="fotorama__item" src="static/images/portrait.jpg">
-                                    <img class="fotorama__item" src="static/images/landing.jpg">
-                                    <img class="fotorama__item" src="static/images/portrait.jpg">
+                                    <img class="fotorama__item" src="../../static/images/landing.jpg">
+                                    <img class="fotorama__item" src="../../static/images/portrait.jpg">
+                                    <img class="fotorama__item" src="../../static/images/landing.jpg">
+                                    <img class="fotorama__item" src="../../static/images/portrait.jpg">
                                 </div>
                             </div>
                         </div>

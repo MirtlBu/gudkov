@@ -1,3 +1,4 @@
+
 <div class="content events">
     <div class="dashboard">
         <div class="container flexbox">
@@ -159,7 +160,7 @@
                                 <div class="event__bold">Организатор:</div>
                                 <div class="organizer">
                                     <div class="organizer__img">
-                                        <img src="static/images/userpic.jpg">
+                                        <img src="../../static/images/userpic.jpg">
                                     </div>
                                     <div class="organizer__name">Александра Серова</div>
                                 </div>
@@ -191,7 +192,7 @@
                                 <div class="event__bold">Организатор:</div>
                                 <div class="organizer">
                                     <div class="organizer__img">
-                                        <img src="static/images/userpic.jpg">
+                                        <img src="../../static/images/userpic.jpg">
                                     </div>
                                     <div class="organizer__name">Александра Серова</div>
                                 </div>
@@ -225,7 +226,7 @@
                                 <div class="event__bold">Организатор:</div>
                                 <div class="organizer">
                                     <div class="organizer__img">
-                                        <img src="static/images/userpic.jpg">
+                                        <img src="../../static/images/userpic.jpg">
                                     </div>
                                     <div class="organizer__name">Александра Серова</div>
                                 </div>
@@ -318,7 +319,7 @@
                                 <div class="event__bold">Организатор:</div>
                                 <div class="organizer">
                                     <div class="organizer__img">
-                                        <img src="static/images/userpic.jpg">
+                                        <img src="../../static/images/userpic.jpg">
                                     </div>
                                     <div class="organizer__name">Александра Серова</div>
                                 </div>
@@ -362,7 +363,7 @@
                                 <div class="event__bold">Организатор:</div>
                                 <div class="organizer">
                                     <div class="organizer__img">
-                                        <img src="static/images/userpic.jpg">
+                                        <img src="../../static/images/userpic.jpg">
                                     </div>
                                     <div class="organizer__name">Александра Серова</div>
                                 </div>
@@ -402,7 +403,7 @@
                                 <div class="event__bold">Организатор:</div>
                                 <div class="organizer">
                                     <div class="organizer__img">
-                                        <img src="static/images/userpic.jpg">
+                                        <img src="../../static/images/userpic.jpg">
                                     </div>
                                     <div class="organizer__name">Константин Константинопольский</div>
                                 </div>

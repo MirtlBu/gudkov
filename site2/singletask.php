@@ -79,7 +79,7 @@
                     <a href="" class="table__row flexbox listitem listitem--link">
                         <div class="flexbox__item">
                             <div class="listitem__img">
-                                <img src="static/images/userpic.jpg">
+                                <img src="../../static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
                                 <div class="text-big text-link">Алексей Шпановский</div>
@@ -94,7 +94,7 @@
                     <a href="" class="table__row flexbox listitem listitem--link">
                         <div class="flexbox__item">
                             <div class="listitem__img">
-                                <img src="static/images/userpic.jpg">
+                                <img src="../../static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
                                 <div class="text-big text-link">Валера Кизякин</div>
@@ -109,7 +109,7 @@
                     <a href="" class="table__row flexbox listitem listitem--link">
                         <div class="flexbox__item">
                             <div class="listitem__img">
-                                <img src="static/images/userpic.jpg">
+                                <img src="../../static/images/userpic.jpg">
                             </div>
                             <div class="listitem__text">
                                 <div class="text-big text-link">Игнат Баранов</div>

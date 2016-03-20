@@ -3,7 +3,7 @@
         <div class="flexbox">
             <div class="flexbox__item cheerup__coordinator">
                 <div class="cheerup__img">
-                    <img src="static/images/userpic.jpg">
+                    <img src="../../static/images/userpic.jpg">
                 </div>
                 <div class="cheerup__name">Алексей Шпановский</div>
                 <div class="cheerup__contact text-link text-small">Телеграм</div>

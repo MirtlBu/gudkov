@@ -5,7 +5,7 @@
                 <div class="flexbox__container">
                     <div class="dashboard__user">
                         <div class="dashboard__img">
-                            <img class="dashboard__img" src="http://gudkov2016.ru/static/attach/752b199455/752b1994553d56136ce6c97d83740884.jpg">
+                            <img class="dashboard__img" src="../../static/attach/752b199455/752b1994553d56136ce6c97d83740884.jpg">
                         </div>
                         <div class="dashboard__title">Валерия</div>
                     </div>
@@ -41,7 +41,7 @@
                             <div class="flexbox__item steps__coordinator">
                                 <div class="text-small text-small--light">Сделать предложил:</div>
                                 <div class="steps-coordinator__img">
-                                    <img src="http://gudkov2016.ru/static/attach/752b199455/752b1994553d56136ce6c97d83740884.jpg">
+                                    <img src="http://gudkov2016.ru/../../static/attach/752b199455/752b1994553d56136ce6c97d83740884.jpg">
                                 </div>
                                 <div class="steps-coordinator__info">
                                     <div class="steps-coordinator__name text-big">Алексей Шпановский</div>
@@ -218,11 +218,11 @@
                     </script>
                     <div id="photo__names">
                         <div class="loadphoto__img">
-                            <img src="static/images/userpic.jpg"></img>
+                            <img src="../../static/images/userpic.jpg"></img>
                             <div class="icon-close"></div>
                         </div>
                         <div class="loadphoto__img">
-                            <img src="static/images/ron.jpg"></img>
+                            <img src="../../static/images/ron.jpg"></img>
                             <div class="icon-close"></div>
                         </div>
                     </div>

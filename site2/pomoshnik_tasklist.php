@@ -5,7 +5,7 @@
                 <div class="flexbox__container">
                     <div class="dashboard__user">
                         <div class="dashboard__img">
-                            <img class="dashboard__img" src="static/images/userpic.jpg">
+                            <img class="dashboard__img" src="../../static/images/userpic.jpg">
                         </div>
                         <div class="dashboard__title">Валерия</div>
                     </div>
@@ -104,27 +104,27 @@
                     <div class="flexbox">
                         <div class="flexbox__item">
                             <div class="medal">
-                                <img class="medal__img" src="static/images/medal1.png">
+                                <img class="medal__img" src="../../static/images/medal1.png">
                                 <div class="medal__text text-small">За красивые глаза</div>
                             </div>
                             <div class="medal">
-                                <img class="medal__img" src="static/images/medal1.png">
+                                <img class="medal__img" src="../../static/images/medal1.png">
                                 <div class="medal__text text-small">За активность</div>
                             </div>
                         </div>
                         <div class="flexbox__item">
                             <div class="medal">
-                                <img class="medal__img" src="static/images/medal1.png">
+                                <img class="medal__img" src="../../static/images/medal1.png">
                                 <div class="medal__text text-small">За битву при Сомме</div>
                             </div>
                             <div class="medal">
-                                <img class="medal__img" src="static/images/medal1.png">
+                                <img class="medal__img" src="../../static/images/medal1.png">
                                 <div class="medal__text text-small">Имени Гудкова</div>
                             </div>
                         </div>
                         <div class="flexbox__item">
                             <div class="medal">
-                                <img class="medal__img" src="static/images/medal1.png">
+                                <img class="medal__img" src="../../static/images/medal1.png">
                                 <div class="medal__text text-small">Кацевская</div>
                             </div>
                         </div>
@@ -159,7 +159,7 @@
                     <div class="task__comment">
                         <div class="comment">
                             <div class="comment__photo">
-                                <img src="static/images/ron.jpg">
+                                <img src="../../static/images/ron.jpg">
                             </div>
                             <div class="comment__bang"></div>
                         </div>
@@ -187,7 +187,7 @@
                     <div class="task__comment">
                         <div class="comment">
                             <div class="comment__photo">
-                                <img src="static/images/ron.jpg">
+                                <img src="../../static/images/ron.jpg">
                             </div>
                             <div class="comment__bang"></div>
                         </div>
@@ -215,7 +215,7 @@
                     <div class="task__comment">
                         <div class="comment">
                             <div class="comment__photo">
-                                <img src="static/images/ron.jpg">
+                                <img src="../../static/images/ron.jpg">
                             </div>
                             <div class="comment__bang"></div>
                         </div>
@@ -243,7 +243,7 @@
                     <div class="task__comment task__comment--showed">
                         <div class="comment">
                             <div class="comment__photo">
-                                <img src="static/images/ron.jpg">
+                                <img src="../../static/images/ron.jpg">
                             </div>
                             <div class="comment__bang"></div>
                         </div>
@@ -271,7 +271,7 @@
                     <div class="task__comment">
                         <div class="comment">
                             <div class="comment__photo">
-                                <img src="static/images/ron.jpg">
+                                <img src="../../static/images/ron.jpg">
                             </div>
                             <div class="comment__bang"></div>
                         </div>

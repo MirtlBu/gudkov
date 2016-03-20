@@ -3,12 +3,12 @@
     <head>
         <title>Gudkov</title>
         <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="static/css/likely.css">
-        <link rel="stylesheet" href="static/css/fotorama.css">
+        <link rel="stylesheet" href="../../static/css/likely.css">
+        <link rel="stylesheet" href="../../static/css/fotorama.css">
         <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/cupertino/jquery-ui.css">
-        <link rel="stylesheet" href="static/vendors/FancySelect/fancySelect.css" type="text/css">
+        <link rel="stylesheet" href="../../static/vendors/FancySelect/fancySelect.css" type="text/css">
         <link rel="icon" href="ico.ico.png" sizes="16x16">
-        <link rel="stylesheet" href="static/css/style.css" type="text/css">
+        <link rel="stylesheet" href="../../static/css/style.css" type="text/css">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:image" content="path/to/картинка для фэйсбучных шэров" />
@@ -54,7 +54,7 @@
         </div>
     </div>
 </header>
-        
+
 <style>
 	.hide {
 	  display: none;
@@ -302,7 +302,7 @@ gdMap = {
 
 			// Метка новая
 			if (gdMap.findInArrayById('building_id', value.building_id, gdMap.markersList) == false){
-				var image = 'static/images/icon_map_' + value.building_type + '.png';
+				var image = '../../static/images/icon_map_' + value.building_type + '.png';
 
 				//var text = '(УИК №' + value.uik_id + ') ' + value.address + '<br /> <div style="text-align: left;"><a target="_blank" href="/map_editor/delete/' + value.building_id + '" >Удалить</a> <br /> <a href="/map_editor/edit/' + value.building_id + '" target="_blank">Редактировать</a> <br /><a href="/map_editor/edit/new" target="_blank">Добавить новое</a> <br /></div>';
 
@@ -542,11 +542,11 @@ $(document).ready(function(){
 </footer>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-        <script src="static/vendors/FancySelect/fancySelect.js"></script>
-        <script src="static/js/likely.js"></script>
-        <script src="static/js/fotorama.js"></script>
+        <script src="../../static/vendors/FancySelect/fancySelect.js"></script>
+        <script src="../../static/js/likely.js"></script>
+        <script src="../../static/js/fotorama.js"></script>
         <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-        <script src="static/js/script.js" type="text/javascript"></script>
+        <script src="../../static/js/script.js" type="text/javascript"></script>
 
     </body>
 </html>
