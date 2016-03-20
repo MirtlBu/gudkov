@@ -52,6 +52,7 @@ span.text-link {
 
 .listitem__img img {
     width: 50px;
+    height: 50px;
 }
 
 .listitem__text {
@@ -398,6 +399,7 @@ span.text-link {
 
 .comment__photo img {
     width: 50px;
+    height: 50px;
 }
 
 .comment__bang {
@@ -487,6 +489,7 @@ span.text-link {
 
 .imageload__prev img {
     width: 50px;
+    height: 50px;
 }
 
 .loadphoto .form__radio-button span {
@@ -740,6 +743,7 @@ span.text-link {
 
 .steps-coordinator__img img {
     width: 80px;
+    height: 80px;
 }
 
 .steps-coordinator__img, .steps-coordinator__info {
@@ -794,7 +798,7 @@ span.text-link {
 }
 
 .coordinator .main-title {
-    width: 570px;
+    width: auto;
 }
 
 .coordinatorskaya .dashboard

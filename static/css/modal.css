@@ -223,3 +223,7 @@
     margin: 0;
 }
 
+.passwordChangePopup .form__label {
+    width: 190px;
+}
+

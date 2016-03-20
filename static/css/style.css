@@ -1008,6 +1008,7 @@ p {
 
 .organizer__img img {
     width: 50px;
+    height: 50px;
 }
 
 .onmap .event__more {
@@ -1452,9 +1453,13 @@ p {
     }
 
     .form__row--cluster .form__input, .form__input--bottom {
-        height: 40px;
+        /*height: 40px;
         border: 1px solid #e8e4de;
-        border-radius: 8px;
+        border-radius: 8px;*/
+    }
+
+    .form__row--cluster .form__label {
+        display: none;
     }
 
     .form__label--block, label[for="year-other"] {
