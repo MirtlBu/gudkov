@@ -1263,12 +1263,12 @@ p {
     width: 200px;
 }
 
-.likely .likely__widget {
-    background-color: transparent;
-}
-
 .events .dashboard .flexbox__item--centered {
     text-align: left;
+}
+
+.eventinfo__counter .counter needed_block .counter__item:first-of-type {
+    margin: 0 15px 0 -5px;
 }
 
 
