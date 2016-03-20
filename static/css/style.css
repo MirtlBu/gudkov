@@ -754,6 +754,7 @@ p {
     width: 290px;
     float: right;
     margin-right: 20px;
+    text-align: left;
 }
 
 .events .donate__button {
