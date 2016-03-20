@@ -338,6 +338,7 @@ span.text-link {
 
 .tasks__gain--exp {
     border: 1px solid #39b54a;
+    visibility: hidden;
 }
 
 .tasks__gain--medal {
