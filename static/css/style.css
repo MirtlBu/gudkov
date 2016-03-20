@@ -1053,7 +1053,7 @@ p {
 }
 
 .map__eventinfo {
-    width: 440px;
+    width: 455px;
     padding: 10px 10px 10px 19px;
     box-sizing: border-box;
     background-color: #fff;
@@ -1088,7 +1088,7 @@ p {
 }
 
 .eventinfo__counter .counter__item:nth-child(2) {
-    margin-left: -13px;
+    margin-left: -15px;
 }
 
 .needhelp {

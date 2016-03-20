@@ -240,7 +240,7 @@
                     <div class="eventinfo__counter">
                         <div class="counter">
                             <div class="counter__item">
-                                <div class="counter__num">25</div>
+                                <div class="counter__num">10</div>
                                 <div class="counter__text">придут сегодня</div>
                             </div>
                             <div class="counter__item">
