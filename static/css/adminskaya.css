@@ -64,9 +64,13 @@ span.text-link {
     margin-bottom: 25px;
 }*/
 
-.singletask, .coordinator, .errors, .forma_agitator, .forma_coordinator, .forma_pomoschnik, .coordinatorskaya .container, .pomoshnik .container {
+.singletask, .errors, .forma_agitator, .forma_coordinator, .forma_pomoschnik, .coordinatorskaya .container, .pomoshnik .container {
     padding: 40px 0;
     box-sizing: border-box;
+}
+
+.coordinatorskaya .coordinator {
+    padding: 0;
 }
 
 .coordinatorskaya .dashboard .container, .pomoshnik .dashboard .container {

@@ -194,7 +194,7 @@
 
 }
 
-.privel .form__radio-button, .pomoshnik .form__radio-button {
+.privel .form__radio-button, .pomoshnik .form__radio-button, .myfollower .form__radio-button {
     width: 32px;
     height: 32px;
     line-height: 1.8;
