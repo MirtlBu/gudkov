@@ -103,3 +103,7 @@ div.fancy-select ul.options li {
     content: none;
 }
 
+.reqlist .fancy-select {
+    width: 190px;
+}
+

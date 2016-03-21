@@ -137,7 +137,7 @@ span.text-link {
     margin-right: -20px;
 }
 
-.errors .table {
+.errors .table, .reqlist .table {
     width: 100%;
 }
 
@@ -803,7 +803,44 @@ span.text-link {
     width: auto;
 }
 
-.coordinatorskaya .dashboard
+.reqlist__date, .reqlist__person {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.reqlist__date {
+    margin-right: 12px;
+    line-height: 22px;
+}
+
+.reqlist .table__header {
+    margin-bottom: 0;
+}
+
+.reqlist .table__row .flexbox__item:nth-child(1), .reqlist .table__header .flexbox__item:nth-child(1) {
+    flex: 3.6;
+}
+
+.reqlist .table__row .flexbox__item:nth-child(2), .reqlist .table__header .flexbox__item:nth-child(2) {
+    flex: 1.2;
+}
+
+.reqlist .table__row .flexbox__item:nth-child(3), .reqlist .table__header .flexbox__item:nth-child(3) {
+    flex: 3.3;
+}
+
+.reqlist__person {
+    width: 300px;
+}
+
+.reqlist__name {
+    margin-bottom: 6px;
+}
+
+.reqlist .listitem .text-big {
+    display: inline;
+    line-height: 22px;
+}
 
 
 
