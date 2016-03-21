@@ -2,8 +2,8 @@
     <div class="container">
         <div class="footer__social">
             <div class="footer__text">Расскажи друзьям о кампании:</div>
-            <div class="likely" data-url="ссылка на сайт" data-title="Гудков" >
-                <div class="twitter" data-via="gudkov" >в Твиттере</div>
+            <div class="likely" data-url="http://gudkov2016.ru/" data-title="Предвыборная кампания Дмитрия Гудкова" >
+                <div class="twitter" data-via="gudkov">в Твиттере</div>
                 <div class="vkontakte">ВКонтакте</div>
                 <div class="facebook">Фейсбуке</div>
                 <div class="odnoklassniki">Одноклассниках</div>

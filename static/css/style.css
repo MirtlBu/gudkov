@@ -14,11 +14,12 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 body {
     position: relative;
-    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    font-family: 'Ubuntu';
     font-size: 16px;
     font-weight: 400;
     color: #010101;
@@ -28,7 +29,7 @@ input, textarea, button {
     background: transparent;
     border: none;
     outline: none;
-    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    font-family: 'Ubuntu';
     font-size: 16px;
 }
 
@@ -180,7 +181,7 @@ p {
 }
 
 .slogan {
-    height: calc(100% - 80px - 50%);
+    height: calc(100% - 80px - 55%);
     box-sizing: border-box;
     background-image: url(../images/background__main.jpg);
     position: relative;
@@ -358,7 +359,7 @@ p {
 }
 
 .golosuem .counter {
-    margin: 30px auto;
+    margin: 0 auto 30px auto;
 }
 
 .info__title {
@@ -1268,9 +1269,24 @@ p {
 }
 
 .eventinfo__counter .counter needed_block .counter__item:first-of-type {
-    margin: 0 15px 0 -5px;
+    margin: 0 15px 0 -10px;
 }
 
+.event.onlist .flexbox__item:last-child {
+    text-align: left;
+}
+
+.eventinfo__counter counter_part .counter__item:nth-child(2) .counter__num {
+    transform: none;
+}
+
+.eventinfo__counter counter_part .counter__item:nth-child(1) {
+    vertical-align: middle;
+}
+
+.addevent .eventinfo__counter .counter__item:nth-child(2) {
+    margin: 0;
+}
 
 
 @media screen and (max-height: 700px) {

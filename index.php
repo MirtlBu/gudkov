@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Gudkov</title>
+        <title>Предвыборная кампания Дмитрия Гудкова</title>
         <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="../../static/css/likely.css">
         <link rel="stylesheet" href="../../static/css/fotorama.css">
@@ -11,7 +11,12 @@
         <link rel="stylesheet" href="../../static/css/style.css" type="text/css">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Предвыборная кампания Дмитрия Гудкова"/>
         <meta property="og:image" content="path/to/картинка для фэйсбучных шэров" />
+        <meta property="og:description" content="Предвыборная кампания Дмитрия Гудкова" />
+        <meta property="og:title" content="Предвыборная кампания Дмитрия Гудкова" />
+        <meta property="og:type"          content="website" />
+
     </head>
     <body>
 
