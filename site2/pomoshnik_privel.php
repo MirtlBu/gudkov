@@ -41,10 +41,6 @@
 					<label for="name-other" class="form__label">Имя,</label>
 					<input id="name-other" name="name-other" class="form__input form__input--top" type="text" pattern="[a-zA-Z,а-яА-Я]+" title="Только буквы" required>
 				</div>
-				<div class="form__row form__row--cluster" style="display: none;">
-					<label for="middlename-other" class="form__label">отчество</label>
-					<input id="middlename-other" name="middlename-other" class="form__input form__input--middle" type="text" pattern="[a-zA-Z,а-яА-Я]+" title="Только буквы" required>
-				</div>
 				<div class="form__row">
 					<label for="surname-other" class="form__label">фамилия</label>
 					<input id="surname-other" name="surname-other" class="form__input form__input--bottom" type="text" pattern="[a-zA-Z,а-яА-Я]+" title="Только буквы" required>

@@ -316,10 +316,6 @@
                 <label for="name1" class="form__label">Имя,</label>
                 <input id="name1" name="name1" class="form__input form__input--top" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
             </div>
-            <div class="form__row form__row--cluster">
-                <label for="middlename1" class="form__label">отчество</label>
-                <input id="middlename1" name="middlename1" class="form__input form__input--middle" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
-            </div>
             <div class="form__row">
                 <label for="surname1" class="form__label">фамилия</label>
                 <input id="surname1" name="surname1" class="form__input form__input--bottom" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
@@ -388,10 +384,6 @@
             <div class="form__row form__row--cluster">
                 <label for="name1" class="form__label">Имя,</label>
                 <input id="name1" name="name1" class="form__input form__input--top" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
-            </div>
-            <div class="form__row form__row--cluster">
-                <label for="middlename1" class="form__label">отчество</label>
-                <input id="middlename1" name="middlename1" class="form__input form__input--middle" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
             </div>
             <div class="form__row">
                 <label for="surname1" class="form__label">фамилия</label>
