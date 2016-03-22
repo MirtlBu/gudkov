@@ -3,7 +3,12 @@
         <div class="container flexbox flexbox--verticalbottom">
             <div class="flexbox__item">
                 <div class="flexbox__container">
-                    <div class="dashboard__title">Админская</div>
+                    <div class="dashboard__user">
+                        <div class="dashboard__img">
+                            <img class="dashboard__img" src="../../static/images/userpic.jpg">
+                        </div>
+                        <div class="dashboard__title">Константин</div>
+                    </div>
                     <div class="dashboard__tablo">
                         <div class="dashboard__tasks">
                             <a href="" class="text-link">Список заданий</a>

@@ -3,7 +3,12 @@
         <div class="container flexbox">
             <div class="flexbox__item">
                 <div class="flexbox__container">
-                    <div class="dashboard__title">Координаторская</div>
+                    <div class="dashboard__user">
+                        <div class="dashboard__img">
+                            <img class="dashboard__img" src="/static/images/ron.jpg">
+                        </div>
+                        <div class="dashboard__title">Константин</div>
+                    </div>
                     <div class="dashboard__tablo">
                         <div class="">Валера, как прошёл день?</div>
                         <div class="dashboard__rate">
