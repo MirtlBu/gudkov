@@ -41,6 +41,47 @@
                     </li>
                 </ul>
             </div>
+            <div class="baloon baloon--login">
+                <div class="baloon__address">Ул. Народного Ополчения, д.13</div>
+                <div class="baloon__follower_counter">Сторонников в доме: <span>3</span></div>
+                <div class="baloon__follower">
+                    <div class="baloon__follower-img">
+                        <img src="../../static/images/ron.jpg">
+                    </div>
+                    <div class="baloon__follower-info">
+                        <div class="baloon__follower-name">Алексей</div>
+                        <div class="baloon__follower-badges">
+                            <span class="text-small">Медали: </span>
+                            <img class="baloon__follower-badge" src="../../static/images/medal1.png">
+                            <img class="baloon__follower-badge" src="../../static/images/medal1.png">
+                            <img class="baloon__follower-badge" src="../../static/images/medal1.png">
+                            <img class="baloon__follower-badge" src="../../static/images/medal1.png">
+                            <img class="baloon__follower-badge" src="../../static/images/medal1.png">
+                            <img class="baloon__follower-badge" src="../../static/images/medal1.png">
+                            <img class="baloon__follower-badge" src="../../static/images/medal1.png">
+                            <img class="baloon__follower-badge" src="../../static/images/medal1.png">
+                            <img class="baloon__follower-badge" src="../../static/images/medal1.png">
+                            <img class="baloon__follower-badge" src="../../static/images/medal1.png">
+                            <span class="baloon__follower-badgemore">+14</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="baloon__follower">
+                    <div class="baloon__follower-img">
+                        <img src="../../static/images/ron.jpg">
+                    </div>
+                    <div class="baloon__follower-info">
+                        <div class="baloon__follower-name">Валера</div>
+                        <div class="baloon__follower-badges">
+                            <span class="text-small">Медали: </span>
+                            <img class="baloon__follower-badge" src="../../static/images/medal1.png">
+                            <img class="baloon__follower-badge" src="../../static/images/medal1.png">
+                            <img class="baloon__follower-badge" src="../../static/images/medal1.png">
+                            <img class="baloon__follower-badge" src="../../static/images/medal1.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="baloon baloon--home" style="display: none;">
                 <button class="button button--blue" type="button" onClick="mapForm.openAboutHouseForm();">Добавить информацию про дом</button>
                 <button class="button button--blue" type="button" onClick="mapForm.openAboutPeopleForm();">Про жильцов</button>

@@ -1292,6 +1292,60 @@ p {
     padding: 40px 20px;
 }
 
+.baloon--login {
+    right: 20px;
+    left: auto;
+    padding: 15px 10px 15px 20px;
+}
+
+.baloon__address {
+    font-weight: 500;
+}
+
+.baloon__follower {
+    margin-bottom: 20px;
+}
+
+.baloon__follower-img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.baloon__follower-img img {
+    width: 50px;
+    height: 50px;
+}
+
+.baloon__follower-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.baloon__follower-badge:first-of-type {
+    margin: 0;
+}
+
+.baloon__follower-badge {
+    margin-left: -29px;
+}
+
+.baloon__follower-badges span, .baloon__follower-badges img {
+    vertical-align: middle;
+}
+
+.baloon__follower_counter {
+    margin-bottom: 23px;
+}
+
+.baloon__follower-badgemore {
+    margin-left: -10px;
+}
+
 
 @media screen and (max-height: 700px) {
 
