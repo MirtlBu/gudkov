@@ -29,11 +29,8 @@
         </div>
     </div>
     <div class="container">
-        <div class="text-bigger main-title">Я привёл человека</div>
- 
- 
 		<div class="text-bigger main-title">Я привёл человека</div>
-		
+
         <div class="flexbox pomoshnik ">
             <div class="flexbox__item">
 			<form class="form">
@@ -143,7 +140,7 @@
 				</div>
 			</form>
             </div>
-        </div> 
- 
+        </div>
+
     </div>
 </div>
