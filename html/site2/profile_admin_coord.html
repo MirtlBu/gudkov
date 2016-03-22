@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Предвыборная кампания Дмитрия Гудкова</title>
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../../static/css/likely.css">
+        <link rel="stylesheet" href="../../static/css/fotorama.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/cupertino/jquery-ui.css">
+        <link rel="stylesheet" href="../../static/vendors/FancySelect/fancySelect.css" type="text/css">
+        <link rel="icon" href="ico.ico.png" sizes="16x16">
+        <link rel="stylesheet" href="../../static/css/style.css" type="text/css">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Предвыборная кампания Дмитрия Гудкова"/>
+        <meta property="og:image" content="path/to/картинка для фэйсбучных шэров" />
+        <meta property="og:description" content="Предвыборная кампания Дмитрия Гудкова" />
+        <meta property="og:title" content="Предвыборная кампания Дмитрия Гудкова" />
+        <meta property="og:type" content="website" />
+
+    </head>
+    <body>
+
+        <header class="header header3">
+    <div class="container">
+        <div class="flexbox">
+            <div class="flexbox__item">
+                <div class="header__main">
+                    <a href="#" class="logo header__item--active">
+                        <div class="logo__img"></div>
+                    </a>
+                    <a href="#" class="breadcrumbs header__item">
+                        <div class="breadcrumbs__image"></div>
+                        <div class="breadcrumbs__text">На главную</div>
+                    </a>
+                    <a href="#" class="breadcrumbs header__item header__item--active">
+                        <div class="breadcrumbs__image"></div>
+                        <div class="breadcrumbs__text">На главную к заданиям</div>
+                    </a>
+                </div>
+            </div>
+            <div class="flexbox__item">
+                <div class="header__others flexbox">
+                    <span class="header__item header__item--link header__item--active">
+                        <a href="#" class="header__link">Сменить пароль</a>
+                    </span>
+                    <span class="header__item header__item--active">
+                        <a href="#" class="header__link">Валерия Ктопочева</a>
+                    </span>
+                    <span class="header__item">
+                        <a href="#" class="header__link">Хочу помогать</a>
+                    </span>
+                    <span class="header__item header__item--donate">
+                        <a href="#" class="header__link">Пожертвовать</a>
+                    </span>
+                    <span class="header__item header__item--privat">
+                        <a href="#" class="header__link">Личный кабинет</a>
+                    </span>
+                    <span class="header__item header__item--edit header__item--active">
+                        <a href="#" class="header__link">Редактировать профиль</a>
+                    </span>
+                    <span class="header__item header__item--exit">
+                        <a href="#" class="header__link">Выйти</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="content profile">
+    <div class="container">
+        <div class="text-bigger main-title">Редактировать профиль</div>
+        <div class="form form--wide">
+            <form>
+                <div class="">
+                    <div class="change_avatar">
+                        <div class="form__row">
+                            <div class="form__title text-big">Сменить аватарку</div>
+                                <div class="imageload">
+                                    <div class="imageload__prev">
+                                        <img src="../../images/icon-question2.png" id="imgprev">
+                                    </div>
+                                    <input id="imginp" type='file' class="form__load form__input--hidden" onchange="avatarUpload(event.target)">
+                                    <label for="imginp" class="form__radio-button">
+                                        <span class="text-link">Выбрать файл</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__title text-big">Личные данные</div>
+                    </div>
+                    <div class="form__row form__row--cluster">
+                        <label for="name" class="form__label">Имя,</label>
+                        <input id="name" name="name" class="form__input form__input--top name" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
+                    </div>
+                    <div class="form__row">
+                        <label for="surname" class="form__label">фамилия</label>
+                        <input id="surname" name="surname" class="form__input form__input--bottom surname" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
+                    </div>
+                    <div class="form__row">
+                        <label for="phone_indistrict" class="form__label">Телефон</label>
+                        <input id="phone_indistrict" name="phone_indistrict" class="form__input phone" onFocus="$('#phone_indistrict').formatPnoneNumber(); if (this.value == '') this.value = '+';" placeholder="+7 912 456-68-61" type="text" required>
+                        <div class="form__help text-small">В работе понадобится <a href="#" class="text-link">Телеграм</a></div>
+                    </div>
+                    <div class="form__row">
+                        <label for="email1" class="form__label">Эл. почта</label>
+                        <input id="email1" name="email1" class="form__input email" type="email" required>
+                    </div>
+                    <div class="form__row">
+                        <label for="street" class="form__label">Адрес</label>
+                        <input id="street" name="street" class="form__input form__input--long" type="text" required>
+                        <span class="form__kostili"></span>
+                        <select id="fancyselect" class="form__input streets_list">
+
+                        </select>
+                    </div>
+                    <div class="form__row">
+                        <label for="" class="form__label">Прописка в округе</label>
+                        <input id="registered" name="registration" value="yes" class="form__input--hidden indistrict_visa" type="radio" checked>
+                        <label for="registered" class="form__radio-button">Есть</label>
+                        <input id="unregistered" name="registration" value="no" class="form__input--hidden indistrict_visa" type="radio">
+                        <label for="unregistered" class="form__radio-button">Нет</label>
+                    </div>
+                    <div class="form__row form__row--lined">
+                        <label for="" class="form__label label-social">Социальные сети</label>
+                        <div class="flexbox form__socials">
+                            <div class="flexbox__item">
+                                <div class="form__row">
+                                    <label for="vk" class="form__label text-small">ВКонтакте</label>
+                                    <input id="vk" name="vk" class="form__input vk" type="text">
+                                </div>
+                                <div class="form__row">
+                                    <label for="facebook" class="form__label text-small">Фейсбук</label>
+                                    <input id="facebook" name="facebook" class="form__input facebook" type="text">
+                                </div>
+                                <div class="form__row">
+                                    <label for="twitter" class="form__label text-small">Твиттер</label>
+                                    <input id="twitter" name="twitter" class="form__input twitter" type="text">
+                                </div>
+                            </div>
+                            <div class="flexbox__item">
+                                <div class="form__row">
+                                    <label for="ok" class="form__label text-small">ОК</label>
+                                    <input id="ok" name="ok" class="form__input ok" type="text">
+                                </div>
+                                <div class="form__row">
+                                    <label for="othersocial" class="form__label text-small">Другое</label>
+                                    <input id="othersocial" name="othersocial" class="form__input othersocial" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    <div class="form__row form__row--lined">
+                        <div class="form__title text-big">Сменить пароль</div>
+                    </div>
+                    <div class="form__row">
+                        <label for="current_pass" class="form__label">Текущий пароль</label>
+                        <input id="current_pass" name="current_pass" class="form__input form__input--long" type="text" required>
+                    </div>
+                    <div class="form__row">
+                        <label for="new_pass" class="form__label">Новый пароль</label>
+                        <input id="new_pass" name="new_pass" class="form__input form__input--long" type="text" required>
+                    </div>
+                    <div class="form__row">
+                        <label for="new_pass_again" class="form__label">Ещё раз</label>
+                        <input id="new_pass_again" name="new_pass_again" class="form__input form__input--long" type="text" required>
+                    </div>
+                    <div class="form__row form__row--button form__row--lined">
+                        <label class="form__label"></label>
+                        <button class="button button--blue" type="button" onClick="">Сохранить</button>
+                        <div class="form__error text-small">
+                            <div></div>
+                            <div id="error-message"></div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+        <footer class='footer'>
+    <div class="container">
+        <div class="footer__social">
+            <div class="footer__text">Расскажи друзьям о кампании:</div>
+            <div class="likely" data-url="http://gudkov2016.ru/" data-title="Предвыборная кампания Дмитрия Гудкова" >
+                <div class="twitter" data-via="gudkov">в Твиттере</div>
+                <div class="vkontakte">ВКонтакте</div>
+                <div class="facebook">Фейсбуке</div>
+                <div class="odnoklassniki">Одноклассниках</div>
+            </div>
+        </div>
+        <div class="footer__links flexbox">
+            <div class="flexbox__item">
+                <div class="footer__link">
+                    <a href="#" class="text-link text-small">Я буду голосовать сам</a>
+                </div>
+                <div class="footer__link">
+                    <a href="#" class="text-link text-small">Я привёл человека</a>
+                </div>
+            </div>
+            <div class="flexbox__item">
+                <div class="footer__link">
+                    <a href="#" class="text-link text-small">Хочу участвовать в кампании</a>
+                </div>
+                <div class="footer__link">
+                    <a href="#" class="text-link text-small">Карта сторонников</a>
+                </div>
+            </div>
+            <div class="flexbox__item">
+                <div class="footer__link">
+                    <a href="#" class="text-link text-small">Поддержать кампанию</a>
+                </div>
+            </div>
+            <div class="flexbox__item">
+                <div class="footer__link">
+                    <span class="text-small">Предвыборная кампания в Госдуму 2016</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+        <script src="../../static/vendors/FancySelect/fancySelect.js"></script>
+        <script src="../../static/js/likely.js"></script>
+        <script src="../../static/js/fotorama.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="../../static/js/script.js" type="text/javascript"></script>
+
+    </body>
+</html>

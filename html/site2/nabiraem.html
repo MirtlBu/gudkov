@@ -15,7 +15,7 @@
         <meta property="og:image" content="path/to/картинка для фэйсбучных шэров" />
         <meta property="og:description" content="Предвыборная кампания Дмитрия Гудкова" />
         <meta property="og:title" content="Предвыборная кампания Дмитрия Гудкова" />
-        <meta property="og:type"          content="website" />
+        <meta property="og:type" content="website" />
 
     </head>
     <body>
@@ -28,9 +28,13 @@
                     <a href="#" class="logo header__item--active">
                         <div class="logo__img"></div>
                     </a>
-                    <a href="#" class="breadcrumbs header__item header__item--active">
+                    <a href="#" class="breadcrumbs header__item">
                         <div class="breadcrumbs__image"></div>
                         <div class="breadcrumbs__text">На главную</div>
+                    </a>
+                    <a href="#" class="breadcrumbs header__item header__item--active">
+                        <div class="breadcrumbs__image"></div>
+                        <div class="breadcrumbs__text">На главную к заданиям</div>
                     </a>
                 </div>
             </div>
@@ -42,9 +46,6 @@
                     <span class="header__item header__item--active">
                         <a href="#" class="header__link">Валерия Ктопочева</a>
                     </span>
-                    <span class="header__item header__item--exit header__item--active">
-                        <a href="#" class="header__link">Выйти</a>
-                    </span>
                     <span class="header__item">
                         <a href="#" class="header__link">Хочу помогать</a>
                     </span>
@@ -53,6 +54,12 @@
                     </span>
                     <span class="header__item header__item--privat">
                         <a href="#" class="header__link">Личный кабинет</a>
+                    </span>
+                    <span class="header__item header__item--edit header__item--active">
+                        <a href="#" class="header__link">Редактировать профиль</a>
+                    </span>
+                    <span class="header__item header__item--exit">
+                        <a href="#" class="header__link">Выйти</a>
                     </span>
                 </div>
             </div>
@@ -216,10 +223,6 @@
             <div class="form__row form__row--cluster">
                 <label for="name1" class="form__label">Имя,</label>
                 <input id="name1" name="name1" class="form__input form__input--top" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
-            </div>
-            <div class="form__row form__row--cluster">
-                <label for="middlename1" class="form__label">отчество</label>
-                <input id="middlename1" name="middlename1" class="form__input form__input--middle" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
             </div>
             <div class="form__row">
                 <label for="surname1" class="form__label">фамилия</label>
