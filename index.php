@@ -15,7 +15,7 @@
         <meta property="og:image" content="path/to/картинка для фэйсбучных шэров" />
         <meta property="og:description" content="Предвыборная кампания Дмитрия Гудкова" />
         <meta property="og:title" content="Предвыборная кампания Дмитрия Гудкова" />
-        <meta property="og:type"          content="website" />
+        <meta property="og:type" content="website" />
 
     </head>
     <body>

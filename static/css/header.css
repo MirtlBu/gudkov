@@ -35,7 +35,7 @@
     background-color: #ff0000;
 }
 
-.header2, .header3 {
+/*.header2, .header3 {
     background-color: #c6c6c6;
     color: #010101;
 }
@@ -52,7 +52,7 @@
 
 .header2 .logo__img:hover, .header3 .logo__img:hover {
     background-color: #ff0000;
-}
+}*/
 
 .header .breadcrumbs {
     vertical-align: middle;
@@ -92,58 +92,61 @@
             justify-content: flex-end
 }
 
+.header__item {
+    display: inline-block;
+    position: relative;
+}
+
 .header__link {
     height: 30px;
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 11px;
     box-sizing: border-box;
     font-size: 13px;
     line-height: 2.1;
 }
 
 .header__link:hover {
-    color: #ed1c24;
-}
-
-.header__item {
-    display: none;
-}
-
-.header__item--privat {
-    background-color: #494949;
-    position: relative;
-    padding-right: 20px;
-}
-
-.header__item--privat:after {
-    content: '';
-    position: absolute;
-    top: 4px;
-    right: 10px;
-    width: 15px;
-    height: 18px;
-    background-image: url(../images/icon-lock.png);
-    background-repeat: no-repeat;
-}
-
-.header__item--exit, .header__item--edit {
     background-color: #494949;
 }
 
-.header__item--donate {
+.header__item--active {
     background-color: #ed1c24;
 }
 
-.header__item--donate:hover {
-    background-color: #c40008;
+.header__item:last-child {
+    cursor: pointer;
 }
 
-.header__item--donate, .header__item--donate:hover a, .header__item--privat, .header__item--privat:hover a, .header__item--exit, .header__item--exit:hover a, .header__item--edit, .header__item--edit:hover a {
+.header__dropdown {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 205px;
+    padding: 20px;
+    box-sizing: border-box;
     color: #fff;
+    background-color: #494949;
+    display: none;
 }
 
-.header__item--link a {
-    text-decoration: underline;
+.header__dropdown-item {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.header__dropdown-item:last-child {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.header__item:last-child .header__dropdown {
+    right: 0;
+    left: auto;
+}
+
+.header__link:hover + .header__dropdown {
+    display: block;
 }
 
 span.header__item--active, a.header__item--active {
