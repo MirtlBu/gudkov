@@ -136,7 +136,7 @@ p {
 .text-link {
     color: #0096ff;
     border-bottom: 1px solid #a3ceff;
-    transition: color .2s, border .2s;
+    /*transition: color .2s, border .2s;*/
     cursor: pointer;
 }
 
@@ -1286,6 +1286,10 @@ p {
 
 .addevent .eventinfo__counter .counter__item:nth-child(2) {
     margin: 0;
+}
+
+.profile .container {
+    padding: 40px 20px;
 }
 
 

@@ -126,7 +126,7 @@
     background-repeat: no-repeat;
 }
 
-.header__item--exit {
+.header__item--exit, .header__item--edit {
     background-color: #494949;
 }
 
@@ -138,7 +138,7 @@
     background-color: #c40008;
 }
 
-.header__item--donate, .header__item--donate:hover a, .header__item--privat, .header__item--privat:hover a, .header__item--exit, .header__item--exit:hover a {
+.header__item--donate, .header__item--donate:hover a, .header__item--privat, .header__item--privat:hover a, .header__item--exit, .header__item--exit:hover a, .header__item--edit, .header__item--edit:hover a {
     color: #fff;
 }
 

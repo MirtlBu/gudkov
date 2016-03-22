@@ -33,9 +33,13 @@
         <div class="main-title">
             <div class="text-bigger">Разнести газеты по подъездам</div>
         </div>
+        <div class="singletask__taskbuttons">
+            <div class="button button--blue singletask__taskbutton singletask__taskbutton--start">Начать</div>
+            <div class="singletask__taskbutton singletask__taskbutton--reject">Отказаться</div>
+        </div>
         <div class="flexbox">
             <div class="flexbox__item">
-                <form class="form form--steps">
+                <form class="form form--steps form--disabled_all">
                     <div class="steps__header">
                         <div class="flexbox">
                             <div class="flexbox__item steps__coordinator">
@@ -76,7 +80,7 @@
                                 <div class="steps__point">Забрать газеты в штабе. Ул. Тверская, д 9. С 10 до 23 часов. Спросить Иру</div>
                             </div>
                             <div class="flexbox__item">
-                                <input id="step1" name="step1" value="step1" class="form__input form__input--hidden" type="checkbox" checked>
+                                <input id="step1" name="step1" value="step1" class="form__input form__input--hidden" type="checkbox">
                                 <label for="step1" class="form__checkbox">
                                     <span>Готово!</span>
                                 </label>
@@ -197,8 +201,8 @@
                 </form>
             </div>
             <div class="flexbox__item">
-                <form class="loadphoto steps">
-                    <div class="text-big">Фотографии</div>
+                <form class="loadphoto steps form--disabled_all">
+                    <div class="text-big">Фотографии <span class="text-small">(необязательно)</span></div>
                     <input id="photoupload" type='file' class="form__load form__input--hidden" onchange="photoUpload(event.target)" multiple>
                     <label for="photoupload" class="form__radio-button">
                         <span class="text-link">Выбрать файлы</span>

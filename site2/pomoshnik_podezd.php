@@ -33,9 +33,13 @@
         <div class="main-title">
             <div class="text-bigger">Расскажи про свой подъезд</div>
         </div>
+        <div class="singletask__taskbuttons">
+            <div class="button button--blue singletask__taskbutton singletask__taskbutton--start">Начать</div>
+            <div class="singletask__taskbutton singletask__taskbutton--reject">Отказаться</div>
+        </div>
         <div class="flexbox">
             <div class="flexbox__item">
-                <form class="form form--steps forma_about_porch">
+                <form class="form form--steps forma_about_porch form--disabled_all">
                     <div class="steps__header">
                         <div class="flexbox">
                             <div class="flexbox__item steps__coordinator">
@@ -94,6 +98,7 @@
                         <label for="inhabital_true" class="form__radio-circle">
                             <span>Частично жилой</span>
                         </label>
+                        <div class="form__note form__note--inner text-small">Если у вас на первом этаже офисы или магазины, пожалуйста, выберите один из пунктов и укажите, сколько жилых квартир</div>
                     </div>
                     <div class="form__row">
                         <input id="inhabital_false" name="inhabital" value="inhabital_false" class="form__input form__input--hidden" type="radio" checked="">

@@ -95,10 +95,30 @@
                 <div class="yourreward">
                     <div class="flexbox">
                         <div class="flexbox__item">
-                            <div class="yourreward__medals"><span class="text-bold text-link text-link--dropdown">Медали</span> — 5 штук</div>
+                            <div class="yourreward__medals">
+                                <span class="text-bold text-link text-link--dropdown">Значки</span>
+                                <div class="whatisthis">
+                                    <div class="whatisthis__icon"></div>
+                                    <div class="whatisthis__popup">
+                                        <p>У вас пока нет значков</p>
+                                        <p>Значки можно получить за выполнение дел</p>
+                                    </div>
+                                </div>
+                                 <span>— 5 штук</span>
+                             </div>
                         </div>
                         <div class="flexbox__item">
-                            <div class="yourreward__bonuses"><span class="text-bold text-link text-link--dropdown">Бонусы</span></div>
+                            <div class="yourreward__bonuses">
+                                <span class="text-bold text-link text-link--dropdown">Бонусы</span>
+                                <div class="whatisthis">
+                                    <div class="whatisthis__icon"></div>
+                                    <div class="whatisthis__popup">
+                                        <p>У вас пока нет бонусов</p>
+                                        <p>Бонусы можно получить за выполнение дел</p>
+                                    </div>
+                                </div>
+                                 <span></span>
+                             </div>
                         </div>
                     </div>
                     <div class="flexbox">
@@ -150,12 +170,8 @@
                     </div>
                 </div>
                 <div class="flexbox__item flexbox__item--right">
-                    <div class="task__start task__start--showed">
-                        <div class="button button--blue">Начать</div>
-                        <div class="text-link text-bold">Отказаться</div>
-                    </div>
                     <div class="task__status">Успешно завершёно</div>
-                    <div class="task__steps">Выполнено 5 шагов из 7</div>
+                    <div class="task__steps task__steps--showed">Выполнено 5 шагов из 7</div>
                     <div class="task__comment">
                         <div class="comment">
                             <div class="comment__photo">

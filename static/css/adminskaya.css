@@ -311,9 +311,9 @@ span.text-link {
     margin-left: -7px;
 }
 
-.yourreward__bonuses {
+/*.yourreward__bonuses {
     text-align: right;
-}
+}*/
 
 .medal__img, .medal__text {
     display: inline-block;
@@ -800,7 +800,7 @@ span.text-link {
 }
 
 .main-title {
-    margin-bottom: 34px;
+    margin-bottom: 20px;
 }
 
 .coordinator .main-title {
@@ -844,6 +844,85 @@ span.text-link {
 .reqlist .listitem .text-big {
     display: inline;
     line-height: 22px;
+}
+
+.whatisthis {
+    position: relative;
+}
+
+.whatisthis__icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #a3ceff;
+    border-radius: 4px;
+}
+
+.whatisthis__icon:after {
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 11px;
+    top: 4px;
+    left: 7px;
+    background-image: url(../images/icon-question2.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.whatisthis__icon:hover  {
+    border: 1px solid #ff0000;
+    opacity: .6;
+}
+
+.whatisthis__icon:hover:after {
+    background-position: -7px 0;
+}
+
+.yourreward__medals, .yourreward__bonuses {
+    margin-bottom: 5px;
+}
+
+.yourreward .whatisthis, .yourreward .text-link--dropdown {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yourreward .whatisthis {
+    margin: 0 3px;
+}
+
+.whatisthis__popup {
+    position: absolute;
+    top: 28px;
+    left: -62px;
+    width: 220px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 15px 30px 13px rgba(1, 72, 139, 0.1);
+    display: none;
+}
+
+.whatisthis__icon:hover + .whatisthis__popup {
+    display: block;
+}
+
+.change_avatar {
+    position: absolute;
+    right: 90px;
+    top: 30px;
+    z-index: 99;
+}
+
+.change_avatar .imageload__prev, .change_avatar .imageload__prev img {
+    width: 80px;
+    height: 80px;
+}
+
+.change_avatar .text-link {
+    line-height: 1;
 }
 
 

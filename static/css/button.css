@@ -118,3 +118,33 @@ a.button--small {
 .baloon .button {
     width: 100%;
 }
+
+.singletask__taskbuttons {
+    margin: 0 0 20px 20px;
+}
+
+.singletask__taskbutton {
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.singletask__taskbutton--reject {
+    position: relative;
+    font-weight: 500;
+    color: #ff0000;
+    line-height: 2.5;
+    cursor: pointer;
+}
+
+.singletask__taskbutton--reject:after {
+    content: '';
+    position: absolute;
+    width: 68%;
+    height: 1px;
+    background-color: #ff0000;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
