@@ -4,7 +4,7 @@ $(function() {
 
     var street = $('#street');
 
-    $('#fancyselect, .fancible_select').fancySelect();
+    $('#fancyselect, .fancible_select, .calls__dropdown').fancySelect();
 
     $('#street').focus(function() {
         $('.trigger').trigger('click.fs');
@@ -27,7 +27,7 @@ $(function() {
     $('.button').on('mouseup', function() {
         $(this).removeClass('button--pressed');
     });
-	
+
 	$(document).on('click', 'label.form__checkbox', function(){
 		$(this).closest('div').find('input').trigger('click');
 	});
