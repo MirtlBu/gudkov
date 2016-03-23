@@ -7,21 +7,39 @@
     background-color: #000;
 }
 
-.header__link--recieve {
+.header__link--opacity {
+    opacity: .5;
+}
+
+.header__link--green, .header__link--opacity.header__link--green:hover {
     background-color: #39b54a;
 }
 
-.header__link--recieve:hover {
+.header__link--green:hover {
     background-color: #119c24;
 }
 
-.header__link--close {
+.header__link--red, .header__link--opacity.header__link--red:hover {
     background-color: #ff0000;
 }
 
-.header__link--close:hover {
+.header__link--red:hover {
     background-color: #c40008;
 }
+
+.header__link--blue, .header__link--opacity.header__link--blue:hover {
+    background-color: #0195ff;
+}
+
+.header__link--blue:hover {
+    background-color: #0183de;
+}
+
+.header__link--gray {
+    background-color: #494949;
+}
+
+
 
 .calls {
     padding-bottom: 40px;
@@ -85,6 +103,14 @@
     background-repeat: no-repeat;
     background-position: -20px 0;
     transform: rotate(180deg);
+}
+
+.calls .form__radio-button {
+    width: 280px;
+    display: block;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 
