@@ -91,10 +91,6 @@
     background-color: #494949;
 }
 
-.header__item--active {
-    background-color: #ed1c24;
-}
-
 .header__item:last-child {
     cursor: pointer;
 }
@@ -114,6 +110,7 @@
 .header__dropdown-item {
     display: block;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .header__dropdown-item:last-child {
@@ -128,6 +125,14 @@
 
 .header__link:hover + .header__dropdown, .header__dropdown:hover {
     display: block;
+}
+
+.header__item--active, .header__item--active:hover .header__link {
+    background-color: #ed1c24;
+}
+
+.header__item--active .header__link:hover + .header__dropdown {
+    display: none;
 }
 
 span.header__item--active, a.header__item--active {

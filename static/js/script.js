@@ -4,7 +4,7 @@ $(function() {
 
     var street = $('#street');
 
-    $('#fancyselect, .fancible_select').fancySelect();
+    $('#fancyselect, .fancible_select, .calls__dropdown').fancySelect();
 
     $('#street').focus(function() {
         $('.trigger').trigger('click.fs');
@@ -27,7 +27,7 @@ $(function() {
     $('.button').on('mouseup', function() {
         $(this).removeClass('button--pressed');
     });
-	
+
 
 
     // $('.form__radio-button').on('mousedown', function() {
@@ -37,6 +37,7 @@ $(function() {
     //     $(this).removeClass('button--pressed');
     // });
 
+
 });
 
 $(document).ready(function(){
@@ -44,3 +45,4 @@ $(document).ready(function(){
 		$(this).closest('div').find('input').trigger('click');
 	});
 });
+
