@@ -23,6 +23,10 @@
     background-color: #c40008;
 }
 
+.calls {
+    padding-bottom: 40px;
+}
+
 .calls__right {
     margin: 5px 0 16px 0;
     text-align: right;
