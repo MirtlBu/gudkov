@@ -27,6 +27,11 @@ $(function() {
     $('.button').on('mouseup', function() {
         $(this).removeClass('button--pressed');
     });
+	
+	$(document).on('click', 'label.form__checkbox', function(){
+		$(this).closest('div').find('input').trigger('click');
+	});
+
     // $('.form__radio-button').on('mousedown', function() {
     //     $(this).addClass('button--pressed');
     // });
