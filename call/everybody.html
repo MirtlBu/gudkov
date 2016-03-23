@@ -58,6 +58,7 @@ window.gon={};gon.user_id=5;gon.user_name="Виктор Семенов";gon.sip_
                         <video id="remoteVideo" style="opacity: 0; width: 0; height: 0;"></video>
         <video id="localVideo" style="opacity: 0; width: 0; height: 0;" muted="muted"></video>
 
+
             <button class="initiate-call btn btn-success ladda-button" data-style="expand-left" data-ember-action="506">
                 <span class="ladda-label">Принимать звонки</span>
             </button>
@@ -75,23 +76,29 @@ window.gon={};gon.user_id=5;gon.user_name="Виктор Семенов";gon.sip_
     </div>
 </nav>
 
-<div class="container">
+<div class="container calls">
 
     <h1 class="page-header">Опрос</h1>
-<!----><h3><p>Опрос</p>
-</h3>
-<a id="ember598" href="#/poll/1/question/1" class="ember-view"><div class="btn btn-primary">Начать опрос</div></a>
-<button class="btn btn-warning" data-ember-action="617">Автоответчик/факс</button>
-<button class="btn btn-warning" data-ember-action="618">Нет времени</button>
-<div class="btn-group">
-    <button class="btn btn-default btn-warning dropdown-toggle" data-toggle="dropdown">Прочее<span class="caret"></span></button>
-    <ul class="dropdown-menu" role="menu">
-        <li><a class="cursor-pointer" data-ember-action="619">Тема опроса неинтересна</a></li>
-        <li><a class="cursor-pointer" data-ember-action="620">Бросил трубку</a></li>
-        <li><a class="cursor-pointer" data-ember-action="621">Нежилое помещение</a></li>
-        <li><a class="cursor-pointer" data-ember-action="622">Другая причина</a></li>
-    </ul>
-</div>
+    <h3 class="calls__title text-bigger">Гудков сценарий 9</h3>
+    <div class="calls__greeting text-big">
+        Здравствуйте, <span class="calls__person">Иван Иванович</span>.
+        Вы оставили мне ваш номер телефона летом 2014 года, я агитировал за Максима Каца в вашем районе.
+        Можете, пожалуйста, уделить мне минуту, я бы вам задал пару вопросов про очередные выборы.
+    </div>
+    <a id="ember598" href="#/poll/1/question/1" class="ember-view">
+        <div class="btn btn-primary btn-gudkov">Начать опрос</div>
+    </a>
+    <button class="btn btn-warning btn-gudkov btn-gudkov--gray" data-ember-action="617">Автоответчик/факс</button>
+    <button class="btn btn-warning btn-gudkov btn-gudkov--gray" data-ember-action="618">Нет времени</button>
+    <div class="btn-group">
+        <button class="btn btn-default btn-warning dropdown-toggle" data-toggle="dropdown">Прочее<span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a class="cursor-pointer" data-ember-action="619">Тема опроса неинтересна</a></li>
+            <li><a class="cursor-pointer" data-ember-action="620">Бросил трубку</a></li>
+            <li><a class="cursor-pointer" data-ember-action="621">Нежилое помещение</a></li>
+            <li><a class="cursor-pointer" data-ember-action="622">Другая причина</a></li>
+        </ul>
+    </div>
 
 
 

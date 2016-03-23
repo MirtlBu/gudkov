@@ -19,6 +19,7 @@ body {
     background-color: #000;
     color: #fff;
     border: none;
+    margin-bottom: 0;
 }
 
 .container {
@@ -28,6 +29,10 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
+}
+
+.calls {
+    padding: 70px 20px 50px 20px;
 }
 
 .logo {
@@ -109,7 +114,52 @@ body {
     opacity: .5;
 }
 
+.btn-gudkov {
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 8px;
+    line-height: 2.1;
+    cursor: pointer;
+    transition: background .2s;
+    padding: 0 19px;
+    margin-right: 5px;
+}
+
+div.btn-gudkov {
+    line-height: 2.4;
+}
+
+.btn-gudkov--gray {
+    background-color: #949494;
+}
+
 .navbar-form.navbar-right {
     font-size: 0;
+}
+
+.page-header {
+    display: none;
+}
+
+.calls__title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.calls__greeting {
+    width: 660px;
+    line-height: 26px;
+    margin-bottom: 45px;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: none !important;
 }
 
