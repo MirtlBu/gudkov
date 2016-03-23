@@ -1,0 +1,103 @@
+<html><head>
+<meta charset="utf-8">
+<title>ГП - Телефонные опросы</title>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<meta content="" name="description">
+<meta content="" name="author">
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" media="all" href="https://mksurvey-staging.gnhq.info/assets/application-b561e8feeda12007ea915e772f397b4bd5ddef3930af1dd57cc2e1871d3d7811.css" data-turbolinks-track="true">
+<link rel="stylesheet" href="everybody.css">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<script src="https://mksurvey-staging.gnhq.info/assets/application-28ffb0fe80c9f9bfb7e573fdf3c4fba56254f49ec64470bad7489b9b7425f631.js" data-turbolinks-track="true"></script><style type="text/css"></style>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="vCtRvFLbudYYpMMaiyPHLB3bgYcdAnd7d5J5BmMKy420ZSgzo1utzIosuBJF/7pAJ9y7886sXVZHLh7NPr5o7Q==">
+<script>
+//<![CDATA[
+window.gon={};gon.user_id=5;gon.user_name="Виктор Семенов";gon.sip_login="801";gon.sip_password="801";gon.logout_link="<a rel=\"nofollow\" data-method=\"delete\" href=\"/users/sign_out\">Logout</a>";
+//]]>
+</script>
+</head>
+<body>
+<div id="emberMain" class="ember-application">
+    <div id="ember446" class="ember-view">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="#" class="logo">
+                        <div class="logo__img"></div>
+                    </a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span class="navbar-brand">Колл-центр</span>
+                </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <div class="navbar-form navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <button type="button" class="btn btn-default user-popover" data-container="body" data-toggle="popover" data-placement="bottom" data-content="" data-original-title="" title="">
+                                Виктор Семенов
+                            </button>
+                            <div id="popover_content_wrapper" style="display: none">
+                                Используйте следующие данные для подключения к SIP:<br>
+                                <b>Сервер:</b> gp.rgc.ru<br>
+                                <b>Логин:</b> 801<br>
+                                <b>Пароль:</b> 801<br>
+                                <a data-method="delete" rel="nofollow" href="/users/sign_out">Выйти</a>
+                            </div>
+                        </li>
+                    </ul>
+                    &nbsp;
+                        <video id="remoteVideo" style="opacity: 0; width: 0; height: 0;"></video>
+        <video id="localVideo" style="opacity: 0; width: 0; height: 0;" muted="muted"></video>
+
+            <button class="initiate-call btn btn-success ladda-button" data-style="expand-left" data-ember-action="506">
+                <span class="ladda-label">Принимать звонки</span>
+            </button>
+
+            <button class="end-call btn btn-primary ladda-button" data-style="expand-left">
+                <span class="ladda-label">Ещё что-то там</span>
+            </button>
+
+            <button class="end-call btn btn-danger ladda-button" data-style="expand-left" disabled="disabled">
+                <span class="ladda-label">Отключиться</span>
+            </button>
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <h1 class="page-header">Опрос</h1>
+<!----><h3><p>Опрос</p>
+</h3>
+<a id="ember598" href="#/poll/1/question/1" class="ember-view"><div class="btn btn-primary">Начать опрос</div></a>
+<button class="btn btn-warning" data-ember-action="617">Автоответчик/факс</button>
+<button class="btn btn-warning" data-ember-action="618">Нет времени</button>
+<div class="btn-group">
+    <button class="btn btn-default btn-warning dropdown-toggle" data-toggle="dropdown">Прочее<span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu">
+        <li><a class="cursor-pointer" data-ember-action="619">Тема опроса неинтересна</a></li>
+        <li><a class="cursor-pointer" data-ember-action="620">Бросил трубку</a></li>
+        <li><a class="cursor-pointer" data-ember-action="621">Нежилое помещение</a></li>
+        <li><a class="cursor-pointer" data-ember-action="622">Другая причина</a></li>
+    </ul>
+</div>
+
+
+
+</div>
+</div></div>
+
+
+
+</body></html>
