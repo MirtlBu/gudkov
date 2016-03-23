@@ -35,6 +35,10 @@
     background-color: #ff0000;
 }
 
+.header__main {
+    line-height: 30px;
+}
+
 .header .breadcrumbs {
     vertical-align: middle;
 }

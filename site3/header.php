@@ -6,10 +6,10 @@
                     <a href="#" class="logo header__item">
                         <div class="logo__img"></div>
                     </a>
-                    <a href="#" class="breadcrumbs header__item">
+                    <!-- <a href="#" class="breadcrumbs header__item">
                         <div class="breadcrumbs__image"></div>
                         <div class="breadcrumbs__text">На главную</div>
-                    </a>
+                    </a> -->
                 </div>
             </div>
             <div class="flexbox__item">
