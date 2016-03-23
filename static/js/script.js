@@ -28,9 +28,7 @@ $(function() {
         $(this).removeClass('button--pressed');
     });
 	
-	$(document).on('click', 'label.form__checkbox', function(){
-		$(this).closest('div').find('input').trigger('click');
-	});
+
 
     // $('.form__radio-button').on('mousedown', function() {
     //     $(this).addClass('button--pressed');
@@ -39,4 +37,10 @@ $(function() {
     //     $(this).removeClass('button--pressed');
     // });
 
-})
+});
+
+$(document).ready(function(){
+	$(document).on('click', 'label.labeled_checkbox', function(){
+		$(this).closest('div').find('input').trigger('click');
+	});
+});
