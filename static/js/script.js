@@ -34,4 +34,11 @@ $(function() {
     //     $(this).removeClass('button--pressed');
     // });
 
+    $('.header__dropdown').mouseenter(function() {
+        $(this).closest('.header__item').css('background-color', '#494949')
+    });
+    $('.header__dropdown').mouseleave(function() {
+        $(this).closest('.header__item').css('background-color', '#000')
+    });
+
 })
