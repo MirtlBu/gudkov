@@ -73,9 +73,10 @@ body {
     line-height: 2.1;
     border-radius: 0;
     border: none;
+    outline: none !important;
 }
 
-.btn-primary {
+.btn-primary, .btn-primary:focus, .btn-primary:active {
     background-color: #0195ff;
 }
 
@@ -83,7 +84,7 @@ body {
     background-color: #0183de;
 }
 
-.btn-success {
+.btn-success, .btn-success:focus, .btn-success:active {
     background-color: #39b54a;
 }
 
@@ -91,7 +92,7 @@ body {
     background-color: #119c24;
 }
 
-.btn-danger {
+.btn-danger, .btn-danger:focus, .btn-danger:active {
     background-color: #ff0000;
 }
 
@@ -134,8 +135,12 @@ div.btn-gudkov {
     line-height: 2.4;
 }
 
-.btn-gudkov--gray {
+.btn-warning, .btn-warning:active, .btn-warning:focus {
     background-color: #949494;
+}
+
+.btn-warning:hover {
+    background-color: #808080;
 }
 
 .navbar-form.navbar-right {
