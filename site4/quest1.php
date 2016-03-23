@@ -5,14 +5,19 @@
         <div class="survey form form--wide">
             <form>
                 <a href="" class="breadcrumbs-content text-link">Назад</a>
-                <div class="survey__title text-big text-bold">Вопрос 1</div>
-                <div class="survey__text text-big">Огромное спасибо! Если вы не возражаете...
-                    Если вы не возражаетеЕсли вы не возражаете Если вы не возражаетемм
-                    Если вы не возражаетеЕсли вы не возражаете Если вы не возражаетемм
-                    Если вы не возражаетеЕсли вы не возражаете Если вы не возражаетемм
-                    Если вы не возражаетеЕсли вы не возражаете Если вы не возражаетемм
+                <div class="form__row">
+                    <div class="survey__title text-big text-bold">Вопрос 1</div>
+                    <div class="survey__text text-big">Огромное спасибо! Если вы не возражаете...
+                        Если вы не возражаетеЕсли вы не возражаете Если вы не возражаетемм
+                        Если вы не возражаетеЕсли вы не возражаете Если вы не возражаетемм
+                        Если вы не возражаетеЕсли вы не возражаете Если вы не возражаетемм
+                        Если вы не возражаетеЕсли вы не возражаете Если вы не возражаетемм
+                    </div>
+                    <input class="form__input" type="text">
                 </div>
-                <input class="form__input">
+                <div class="form__row form__row--lined">
+                    <button class="button button--blue" type='submit'>Далее</button>
+                </div>
             </form>
         </div>
     </div>
