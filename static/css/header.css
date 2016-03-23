@@ -35,25 +35,6 @@
     background-color: #ff0000;
 }
 
-/*.header2, .header3 {
-    background-color: #c6c6c6;
-    color: #010101;
-}
-
-.header2 .breadcrumbs__image, .header3 .breadcrumbs__image {
-    background-position: -26px 0;
-    background-color: #010101;
-}
-
-.header2 .logo__img, .header3 .logo__img {
-    background-color: #010101;
-    background-position: 0 0;
-}
-
-.header2 .logo__img:hover, .header3 .logo__img:hover {
-    background-color: #ff0000;
-}*/
-
 .header .breadcrumbs {
     vertical-align: middle;
 }
@@ -145,7 +126,7 @@
     left: auto;
 }
 
-.header__link:hover + .header__dropdown {
+.header__link:hover + .header__dropdown, .header__dropdown:hover {
     display: block;
 }
 
