@@ -47,7 +47,7 @@ span.text-link {
     overflow: hidden;
     display: inline-block;
     vertical-align: top;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .listitem__img img {
@@ -60,18 +60,43 @@ span.text-link {
     vertical-align: top;
 }
 
+.listitem__helper {
+    margin-top: 10px;
+}
+
+.listitem__helper .listitem__img, .listitem__helper .listitem__text {
+    vertical-align: middle;
+}
+
+.allhelpers .text-link {
+    position: relative;
+}
+
+.allhelpers .text-link:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: -15px;
+    top: 5px;
+    background-image: url(../images/icon-back.png);
+    background-size: 20px 10px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
 /*.tasks .text-bigger, .errors .text-bigger, .forma_agitator .text-bigger, .forma_coordinator .text-bigger, .forma_pomoschnik .text-bigger, .coordinatorskaya .text-bigger, .pomoshnik .text-bigger {
     margin-bottom: 25px;
 }*/
 
-.singletask, .errors, .forma_agitator, .forma_coordinator, .forma_pomoschnik, .coordinatorskaya .container, .pomoshnik .container {
+.admin, .singletask, .errors, .coordinatorskaya .coordinator, .forma_agitator, .forma_coordinator, .forma_pomoschnik, .pomoshnik .container {
     padding: 40px 0;
     box-sizing: border-box;
 }
 
-.coordinatorskaya .coordinator {
+/*.coordinatorskaya .coordinator {
     padding: 0;
-}
+}*/
 
 .coordinatorskaya .dashboard .container, .pomoshnik .dashboard .container {
     padding: 0;
@@ -702,14 +727,9 @@ span.text-link {
     display: block;
 }
 
-.breadcrumbs--adminskaya {
+/*.breadcrumbs--adminskaya {
     position: absolute;
-    width: 100%;
-}
-
-.breadcrumbs--adminskaya .breadcrumbs-content {
-    position: relative;
-}
+}*/
 
 .breadcrumbs--adminskaya .flexbox .flexbox__item:first-child {
     width: 560px;
@@ -720,12 +740,16 @@ span.text-link {
     margin-left: 40px;
 }
 
-.allcoords .listitem__img {
-    margin-left: 30px;
+.allhelpers {
+    margin: -25px 0 0 30px;
 }
 
-.allcoords .listitem__img, .allcoords .listitem__text {
+.allhelpers .listitem__img, .allcoords .listitem__text {
     vertical-align: middle;
+}
+
+.coordinatorskaya .coordinator .main-title {
+    width: 580px;
 }
 
 .coordinator .form--steps {

@@ -45,14 +45,7 @@
     </div>
     <div class="container">
         <div class="breadcrumbs--adminskaya">
-            <div class="flexbox flexbox--start">
-                <div class="flexbox__item">
-                    <a href="" class="breadcrumbs-content text-link">Все задания</a>
-                </div>
-                <div class="flexbox__item">
-                    <a href="" class="breadcrumbs-content text-link">Все помощники в этом задании</a>
-                </div>
-            </div>
+            <a href="" class="breadcrumbs-content text-link">Все задания</a>
         </div>
         <div class="coordinator">
             <div class="flexbox flexbox--start">
@@ -62,12 +55,15 @@
                         <span class="text-small--light">(Все&nbsp;координаторы)</span>
                     </div>
                 </div>
-                <div class="flexbox__item allcoords">
-                    <div class="listitem__img">
-                        <img src="../../static/images/userpic.jpg">
-                    </div>
-                    <div class="listitem__text">
-                        <div class="text-big helper_name">Алексей Шпановский</div>
+                <div class="flexbox__item allhelpers">
+                    <a href="" class="text-link">Все помощники в этом задании</a>
+                    <div class="listitem__helper">
+                        <div class="listitem__img">
+                            <img src="../../static/images/ron.jpg">
+                        </div>
+                        <div class="listitem__text">
+                            <div class="text-big helper_name">Алексей Шпановский</div>
+                        </div>
                     </div>
                 </div>
             </div>

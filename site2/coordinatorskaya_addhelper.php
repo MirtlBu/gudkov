@@ -44,7 +44,8 @@
         </div>
     </div>
     <div class="container">
-        <div class="text-bigger main-title">Добавить шефа</div>
+        <div class="coordinator">
+            <div class="text-bigger main-title">Добавить шефа</div>
             <form class="form form--addhelper">
                 <div class="form__row align-centered">
                     <input id="indistrict" name="district" value="in" type="radio" class="form__input--hidden" checked>
@@ -290,6 +291,7 @@
                     <button class="button button--blue" type="button">Сохранить</button>
                 </div>
             </form>
+        </div>
         </div>
     </div>
 </div>
