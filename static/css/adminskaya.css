@@ -460,7 +460,7 @@ span.text-link {
 }
 
 .listitem--inactive .flexbox__item--left {
-    pointer-events: none;
+    pointer-events: initial;
 }
 
 .listitem--inactive .text-link, .listitem--inactive:hover .text-link {
