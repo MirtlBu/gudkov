@@ -491,37 +491,28 @@ p {
     font-size: 13px;
 }
 
-.baloon .list__count {
-    width: 30px;
-    height: 30px;
+.baloon .list__circle {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
     position: relative;
     color: #fff;
     margin-right: 5px;
-}
-
-.baloon .list__count:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    right: 0;
-    background-image: url(../images/icon-square.png);
+    background-image: url(../images/icon-circles.png);
     background-repeat: no-repeat;
 }
 
-.baloon .list__item--few .list__count:before {
-    opacity: .6;
+.list__circle--full {
+    background-position: 0 0;
 }
 
-.baloon .list__item--no .list__count:before {
-    width: 20px;
-    height: 20px;
-    top: 5px;
-    left: 5px;
-    border-radius: 50%;
-    background-color: #8a8181;
-    background-image: none;
+.list__circle--more {
+    background-position: -36px 0;
+}
+
+.list__circle--no {
+    background-position: -72px 0;
 }
 
 .baloon .list__count, .baloon .list__text {
