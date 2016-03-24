@@ -820,7 +820,9 @@ span.text-link {
     width: 10px;
     height: 10px;
     background-color: #ff0000;
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
 }
 
 .main-title {
@@ -846,15 +848,21 @@ span.text-link {
 }
 
 .reqlist .table__row .flexbox__item:nth-child(1), .reqlist .table__header .flexbox__item:nth-child(1) {
-    flex: 3.6;
+    -webkit-flex: 3.6;
+        -ms-flex: 3.6;
+            flex: 3.6;
 }
 
 .reqlist .table__row .flexbox__item:nth-child(2), .reqlist .table__header .flexbox__item:nth-child(2) {
-    flex: 1.2;
+    -webkit-flex: 1.2;
+        -ms-flex: 1.2;
+            flex: 1.2;
 }
 
 .reqlist .table__row .flexbox__item:nth-child(3), .reqlist .table__header .flexbox__item:nth-child(3) {
-    flex: 3.3;
+    -webkit-flex: 3.3;
+        -ms-flex: 3.3;
+            flex: 3.3;
 }
 
 .reqlist__person {

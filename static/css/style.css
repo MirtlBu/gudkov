@@ -812,7 +812,9 @@ p {
 }
 
 .events__nav .flexbox__item {
-    flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
 }
 
 .events__nav .button {
@@ -1269,7 +1271,9 @@ p {
 }
 
 .eventinfo__counter counter_part .counter__item:nth-child(2) .counter__num {
-    transform: none;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
 }
 
 .eventinfo__counter counter_part .counter__item:nth-child(1) {
@@ -1476,8 +1480,8 @@ p {
 
     .footer__links .flexbox__item:last-of-type {
         margin-top: 20px;
-        -webkit-align-self: flex-start;
-            -ms-flex-item-align: start;
+        -ms-flex-item-align: start;
+            -webkit-align-self: flex-start;
                 align-self: flex-start;
         text-align: left;
     }
@@ -1610,6 +1614,7 @@ p {
         position: relative;
         left: 0;
         right: auto;
+        margin: 20px 0;
     }
 
     .dashboard__img {
@@ -1705,7 +1710,9 @@ p {
     }
 
     .admin .flexbox .steps .flexbox.flexbox--start {
-        flex-direction: row;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
     }
 
     .steps__item > div {
@@ -1765,12 +1772,18 @@ p {
     }
 
     .yourprogress__progressbar, .appartment__row.flexbox {
-        flex-direction: row;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
     }
 
     .floor__row.flexbox {
-        flex-wrap: wrap;
-        flex-direction: row;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
     }
 
     .counter__plusone {
@@ -1920,36 +1933,77 @@ p {
           animation: zoomIn 1s;
 }
 
-@keyframes bounceInRight {
+@-webkit-keyframes bounceInRight {
   from, 60%, 75%, 90%, to {
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
 
   from {
     opacity: 0;
-    transform: translate3d(100px, 0, 0);
+    -webkit-transform: translate3d(100px, 0, 0);
+            transform: translate3d(100px, 0, 0);
   }
 
   60% {
     opacity: 1;
-    transform: translate3d(-25px, 0, 0);
+    -webkit-transform: translate3d(-25px, 0, 0);
+            transform: translate3d(-25px, 0, 0);
   }
 
   75% {
-    transform: translate3d(10px, 0, 0);
+    -webkit-transform: translate3d(10px, 0, 0);
+            transform: translate3d(10px, 0, 0);
   }
 
   90% {
-    transform: translate3d(-5px, 0, 0);
+    -webkit-transform: translate3d(-5px, 0, 0);
+            transform: translate3d(-5px, 0, 0);
   }
 
   to {
-    transform: none;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes bounceInRight {
+  from, 60%, 75%, 90%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+            transform: translate3d(100px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-25px, 0, 0);
+            transform: translate3d(-25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+            transform: translate3d(10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+            transform: translate3d(-5px, 0, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+            transform: none;
   }
 }
 
 .bounceInRight {
-  animation: bounceInRight 1s;
+  -webkit-animation: bounceInRight 1s;
+          animation: bounceInRight 1s;
 }
 
 

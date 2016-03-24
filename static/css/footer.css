@@ -41,8 +41,8 @@
     -webkit-flex: 2;
         -ms-flex: 2;
             flex: 2;
-    -webkit-align-self: flex-end;
-        -ms-flex-item-align: end;
+    -ms-flex-item-align: end;
+        -webkit-align-self: flex-end;
             align-self: flex-end;
     text-align: right;
 }
