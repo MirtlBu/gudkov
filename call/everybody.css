@@ -26,7 +26,6 @@ body {
 .container {
     position: relative;
     width: 1000px;
-    height: 100%;
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
@@ -39,6 +38,7 @@ body {
 .logo {
     margin-right: 20px;
     vertical-align: middle;
+    display: inline-block;
 }
 
 .logo__img {
@@ -65,7 +65,8 @@ body {
     text-transform: uppercase;
     font-size: 13px;
     padding: 0;
-    height: auto;
+    line-height: 30px;
+    height: 30px;
 }
 
 .btn {
@@ -176,10 +177,9 @@ a:hover {
 .btn.btn-default.btn-warning.dropdown-toggle {
     width: 160px;
     padding: 0 19px;
-    margin-right: 5px;
     line-height: 2.4;
     display: inline-block;
-    border: 1px solid #00aeef;
+    border: 1px solid #b2dfff;
     color: #00aeef;
     box-sizing: border-box;
     transition: color .3s, border .2s;
@@ -192,7 +192,186 @@ a:hover {
     font-weight: 500;
     border-radius: 8px;
     cursor: pointer;
-    transition: background .2s;
     background-color: #fff;
+}
+
+.dropdown-menu {
+    width: 100%;
+    left: 0;
+    top: 38px;
+    font-size: 13px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 20px 13px rgba(1, 72, 139, 0.05);
+    border: 1px solid #b2dfff;
+}
+
+.dropdown-menu>li>a {
+    padding: 5px 0;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    background-color: transparent;
+    color: #00aeef;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 20px 0 25px 0;
+    background-color: #f4f4f4;
+    z-index: 1;
+}
+
+.golosuem ~ .footer {
+    position: absolute;
+}
+
+.footer__social {
+    margin-bottom: 25px;
+}
+
+.footer__text {
+    display: inline-block;
+}
+
+.footer__text {
+    margin-right: 1px;
+    vertical-align: middle;
+}
+
+.likely {
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer__links .flexbox__item {
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+.footer__links .flexbox__item:last-of-type {
+    -webkit-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    -ms-flex-item-align: end;
+        -webkit-align-self: flex-end;
+            align-self: flex-end;
+    text-align: right;
+}
+
+.footer__link {
+    margin-bottom: 5px;
+}
+
+.footer__links .flexbox__item:last-of-type .text-small {
+    color: #707070;
+}
+
+.likely .likely__widget {
+    height: auto;
+    margin: .5em;
+    line-height: 1.5;
+    border: 0;
+    text-align: left;
+    cursor: pointer;
+    margin: 0 5px;
+    line-height: 30px;
+    color: #fff;
+    transition: background .2s;
+}
+
+.likely .likely__icon {
+    display: none;
+}
+
+.likely .likely__button {
+    padding: 0 9px !important;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.likely .likely__widget_twitter {
+    background-color: #3cc6ee;
+}
+
+.likely .likely__widget_twitter:hover {
+    background-color: #0ebaec;
+}
+
+.likely .likely__widget_vkontakte {
+    background-color: #6e8eb3;
+}
+
+.likely .likely__widget_vkontakte:hover {
+    background-color: #4c75a3;
+}
+
+.likely .likely__widget_facebook {
+    background-color: #5f77af;
+}
+
+.likely .likely__widget_facebook:hover {
+    background-color: #3a589e;
+}
+
+.likely .likely__widget_odnoklassniki {
+    background-color: #ee9853;
+}
+
+.likely .likely__widget_odnoklassniki:hover {
+    background-color: #ed812b;
+}
+
+.likely .likely__counter {
+    padding: 0 4px;
+}
+
+.flexbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.flexbox--start {
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+
+.flexbox--verticalmiddle {
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.flexbox--verticalbottom {
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+
+.text-link {
+    font-size: 13px;
+    color: #0096ff;
+    border-bottom: 1px solid #a3ceff;
+    /*transition: color .2s, border .2s;*/
+    cursor: pointer;
+}
+
+.text-link:hover {
+    color: #ff0000;
+    border-bottom: 1px solid #ffa3a3;
+}
+
+.btn .caret {
+    margin-left: 10px;
 }
 
