@@ -6,13 +6,10 @@
                     <a href="#" class="logo">
                         <div class="logo__img"></div>
                     </a>
-                    <!-- <a href="#" class="breadcrumbs header__item">
-                        <div class="breadcrumbs__image"></div>
-                        <div class="breadcrumbs__text">На главную к заданиям</div>
-                    </a> -->
                 </div>
             </div>
             <div class="flexbox__item">
+                <div class="header-menu">Меню</div>
                 <div class="header__others flexbox">
                     <div class="header__item">
                         <a href="#" class="header__link">Я голосую</a>

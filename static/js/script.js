@@ -28,7 +28,9 @@ $(function() {
         $(this).removeClass('button--pressed');
     });
 
-
+    $('.header-menu').on('click', function() {
+        $('.header__others').toggle();
+    });
 
     // $('.form__radio-button').on('mousedown', function() {
     //     $(this).addClass('button--pressed');

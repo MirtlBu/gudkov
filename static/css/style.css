@@ -1387,8 +1387,45 @@ p {
         display: none;
     }
 
+    .header > .container > .flexbox {
+        flex-direction: row;
+    }
+
     .header__others {
+        background-color: #494949;
+        position: absolute;
+        top: 30px;
+        right: 0;
+        width: 65%;
+        padding: 10px 10px 10px 25px;
+        box-sizing: border-box;
         display: none;
+    }
+
+    .header__dropdown {
+        position: relative;
+        top: 0;
+        margin-left: 20px;
+        padding: 0;
+        width: auto;
+    }
+
+    .header__link {
+        padding: 0;
+    }
+
+    .header__item--active, .header__item--active:hover .header__link {
+        background: transparent;
+    }
+
+    .header-menu {
+        display: block;
+        line-height: 30px;
+        padding: 0 5px;
+    }
+
+    .header-menu:hover .header__others {
+        display: block;
     }
 
     .slogan, .align-middle-wrap {
