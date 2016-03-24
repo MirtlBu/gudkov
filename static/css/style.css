@@ -1366,7 +1366,7 @@ p {
 }
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 600px) {
 
     .modal {
         width: 90%;
@@ -1470,6 +1470,8 @@ p {
     .likely .likely__widget {
         display: block;
         margin-bottom: 10px;
+        float: left;
+        clear: left;
     }
 
     .footer__links .flexbox__item:last-of-type {
@@ -1504,7 +1506,7 @@ p {
         display: none;
     }
 
-    .form__input--long, .form__socials {
+    .form__input--long, .form__socials, .forma_about_porch .form__input--long {
         width: 100%;
     }
 
@@ -1708,7 +1710,11 @@ p {
 
     .steps__item > div {
         display: inline-block;
-        vertical-align: top;
+        vertical-align: text-top;
+    }
+
+    .steps__item > div.text-big {
+        vertical-align: baseline;
     }
 
     .steps__item > div:nth-child(2) {
@@ -1751,14 +1757,19 @@ p {
     }
 
     .pomoshnik .container {
-        padding: 0 20px;
+        padding: 40px 20px;
     }
 
     .progressboard {
         margin-top: 10px;
     }
 
-    .yourprogress__progressbar {
+    .yourprogress__progressbar, .appartment__row.flexbox {
+        flex-direction: row;
+    }
+
+    .floor__row.flexbox {
+        flex-wrap: wrap;
         flex-direction: row;
     }
 
@@ -1772,6 +1783,64 @@ p {
 
     .listitem--inactive .text-link, .listitem--inactive:hover .text-link {
         border-bottom: none;
+    }
+
+    .pomoshnik .form--tenant .form__title {
+        vertical-align: middle;
+    }
+
+    .form__edit--edit.button {
+        width: auto;
+        display: inline-block;
+        padding: 0 10px;
+        margin-left: -50px;
+    }
+
+    .form__edit--edit.button:after {
+        content: none;
+    }
+
+    .pomoshnik .icon-close {
+        top: 25px;
+    }
+
+    .pomoshnik .form--tenant .form__textarea {
+        width: 100%;
+    }
+
+    .pomoshnik .form__edit--remove {
+        border: none;
+    }
+
+    .tasks__gain {
+        display: none;
+    }
+
+    .task__comment--showed {
+        display: block;
+        float: none;
+        margin: 10px 0 0 0;
+    }
+
+    .yourreward .flexbox__item {
+        margin: 0 0 10px 0;
+    }
+
+    .yourreward .flexbox:last-of-type .flexbox__item {
+        margin-bottom: 0;
+    }
+
+    .change_avatar {
+        position: static;
+    }
+
+    .tasks {
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .tasks > .text-bigger {
+        margin-bottom: 10px;
     }
 
 
