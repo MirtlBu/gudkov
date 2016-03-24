@@ -1368,6 +1368,11 @@ p {
 
 @media screen and (max-width: 420px) {
 
+    .modal {
+        width: 90%;
+        margin: 0 auto;
+    }
+
     .container {
         width: 100%;
         height: auto;
@@ -1485,6 +1490,7 @@ p {
     }
 
     .form__label {
+        width: 100%;
         margin-bottom: 5px;
     }
 
@@ -1520,13 +1526,9 @@ p {
     }
 
     .form__row--cluster .form__input, .form__input--bottom {
-        /*height: 40px;
+        height: 40px;
         border: 1px solid #e8e4de;
-        border-radius: 8px;*/
-    }
-
-    .form__row--cluster .form__label {
-        display: none;
+        border-radius: 8px;
     }
 
     .form__label--block, label[for="year-other"] {
@@ -1585,6 +1587,196 @@ p {
     .form__checkboxes, #help4-1 {
         margin-left: 0;
     }
+
+    /*второй сайт*/
+    .nabiraem .slogan__title {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+
+    .nabiraem .slogan__district, .nabiraem .slogan__info {
+        width: 100%;
+    }
+
+    .nabiraem .slogan__right, .nabiraem .slogan__left {
+        width: 100%;
+    }
+
+    .mailme {
+        width: 100%;
+        position: relative;
+        left: 0;
+        right: auto;
+    }
+
+    .dashboard__img {
+        vertical-align: middle;
+    }
+
+    .dashboard__title {
+        font-size: 30px;
+        line-height: 36px;
+        vertical-align: middle;
+    }
+
+    .dashboard__tablo {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    .dashboard .flexbox__item {
+        width: 100%;
+    }
+
+    .flexbox__container {
+        display: block;
+    }
+
+    form, .steps, .table {
+        width: 100% !important;
+    }
+
+    .dashboard .button {
+        width: 100%;
+    }
+
+    .allhelpers {
+        margin: 0;
+    }
+
+    .listitem {
+        margin: 0;
+        padding: 10px 0 20px 0;
+    }
+
+    .listitem__helper {
+        margin-bottom: 20px;
+    }
+
+    .form--steps .steps__point, .steps .steps__point {
+        display: inline-block;
+        width: 90%;
+        margin: 0 0 20px 0;
+    }
+
+    .accept {
+        position: relative;
+        margin: 0;
+        bottom: 20px;
+        right: 0;
+    }
+
+    .accept__icon {
+        right: 0;
+        left: auto;
+    }
+
+    .accept__message--active {
+        left: 0;
+    }
+
+    .accept__controls .button {
+        width: 150px;
+        margin-left: 0;
+    }
+
+    .form--steps .form__textarea {
+        width: 100%;
+    }
+
+    .fotorama__arr {
+        height: 30px;
+        background-size: cover;
+    }
+
+    .table__header.flexbox .flexbox__item:first-child {
+        width: 100%;
+    }
+
+    .table__header.flexbox .flexbox__item:not(:first-child) {
+        display: none;
+    }
+
+    .steps {
+        margin: 0 0 10px 0;
+    }
+
+    .admin .flexbox .steps .flexbox.flexbox--start {
+        flex-direction: row;
+    }
+
+    .steps__item > div {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .steps__item > div:nth-child(2) {
+        width: 90%;
+    }
+
+    .text-link {
+        text-decoration: underline;
+        border-bottom: none;
+    }
+
+    .coordinatorskaya .dashboard .container, .pomoshnik .dashboard .container {
+        padding: 0 20px;
+    }
+
+    .form__checkboxes.advice_types {
+        margin-left: 0;
+    }
+
+    .form__input--keygen {
+        width: 160px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .form__row--button {
+        text-align: center;
+    }
+
+    .coordinatorskaya .coordinator .main-title {
+        width: 100%;
+    }
+
+    .tasks__header .flexbox__item--right, .pomoshnik .container > .flexbox {
+        margin-left: 0;
+    }
+
+    .your__info .form, .progressboard {
+        width: 100%;
+    }
+
+    .pomoshnik .container {
+        padding: 0 20px;
+    }
+
+    .progressboard {
+        margin-top: 10px;
+    }
+
+    .yourprogress__progressbar {
+        flex-direction: row;
+    }
+
+    .counter__plusone {
+        display: none;
+    }
+
+    .counter__item--deadline {
+        margin:  20px 0 0 0;
+    }
+
+    .listitem--inactive .text-link, .listitem--inactive:hover .text-link {
+        border-bottom: none;
+    }
+
+
+
+
 
     /*третий сайт*/
     .events .dashboard__logo {
