@@ -15,6 +15,7 @@ body {
 }
 
 .navbar.navbar-default.navbar-fixed-top {
+    min-height: 30px;
     height: 30px !important;
     background-color: #000;
     color: #fff;
@@ -62,6 +63,9 @@ body {
     color: #fff !important;
     font-size: 16px;
     text-transform: uppercase;
+    font-size: 13px;
+    padding: 0;
+    height: auto;
 }
 
 .btn {
@@ -145,6 +149,7 @@ div.btn-gudkov {
 
 .navbar-form.navbar-right {
     font-size: 0;
+    margin: 0;
 }
 
 .page-header {
@@ -166,5 +171,28 @@ div.btn-gudkov {
 
 a:hover {
     text-decoration: none !important;
+}
+
+.btn.btn-default.btn-warning.dropdown-toggle {
+    width: 160px;
+    padding: 0 19px;
+    margin-right: 5px;
+    line-height: 2.4;
+    display: inline-block;
+    border: 1px solid #00aeef;
+    color: #00aeef;
+    box-sizing: border-box;
+    transition: color .3s, border .2s;
+    box-shadow: none;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background .2s;
+    background-color: #fff;
 }
 
