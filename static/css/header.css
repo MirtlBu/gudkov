@@ -148,6 +148,10 @@
     display: none;
 }
 
+.header__item:last-child.header__item--active:hover > .header__dropdown {
+    display: block;
+}
+
 span.header__item--active, a.header__item--active {
     display: inline-block;
 }
