@@ -1428,6 +1428,10 @@ p {
         display: block;
     }
 
+    .header__item {
+        display: block;
+    }
+
     .slogan, .align-middle-wrap {
         height: auto;
     }
@@ -1893,6 +1897,13 @@ p {
         margin-bottom: 10px;
     }
 
+    .baloon, .baloon--login, .baloon--home {
+        width: 280px;
+        left: 0;
+        right: 0;
+        margin:  0 auto;
+        padding: 15px 10px;
+    }
 
 
 
@@ -1930,6 +1941,71 @@ p {
 
     .calendar__control {
         display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: auto;
+    }
+
+    .flexbox {
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .header > .container > .flexbox {
+        flex-direction: row;
+    }
+
+    .header__others {
+        background-color: #494949;
+        position: absolute;
+        top: 30px;
+        right: 0;
+        width: 65%;
+        padding: 10px 10px 10px 25px;
+        box-sizing: border-box;
+        display: none;
+    }
+
+    .header__dropdown {
+        position: relative;
+        top: 0;
+        margin-left: 20px;
+        padding: 0;
+        width: auto;
+    }
+
+    .header__link {
+        padding: 0;
+    }
+
+    .header__item--active, .header__item--active:hover .header__link {
+        background: transparent;
+    }
+
+    .header-menu {
+        display: block;
+        line-height: 30px;
+        padding: 0 5px;
+    }
+
+    .header-menu:hover .header__others {
+        display: block;
+    }
+
+    .header__item {
+        display: block;
+    }
+
+    .nabiraem .slogan__left, .nabiraem .slogan__right {
+        flex: 1;
+    }
+
+    .nabiraem .slogan__info, .nabiraem .slogan__district {
+        width: 100%;
     }
 }
 

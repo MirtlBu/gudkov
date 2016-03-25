@@ -17,6 +17,7 @@
 .header-menu {
     display: none;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .logo {

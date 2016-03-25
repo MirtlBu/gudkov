@@ -32,6 +32,12 @@ $(function() {
         $('.header__others').toggle();
     });
 
+    $('#private').on('click', function() {
+        $(this).next('.header__dropdown').toggle();
+    }).on('hover', function() {
+        $(this).next('.header__dropdown').toggle();
+    });
+
     // $('.form__radio-button').on('mousedown', function() {
     //     $(this).addClass('button--pressed');
     // });
