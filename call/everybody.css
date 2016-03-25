@@ -375,3 +375,107 @@ a:hover {
     margin-left: 10px;
 }
 
+#gudkov .panel.panel-default {
+    width: 100%;
+    display: inline-block;
+    padding: 30px 10px 40px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #e5f7fd;
+    margin-left: -20px;
+    position: relative;
+    border: none;
+    box-shadow: none;
+}
+
+#gudkov .container.poll-main {
+    padding: 70px 20px 50px 20px;
+}
+
+#gudkov .panel-heading {
+    color: #000;
+    background-color: #fff;
+    border: none;
+}
+
+#gudkov .panel-heading {
+    font-size: 20px;
+    padding: 0;
+    background: transparent;
+}
+
+#gudkov .poll-main .dropdown-toggle {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#gudkov .panel-body {
+    width: 550px;
+    padding: 10px 0;
+}
+
+#gudkov .panel-body p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#gudkov .panel-body .extra-text p {
+    font-size: 13px;
+    color: #707070;
+}
+
+#gudkov .poll-main input {
+    position: absolute;
+    left: -9999px;
+}
+
+#gudkov .poll-main label {
+    min-width: 340px;
+    height: 40px;
+    line-height: 2.4;
+    margin-bottom: 5px;
+    padding: 0 20px;
+    display: inline-block;
+    border: 1px solid #00aeef;
+    border-radius: 8px;
+    text-align: left;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: color .3s, border .2s;
+}
+
+#gudkov .poll-main label:hover {
+    color: #ff0000;
+    border: 1px solid #ff0000;
+}
+
+#gudkov .poll-main input[type="radio"]:checked + label {
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    cursor: default;
+}
+
+#gudkov .answer span {
+    display: none;
+}
+
+#gudkov textarea {
+    position: relative;
+    width: 500px;
+    height: 80px;
+    border: 1px solid #e8e4de;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    box-shadow:         inset 0px 1px 2px 1px rgba(150, 150, 150, 0.05);
+    font-size: 16px;
+    z-index: 2;
+    padding-top: 11px;
+    resize: none;
+}
+
