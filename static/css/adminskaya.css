@@ -847,26 +847,60 @@ span.text-link {
     margin-bottom: 0;
 }
 
-.reqlist .table__row .flexbox__item:nth-child(1), .reqlist .table__header .flexbox__item:nth-child(1) {
-    -webkit-flex: 3.6;
-        -ms-flex: 3.6;
-            flex: 3.6;
+.reqlist .table__row > .flexbox__item:nth-child(1), .reqlist .table__header > .flexbox__item:nth-child(1) {
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
 }
 
-.reqlist .table__row .flexbox__item:nth-child(2), .reqlist .table__header .flexbox__item:nth-child(2) {
+.reqlist .table__row > .flexbox__item:nth-child(2), .reqlist .table__header > .flexbox__item:nth-child(2) {
+    -webkit-flex: 4.2;
+        -ms-flex: 4.2;
+            flex: 4.2;
+}
+
+.reqlist .table__row > .flexbox__item:nth-child(3), .reqlist .table__header > .flexbox__item:nth-child(3) {
     -webkit-flex: 1.2;
         -ms-flex: 1.2;
             flex: 1.2;
 }
 
-.reqlist .table__row .flexbox__item:nth-child(3), .reqlist .table__header .flexbox__item:nth-child(3) {
-    -webkit-flex: 3.3;
-        -ms-flex: 3.3;
-            flex: 3.3;
+.reqlist .table__row > .flexbox__item:nth-child(4) {
+    -webkit-flex: 2.8;
+        -ms-flex: 2.8;
+            flex: 2.8;
+}
+
+.reqlist .table__header > .flexbox__item:nth-child(4), .reqlist .table__header > .flexbox__item:nth-child(5) {
+    -webkit-flex: 1.4;
+        -ms-flex: 1.4;
+            flex: 1.4;
+}
+
+.reqlist .table__row > .flexbox__item:nth-child(5), .reqlist .table__header > .flexbox__item:nth-child(6) {
+    -webkit-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+}
+
+.flexbox--double .flexbox__item {
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+.reqlist .table__header {
+    color: #0096ff;
+    cursor: pointer;
+}
+
+.reqlist__comment {
+    margin-bottom: 10px;
 }
 
 .reqlist__person {
     width: 300px;
+    position: relative;
 }
 
 .reqlist__name {
@@ -876,6 +910,36 @@ span.text-link {
 .reqlist .listitem .text-big {
     display: inline;
     line-height: 22px;
+}
+
+.table__row--removed {
+    color: #959595;
+}
+
+.table__row--removed .text-link {
+    color: #959595 !important;
+    border-bottom: 1px solid #959595 !important;
+}
+
+.table__row--removed .flexbox--double {
+    display: none;
+}
+
+.table__row--removed .reqlist__comment {
+    color: #ff0000;
+}
+
+.table__row--removed .reqlist__person:after {
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 1px;
+    background-color: #ff0000;
+    left: -10px;
+    top: 17px;
+    -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+            transform: rotate(15deg);
 }
 
 .whatisthis {
