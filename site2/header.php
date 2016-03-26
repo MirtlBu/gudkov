@@ -9,40 +9,42 @@
                 </div>
             </div>
             <div class="flexbox__item">
-                <div class="header-menu">Меню</div>
-                <div class="header__others flexbox">
-                    <div class="header__item">
-                        <a href="#" class="header__link">Я голосую</a>
-                        <div class="header__dropdown">
-                            Отмечайтесь здесь, если 18 сентября вы проголосуете за Гудкова,
-                            отмечайте своих друзей и родственников, если проголосуют они.
+                <div class="header__menu">Меню</div>
+                <div class="header__others">
+                    <div class="flexbox">
+                        <div class="header__item">
+                            <a href="#" class="header__link">Я голосую</a>
+                            <div class="header__dropdown">
+                                Отмечайтесь здесь, если 18 сентября вы проголосуете за Гудкова,
+                                отмечайте своих друзей и родственников, если проголосуют они.
+                            </div>
                         </div>
-                    </div>
-                    <div class="header__item header__item--active">
-                        <a href="#" class="header__link">Карта сторонников</a>
-                        <div class="header__dropdown">
-                            Смотрите, сколько сторонников в округе уже найдено и присоединяйтесь к кампании.
+                        <div class="header__item header__item--active">
+                            <a href="#" class="header__link">Карта сторонников</a>
+                            <div class="header__dropdown">
+                                Смотрите, сколько сторонников в округе уже найдено и присоединяйтесь к кампании.
+                            </div>
                         </div>
-                    </div>
-                    <div class="header__item">
-                        <a href="#" class="header__link">Карта событий</a>
-                        <div class="header__dropdown">
-                            Выбирайте активность, если вы хотите что-то сделать для кампании прямо сейчас.
+                        <div class="header__item">
+                            <a href="#" class="header__link">Карта событий</a>
+                            <div class="header__dropdown">
+                                Выбирайте активность, если вы хотите что-то сделать для кампании прямо сейчас.
+                            </div>
                         </div>
-                    </div>
-                    <div class="header__item">
-                        <a href="#" class="header__link">Поддержать кампанию</a>
-                        <div class="header__dropdown">
-                            Переведите нам деньги, и мы превратим их в голоса.
+                        <div class="header__item">
+                            <a href="#" class="header__link">Поддержать кампанию</a>
+                            <div class="header__dropdown">
+                                Переведите нам деньги, и мы превратим их в голоса.
+                            </div>
                         </div>
-                    </div>
-                    <div class="header__item">
-                        <div class="header__link" id="private">Кабинет</div>
-                        <div class="header__dropdown">
-                            <a href="" class="header__dropdown-item">Список заданий</a>
-                            <a href="" class="header__dropdown-item">Добавить помощника</a>
-                            <a href="" class="header__dropdown-item">Редактировать профиль</a>
-                            <a href="" class="header__dropdown-item">Выйти</a>
+                        <div class="header__item">
+                            <div class="header__link" id="private">Кабинет</div>
+                            <div class="header__dropdown">
+                                <a href="" class="header__dropdown-item">Список заданий</a>
+                                <a href="" class="header__dropdown-item">Добавить помощника</a>
+                                <a href="" class="header__dropdown-item">Редактировать профиль</a>
+                                <a href="" class="header__dropdown-item">Выйти</a>
+                            </div>
                         </div>
                     </div>
                 </div>

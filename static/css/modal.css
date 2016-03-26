@@ -227,3 +227,16 @@
     width: 190px;
 }
 
+.cause .form__textarea {
+    width: 480px;
+    height: 90px;
+}
+
+.cause .text-bigger {
+    margin: 10px 0 15px 0;
+}
+
+.cause .button {
+    width: 160px;
+}
+
