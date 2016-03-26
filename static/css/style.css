@@ -1390,6 +1390,12 @@ p {
         padding: 0 20px;
     }
 
+    .flexbox {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    }
+
     .breadcrumbs {
         display: none;
     }
@@ -1907,14 +1913,9 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
+
     .container {
         width: auto;
-    }
-
-    .flexbox {
-        -webkit-flex-direction: column;
-            -ms-flex-direction: column;
-                flex-direction: column;
     }
 
     .header > .container > .flexbox {
