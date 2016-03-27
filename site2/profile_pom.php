@@ -61,7 +61,6 @@
 							</div>
 						</div>
 					</span>
-
                     <div class="form__row form__row--lined flexbox">
                         <label for="" class="form__label">Как готов помогать</label>
                         <div class="form__checkboxes advice_types">
@@ -151,6 +150,7 @@
                     <div class="form__row form__row--lined">
                         <div class="form__title text-big">Сменить пароль</div>
                     </div>
+
 					<span class="passwordChangeContainer">
 						<div class="form__row">
 							<label for="current_pass" class="form__label">Текущий пароль</label>
