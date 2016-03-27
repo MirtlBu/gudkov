@@ -1974,6 +1974,23 @@ p {
     .nabiraem .slogan__info, .nabiraem .slogan__district {
         width: 100%;
     }
+
+    .slogan > .flexbox, .footer__links {
+        flex-direction: column;
+    }
+
+    .footer__text {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .header__others > .flexbox {
+        flex-direction: column;
+    }
+
+    .dashboard > .container {
+        padding: 0 40px;
+    }
 }
 
 .container.onmapContainer {
