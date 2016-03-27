@@ -23,7 +23,7 @@
                 <div class="form__row">
                     <label for="phone_indistrict" class="form__label">Телефон</label>
                     <input id="phone_indistrict" name="phone_indistrict" class="form__input phone" placeholder="+7 912 456-68-61" type="text" required>
-                    <div class="form__help text-small">В работе понадобится <a href="#" class="text-link">Телеграм</a></div>
+                    <div class="form__help text-small">В работе понадобится <a href="https://telegram.org/" target="_blank" class="text-link">Телеграм</a></div>
                 </div>
                 <div class="form__row">
                     <label for="email" class="form__label">Эл. почта</label>
