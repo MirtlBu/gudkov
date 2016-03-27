@@ -1433,6 +1433,10 @@ p {
                 flex-direction: column;
     }
 
+    .flexbox__item {
+        -ms-flex-preferred-size: auto !important;
+    }
+
     .golosuem ~ .footer {
         position: relative;
     }
