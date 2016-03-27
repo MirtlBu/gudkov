@@ -22,7 +22,6 @@
                     <div class="form__row">
                         <div class="form__title text-big">Личные данные</div>
                     </div>
-<<<<<<< HEAD
 					<span class="ajaxedForm" ajaxedMethod="profile.saveInfo(this);">
 						<div class="form__row form__row--cluster">
 							<label for="name" class="form__label">Имя,</label>
@@ -62,68 +61,7 @@
 							</div>
 						</div>
 					</span>
-=======
-                    <div class="form__row form__row--cluster">
-                        <label for="name" class="form__label">Имя,</label>
-                        <input id="name" name="name" class="form__input form__input--top name" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
-                    </div>
-                    <div class="form__row">
-                        <label for="surname" class="form__label">фамилия</label>
-                        <input id="surname" name="surname" class="form__input form__input--bottom surname" type="text" pattern="[a-zA-Zа-яёА-ЯЁ \-]*">
-                    </div>
-                    <div class="form__row">
-                        <label for="phone_indistrict" class="form__label">Телефон</label>
-                        <input id="phone_indistrict" name="phone_indistrict" class="form__input phone" onFocus="$('#phone_indistrict').formatPnoneNumber(); if (this.value == '') this.value = '+';" placeholder="+7 912 456-68-61" type="text" required>
-                        <div class="form__help text-small">В работе понадобится <a href="https://telegram.org/" target="_blank" class="text-link">Телеграм</a></div>
-                    </div>
-                    <div class="form__row">
-                        <label for="email1" class="form__label">Эл. почта</label>
-                        <input id="email1" name="email1" class="form__input email" type="email" required>
-                    </div>
-                    <div class="form__row">
-                        <label for="street" class="form__label">Адрес</label>
-                        <input id="street" name="street" class="form__input form__input--long" type="text" required>
-                        <span class="form__kostili"></span>
-                        <select id="fancyselect" class="form__input streets_list">
 
-                        </select>
-                    </div>
-                    <div class="form__row">
-                        <label for="" class="form__label">Прописка в округе</label>
-                        <input id="registered" name="registration" value="yes" class="form__input--hidden indistrict_visa" type="radio" checked>
-                        <label for="registered" class="form__radio-button">Есть</label>
-                        <input id="unregistered" name="registration" value="no" class="form__input--hidden indistrict_visa" type="radio">
-                        <label for="unregistered" class="form__radio-button">Нет</label>
-                    </div>
-                    <div class="form__row form__row--lined">
-                        <label for="" class="form__label label-social">Социальные сети</label>
-                        <div class="flexbox form__socials">
-                            <div class="flexbox__item">
-                                <div class="form__row">
-                                    <label for="vk" class="form__label text-small">ВКонтакте</label>
-                                    <input id="vk" name="vk" class="form__input vk" type="text">
-                                </div>
-                                <div class="form__row">
-                                    <label for="facebook" class="form__label text-small">Фейсбук</label>
-                                    <input id="facebook" name="facebook" class="form__input facebook" type="text">
-                                </div>
-                                <div class="form__row">
-                                    <label for="twitter" class="form__label text-small">Твиттер</label>
-                                    <input id="twitter" name="twitter" class="form__input twitter" type="text">
-                                </div>
-                            </div>
-                            <div class="flexbox__item">
-                                <div class="form__row">
-                                    <label for="ok" class="form__label text-small">ОК</label>
-                                    <input id="ok" name="ok" class="form__input ok" type="text">
-                                </div>
-                                <div class="form__row">
-                                    <label for="othersocial" class="form__label text-small">Другое</label>
-                                    <input id="othersocial" name="othersocial" class="form__input othersocial" type="text">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="form__row form__row--lined flexbox">
                         <label for="" class="form__label">Как готов помогать</label>
@@ -211,10 +149,10 @@
                         <label for="otherhelp1" class="form__label">Чем могу помочь</label>
                         <textarea id="otherhelp1" name="otherhelp1" class="form__textarea form__input--long otherhelp"></textarea>
                     </div>
->>>>>>> origin/master
                     <div class="form__row form__row--lined">
                         <div class="form__title text-big">Сменить пароль</div>
                     </div>
+
 					<span class="passwordChangeContainer">
 						<div class="form__row">
 							<label for="current_pass" class="form__label">Текущий пароль</label>
