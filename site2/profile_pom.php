@@ -180,6 +180,7 @@
                     <div class="form__row">
                         <label for="new_pass" class="form__label">Новый пароль</label>
                         <input id="new_pass" name="new_pass" class="form__input form__input--long" type="text" required>
+                        <div class="form__help text-small">Обязательно придумайте пароль из шести символов и более, включающий строчные буквы, заглавные буквы и цифры.</div>
                     </div>
                     <div class="form__row">
                         <label for="new_pass_again" class="form__label">Ещё раз</label>
