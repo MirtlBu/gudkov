@@ -150,6 +150,10 @@ span.header__item--active, a.header__item--active {
         display: none;
     }
 
+    .header__others .flexbox {
+        flex-direction: column;
+    }
+
     .header__dropdown {
         position: relative;
         top: 0;

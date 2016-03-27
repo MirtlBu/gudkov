@@ -67,8 +67,8 @@
                     </div>
                 </div>
             </div>
-            <div class="flexbox">
-                <div class="flexbox__item">
+            <div class="">
+                <div class="">
                     <form class="form--disabled">
                         <div class="form form--steps">
                             <div class="dates">

@@ -1349,654 +1349,10 @@ p {
     margin-left: -10px;
 }
 
-
-@media screen and (max-height: 700px) {
-
-    .golosuem {
-        height: auto;
-        top: 0;
-    }
-
-    .slogan {
-        height: auto;
-        padding: 50px 0;
-    }
-
-    .align-middle {
-        position: relative;
-        top: 10px;
-        -webkit-transform: translateY(0);
-            -ms-transform: translateY(0);
-                transform: translateY(0);
-    }
-
-    .golosuem ~ .footer {
-        position: relative;
-    }
-
-}
-
-
-@media screen and (max-width: 600px) {
-
-    .modal {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .container {
-        width: 100%;
-        height: auto;
-        padding: 0 20px;
-    }
-
-    .flexbox {
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    }
-
-    .breadcrumbs {
-        display: none;
-    }
-
-    .slogan, .align-middle-wrap {
-        height: auto;
-    }
-
-    .slogan__title {
-        font-size: 36px;
-        line-height: 36px;
-        margin-bottom: 15px;
-    }
-
-    .slogan__text {
-        top: 0;
-    }
-
-    .align-middle {
-        position: relative;
-        top: 0;
-        -webkit-transform: translateY(0);
-            -ms-transform: translateY(0);
-                transform: translateY(0);
-    }
-
-    .golosuem {
-        height: auto;
-        top: 0;
-    }
-
-    .flexbox {
-        -webkit-flex-direction: column;
-            -ms-flex-direction: column;
-                flex-direction: column;
-    }
-
-    .golosuem ~ .footer {
-        position: relative;
-    }
-
-    .guide {
-        padding: 15px 0 15px 20px;
-    }
-
-    .guide .flexbox {
-        -webkit-flex-direction: column-reverse;
-            -ms-flex-direction: column-reverse;
-                flex-direction: column-reverse;;
-    }
-
-    .note {
-        margin-bottom: 30px;
-    }
-
-    .note:after {
-        left: -15px;
-    }
-
-    .guide__text {
-        margin-bottom: 30px;
-    }
-
-    .golosuem .counter {
-        margin: 10px auto 25px auto;
-    }
-
-    .counter__item {
-        vertical-align: top;
-    }
-
-    .counter__text, .counter__num {
-        display: block;
-    }
-
-    .counter__item:nth-child(3) .counter__text {
-        margin-left: 7px;
-    }
-
-    .footer__text {
-        display: block;
-        margin-bottom: 15px;
-    }
-
-    .likely .likely__widget {
-        display: block;
-        margin-bottom: 10px;
-        float: left;
-        clear: left;
-    }
-
-    .footer__links .flexbox__item:last-of-type {
-        margin-top: 20px;
-        -ms-flex-item-align: start;
-                -webkit-align-self: flex-start;
-                align-self: flex-start;
-        text-align: left;
-    }
-
-    .info__text {
-        width: 100%;
-    }
-
-    .form {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .form__label {
-        width: 100%;
-        margin-bottom: 5px;
-    }
-
-    .form__help {
-        left: 0px;
-    }
-
-    .form__note {
-/*        position: relative;
-        left: 0;*/
-        display: none;
-    }
-
-    .form__input--long, .form__socials, .forma_about_porch .form__input--long {
-        width: 100%;
-    }
-
-    .form__note:before {
-        content: none;
-    }
-
-    .form__kostili {
-        display: none;
-    }
-
-    div.fancy-select ul.options {
-        width: 100%;
-        left: 0;
-    }
-
-    .form__row--cluster {
-        margin-bottom: 10px;
-    }
-
-    .form__row--cluster .form__input, .form__input--bottom {
-        height: 40px;
-        border: 1px solid #e8e4de;
-        border-radius: 8px;
-    }
-
-    .form__label--block, label[for="year-other"] {
-        display: block;
-        width: auto;
-    }
-
-    .privel .form__radio-button {
-        width: 40px;
-        height: 40px;
-        line-height: 2.3;
-        margin: 10px 10px 0 0;
-    }
-
-    .form__radio-button+.form__help {
-        margin-top: 5px;
-    }
-
-    .form__label[for="other"] {
-        top: 0;
-    }
-
-    label[for="appartment-other"], .form__row--button .form__label, label[for="appartment"] {
-        display: none;
-    }
-
-    .form .button--blue {
-        display: block;
-        margin: 0 auto 10px auto;
-    }
-
-    .form__error {
-        display: block;
-        width: auto;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .form__error div {
-        display: inline-block;
-    }
-
-    .form__socials .form__label {
-        text-align: left;
-        display: block;
-    }
-
-    .pomogat .note {
-        top: 20px;
-    }
-
-    label[for="indistrict"] {
-        margin-bottom: 10px;
-    }
-
-    .form__checkboxes, #help4-1 {
-        margin-left: 0;
-    }
-
-    /*второй сайт*/
-    .nabiraem .slogan__title {
-        font-size: 30px;
-        line-height: 36px;
-        margin-bottom: 15px;
-    }
-
-    .nabiraem .slogan__district, .nabiraem .slogan__info {
-        width: 100%;
-    }
-
-    .nabiraem .slogan__right, .nabiraem .slogan__left {
-        width: 100%;
-    }
-
-    .mailme {
-        width: 100%;
-        position: relative;
-        left: 0;
-        right: auto;
-        margin: 20px 0;
-    }
-
-    .dashboard__img {
-        vertical-align: middle;
-    }
-
-    .dashboard__title {
-        font-size: 30px;
-        line-height: 36px;
-        vertical-align: middle;
-    }
-
-    .dashboard__tablo {
-        width: 100%;
-        margin: 0 0 30px 0;
-    }
-
-    .dashboard .flexbox__item {
-        width: 100%;
-    }
-
-    .flexbox__container {
-        display: block;
-    }
-
-    form, .steps, .table {
-        width: 100% !important;
-    }
-
-    .dashboard .button {
-        width: 100%;
-    }
-
-    .allhelpers {
-        margin: 0;
-    }
-
-    .listitem {
-        margin: 0;
-        padding: 10px 0 20px 0;
-    }
-
-    .listitem__helper {
-        margin-bottom: 20px;
-    }
-
-    .form--steps .steps__point, .steps .steps__point {
-        display: inline-block;
-        width: 90%;
-        margin: 0 0 20px 0;
-    }
-
-    .accept {
-        position: relative;
-        margin: 0;
-        bottom: 20px;
-        right: 0;
-    }
-
-    .accept__icon {
-        right: 0;
-        left: auto;
-    }
-
-    .accept__message--active {
-        left: 0;
-    }
-
-    .accept__controls .button {
-        width: 150px;
-        margin-left: 0;
-    }
-
-    .form--steps .form__textarea {
-        width: 100%;
-    }
-
-    .fotorama__arr {
-        height: 30px;
-        background-size: cover;
-    }
-
-    .table__header.flexbox .flexbox__item:first-child {
-        width: 100%;
-    }
-
-    .table__header.flexbox .flexbox__item:not(:first-child) {
-        display: none;
-    }
-
-    .steps {
-        margin: 0 0 10px 0;
-    }
-
-    .admin .flexbox .steps .flexbox.flexbox--start {
-        -webkit-flex-direction: row;
-            -ms-flex-direction: row;
-                flex-direction: row;
-    }
-
-    .steps__item > div {
-        display: inline-block;
-        vertical-align: text-top;
-    }
-
-    .steps__item > div.text-big {
-        vertical-align: baseline;
-    }
-
-    .steps__item > div:nth-child(2) {
-        width: 90%;
-    }
-
-    .text-link {
-        text-decoration: underline;
-        border-bottom: none;
-    }
-
-    .coordinatorskaya .dashboard .container, .pomoshnik .dashboard .container {
-        padding: 0 20px;
-    }
-
-    .form__checkboxes.advice_types {
-        margin-left: 0;
-    }
-
-    .form__input--keygen {
-        width: 160px;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .form__row--button {
-        text-align: center;
-    }
-
-    .coordinatorskaya .coordinator .main-title {
-        width: 100%;
-    }
-
-    .tasks__header .flexbox__item--right, .pomoshnik .container > .flexbox {
-        margin-left: 0;
-    }
-
-    .your__info .form, .progressboard {
-        width: 100%;
-    }
-
-    .pomoshnik .container {
-        padding: 40px 20px;
-    }
-
-    .progressboard {
-        margin-top: 10px;
-    }
-
-    .yourprogress__progressbar, .appartment__row.flexbox {
-        -webkit-flex-direction: row;
-            -ms-flex-direction: row;
-                flex-direction: row;
-    }
-
-    .floor__row.flexbox {
-        -webkit-flex-wrap: wrap;
-            -ms-flex-wrap: wrap;
-                flex-wrap: wrap;
-        -webkit-flex-direction: row;
-            -ms-flex-direction: row;
-                flex-direction: row;
-    }
-
-    .counter__plusone {
-        display: none;
-    }
-
-    .counter__item--deadline {
-        margin:  20px 0 0 0;
-    }
-
-    .listitem--inactive .text-link, .listitem--inactive:hover .text-link {
-        border-bottom: none;
-    }
-
-    .pomoshnik .form--tenant .form__title {
-        vertical-align: middle;
-    }
-
-    .form__edit--edit.button {
-        width: auto;
-        display: inline-block;
-        padding: 0 10px;
-        margin-left: -50px;
-    }
-
-    .form__edit--edit.button:after {
-        content: none;
-    }
-
-    .pomoshnik .icon-close {
-        top: 25px;
-    }
-
-    .pomoshnik .form--tenant .form__textarea {
-        width: 100%;
-    }
-
-    .pomoshnik .form__edit--remove {
-        border: none;
-    }
-
-    .tasks__gain {
-        display: none;
-    }
-
-    .task__comment--showed {
-        display: block;
-        float: none;
-        margin: 10px 0 0 0;
-    }
-
-    .yourreward .flexbox__item {
-        margin: 0 0 10px 0;
-    }
-
-    .yourreward .flexbox:last-of-type .flexbox__item {
-        margin-bottom: 0;
-    }
-
-    .change_avatar {
-        position: static;
-    }
-
-    .tasks {
-        width: 100%;
-        padding-top: 40px;
-    }
-
-    .tasks > .text-bigger {
-        margin-bottom: 10px;
-    }
-
-    .baloon, .baloon--login, .baloon--home {
-        width: 280px;
-        left: 0;
-        right: 0;
-        margin:  0 auto;
-        padding: 15px 10px;
-    }
-
-
-
-
-    /*третий сайт*/
-    .events .dashboard__logo {
-        width: 280px;
-        background-size: 100%;
-    }
-
-    .breadcrumbs.header__item--active {
-        display: none;
-    }
-
-    .logo {
-        line-height: 35px;
-    }
-
-    .events .donate {
-        float: none;
-    }
-
-    .events .donate__text {
-        margin: 20px 0;
-    }
-
-    .eventswitcher__title {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    .calendar__item {
-        margin-bottom: 10px;
-    }
-
-    .calendar__control {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-
-    .container {
-        width: auto;
-    }
-
-    .header > .container > .flexbox {
-        -webkit-flex-direction: row;
-            -ms-flex-direction: row;
-                flex-direction: row;
-    }
-
-    .header__others {
-        background-color: #494949;
-        position: absolute;
-        top: 30px;
-        right: 0;
-        width: 65%;
-        padding: 10px 10px 10px 25px;
-        box-sizing: border-box;
-        display: none;
-    }
-
-    .header__dropdown {
-        position: relative;
-        top: 0;
-        margin-left: 20px;
-        padding: 0;
-        width: auto;
-    }
-
-    .header__link {
-        padding: 0;
-    }
-
-    .header__item--active, .header__item--active:hover .header__link {
-        background: transparent;
-    }
-
-    .header-menu {
-        display: block;
-        line-height: 30px;
-        padding: 0 5px;
-    }
-
-    .header-menu:hover .header__others {
-        display: block;
-    }
-
-    .header__item {
-        display: block;
-    }
-
-    .nabiraem .slogan__left, .nabiraem .slogan__right {
-        -webkit-flex: 1;
-            -ms-flex: 1;
-                flex: 1;
-    }
-
-    .nabiraem .slogan__info, .nabiraem .slogan__district {
-        width: 100%;
-    }
-
-    .slogan > .flexbox, .footer__links {
-        flex-direction: column;
-    }
-
-    .footer__text {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    .header__others > .flexbox {
-        flex-direction: column;
-    }
-
-    .dashboard > .container {
-        padding: 0 40px;
-    }
-}
-
 .container.onmapContainer {
-/*	position: absolute;
-	left: 40px;
-	width: 320px;*/
+/*  position: absolute;
+    left: 40px;
+    width: 320px;*/
     pointer-events: none;
     padding: 0;
 }
@@ -2105,9 +1461,749 @@ p {
 
 
 .modal-wrap {
-	z-index: 100;
+    z-index: 100;
 }
 
 .steps_container label[for="avatar_upload_input"] {
-	width: 160px;
+    width: 160px;
+}
+
+
+@media screen and (max-height: 700px) {
+
+    .golosuem {
+        height: auto;
+        top: 0;
+    }
+
+    .slogan {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .align-middle {
+        position: relative;
+        top: 10px;
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
+    }
+
+    .golosuem ~ .footer {
+        position: relative;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+
+    .slogan > .flexbox {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    }
+
+    .nabiraem .slogan__district, .nabiraem .slogan__info {
+        width: 100%;
+    }
+
+    .mailme {
+        width: 100%;
+        position: relative;
+        left: 0;
+        right: auto;
+        margin: 20px 0;
+    }
+
+    .dashboard__img {
+        vertical-align: middle;
+    }
+
+    .dashboard__tablo {
+        display: inline-block;
+        width: auto;
+        margin-left: 0;
+    }
+
+    .dashboard__title {
+        font-size: 36px;
+        line-height: 36px;
+        vertical-align: middle;
+    }
+
+    .dashboard__img, .dashboard__img > img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .dashboard .button {
+        margin: 10px auto;
+    }
+
+    .admin .flexbox {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    }
+
+    .admin .table__header, .admin .table__row {
+        flex-direction: row;
+    }
+
+    .admin .flexbox--start {
+        flex-direction: column;
+    }
+
+    .admin, .singletask, .errors, .coordinatorskaya .coordinator, .forma_agitator, .forma_coordinator, .forma_pomoschnik, .pomoshnik .container {
+        padding: 20px 0;
+    }
+
+    .breadcrumbs-content {
+        position: relative;
+        left: 0;
+    }
+
+    .allhelpers {
+        margin: 0;
+    }
+
+    .form, .form__socials {
+        width: 100% !important;
+        margin: 0 auto 10px auto !important;
+    }
+
+    .listitem {
+        margin: 0;
+        padding: 10px 0 20px 0;
+    }
+
+    .listitem__helper {
+        margin-bottom: 20px;
+    }
+
+    .form--steps .steps__point, .steps .steps__point {
+        display: inline-block;
+        width: 90%;
+        margin: 0 0 20px 0;
+    }
+
+    .accept {
+        position: relative;
+        margin: 0;
+        bottom: 20px;
+        right: 0;
+    }
+
+    .accept__icon {
+        right: 0;
+        left: auto;
+    }
+
+    .accept__message--active {
+        left: 0;
+    }
+
+    .accept__controls .button {
+        width: 150px;
+        margin-left: 0;
+    }
+
+    .form--steps .form__textarea {
+        width: 100%;
+    }
+
+    .table__header.flexbox .flexbox__item:first-child {
+        width: 100%;
+    }
+
+    .table__header.flexbox .flexbox__item:not(:first-child) {
+        display: none;
+    }
+
+    .coord .table__row.flexbox.listitem {
+        flex-direction: row;
+    }
+
+    .coord .table__row.flexbox .flexbox__item:nth-child(1){
+        flex: 3;
+    }
+    .coord .table__row.flexbox .flexbox__item:nth-child(2){
+        flex: 1;
+    }
+    .coord .table__row.flexbox .flexbox__item:nth-child(3){
+        flex: 1;
+    }
+
+    .steps {
+        width: 100% !important;
+        margin: 0 0 10px 0;
+    }
+
+    .admin .steps .flexbox--start {
+        flex-direction: row;
+    }
+
+    .steps .dates ~ .steps__item > div {
+        display: inline-block;
+    }
+
+    .text-link {
+        text-decoration: underline;
+        border-bottom: none;
+    }
+
+    .text-link:hover {
+        border: none;
+    }
+
+    .modal {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 0 20px;
+    }
+
+/*    .flexbox {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    }*/
+
+    .breadcrumbs {
+        display: none;
+    }
+
+    .slogan, .align-middle-wrap {
+        height: auto;
+    }
+
+    .slogan__title {
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+
+    .slogan__text {
+        top: 0;
+    }
+
+    .align-middle {
+        position: relative;
+        top: 0;
+        -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+                transform: translateY(0);
+    }
+
+    .golosuem {
+        height: auto;
+        top: 0;
+    }
+
+/*    .flexbox {
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }*/
+
+    .golosuem ~ .footer {
+        position: relative;
+    }
+
+    .guide {
+        padding: 15px 0 15px 20px;
+    }
+
+    .guide .flexbox {
+        -webkit-flex-direction: column-reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;;
+    }
+
+    .note {
+        margin-bottom: 30px;
+    }
+
+    .note:after {
+        left: -15px;
+    }
+
+    .guide__text {
+        margin-bottom: 30px;
+    }
+
+    .golosuem .counter {
+        margin: 10px auto 25px auto;
+    }
+
+    .counter__item {
+        vertical-align: top;
+    }
+
+    .counter__text, .counter__num {
+        display: block;
+    }
+
+    .counter__item:nth-child(3) .counter__text {
+        margin-left: 7px;
+    }
+
+    .footer__text {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .likely .likely__widget {
+        display: block;
+        margin-bottom: 10px;
+        float: left;
+        clear: left;
+    }
+
+    .footer__links .flexbox__item:last-of-type {
+        margin-top: 20px;
+        -ms-flex-item-align: start;
+                -webkit-align-self: flex-start;
+                align-self: flex-start;
+        text-align: left;
+    }
+
+    .info__text {
+        width: 100%;
+    }
+
+
+    .form__help {
+        left: 0px;
+    }
+
+    .form__note {
+        display: none;
+    }
+
+
+    .form__note:before {
+        content: none;
+    }
+
+    .form__kostili {
+        display: none;
+    }
+
+    div.fancy-select ul.options {
+        width: 100%;
+        left: 0;
+    }
+
+    .form__row--cluster {
+        margin-bottom: 10px;
+    }
+
+    .form__row--cluster .form__input, .form__input--bottom {
+        height: 40px;
+        border: 1px solid #e8e4de;
+        border-radius: 8px;
+    }
+
+    .form__label--block, label[for="year-other"] {
+        display: block;
+        width: auto;
+    }
+
+    .privel .form__radio-button {
+        width: 40px;
+        height: 40px;
+        line-height: 2.3;
+        margin: 10px 10px 0 0;
+    }
+
+    .form__radio-button+.form__help {
+        margin-top: 5px;
+    }
+
+    .form__label[for="other"] {
+        top: 0;
+    }
+
+    label[for="appartment-other"], .form__row--button .form__label, label[for="appartment"] {
+        display: none;
+    }
+
+    .form .button--blue {
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+
+    .form__error {
+        display: block;
+        width: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .form__error div {
+        display: inline-block;
+    }
+
+    .form__socials .form__label {
+        text-align: left;
+        display: block;
+    }
+
+    .pomogat .note {
+        top: 20px;
+    }
+
+    label[for="indistrict"] {
+        margin-bottom: 10px;
+    }
+
+    .form__checkboxes, #help4-1 {
+        margin-left: 0;
+    }
+
+
+    .nabiraem .slogan__title {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+
+    .nabiraem .slogan__district, .nabiraem .slogan__info {
+        width: 100%;
+    }
+
+    .nabiraem .slogan__right, .nabiraem .slogan__left {
+        width: 100%;
+    }
+
+
+    .dashboard__title {
+        font-size: 30px;
+        line-height: 36px;
+        vertical-align: middle;
+    }
+
+    .dashboard__tablo {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    .dashboard .flexbox__item {
+        width: 100%;
+    }
+
+    .flexbox__container {
+        display: block;
+    }
+
+    .table {
+        width: 100% !important;
+    }
+
+    .admin .flexbox .steps .flexbox.flexbox--start {
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+
+    .coordinatorskaya .dashboard .container, .pomoshnik .dashboard .container {
+        padding: 0 20px;
+    }
+
+    .form__checkboxes.advice_types {
+        margin-left: 0;
+    }
+
+    .form__input--keygen {
+        width: 160px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .form__row--button {
+        text-align: center;
+    }
+
+    .coordinatorskaya .coordinator .main-title {
+        width: 100%;
+    }
+
+    .tasks__header .flexbox__item--right, .pomoshnik .container > .flexbox {
+        margin-left: 0;
+    }
+
+    .your__info .form, .progressboard {
+        width: 100%;
+    }
+
+    .pomoshnik .container {
+        padding: 0 20px 20px 20px;
+    }
+
+    .pomoshnik .breadcrumbs-content {
+        left: 20px;
+        top: 0;
+    }
+
+    .singletask__taskbuttons + .flexbox {
+        flex-direction: column;
+    }
+
+    .your__info {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .progressboard {
+        margin-top: 10px;
+    }
+
+    .yourprogress__progressbar, .appartment__row.flexbox {
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+
+    .floor__row.flexbox {
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+
+    .counter__plusone {
+        display: none;
+    }
+
+    .counter__item--deadline {
+        margin:  20px 0 0 0;
+    }
+
+    .listitem--inactive .text-link, .listitem--inactive:hover .text-link {
+        border-bottom: none;
+    }
+
+    .pomoshnik .form--tenant .form__title {
+        vertical-align: middle;
+    }
+
+    .form__edit--edit.button {
+        width: auto;
+        display: inline-block;
+        padding: 0 10px;
+        margin-left: -50px;
+    }
+
+    .form__edit--edit.button:after {
+        content: none;
+    }
+
+    .pomoshnik .icon-close {
+        top: 25px;
+    }
+
+    .pomoshnik .form--tenant .form__textarea {
+        width: 100%;
+    }
+
+    .pomoshnik .form__edit--remove {
+        border: none;
+    }
+
+    .tasks__gain {
+        display: none;
+    }
+
+    .task__comment--showed {
+        display: block;
+        float: none;
+        margin: 10px 0 0 0;
+    }
+
+    .yourreward .flexbox__item {
+        margin: 0 0 10px 0;
+    }
+
+    .yourreward .flexbox:last-of-type .flexbox__item {
+        margin-bottom: 0;
+    }
+
+    .change_avatar {
+        position: static;
+    }
+
+    .tasks {
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .tasks > .text-bigger {
+        margin-bottom: 10px;
+    }
+
+    .baloon, .baloon--login, .baloon--home {
+        width: 280px;
+        left: 0;
+        right: 0;
+        margin:  0 auto;
+        padding: 15px 10px;
+    }
+
+
+    .events .dashboard__logo {
+        width: 280px;
+        background-size: 100%;
+    }
+
+    .breadcrumbs.header__item--active {
+        display: none;
+    }
+
+    .logo {
+        line-height: 35px;
+    }
+
+    .events .donate {
+        float: none;
+    }
+
+    .events .donate__text {
+        margin: 20px 0;
+    }
+
+    .eventswitcher__title {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .calendar__item {
+        margin-bottom: 10px;
+    }
+
+    .calendar__control {
+        display: none;
+    }
+
+    .accept__controls .button {
+        margin-left: 0;
+    }
+
+    .hr {
+        margin: 20px auto;
+    }
+
+    .coordinatorskaya .coord .table__row > .flexbox__item:nth-child(1), .coordinatorskaya .coord .table__header > .flexbox__item:nth-child(1) {
+
+                flex: 1;
+    }
+
+    .coordinatorskaya .coord .table__row > .flexbox__item:nth-child(2), .coordinatorskaya .coord .table__header > .flexbox__item:nth-child(2) {
+
+                flex: 3;
+    }
+
+    .coordinatorskaya .coord .table__row > .flexbox__item:nth-child(3), .coordinatorskaya .coord .table__header > .flexbox__item:nth-child(3) {
+
+                flex: 1;
+    }
+
+    .coordinatorskaya .coord .table__row > .flexbox__item:nth-child(4) {
+
+                flex: 1;
+    }
+
+    .coordinatorskaya .coord .table__header > .flexbox__item:nth-child(4), .coordinatorskaya .coord .table__header > .flexbox__item:nth-child(5) {
+
+                flex: 1;
+    }
+
+    .coordinatorskaya .coord .table__row > .flexbox__item:nth-child(5), .coordinatorskaya .coord .table__header > .flexbox__item:nth-child(6) {
+
+                flex: 1;
+    }
+
+    .flexbox--double .coord .flexbox__item {
+
+                flex: 1;
+    }
+
+    .coordinator .flexbox--start {
+        flex-direction: column;
+    }
+
+    .coordinator .main-title + .flexbox {
+        flex-direction: column;
+    }
+
+    .tasks__header, .tasks__body, .errors .table__row {
+        flex-direction: column;
+    }
+
+    .errors .table__row .flexbox__item {
+        margin-bottom: 10px;
+    }
+
+    #inhabital_amount_entrance, #inhabital_amount_entrance+.text-small {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .dashboard .flexbox {
+        flex-direction: column;
+    }
+
+    .dashboard .button {
+        width: 100%;
+    }
+
+    .steps__item > div:nth-child(2) {
+        width: 90%;
+    }
+
+    .table__header.flexbox, .table__header.flexbox{
+        flex-direction: column;
+    }
+
+    .reqlist__date {
+        display: block;
+    }
+
+    .admin .flexbox {
+        flex-direction: column;
+    }
+
+    .form__label {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .form__input, .form__input--long, .form__socials, .forma_about_porch .form__input--long {
+        width: 100%;
+    }
+
+    .form .flexbox {
+        flex-direction: column;
+    }
+
+    .header__others .flexbox {
+        flex-direction: column;
+    }
+
+    .coordinatorskaya .coord .table .flexbox {
+        flex-direction: column;
+    }
 }

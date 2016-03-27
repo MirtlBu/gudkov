@@ -31,8 +31,8 @@
     <div class="container">
 		<div class="text-bigger main-title">Я привёл человека</div>
 
-        <div class="flexbox pomoshnik ">
-            <div class="flexbox__item">
+        <div class="pomoshnik ">
+            <div class="">
 			<form class="form">
 				<div class="form__row">
 					<div class="form__title text-big">Данные человека, которого вы привели</div>
