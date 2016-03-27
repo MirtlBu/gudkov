@@ -85,7 +85,7 @@
                     <div class="form__row">
                         <label for="phone_indistrict" class="form__label">Телефон</label>
                         <input id="phone_indistrict" name="phone_indistrict" class="form__input phone" onFocus="$('#phone_indistrict').formatPnoneNumber(); if (this.value == '') this.value = '+';" placeholder="+7 912 456-68-61" type="text" required>
-                        <div class="form__help text-small">В работе понадобится <a href="#" class="text-link">Телеграм</a></div>
+                        <div class="form__help text-small">В работе понадобится <a href="https://telegram.org/" target="_blank" class="text-link">Телеграм</a></div>
                     </div>
                     <div class="form__row">
                         <label for="email1" class="form__label">Эл. почта</label>
@@ -239,7 +239,7 @@
                     <div class="form__row">
                         <label for="phone_outdistrict" class="form__label">Телефон</label>
                         <input id="phone_outdistrict" name="phone_outdistrict" class="form__input phone" type="text" onFocus="$('#phone_outdistrict').formatPnoneNumber(); if (this.value == '') this.value = '+';" placeholder="+7 912 456-68-61" required>
-                        <div class="form__help text-small">В работе понадобится <a href="#" class="text-link">Телеграм</a></div>
+                        <div class="form__help text-small">В работе понадобится <a href="https://telegram.org/" target="_blank" class="text-link">Телеграм</a></div>
                     </div>
                     <div class="form__row">
                         <label for="email2" class="form__label">Эл. почта</label>
