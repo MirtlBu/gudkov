@@ -842,6 +842,10 @@ span.text-link {
     vertical-align: top;
 }
 
+.reqlist .reqlist__comment img {
+	cursor: pointer ;
+}
+
 .reqlist__date {
     margin-right: 12px;
     line-height: 22px;
