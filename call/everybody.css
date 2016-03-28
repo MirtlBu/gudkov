@@ -431,11 +431,11 @@ a:hover {
 }
 
 #gudkov .poll-main label {
-    min-width: 340px;
-    height: 40px;
-    line-height: 2.4;
+    width: 340px;
+    min-height: 40px;
+    line-height: 22px;
     margin-bottom: 5px;
-    padding: 0 20px;
+    padding: 7px 20px;
     display: inline-block;
     border: 1px solid #00aeef;
     border-radius: 8px;
