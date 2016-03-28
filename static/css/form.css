@@ -530,7 +530,8 @@ input[name="street"] {
 
 .form--steps {
     width: 580px;
-    padding: 10px 20px 40px 20px
+    padding: 10px 20px 40px 20px;
+    margin-bottom: 20px;
 }
 
 .form--steps .form__checkbox:after {

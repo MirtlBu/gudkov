@@ -9,15 +9,6 @@
                         </div>
                         <div class="dashboard__title">Валерия</div>
                     </div>
-
-                    <!-- <div class="dashboard__tablo">
-                        <div class="">Валерия, как прошёл день?</div>
-                        <div class="dashboard__rate">
-                            <button class="button button--small button--red">Плохо</button>
-                            <button class="button button--small button--blue">Всё по плану</button>
-                            <button class="button button--small button--green">Отлично</button>
-                        </div>
-                    </div> -->
                 </div>
             </div>
             <div class="flexbox__item">
