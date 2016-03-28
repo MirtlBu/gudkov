@@ -326,7 +326,7 @@
             </div>
             <div class="form__row">
                 <label for="party1" class="form__label">За кого</label>
-                <div class="form__radios">
+                <div class="form__radios form__radios--less-margin">
                     <div class="flexbox">
                         <div class="flexbox__item">
                             <div class="form__row">
@@ -395,7 +395,7 @@
             </div>
             <div class="form__row">
                 <label for="party1" class="form__label">За кого</label>
-                <div class="form__radios">
+                <div class="form__radios form__radios--less-margin">
                     <div class="flexbox">
                         <div class="flexbox__item">
                             <div class="form__row">

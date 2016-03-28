@@ -102,6 +102,10 @@ span.text-link {
     padding: 0;
 }
 
+.pomoshnik .dashboard {
+    min-height: 230px;
+}
+
 .steps {
     width: 360px;
     margin: 0 0 10px -20px;
@@ -768,7 +772,7 @@ span.text-link {
     overflow: hidden;
     display: inline-block;
     vertical-align: top;
-    margin-right: 10px;
+    margin: 0 10px 15px 0;
 }
 
 .steps-coordinator__img img {
@@ -1019,6 +1023,10 @@ span.text-link {
 
 .change_avatar .text-link {
     line-height: 1;
+}
+
+.form--tenant .steps__header {
+    margin-bottom: 13px;
 }
 
 
