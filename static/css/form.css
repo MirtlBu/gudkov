@@ -459,6 +459,11 @@ input[name="street"] {
     margin-right: 30px;
 }
 
+.form__radios--less-margin .form__row {
+    margin-bottom: 7px;
+}
+
+
 .form--tenant {
     width: 620px;
     margin-left: 0;

@@ -52,6 +52,7 @@ h1, h2, h3 {
 
 p {
     margin: 10px 0;
+    line-height: 20px;
 }
 
 
@@ -377,10 +378,6 @@ p {
 
 .info__text {
     width: 540px;
-}
-
-.info__text p {
-    line-height: 20px;
 }
 
 .align-centered {
