@@ -133,6 +133,11 @@
     display: inline-block;
 }
 
+.form__label.form__label--status {
+    width: 300px;
+}
+
+
 .form__label[for="other"] {
     position: relative;
     top: 12px;
