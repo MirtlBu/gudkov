@@ -32,7 +32,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="admin reqlist">
+        <div class="admin alllist">
             <div class="text-bigger main-title">Список всех зарегистрированных</div>
             <div class="alllist-filter">
                 <input id="coords-filter" name="coords-filter" value="coords-filter" class="form__input form__input--hidden" type="checkbox" onChange="$();">

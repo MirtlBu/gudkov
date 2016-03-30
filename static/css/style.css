@@ -140,6 +140,7 @@ p {
     border-bottom: 1px solid #a3ceff;
     /*transition: color .2s, border .2s;*/
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .text-link:hover {
@@ -1574,7 +1575,7 @@ p {
 
     .listitem {
         margin: 0;
-        padding: 10px 0 20px 0;
+        padding: 10px;
     }
 
     .listitem__helper {
@@ -1616,9 +1617,9 @@ p {
         width: 100%;
     }
 
-    .table__header.flexbox .flexbox__item:not(:first-child) {
+    /*.table__header.flexbox .flexbox__item:not(:first-child) {
         display: none;
-    }
+    }*/
 
     .coord .table__row.flexbox.listitem {
         flex-direction: row;
@@ -1653,7 +1654,11 @@ p {
     }
 
     .text-link:hover {
-        border: none;
+        border-bottom: none;
+    }
+
+    .listitem--link:hover .text-link {
+        border-bottom: none;
     }
 
     .modal {
@@ -1856,6 +1861,7 @@ p {
     .form__socials .form__label {
         text-align: left;
         display: block;
+        margin-bottom: 5px;
     }
 
     .pomogat .note {
@@ -1884,7 +1890,6 @@ p {
     .nabiraem .slogan__right, .nabiraem .slogan__left {
         width: 100%;
     }
-
 
     .dashboard__title {
         font-size: 30px;
@@ -2142,7 +2147,7 @@ p {
         flex-direction: column;
     }
 
-    .coordinator .main-title + .flexbox {
+    .main-title + .flexbox {
         flex-direction: column;
     }
 
@@ -2157,6 +2162,64 @@ p {
     #inhabital_amount_entrance, #inhabital_amount_entrance+.text-small {
         margin-left: 0;
     }
+
+    .admin.alllist .table__header .flexbox__item:nth-child(1) {
+        flex: 1;
+    }
+    .admin.alllist .table__header .flexbox__item:nth-child(2) {
+        flex: 1.5;
+    }
+    .admin.alllist .table__header .flexbox__item:nth-child(3) {
+        flex: 2;
+    }
+    .admin.alllist .table__header .flexbox__item:nth-child(4) {
+        flex: 0;
+    }
+    .admin.alllist .table__header .flexbox__item:nth-child(5) {
+        flex: 1;
+    }
+    .admin.alllist .table__header .flexbox__item:nth-child(6) {
+        flex: 1.5;
+    }
+    .admin.alllist .table__header .flexbox__item:nth-child(7) {
+        flex: 1.5;
+    }
+    .admin.alllist .table__header .flexbox__item:nth-child(8) {
+        flex: 0;
+    }
+
+    .admin.alllist .table__row .flexbox__item:nth-child(2) .listitem__img {
+        display: none;
+    }
+
+    .admin.alllist .table__row .flexbox__item:nth-child(5) {
+        flex: 1;
+    }
+
+    .admin.alllist .table__row .flexbox__item:nth-child(6) .icon-close {
+        float: left;
+    }
+
+    .admin .reqlist__person {
+        width: 200px;
+    }
+
+    .admin .reqlist__coord .text-light {
+        display: block;
+    }
+
+    .coordinatorskaya .flexbox__item:nth-child(2) .flexbox__container {
+        padding: 0 20px;
+    }
+
+    .form__label {
+        margin-bottom: 5px;
+    }
+
+    .footer__links {
+        flex-direction: column;
+    }
+
 }
 
 
@@ -2189,7 +2252,6 @@ p {
     .form__label {
         display: block;
         width: 100%;
-        margin-bottom: 5px;
     }
 
     .form__input, .form__input--long, .form__socials, .forma_about_porch .form__input--long {
@@ -2206,6 +2268,40 @@ p {
 
     .coordinatorskaya .coord .table .flexbox {
         flex-direction: column;
+    }
+
+    .table__header {
+        align-items: flex-start;
+    }
+
+    .admin.alllist .table__row .flexbox__item:nth-child(2) .listitem__img {
+        display: inline-block;
+    }
+
+    .admin.alllist .reqlist__person {
+        width: 300px;
+    }
+
+    .admin.alllist .table__row {
+        position: relative;
+    }
+
+    .admin.alllist .table__row .flexbox__item:nth-child(6) {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+
+    .admin.alllist .table__row .flexbox__item:nth-child(6) .icon-close {
+        float: right;
+    }
+
+    .listitem {
+        flex-direction: column;
+    }
+
+    .errors .table__header .flexbox__item:not(:first-child) {
+        display: none;
     }
 }
 
