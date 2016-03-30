@@ -52,6 +52,7 @@ h1, h2, h3 {
 
 p {
     margin: 10px 0;
+    line-height: 20px;
 }
 
 
@@ -377,10 +378,6 @@ p {
 
 .info__text {
     width: 540px;
-}
-
-.info__text p {
-    line-height: 20px;
 }
 
 .align-centered {
@@ -1713,6 +1710,10 @@ p {
                 flex-direction: column;
     }*/
 
+    .flexbox__item {
+        -ms-flex-preferred-size: auto !important;
+    }
+
     .golosuem ~ .footer {
         position: relative;
     }
@@ -2206,4 +2207,8 @@ p {
     .coordinatorskaya .coord .table .flexbox {
         flex-direction: column;
     }
+}
+
+.steps_container label[for="avatar_upload_input"] {
+	width: 160px;
 }

@@ -102,6 +102,10 @@ span.text-link {
     padding: 0;
 }
 
+.pomoshnik .dashboard {
+    min-height: 230px;
+}
+
 .steps {
     width: 360px;
     margin: 0 0 10px -20px;
@@ -768,7 +772,7 @@ span.text-link {
     overflow: hidden;
     display: inline-block;
     vertical-align: top;
-    margin-right: 10px;
+    margin: 0 10px 15px 0;
 }
 
 .steps-coordinator__img img {
@@ -838,6 +842,10 @@ span.text-link {
     vertical-align: top;
 }
 
+.reqlist .reqlist__comment img {
+	cursor: pointer ;
+}
+
 .reqlist__date {
     margin-right: 12px;
     line-height: 22px;
@@ -899,7 +907,7 @@ span.text-link {
 }
 
 .reqlist__person {
-    width: 300px;
+    width: 225px;
     position: relative;
 }
 
@@ -1019,6 +1027,66 @@ span.text-link {
 
 .change_avatar .text-link {
     line-height: 1;
+}
+
+.form--tenant .steps__header {
+    margin-bottom: 13px;
+}
+
+.admin.reqlist .table__header .flexbox__item:nth-child(1) {
+    flex: 1;
+}
+.admin.reqlist .table__header .flexbox__item:nth-child(2) {
+    flex: 1.7;
+}
+.admin.reqlist .table__header .flexbox__item:nth-child(3) {
+    flex: 2.3;
+}
+.admin.reqlist .table__header .flexbox__item:nth-child(4) {
+    flex: 1.5;
+}
+.admin.reqlist .table__header .flexbox__item:nth-child(5) {
+    flex: 1.5;
+}
+.admin.reqlist .table__header .flexbox__item:nth-child(6) {
+    flex: 2.6;
+}
+.admin.reqlist .table__header .flexbox__item:nth-child(7) {
+    flex: 1.4;
+}
+.admin.reqlist .table__header .flexbox__item:nth-child(8) {
+    flex: 1;
+}
+
+.admin.reqlist .table__row .flexbox__item:nth-child(1) {
+    flex: 1;
+}
+.admin.reqlist .table__row .flexbox__item:nth-child(2) {
+    flex: 4;
+}
+.admin.reqlist .table__row .flexbox__item:nth-child(3) {
+    flex: 1.5;
+}
+.admin.reqlist .table__row .flexbox__item:nth-child(4) {
+    flex: 4.1;
+}
+.admin.reqlist .table__row .flexbox__item:nth-child(5) {
+    flex: 1.4;
+}
+.admin.reqlist .table__row .flexbox__item:nth-child(6) {
+    flex: 1;
+}
+
+.admin.reqlist .table__row .flexbox__item:nth-child(6) .icon-close {
+    float: right;
+}
+
+.admin.reqlist .main-title {
+    margin-bottom: 8px;
+}
+
+.alllist-filter {
+    margin-bottom: 20px;
 }
 
 

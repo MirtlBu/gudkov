@@ -142,6 +142,7 @@
     position: relative;
     left: 131px;
     top: 3px;
+    margin-left: 4px;
 }
 
 .form__error {
@@ -458,6 +459,11 @@ input[name="street"] {
     margin-right: 30px;
 }
 
+.form__radios--less-margin .form__row {
+    margin-bottom: 7px;
+}
+
+
 .form--tenant {
     width: 620px;
     margin-left: 0;
@@ -524,7 +530,8 @@ input[name="street"] {
 
 .form--steps {
     width: 580px;
-    padding: 10px 20px 40px 20px
+    padding: 10px 20px 40px 20px;
+    margin-bottom: 20px;
 }
 
 .form--steps .form__checkbox:after {
@@ -776,6 +783,10 @@ input[name="street"] {
 
 .profile .form__socials {
     margin-bottom: 20px;
+}
+
+.profile .form__help {
+    max-width: 400px;
 }
 
 
