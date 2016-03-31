@@ -23,17 +23,24 @@
         <div class="container">
             <div class="baloon">
                 <div class="baloon__title">
-                    <span class="baloon__num">100</span> из <span class="baloon__num">4100</span> помощников уже нашлись
+                    <div>
+                        <span class="baloon__num">311</span>
+                        <span class="baloon__text">сторонников нашлось</span>
+                    </div>
+                    <div>
+                        <span class="baloon__num">156</span>
+                        <span class="baloon__text">зарегистрировались</span>
+                    </div>
                 </div>
                 <a href="" class="button button--blue">Хочу помогать</a>
                 <ul class="baloon__list">
                     <li class="list__item">
                         <div class="list__circle list__circle--full"></div>
-                        <div class="list__text">Дом полон сторонников</div>
+                        <div class="list__text">Сторонник зарегистрирован и готов помогать</div>
                     </li>
                     <li class="list__item">
                         <div class="list__circle list__circle--more"></div>
-                        <div class="list__text">В этом доме нужны ещё люди</div>
+                        <div class="list__text">В доме нашёлся сторонник</div>
                     </li>
                     <li class="list__item">
                         <div class="list__circle list__circle--no"></div>
