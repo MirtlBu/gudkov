@@ -36,7 +36,7 @@
                 <ul class="baloon__list">
                     <li class="list__item">
                         <div class="list__circle list__circle--full"></div>
-                        <div class="list__text">Сторонник зарегистрирован и готов помогать</div>
+                        <div class="list__text">Сторонник зарегистрирован и&nbsp;готов помогать</div>
                     </li>
                     <li class="list__item">
                         <div class="list__circle list__circle--more"></div>
