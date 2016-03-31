@@ -441,7 +441,7 @@ p {
     width: 280px;
     background-color: #fff;
     border-radius: 14px;
-    padding: 20px 10px 35px 10px;
+    padding: 15px 10px 25px 15px;
     box-sizing: border-box;
     position: absolute;
     z-index: 99;
@@ -475,8 +475,7 @@ p {
 
 .baloon__title {
     font-weight: 500;
-    font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .baloon__list {
@@ -488,11 +487,20 @@ p {
     font-weight: 400;
     font-size: 36px;
     letter-spacing: -2px;
-    line-height: 20px;
+    line-height: 36px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 2px;
+}
+
+.baloon__text {
+    width: 160px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .baloon .list__item {
-    margin-bottom: 7px;
+    margin-bottom: 12px;
     font-size: 13px;
 }
 
@@ -500,7 +508,7 @@ p {
     width: 18px;
     height: 18px;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     position: relative;
     color: #fff;
     margin-right: 5px;
@@ -532,6 +540,12 @@ p {
     top: 7px;
     left: 0;
     text-align: center;
+}
+
+.baloon__list .list__text {
+    width: 200px;
+    vertical-align: middle;
+    line-height: 17px;
 }
 
 .nabiraem .slogan {
