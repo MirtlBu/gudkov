@@ -88,7 +88,7 @@
                             </select>
                         </div>
                         <div class="form__row">
-                            <label for="" class="form__label">Прописка в округе</label>
+                            <label for="" class="form__label">Прописка в&nbsp;округе</label>
                             <input id="registered" name="registration" value="yes" class="form__input--hidden indistrict_visa" type="radio" checked>
                             <label for="registered" class="form__radio-button">Есть</label>
                             <input id="unregistered" name="registration" value="no" class="form__input--hidden indistrict_visa" type="radio">
