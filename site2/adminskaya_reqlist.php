@@ -48,6 +48,7 @@
                     </div>
                     <div class="text-small flexbox__item">Соцсети</div>
                     <div class="text-small flexbox__item">Адрес</div>
+                    <div class="flexbox__item"></div>
                 </div>
                 <div class="table__row flexbox listitem">
                     <div class="flexbox__item">
@@ -69,6 +70,9 @@
                     </div>
                     <div class="flexbox__item">
                         пр.Маршала Жукова, д.33
+                    </div>
+                    <div class="flexbox__item">
+                        <div class="icon-close"></div>
                     </div>
                 </div>
                 <div class="table__row flexbox listitem">
@@ -95,6 +99,9 @@
                     <div class="flexbox__item">
                         пр.маршала Рокоссовского, пр.5, стр.1, кв.45
                     </div>
+                    <div class="flexbox__item">
+                        <div class="icon-close"></div>
+                    </div>
                 </div>
                 <div class="table__row flexbox listitem">
                     <div class="flexbox__item">
@@ -119,6 +126,9 @@
                     </div>
                     <div class="flexbox__item">
                         пр.маршала Рокоссовского, пр.5, стр.1, кв.45
+                    </div>
+                    <div class="flexbox__item">
+                        <div class="icon-close"></div>
                     </div>
                 </div>
             </div>
