@@ -23,20 +23,53 @@
 }
 
 .logo {
+    height: 30px;
     margin-right: 20px;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .logo__img {
     width: 179px;
     height: 16px;
+    position: relative;
+    top: 50%;
+    margin-top: -8px;
     background-color: #fff;
     background-image: url(../images/logo.png);
     background-repeat: no-repeat;
     background-size: 358px 16px;
     background-position: -179px 0;
-    display: inline-block;
     transition: background .2s;
+}
+
+.header .breadcrumbs {
+    color: #fff;
+    transition: color .2s;
+}
+
+.header .breadcrumbs:hover {
+    color: #ff0000;
+}
+
+.header .breadcrumbs__image {
+    width: 26px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fff;
+    background-image: url(../images/icon-breadcrumb.png);
+    background-repeat: no-repeat;
+    transition: background-color .2s;
+}
+
+.header .breadcrumbs:hover .breadcrumbs__image {
+    background-color: #ff0000;
+}
+
+.header .breadcrumbs__text {
+    line-height: 13px;
+    display: inline-block;
+    vertical-align: text-bottom;
 }
 
 .logo__img:hover {
@@ -45,6 +78,10 @@
 
 .header__main {
     line-height: 30px;
+}
+
+.header__main a {
+    display: inline-block;
 }
 
 .header__others.flexbox {
