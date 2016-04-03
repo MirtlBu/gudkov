@@ -154,7 +154,7 @@ span.text-link {
 }
 
 .table__header .text-small:last-child, .table__row .flexbox__item:last-child {
-    width: 155px;
+    width: 105px;
 }
 
 .table__row .text-small {
@@ -887,8 +887,8 @@ span.text-link {
 
 .reqlist .table__row > .flexbox__item:nth-child(5), .reqlist .table__header > .flexbox__item:nth-child(6) {
     -webkit-flex: 2;
-        -ms-flex: 2;
-            flex: 2;
+    -ms-flex: 2;
+    flex: 1.5;
 }
 
 .flexbox--double .flexbox__item {
@@ -907,7 +907,7 @@ span.text-link {
 }
 
 .reqlist__person {
-    width: 225px;
+    width: 265px;
     position: relative;
 }
 

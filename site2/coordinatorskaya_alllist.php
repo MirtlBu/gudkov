@@ -51,127 +51,162 @@
                     <div class="text-small flexbox__item">По дате</div>
                     <div class="text-small flexbox__item">По алфавиту</div>
                     <div class="text-small flexbox__item"></div>
-                    <div class="text-small flexbox__item">По УИКУ</div>
+                    <div class="text-small flexbox__item">По улице</div>
                     <div class="text-small flexbox__item">По кластеру</div>
                     <div class="text-small flexbox__item">По заданиям</div>
+					<div class="text-small flexbox__item">Уведомлять<br />из колл-центра</div>
                 </div>
-                <div class="table__row flexbox listitem">
-                    <div class="flexbox__item">
-                        <div class="reqlist__date text-small text-light">15 марта</div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="listitem__img">
-                            <img src="../../static/images/userpic.jpg">
-                        </div>
-                        <div class="reqlist__person">
-                            <div class="reqlist__name">
-                                <a href="" class="text-big">Алексей Шпановский</a>
-                            </div>
-                            <div class="reqlist__phone text-small">+7 904 335-66-45</div>
-                        </div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="text-small">
-                            <a href="" class="text-link">Telegram</a>
-                        </div>
-                        <div class="text-small">
-                            <a href="" class="text-link">Facebook</a>
-                        </div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="reqlist__comment">ул. Ленина, дом 16, кв. 45</div>
-                        <div class="flexbox flexbox--double">
-                            <div class="flexbox__item text-small">
-                                <div>345346</div>
-                                <div>5346</div>
-                            </div>
-                            <div class="flexbox__item text-small">
-                                <div>34</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div>2</div>
-                    </div>
-                </div>
-                <div class="table__row table__row--removed flexbox listitem">
-                    <div class="flexbox__item">
-                        <div class="reqlist__date text-small text-light">15 марта</div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="listitem__img">
-                            <img src="../../static/images/userpic.jpg">
-                        </div>
-                        <div class="reqlist__person">
-                            <div class="reqlist__name">
-                                <a href="" class="text-big">Алексей Шпановский</a>
-                            </div>
-                            <div class="reqlist__phone text-small">+7 904 335-66-45</div>
-                        </div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="text-small">
-                            <a href="" class="text-link">Telegram</a>
-                        </div>
-                        <div class="text-small">
-                            <a href="" class="text-link">Facebook</a>
-                        </div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="reqlist__comment">Текст причины удаления человека координатором</div>
-                        <div class="flexbox flexbox--double">
-                            <div class="flexbox__item text-small">
-                                <div>345346</div>
-                                <div>5346</div>
-                            </div>
-                            <div class="flexbox__item text-small">
-                                <div>34</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div>2</div>
-                    </div>
-                </div>
-                                <div class="table__row flexbox listitem">
-                    <div class="flexbox__item">
-                        <div class="reqlist__date text-small text-light">15 марта</div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="listitem__img">
-                            <img src="../../static/images/userpic.jpg">
-                        </div>
-                        <div class="reqlist__person">
-                            <div class="reqlist__name">
-                                <a href="" class="text-big">Алексей Шпановский</a>
-                            </div>
-                            <div class="reqlist__phone text-small">+7 904 335-66-45</div>
-                        </div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="text-small">
-                            <a href="" class="text-link">Telegram</a>
-                        </div>
-                        <div class="text-small">
-                            <a href="" class="text-link">Facebook</a>
-                        </div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="reqlist__comment">ул. Ленина, дом 16, кв. 45</div>
-                        <div class="flexbox flexbox--double">
-                            <div class="flexbox__item text-small">
-                                <div>345346</div>
-                                <div>5346</div>
-                            </div>
-                            <div class="flexbox__item text-small">
-                                <div>34</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div>2</div>
-                    </div>
-                </div>
+ 
+ 
+<div class="table__row flexbox listitem" user_id="742">
+		<div class="flexbox__item">
+			<div class="reqlist__date text-small text-light">03 апреля</div>
+		</div>
+		<div class="flexbox__item">
+			<div class="listitem__img">
+				<img src="/static/attach/default.jpg">
+			</div>
+			<div class="reqlist__person">
+				<div class="reqlist__name">
+					<a href="" class="text-big">Илья Сидорчик</a>
+					<img src="/static/images/edit_icon.png" style="width: 16px; cursor: pointer;" onclick="myhelpers.editHelperProfile(this)">
+					<img src="/static/images/auth_icon.png" style="width: 16px; cursor: pointer;" onclick="myhelpers.authAsHelper(this)">
+					<img src="/static/images/comment_icon.png" style="width: 16px; cursor: pointer;" onclick="myhelpers.commentsList(this)">
+				</div>
+				<div class="reqlist__phone text-small"><a href="tel:+79160115791">+79160115791</a></div>
+			</div>
+		</div>
+		<div class="flexbox__item reqlist__contacts"></div>
+		<div class="flexbox__item">
+			<div class="reqlist__comment">Маршала Рыбалко ул. 2К3</div>
+			<div class="flexbox flexbox--double">
+				<div class="flexbox__item text-small uik_id"><div>3120</div></div>
+				<div class="flexbox__item text-small canton_small"><div>84</div></div>
+			</div>
+		</div>
+		<div class="flexbox__item reqlist__tasks_amount"><div>0</div></div>
+		<div class="flexbox__item reqlist__callcentre">
+			<div class="form__row">
+				<input id="" name="help" value="" class="form__input form__input--hidden" type="checkbox" checked="checked">
+				<label for="" class="form__checkbox text-small">
+					<span></span>
+				</label>
+			</div>		
+		</div>
+	</div>
+
+<div class="table__row flexbox listitem" user_id="742">
+		<div class="flexbox__item">
+			<div class="reqlist__date text-small text-light">03 апреля</div>
+		</div>
+		<div class="flexbox__item">
+			<div class="listitem__img">
+				<img src="/static/attach/default.jpg">
+			</div>
+			<div class="reqlist__person">
+				<div class="reqlist__name">
+					<a href="" class="text-big">Илья Сидорчик</a>
+					<img src="/static/images/edit_icon.png" style="width: 16px; cursor: pointer;" onclick="myhelpers.editHelperProfile(this)">
+					<img src="/static/images/auth_icon.png" style="width: 16px; cursor: pointer;" onclick="myhelpers.authAsHelper(this)">
+					<img src="/static/images/comment_icon.png" style="width: 16px; cursor: pointer;" onclick="myhelpers.commentsList(this)">
+				</div>
+				<div class="reqlist__phone text-small"><a href="tel:+79160115791">+79160115791</a></div>
+			</div>
+		</div>
+		<div class="flexbox__item reqlist__contacts"></div>
+		<div class="flexbox__item">
+			<div class="reqlist__comment">Маршала Рыбалко ул. 2К3</div>
+			<div class="flexbox flexbox--double">
+				<div class="flexbox__item text-small uik_id"><div>3120</div></div>
+				<div class="flexbox__item text-small canton_small"><div>84</div></div>
+			</div>
+		</div>
+		<div class="flexbox__item reqlist__tasks_amount"><div>0</div></div>
+		<div class="flexbox__item reqlist__callcentre">
+			<div class="form__row">
+				<input id="" name="help" value="" class="form__input form__input--hidden" type="checkbox" checked="checked">
+				<label for="" class="form__checkbox text-small">
+					<span></span>
+				</label>
+			</div>		
+		</div>
+	</div>
+
+
+<div class="table__row flexbox listitem" user_id="742">
+		<div class="flexbox__item">
+			<div class="reqlist__date text-small text-light">03 апреля</div>
+		</div>
+		<div class="flexbox__item">
+			<div class="listitem__img">
+				<img src="/static/attach/default.jpg">
+			</div>
+			<div class="reqlist__person">
+				<div class="reqlist__name">
+					<a href="" class="text-big">Илья Сидорчик</a>
+					<img src="/static/images/edit_icon.png" style="width: 16px; cursor: pointer;" onclick="myhelpers.editHelperProfile(this)">
+					<img src="/static/images/auth_icon.png" style="width: 16px; cursor: pointer;" onclick="myhelpers.authAsHelper(this)">
+					<img src="/static/images/comment_icon.png" style="width: 16px; cursor: pointer;" onclick="myhelpers.commentsList(this)">
+				</div>
+				<div class="reqlist__phone text-small"><a href="tel:+79160115791">+79160115791</a></div>
+			</div>
+		</div>
+		<div class="flexbox__item reqlist__contacts"></div>
+		<div class="flexbox__item">
+			<div class="reqlist__comment">Маршала Рыбалко ул. 2К3</div>
+			<div class="flexbox flexbox--double">
+				<div class="flexbox__item text-small uik_id"><div>3120</div></div>
+				<div class="flexbox__item text-small canton_small"><div>84</div></div>
+			</div>
+		</div>
+		<div class="flexbox__item reqlist__tasks_amount"><div>0</div></div>
+		<div class="flexbox__item reqlist__callcentre">
+			<div class="form__row">
+				<input id="" name="help" value="" class="form__input form__input--hidden" type="checkbox" checked="checked">
+				<label for="" class="form__checkbox text-small">
+					<span></span>
+				</label>
+			</div>		
+		</div>
+	</div>
+
+<div class="table__row flexbox listitem" user_id="742">
+		<div class="flexbox__item">
+			<div class="reqlist__date text-small text-light">03 апреля</div>
+		</div>
+		<div class="flexbox__item">
+			<div class="listitem__img">
+				<img src="/static/attach/default.jpg">
+			</div>
+			<div class="reqlist__person">
+				<div class="reqlist__name">
+					<a href="" class="text-big">Илья Сидорчик</a>
+					<img src="/static/images/edit_icon.png" style="width: 16px; cursor: pointer;" onclick="myhelpers.editHelperProfile(this)">
+					<img src="/static/images/auth_icon.png" style="width: 16px; cursor: pointer;" onclick="myhelpers.authAsHelper(this)">
+					<img src="/static/images/comment_icon.png" style="width: 16px; cursor: pointer;" onclick="myhelpers.commentsList(this)">
+				</div>
+				<div class="reqlist__phone text-small"><a href="tel:+79160115791">+79160115791</a></div>
+			</div>
+		</div>
+		<div class="flexbox__item reqlist__contacts"></div>
+		<div class="flexbox__item">
+			<div class="reqlist__comment">Маршала Рыбалко ул. 2К3</div>
+			<div class="flexbox flexbox--double">
+				<div class="flexbox__item text-small uik_id"><div>3120</div></div>
+				<div class="flexbox__item text-small canton_small"><div>84</div></div>
+			</div>
+		</div>
+		<div class="flexbox__item reqlist__tasks_amount"><div>0</div></div>
+		<div class="flexbox__item reqlist__callcentre">
+			<div class="form__row">
+				<input id="" name="help" value="" class="form__input form__input--hidden" type="checkbox" checked="checked">
+				<label for="" class="form__checkbox text-small">
+					<span></span>
+				</label>
+			</div>		
+		</div>
+	</div>	
+ 
             </div>
         </div>
     </div>
