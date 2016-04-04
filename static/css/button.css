@@ -158,6 +158,10 @@ a.button--small {
     margin: 0 auto;
 }
 
+.singletask__taskbutton--reject:hover {
+    color: #e20101;
+}
+
 .button--underlined {
     padding: 0 19px;
     line-height: 2.4;
