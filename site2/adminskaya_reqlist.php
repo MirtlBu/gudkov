@@ -50,87 +50,44 @@
                     <div class="text-small flexbox__item">Адрес</div>
                     <div class="flexbox__item"></div>
                 </div>
-                <div class="table__row flexbox listitem">
-                    <div class="flexbox__item">
-                        <div class="reqlist__date text-small text-light">15 марта</div>
-                        <div class="reqlist__person">
-                            <div class="reqlist__name">
-                                <a href="" class=" text-link text-big">Алексей Шпановский</a>
-                            </div>
-                            <div class="reqlist__phone text-small">+7 904 335-66-45</div>
-                        </div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="text-small">
-                            <a href="" class="text-link">Telegram</a>
-                        </div>
-                        <div class="text-small">
-                            <a href="" class="text-link">Facebook</a>
-                        </div>
-                    </div>
-                    <div class="flexbox__item">
-                        пр.Маршала Жукова, д.33
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="icon-close"></div>
-                    </div>
-                </div>
-                <div class="table__row flexbox listitem">
-                    <div class="flexbox__item">
-                        <div class="reqlist__date text-small text-light">15 марта</div>
-                        <div class="reqlist__person">
-                            <div class="reqlist__name">
-                                <a href="" class=" text-link text-big">Константин Константинопольский</a>
-                            </div>
-                            <div class="reqlist__phone text-small">+7 904 335-66-45</div>
-                        </div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="text-small">
-                            <a href="" class="text-link">Telegram</a>
-                        </div>
-                        <div class="text-small">
-                            <a href="" class="text-link">Facebook</a>
-                        </div>
-                        <div class="text-small">
-                            <a href="" class="text-link">Одноклассники</a>
-                        </div>
-                    </div>
-                    <div class="flexbox__item">
-                        пр.маршала Рокоссовского, пр.5, стр.1, кв.45
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="icon-close"></div>
-                    </div>
-                </div>
-                <div class="table__row flexbox listitem">
-                    <div class="flexbox__item">
-                        <div class="reqlist__date text-small text-light">15 марта</div>
-                        <div class="reqlist__person">
-                            <div class="reqlist__name">
-                                <a href="" class=" text-link text-big">Валера Кизякин</a>
-                            </div>
-                            <div class="reqlist__phone text-small">+7 904 335-66-45</div>
-                        </div>
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="text-small">
-                            <a href="" class="text-link">Telegram</a>
-                        </div>
-                        <div class="text-small">
-                            <a href="" class="text-link">Facebook</a>
-                        </div>
-                        <div class="text-small">
-                            <a href="" class="text-link">Одноклассники</a>
-                        </div>
-                    </div>
-                    <div class="flexbox__item">
-                        пр.маршала Рокоссовского, пр.5, стр.1, кв.45
-                    </div>
-                    <div class="flexbox__item">
-                        <div class="icon-close"></div>
-                    </div>
-                </div>
+				<span class="reqlist_table">
+				<div class="table__row flexbox listitem" user_id="721">
+						<div class="flexbox__item">
+							<div class="reqlist__date text-small text-light">31 марта</div>
+							<div class="reqlist__person">
+								<div class="reqlist__name">
+									<a href="" class=" text-link text-big" onclick="newUser.loadHelperForm(721);return false;">Антонина </a>
+								</div>
+								<div class="reqlist__phone text-small"><a href="tel:+7902854380">+7902854380</a></div>
+							</div>
+						</div>
+						<div class="flexbox__item reqlist__contacts"></div>
+						<div class="flexbox__item reqlist__address">Маршала Бирюзова ул. 28</div>
+						<div class="flexbox__item reqlist__comment" style="text-align: right;">
+							<img class="tooltip commentBtn tooltipstered" src="/static/images/comment_icon.png" style="width: 32px;" onclick="newUser.showCommentPopup(this);" title2="Пожилая, готова помогать, но ограниченно
+				БИТЫЙ ТЕЛЕФОН">
+							<img class="declineBtn" onclick="newUser.declineUserPopup(this);" src="/static/images/reject_icon.png" style="width: 33px;    margin-right: 45px;margin-left: 5px;">
+						</div>
+				</div>
+					
+				<div class="table__row flexbox listitem" user_id="682">
+					<div class="flexbox__item">
+						<div class="reqlist__date text-small text-light">28 марта</div>
+						<div class="reqlist__person">
+							<div class="reqlist__name">
+								<a href="" class=" text-link text-big" onclick="newUser.loadHelperForm(682);return false;">Галина Неизвестно</a>
+							</div>
+							<div class="reqlist__phone text-small"><a href="tel:+79687504560">+79687504560</a></div>
+						</div>
+					</div>
+					<div class="flexbox__item reqlist__contacts"></div>
+					<div class="flexbox__item reqlist__address">Маршала Рыбалко ул. 4КГ</div>
+					<div class="flexbox__item reqlist__comment" style="text-align: right;">
+						<img class="tooltip commentBtn tooltipstered" src="/static/images/comment_icon.png" style="width: 32px;" onclick="newUser.showCommentPopup(this);" title2="Приедет в мае">
+						<img class="declineBtn" onclick="newUser.declineUserPopup(this);" src="/static/images/reject_icon.png" style="width: 33px;    margin-right: 45px;margin-left: 5px;">
+					</div>
+				</div>
+				</span>
             </div>
         </div>
     </div>
