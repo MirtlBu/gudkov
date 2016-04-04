@@ -281,9 +281,19 @@
     padding: 50px 60px 40px 60px;
 }
 
-.modal12 .form__row {
+.modal12 .form__row, .modal13 .centered {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.modal13 {
+    height: 250px;
+    width: 540px;
+    padding: 50px 60px 40px 60px;
+}
+
+.modal13 .button{
+    width: 240px;
 }
 
