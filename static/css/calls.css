@@ -8,7 +8,7 @@
 }
 
 .calls .flexbox--calls .flexbox__item:last-child {
-    flex: 1;
+    flex: 1.55;
 }
 
 .calls .flexbox--calls .flexbox__item:first-child {
@@ -23,6 +23,10 @@
 .calls .button {
     width: 180px;
     margin-bottom: 10px;
+}
+
+.calls .button:first-child {
+    margin-top: 15px;
 }
 
 .calls .counter {
@@ -46,15 +50,36 @@
 }
 
 .calls__subtitle {
+    line-height: 19px;
+}
 
+.calls__try .text-bold {
+    margin-left: 2px;
 }
 
 .calls__instruction {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.calls__instruction .calls__title {
+    margin-bottom: 20px;
 }
 
 .calls__instruction .flexbox--calls {
-    margin-left: 30px;
+    margin-left: 40px;
+}
+
+.calls__instruction p {
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+.calls__instruction .mail {
+    margin-top: 10px;
+}
+
+.calls__example {
+    padding-bottom: 95px;
 }
 
 .highlighted-block {
@@ -66,12 +91,12 @@
 
 .calls .highlighted-block {
     width: 580px;
-    padding: 25px 20px;
+    padding: 25px 20px 35px 20px;
     margin-left: -20px;
 }
 
 .calls__example .margin {
-    margin-left: 30px;
+    margin-left: 40px;
     position: relative;
 }
 
@@ -84,19 +109,36 @@
 }
 
 .calls .quotes--open {
-    top: 0;
+    top: -6px;
     left: -30px;
     background-position: 0 0;
 }
 
 .calls .quotes--close {
-    bottom: 0;
-    right: 0;
+    bottom: -10px;
+    right: 95px;
     background-position: -25px 0;
 }
 
 .quizlist__item {
     list-style: inherit;
+}
+
+.highlighted-block .calls__title {
+    margin-bottom: 22px;
+}
+
+.highlighted-block p {
+    margin: 5px 0 5px 0;
+}
+
+.quizlist {
+    margin: 30px 0 0 15px;
+    padding: 0;
+}
+
+.quizlist__item {
+    margin-bottom: 10px;
 }
 
 

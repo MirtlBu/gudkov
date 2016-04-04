@@ -41,7 +41,7 @@
                         Личный контакт — лучший способ убедить собеседника. Join us!
                     </p>
                 </div>
-                <div class="flexbox__item">
+                <div class="flexbox__item calls__try">
                     <button class="button button--small button--red" type="button">Я хочу попробовать звонить</button>
                     <button class="button button--small button--blue" type="button">Я уже звонил</button>
                     <p class="text-big text-bold">
@@ -84,7 +84,7 @@
                 </div>
                 <div class="flexbox__item">
                     <div class="calls__subtitle text-big text-bold">Остались вопросы?</div>
-                    <div>Пишите на <span class="text-link">help@gudkov.ru</span></div>
+                    <div class="mail">Пишите на <span class="text-link">help@gudkov.ru</span></div>
                 </div>
             </div>
         </div>
@@ -95,14 +95,14 @@
                     <div class="quotes quotes--open"></div>
                     <p>Здравствуйте, я волонтер предвыборной кампании Дмитрия Гудкова в государственную думу.</p>
                     <p>Могу я задать вам пару вопросов, это займет не больше минуты.</p>
+                    <ol class="quizlist">
+                        <li class="quizlist__item">Пойдете голосовать 18 сентября?</li>
+                        <li class="quizlist__item">Знаете уже, за кого будете голосовать?</li>
+                        <li class="quizlist__item">Как насчет поддержать нашего кандидата?</li>
+                        <li class="quizlist__item">А может быть вы и волонтерить с нами будете?</li>
+                    </ol>
                     <div class="quotes quotes--close"></div>
                 </div>
-                <ol class="quizlist">
-                    <li class="quizlist__item">Пойдете голосовать 18 сентября?</li>
-                    <li class="quizlist__item">Знаете уже, за кого будете голосовать?</li>
-                    <li class="quizlist__item">Как насчет поддержать нашего кандидата?</li>
-                    <li class="quizlist__item">А может быть вы и волонтерить с нами будете?</li>
-                </ol>
             </div>
         </div>
     </div>
