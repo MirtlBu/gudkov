@@ -602,6 +602,8 @@ p {
     position: absolute;
     top: 15px;
     left: 20px;
+    padding-left: 15px;
+    box-sizing: border-box;
     transition: color 0s;
 }
 
@@ -610,16 +612,33 @@ p {
     position: absolute;
     width: 10px;
     height: 10px;
-    left: -15px;
-    top: 5px;
+    left: 0;
+    top: 6px;
     background-image: url(../images/icon-back.png);
-    background-size: 30px 10px;
     background-repeat: no-repeat;
     background-position: 0 0;
 }
 
 .breadcrumbs-content:hover:before {
     background-position: -10px 0;
+}
+
+.breadcrumbs-content:after {
+    content: '';
+    position: absolute;
+    width: 85%;
+    height: 1px;
+    right: 0;
+    bottom: -1px;
+    background-color: #a3ceff;
+}
+
+.breadcrumbs-content:hover:after {
+    background-color: #ff0000;
+}
+
+.breadcrumbs-content.text-link {
+    border: none;
 }
 
 .filter {

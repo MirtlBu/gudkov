@@ -274,7 +274,7 @@ span.text-link {
 }
 
 .progressboard {
-    width: 500px;
+    width: 510px;
 }
 
 .your__info {
@@ -291,6 +291,10 @@ span.text-link {
 
 .yourprogress {
     margin-bottom: 13px;
+}
+
+.yourprogress .text-bold {
+    line-height: 16px;
 }
 
 .campaignprogress {
@@ -333,29 +337,38 @@ span.text-link {
     margin: 5px 0;
 }
 
-.yourreward .flexbox__item {
-    -webkit-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    margin-left: -7px;
+.yourreward .flexbox:first-child {
+    justify-content: flex-start;
 }
 
-/*.yourreward__bonuses {
-    text-align: right;
-}*/
+.yourreward .flexbox__item:first-child {
+    margin-right: 30px;
+}
+
+.medal__text {
+    width: 120px;
+}
+
+.medal__img {
+    width: 34px;
+}
 
 .medal__img, .medal__text {
     display: inline-block;
     vertical-align: middle;
 }
 
-.pomoshnik .container > .flexbox {
-    margin-left: 20px;
-}
-
 .pomoshnik .tasks {
     width: 100%;
-    margin-top: 40px;
+    margin: 40px 0 0 20px;
+}
+
+.pomoshnik .breadcrumbs-content {
+    left: 0;
+}
+
+.pomoshnik .dashboard + .container {
+    left: 20px;
 }
 
 .tasks__gain {
@@ -552,10 +565,6 @@ span.text-link {
     display: inline-block;
 }
 
-.pomoshnik .text-bigger {
-    margin-left: 20px;
-}
-
 .pomoshnik .loadphoto {
     width: 280px;
     padding: 20px;
@@ -735,10 +744,6 @@ span.text-link {
 .loadphoto__img:hover .icon-close {
     display: block;
 }
-
-/*.breadcrumbs--adminskaya {
-    position: absolute;
-}*/
 
 .breadcrumbs--adminskaya .flexbox .flexbox__item:first-child {
     width: 560px;
@@ -1045,12 +1050,13 @@ span.text-link {
     flex: 1.5;
 }
 .admin.reqlist .table__header .flexbox__item:nth-child(3) {
-    flex: 3;
+    flex: 4;
     margin-right: 50px;
 }
-.admin.reqlist .table__header .flexbox__item:nth-child(4) {
+/*.admin.reqlist .table__header .flexbox__item:nth-child(4) {
     flex: 1;
-}
+}*/
+
 
 .admin.reqlist .table__row .flexbox__item:nth-child(1) {
     flex: 4.7;
@@ -1072,6 +1078,10 @@ span.text-link {
 
 .alllist-filter {
     margin-bottom: 20px;
+}
+
+.reqlist__comment > img {
+    margin-right: 0 !important;
 }
 
 
