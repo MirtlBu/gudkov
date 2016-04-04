@@ -275,3 +275,15 @@
     width: 160px;
 }
 
+.modal12 {
+    height: 250px;
+    width: 540px;
+    padding: 50px 60px 40px 60px;
+}
+
+.modal12 .form__row {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
