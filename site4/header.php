@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header header--dashboard">
     <div class="container">
         <div class="flexbox">
             <div class="flexbox__item">
@@ -6,27 +6,12 @@
                     <a href="#" class="logo">
                         <div class="logo__img"></div>
                     </a>
-                    <div class="header__item">
-                        <a href="#" class="header__link header__link--upper">Кол-центр</a>
-                    </div>
                 </div>
             </div>
             <div class="flexbox__item">
-                <div class="header__others flexbox">
+                <div class="header__others">
                     <div class="header__item">
-                        <a href="#" class="header__link header__link--red header__link--opacity">Принимать звонки</a>
-                    </div>
-                    <div class="header__item">
-                        <a href="#" class="header__link header__link--red">Принимать звонки</a>
-                    </div>
-                    <div class="header__item">
-                        <a href="#" class="header__link header__link--green">Отключиться</a>
-                    </div>
-                    <div class="header__item">
-                        <a href="#" class="header__link header__link--blue">Отключиться</a>
-                    </div>
-                    <div class="header__item">
-                        <a href="#" class="header__link header__link--gray">Отключиться</a>
+                        <a href="#" class="header__link">Войти и звонить</a>
                     </div>
                 </div>
             </div>

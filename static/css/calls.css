@@ -1,4 +1,106 @@
-.header__link--upper {
+.calls .dashboard {
+    min-height: 215px;
+}
+
+.calls .counter .counter__num, .calls .counter .counter__text {
+    display: block;
+    text-align: left;
+}
+
+.calls .flexbox--calls .flexbox__item:last-child {
+    flex: 1;
+}
+
+.calls .flexbox--calls .flexbox__item:first-child {
+    margin-right: 130px;
+    flex: 2;
+}
+
+.calls__explain {
+    padding: 10px 0 70px 0;
+}
+
+.calls .button {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.calls .counter {
+    margin: 11px 0 0 -11px;
+}
+
+.calls .counter .counter__item {
+    vertical-align: top;
+}
+
+.calls .counter .counter__item:last-child .counter__text {
+    margin-left: 10px;
+}
+
+.calls__howitworks {
+    min-height: 500px;
+}
+
+.calls__title {
+    margin-bottom: 30px;
+}
+
+.calls__subtitle {
+
+}
+
+.calls__instruction {
+    padding-bottom: 40px;
+}
+
+.calls__instruction .flexbox--calls {
+    margin-left: 30px;
+}
+
+.highlighted-block {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 14px;
+    background-color: #e5f7fd;
+}
+
+.calls .highlighted-block {
+    width: 580px;
+    padding: 25px 20px;
+    margin-left: -20px;
+}
+
+.calls__example .margin {
+    margin-left: 30px;
+    position: relative;
+}
+
+.calls .quotes {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/icon-quotes.png);
+    background-repeat: no-repeat;
+}
+
+.calls .quotes--open {
+    top: 0;
+    left: -30px;
+    background-position: 0 0;
+}
+
+.calls .quotes--close {
+    bottom: 0;
+    right: 0;
+    background-position: -25px 0;
+}
+
+.quizlist__item {
+    list-style: inherit;
+}
+
+
+/*.header__link--upper {
     text-transform: uppercase;
 }
 
@@ -113,7 +215,7 @@
     padding-left: 20px;
     margin-bottom: 10px;
     text-align: left;
-}
+}*/
 
 
 
