@@ -10,6 +10,10 @@
     z-index: 9999;
 }
 
+.header--calls {
+    background-color: #c6c6c6;
+}
+
 .header--fixed {
     position: absolute;
 }
@@ -166,6 +170,31 @@
 
 span.header__item--active, a.header__item--active {
     display: inline-block;
+}
+
+.header--calls .header__others .header__item {
+    position: relative;
+    padding-right: 30px;
+    background-color: #494949;
+}
+
+.header--calls .header__others .header__item a {
+    line-height: 2.2;
+}
+
+.header--calls .header__others .header__item:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 15px;
+    height: 18px;
+    background-image: url(../images/icon-lock.png);
+    background-repeat: no-repeat;
+}
+
+.header--calls .logo__img {
+    background-position: 0 0;
 }
 
 @media screen and (max-width: 1000px) {

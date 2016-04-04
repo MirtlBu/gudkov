@@ -1,4 +1,4 @@
-<header class="header header--dashboard">
+<header class="header header--calls">
     <div class="container">
         <div class="flexbox">
             <div class="flexbox__item">
