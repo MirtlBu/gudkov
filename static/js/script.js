@@ -13,7 +13,7 @@ $(function() {
     $('.filter__dropdown').fancySelect();
 
     $('.modal-wrap').on('click', '.icon-close', function() {
-        $('.modal-wrap').css('display', 'none');
+		$(this).closest('.modal-wrap').fadeOut();
     });
 
     $('.form').on('click', '.icon-close', function() {
