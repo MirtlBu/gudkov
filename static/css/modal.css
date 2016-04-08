@@ -240,28 +240,28 @@
     width: 160px;
 }
 
-.modal10, .modal14 {
+.signin, .modal10, .modal14 {
     width: 540px;
     padding: 50px 50px 20px 50px;
     text-align: left;
 }
 
-.modal10 .text-link, .modal14 .text-link {
+.signin .text-link, .modal10 .text-link, .modal14 .text-link {
     display: inline-block;
     float: right;
-    margin-right: 70px;
+    margin-right: 75px;
     line-height: 15px;
 }
 
-.modal10 .button, .modal14 .button {
+.signin .button, .modal10 .button, .modal14 .button {
     width: 135px;
 }
 
-.modal10 .form__input, .modal11 .form__input, .modal14 .form__input {
+.signin .form__input, .modal10 .form__input, .modal11 .form__input, .modal14 .form__input {
     width: 280px;
 }
 
-.modal10 .form__label, .modal14 .form__label {
+.signin .form__label, .modal10 .form__label, .modal14 .form__label {
     width: 80px;
 }
 
@@ -299,5 +299,9 @@
 
 .modal14 .message {
     width: 350px;
+}
+
+.signin .button, .modal10 .button, .modal14 .button {
+    margin-top: 10px;
 }
 
