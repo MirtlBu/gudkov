@@ -21,12 +21,18 @@
 }
 
 .calls .button {
-    width: 180px;
+    width: 215px;
     margin-bottom: 10px;
+    padding: 0 0 2px 0;
+    box-sizing: border-box;
 }
 
 .calls .button:first-child {
     margin-top: 15px;
+}
+
+.calls__try a:first-child .button {
+    margin-bottom: 0;
 }
 
 .calls .counter {
@@ -42,7 +48,11 @@
 }
 
 .calls__howitworks {
-    min-height: 500px;
+    padding-bottom: 70px;
+}
+
+.calls__video {
+    min-height: 390px;
 }
 
 .calls__title {
@@ -140,124 +150,3 @@
 .quizlist__item {
     margin-bottom: 10px;
 }
-
-
-/*.header__link--upper {
-    text-transform: uppercase;
-}
-
-.header__link--upper:hover {
-    color: #ff0000;
-    background-color: #000;
-}
-
-.header__link--opacity {
-    opacity: .5;
-}
-
-.header__link--green, .header__link--opacity.header__link--green:hover {
-    background-color: #39b54a;
-}
-
-.header__link--green:hover {
-    background-color: #119c24;
-}
-
-.header__link--red, .header__link--opacity.header__link--red:hover {
-    background-color: #ff0000;
-}
-
-.header__link--red:hover {
-    background-color: #c40008;
-}
-
-.header__link--blue, .header__link--opacity.header__link--blue:hover {
-    background-color: #0195ff;
-}
-
-.header__link--blue:hover {
-    background-color: #0183de;
-}
-
-.header__link--gray {
-    background-color: #494949;
-}
-
-
-
-.calls {
-    padding-bottom: 40px;
-}
-
-.calls__right {
-    margin: 5px 0 16px 0;
-    text-align: right;
-}
-
-.calls__title {
-    margin-bottom: 20px;
-}
-
-.calls__greeting {
-    width: 660px;
-    line-height: 26px;
-    margin-bottom: 45px;
-}
-
-.calls__buttons .button {
-    padding: 0 19px;
-    margin-right: 5px;
-}
-
-.calls .button--underlined {
-    width: 160px;
-}
-
-.calls .form {}
-
-.survey__title {
-    margin-top: 16px;
-}
-
-.survey__text {
-    width: 660px;
-    line-height: 26px;
-    margin: 13px 0 20px 0;
-}
-
-.survey .form__input {
-    width: 500px;
-}
-
-.survey .button {
-    width: 140px;
-    position: relative;
-    padding-right: 15px;
-}
-
-.survey .button:after {
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 95px;
-    top: 15px;
-    background-image: url(../images/icon-back.png);
-    background-size: 30px 10px;
-    background-repeat: no-repeat;
-    background-position: -20px 0;
-    -webkit-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-            transform: rotate(180deg);
-}
-
-.calls .form__radio-button {
-    width: 280px;
-    display: block;
-    padding-left: 20px;
-    margin-bottom: 10px;
-    text-align: left;
-}*/
-
-
-
