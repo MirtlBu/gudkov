@@ -853,7 +853,7 @@ span.text-link {
 }
 
 .reqlist .reqlist--btn--small {
-	width: 16px; 
+	width: 16px;
 	cursor: pointer;
 }
 
@@ -1089,6 +1089,30 @@ span.text-link {
     margin-right: 0 !important;
 }
 
+.person-block__img {
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.person-block__img--small {
+    width: 50px;
+    height: 50px;
+}
+
+.person-block__img--small img {
+    width: 50px;
+    height: 50px;
+}
+
+.person-block__text {
+    display: inline-block;
+}
+
+.person-block__text--middle, .person-block__img--middle {
+    vertical-align: middle;
+}
 
 
 

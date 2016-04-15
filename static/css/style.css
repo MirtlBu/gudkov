@@ -1379,6 +1379,10 @@ p {
     margin-left: -10px;
 }
 
+.baloon__text {
+    line-height: 17px;
+}
+
 
 @media screen and (max-height: 700px) {
 
