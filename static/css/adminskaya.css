@@ -852,6 +852,11 @@ span.text-link {
     vertical-align: top;
 }
 
+.reqlist .reqlist--btn--small {
+	width: 16px; 
+	cursor: pointer;
+}
+
 .reqlist .reqlist__comment img {
 	cursor: pointer ;
 }
