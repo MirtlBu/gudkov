@@ -793,6 +793,11 @@ input[name="street"] {
     max-width: 400px;
 }
 
+.label-social ~ .form__help.text-small {
+    position: absolute;
+    top: 28px;
+}
+
 /*.form__checkboxes .flexbox {
     justify-content: flex-start;
 }
