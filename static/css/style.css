@@ -2149,3 +2149,13 @@ p {
 .steps_container label[for="avatar_upload_input"] {
 	width: 160px;
 }
+
+img.screenshot {
+	cursor: pointer;
+	width: 60%;
+	transition: 1s;
+}
+
+img.screenshot.screenshot--full {
+	width: 100%;
+}
