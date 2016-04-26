@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		
+        <title>Дмитрий Гудков. Госдума — 2016</title>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:500,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../../static/css/likely.css">
+
+        <link rel="stylesheet" href="../../static/css/style.css?v=1" type="text/css">
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/cupertino/jquery-ui.css">
+		<link rel="stylesheet" href="../../static/css/croppie.css" type="text/css">
+		<link rel="stylesheet" href="../../static/css/tooltipster.css" type="text/css">
+		<link rel="stylesheet" href="../../static/css/fotorama.css">
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="../../static/js/jquery.browser.min.js"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script type="text/javascript" src="../../static/js/main.js?v=2"></script>	
+		<script type="text/javascript" src="../../static/js/jquery.ba-bbq.min.js"></script>
+		<script type="text/javascript" src="../../static/js/croppie.min.js"></script>
+		<script type="text/javascript" src="../../static/js/jquery.tooltipster.min.js"></script>
+		<script src="../../static/js/fotorama.js"></script>
+
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="robots" content="all"/>
+				
+
+		<meta property="og:url" content="https://gudkov.ru/" />
+		<meta property="og:title" content="Дмитрий Гудков. Госдума — 2016" />
+		<meta property="og:type" content="Присоединяйся к самой интересной кампании года." />
+		<meta property="og:description" content="Присоединяйся к самой интересной кампании года." />
+		<meta property="og:image" content="https://gudkov.ru/static/images/logo_main.png" />
+		<meta property="og:image:width" content="900" />
+		<meta property="og:image:height" content="605" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="https://gudkov.ru/" />
+		<meta name="twitter:title" content="Дмитрий Гудков. Госдума — 2016" />
+		<meta name="twitter:description" content="Присоединяйся к самой интересной кампании года." />
+		<meta name="twitter:image:src" content="https://gudkov.ru/static/images/logo_main.png" />
+		<meta name="twitter:domain" content="https://gudkov.ru/" />
+
+		<script>
+		
+		$(document).ready(function(){
+			
+			$('#header__others .header__item--navigable[href="' + document.location.pathname + '"]').addClass('header__item--active');
+
+			$.fn.formatPnoneNumber = function(){
+				return this.each(function(){
+					$(this).bind('keyup', function(){
+						var num = this.value.replace( '+' , '' ).replace( /\D/g, '' ).split( /(?=.)/ ), i = num.length;
+						if ( 0 <= i ) num.unshift( '+' );
+						if ( 2 <= i ) num.splice( 2, 0, ' ' );
+						if ( 5 <= i ) num.splice( 6, 0, ' ' );
+						if ( 8 <= i ) num.splice( 10, 0, '-' );
+						if ( 11 <= i ) num.splice( 13, 0, '-' );
+						//if ( 12 <= i ) num.splice( 14, 0, '-' );
+						//if ( 9 <= i ) num.splice( 12, 0, '-' );
+						if ( 14 <= i ) num.splice( 17, num.length - 17 );
+						this.value = num.join( '' );
+					});
+				});
+			};
+			
+			
+			mainSite.displayContainer = function(classname, attributes){
+			
+				$('.containers .container').each(function(){
+					if ($(this).hasClass(classname)){
+						
+						if (typeof(attributes) != "undefined")
+							for (var i = 0; i < attributes.length; i++){
+
+								$(this).attr(attributes[i].key, attributes[i].value);
+							}
+							
+						
+						$(this).fadeIn(500);
+					}
+					else {
+						$(this).fadeOut(0);
+					}
+				});
+				
+			};
+			
+			
+			mainSite.parseSocials = function(user){
+
+				var socials = [
+					{
+						key: 'social_fb',
+						name: 'Facebook',
+						prefix: 'http://facebook.com/',
+					},
+					{
+						key: 'social_vk',
+						name: 'Вконтакте',
+						prefix: 'http://vk.com/',
+					},
+					{
+						key: 'social_tw',
+						name: 'Twitter',
+						prefix: 'http://twitter.com/',
+					},
+					{
+						key: 'social_ok',
+						name: 'Одноклассники',
+						prefix: 'http://ok.ru/',
+					},
+					{
+						key: 'social_other',
+						name: '',
+					},
+					{
+						key: 'telegram',
+						name: 'Телеграм',
+						prefix: 'tg:',
+					},
+				];
+				
+				
+				var html = '';
+
+				for (var i = 0; i < socials.length; i++){
+					var item = socials[i] ;
+					
+					if (!user.hasOwnProperty(item.key)) continue ;
+					
+					if (user[item.key] == '') continue ;
+					
+					if (item.key == 'social_other'){
+						html += '<div>Другое: ' + user[item.key] + '</div>';
+					}
+					else {
+						
+						var prefix = '';
+							if (item.hasOwnProperty('prefix')){
+								
+								//item.prefix = item.prefix.replace('https://', 'http://');
+								//item.prefix = item.prefix.replace('http://www.', 'http://');
+								
+								if (item.prefix.substr(0,7) == 'http://'){
+									prefix = item.prefix ;
+								}
+								else {
+									prefix = item.prefix ;
+								}
+							}
+						
+						html += '<div><a target="_blank" href="' + prefix + user[item.key] + '" class="text-small text-link">' + item.name + '</a></div>';	
+					}
+			
+				}
+
+				return html ;
+			};
+			
+			mainSite.findInArrayByValue = function(key, value, target){
+				
+				for (var i = 0; i < target.length; i++){
+					if (target[i].hasOwnProperty(key) == true && target[i][key] == value) return target[i] ;
+				}
+				
+				return false; 
+			};
+			
+						
+			navi = {
+				
+				last: '',
+				
+				init: function(callback){
+					
+					navi.callback = callback;
+					
+					navi.last = document.location.hash ;
+							
+					$(window).bind( "hashchange", function(e) {
+
+						var hash = document.location.hash ;
+						
+						if (hash == navi.last) return ;
+						
+						navi.last = hash ;
+						
+						navi.callback.apply(null, [$.deparam.fragment(hash)]);
+						
+					});
+
+				},
+				
+				setHash: function(page){
+					
+					document.location.hash = page ;
+					
+				},
+			};
+		
+		});
+		
+		</script>
+
+    </head>
+    <body>
+		
+		
+<header class="header">
+    <div class="container">
+        <div class="flexbox">
+            <div class="flexbox__item">
+                <div class="header__main">
+                    <a href="/" class="logo">
+                        <div class="logo__img"></div>
+                    </a>
+					<a href="#main" class="breadcrumbs" style="display: none;">
+                        <div class="breadcrumbs__image"></div>
+                        <div class="breadcrumbs__text">На главную к заданиям</div>
+                    </a>
+                </div>
+            </div>
+            <div class="flexbox__item">
+				<div class="header__menu">Меню</div>
+                <div class="header__others flexbox" id="header__others">
+                    <div class="header__item header__item--navigable" href="/choice">
+                        <a href="/choice" class="header__link">Я голосую</a>
+                        <div class="header__dropdown">
+                            Отмечайтесь здесь, если 18 сентября вы проголосуете за Гудкова,
+                            отмечайте своих друзей и родственников, если проголосуют они.
+                        </div>
+                    </div>
+                    <div class="header__item header__item--navigable" href="/">
+                        <a href="/" class="header__link">Карта сторонников</a>
+                        <div class="header__dropdown">
+                            Смотрите, сколько сторонников в округе уже найдено и присоединяйтесь к кампании.
+                        </div>
+                    </div>
+                    <div class="header__item header__item--navigable" href="/events">
+                        <a href="/events" class="header__link">Карта событий</a>
+                        <div class="header__dropdown">
+                            Выбирайте активность, если вы хотите что-то сделать для кампании прямо сейчас.
+                        </div>
+                    </div>
+                    <div class="header__item" style="display: none;">
+                        <a href="#" class="header__link">Поддержать кампанию</a>
+                        <div class="header__dropdown">
+                            Переведите нам деньги, и мы превратим их в голоса.
+                        </div>
+                    </div>
+					<div class="header__item header__item--navigable" href="/panel">
+								<div class="header__link" id="private" onClick="document.location.href = '/panel';">Кабинет</div>
+								<div class="header__dropdown">
+									<a href="/panel#main" class="header__dropdown-item">Список заданий</a>
+									<a href="/panel#addhelper=new" class="header__dropdown-item">Добавить помощника</a>
+									<a href="/panel#profile" class="header__dropdown-item">Редактировать профиль</a>
+									<a href="https://phone.gudkov.ru/call_center?auth_token=b71e2d80fed29d6b9442011effa19f4e" class="header__dropdown-item">Телефония</a>
+									<a href="/logout" class="header__dropdown-item">Выйти</a>
+								</div>
+							</div>					
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+	
+	
+<div class="modal-wrap modal-wrap--active thankForNewHelper" style="display: none;">
+    <div class="modal modal1">
+        <div class="modal__title">
+            <div class="text-bigger">Спасибо!</div>
+        </div>
+        <div class="flexbox">
+
+                <div class="modal__text" style="text-align: center;"></div>
+
+        </div>
+        <div class="icon-close"></div>
+    </div>
+</div>
+	 
+	 
+	<style>
+		.wizard-line {
+			text-align: center;
+			margin-top: 40px;
+		}
+		
+		.wizard-line .wizard-step {
+			display: inline-block;
+			margin-right: 65px;
+			position: relative;
+		}
+		
+		.wizard-line .wizard-step:last-child {
+			margin-right: 0px;
+		}
+		
+		.wizard-line .wizard-step::after {
+			content: '';
+			background: url(../../static/images/wizard_arrow.png);
+			width: 25px;
+			height: 30px;
+			display: inline-block;
+			position: relative;
+			top: -57px;
+			left: 70px;
+		}
+		
+		.wizard-line .wizard-step:last-child:after {
+			opacity: 0;
+		}
+
+		
+		.wizard-line .wizard-circle {
+			height: 44px;
+			width: 44px;
+			border-radius: 24px;
+			display: inline-block;
+			color: #A4B2B5;
+			font-size: 37px;
+			line-height: 44px;
+			background: #E5F6FD;
+			text-align: center;
+		}
+		
+		.wizard-line .wizard-step .wizard-circle:hover, .wizard-line .wizard-step.isActive .wizard-circle {
+			cursor: pointer;
+			color: white;
+			background: #FD0100;
+		}
+		
+		.wizard-line .wizard-text {
+		    margin-top: 2px;
+		}
+		
+		.percented_line {
+			width: 70%;
+		}
+		
+		.line-with-circle {
+			height: 1px;
+			background: #C9C9C9;
+			margin: 25px 0px;
+			position: relative;
+			z-index: 1;
+		}
+		
+		.line-with-circle::after {
+			content: '';
+			background: #D9D9D9;
+			width: 25px;
+			height: 25px;
+			border-radius: 15px;
+			position: absolute;
+			left: 50%;
+			top: -12.5px;
+		}
+		
+		.line-with-circle.no-circle::after {
+			display: none;
+		}
+		
+		.wizard-images {
+			margin-top: 20px;
+			margin-bottom: 45px;
+		}
+		
+		.wizard-image {
+			display: inline-block;
+		    vertical-align: top;
+			position: relative;
+		}
+		
+		.wizard-image:nth-child(2) {
+			margin-left: 60px;
+		}
+		
+		.wizard-image::before {
+			content: '';
+			top: -21px;
+			position: absolute;
+			height: 20px;
+			background: white;
+			display: block;
+			width: 150%;
+			left: -50px;
+		}
+		
+		
+		.wizard-image img {
+			border: 1px solid #CDCDCD;
+			-webkit-box-shadow: 3px 11px 43px -9px rgba(1,72,139,0.37);
+			-moz-box-shadow: 3px 11px 43px -9px rgba(1,72,139,0.37);
+			box-shadow: 3px 11px 43px -9px rgba(1,72,139,0.37);
+		}
+		
+		.wizard-block {
+			font-size: 1.1em;
+			font-weight: bold;
+		}
+		
+		.wizard-block .wizard-text-left {
+			float: left;
+			width: 190px;
+			margin-right: 20px;
+		}
+		
+		.wizard-block .wizard-text-right {
+			float: right;
+			width: 190px;
+			margin-left: 20px;
+			margin-right: 150px;
+		}
+		
+
+		
+	</style>
+
+
+	<div class="content pomogat">
+    <div class="container">
+        <div class="">
+                <h2 class="percented_line" style="font-size: 27px;">Всего три простых шага, и вы сможете начать&nbsp;агитировать за Гудкова прямо из дома</h2>
+				<div class="wizard-line">
+					<div class="wizard-step">
+						<div class="wizard-circle">1</div>
+						<div class="wizard-text">Анкета</div>
+					</div>
+					<div class="wizard-step">
+						<div class="wizard-circle">2</div>
+						<div class="wizard-text">Инструктаж</div>
+					</div>
+					<div class="wizard-step">
+						<div class="wizard-circle">3</div>
+						<div class="wizard-text">Готово</div>
+					</div>
+				</div>
+                <p class="" style="font-size: 1.2em; width: 60%;">На следующем шаге вы перейдёте в систему, где сможете принимать звонки. Чтобы упростить знакомство с системой, вот несколько инструкций</p>
+        </div>
+		
+		<div class="line-with-circle"></div>
+		
+		<div class="wizard-block">
+			<div class="">Браузер запрашивает доступ к микрофону. <br/> Выберите «Разрешить» для браузера Chrome или «Всегда разрешать» для браузера Firefox</div>
+		
+			<div class="wizard-images">
+			
+				<div class="wizard-image"><img src="../../static/images/wizard/step1_1.png"></div>
+				<div class="wizard-image"><img src="../../static/images/wizard/step1_2.png"></div>
+				
+				
+			
+			</div>
+		
+		</div>
+		
+		<div class="line-with-circle"></div>
+		
+		<div class="wizard-block">
+			<div class="wizard-text-right">Проверьте работу микрофона. Говорите громко до тех пор, пока зеленая полоса не дойдёт до конца. От вашей громкости зависит скорость настройки микрофона.</div>
+		
+			<div class="wizard-images">
+			
+				<div class="wizard-image"><img src="../../static/images/wizard/step2_1.png"></div>
+				
+				
+			
+			</div>
+		
+		</div>
+		
+		<div class="line-with-circle"></div>
+		
+		<div class="wizard-block">
+			<div class="" style="">Ознакомьтесь с дисклеймером. Если вы согласны, примите условия.</div>
+		
+			<div class="wizard-images" style="text-align: center;">
+			
+				<div class="wizard-image"><img src="../../static/images/wizard/step3_1.png"></div>
+
+				
+			
+			</div>
+		
+		</div>
+		
+		<div class="line-with-circle"></div>
+		
+		<div class="wizard-block">
+			<div class="wizard-text-left" style="    margin-right: 90px;">Ещё одно напоминание перед началом работы. Если всё понятно, нажмите синюю кнопку.</div>
+		
+			<div class="wizard-images">
+			
+				<div class="wizard-image"><img src="../../static/images/wizard/step4_1.png"></div>
+				
+				
+			
+			</div>
+		
+		</div>
+		
+		<div class="line-with-circle"></div>
+		
+		<div class="wizard-block">
+			<div class="">Вы увидите приветствие, которого следует придерживаться для того, чтобы успешно начать разговор. Переход к следующему вопросу будет происходить после нажатия кнопки с одним из ответов. </div>
+		
+			<div class="wizard-images" style="text-align:center;">
+			
+				<div class="wizard-image"><img src="../../static/images/wizard/step5_1.png"></div>
+				
+				
+			
+			</div>
+		
+		</div>
+		
+		<div class="line-with-circle"></div>
+		
+		<div class="wizard-block" style="position: relative;">
+			<div style="    position: absolute;    width: 480px;    left: 210px;">Если связь прервалась или ваш собеседник передумал, то есть ваш разговор окончен, выберите причину завершения беседы, нажав на красную кнопку «Прекратить разговор»</div>
+		
+			<div class="wizard-images">
+			
+				<div class="wizard-image"><img src="../../static/images/wizard/step6_1.png"></div>
+				
+				
+			
+			</div>
+		
+		</div>
+		
+		<div class="line-with-circle"></div>
+		
+		<div class="wizard-block">
+			<div class="">После окончания разговора напишите ваши впечатления о вашем собеседнике, которые считаете важными для дальнейшей агитации. Это самая важная часть работы с нашей телефонной системой. Пожалуйста, запишите всё, что считаете нужным и полезным.</div>
+		
+			<div class="wizard-images">
+			
+				<div class="wizard-image"><img src="../../static/images/wizard/step7_1.png"></div>
+				
+				<br/><br/><br/>
+				
+				<div class="" style="font-weight: bold;">В случае затруднений вы всегда сможете связаться с технической поддержкой. Внизу страницы есть онлайн чат.</div><br/>
+				
+				<div class="wizard-image"><img src="../../static/images/wizard/step7_2.png"></div>
+				
+				
+			
+			</div>
+		
+		</div>
+
+
+    </div>
+	</div>
+</div>
+	
+
+
+<footer class='footer'>
+    <div class="container">
+        <div class="footer__social">
+            <div class="footer__text">Расскажи друзьям о кампании:</div>
+            <div class="likely" data-url="http://gudkov.ru/index" data-title="Присоединяйся к самой интересной кампании года." >
+                <div class="twitter">в Твиттере</div>
+                <div class="vkontakte">ВКонтакте</div>
+                <div class="facebook">Фейсбуке</div>
+                <div class="odnoklassniki">Одноклассниках</div>
+            </div>
+        </div>
+        <div class="footer__links flexbox">
+            <div class="flexbox__item">
+                <div class="footer__link">
+                    <a href="/addme" class="text-link text-small">Буду голосовать сам</a>
+                </div>
+                <div class="footer__link">
+                    <a href="/myfollower" class="text-link text-small">+1 голос к победе</a>
+                </div>
+            </div>
+            <div class="flexbox__item">
+                <div class="footer__link">
+                    <a href="/myadvice" class="text-link text-small">Хочу участвовать в кампании</a>
+                </div>
+                <div class="footer__link">
+                    <a href="/" class="text-link text-small">Карта сторонников</a>
+                </div>
+            </div>
+            <div class="flexbox__item" style="display: none;">
+                <div class="footer__link">
+                    <a href="#" class="text-link text-small">Поддержать кампанию</a>
+                </div>
+            </div>
+            <div class="flexbox__item">
+				<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter36294165 = new Ya.Metrika({
+                    id:36294165,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true,
+                    trackHash:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/36294165" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+                <div class="footer__link">
+                    <span class="text-small"><a href="mailto:shtab@gudkov.ru">Если вы нашли ошибку на сайте или хотите нам что-то рассказать, пишите:</a></span><br/>
+					<span class="text-small"><b>shtab@gudkov.ru</b></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<script src="../../static/js/likely.js"></script>
+
+
+<script>
+		
+	auth.is_authed = true;
+	auth.session_hash = 'b71e2d80fed29d6b9442011effa19f4e';
+	
+</script>
+
+
+
+<div class="modal-wrap modal-wrap--active site3ThankYou" style="display: none;">
+    <div class="modal modal6">
+        <div class="modal__title">
+            <div class="text-bigger">Спасибо за регистрацию!</div>
+        </div>
+
+        <div class="modal-content">Организатор мероприятия <span class="orgaziner__name"></span> (+<span class="orgaziner__phone"></span>). 
+            Используйте <a href="https://telegram.org/" class="text-link orgaziner__telegram1">Telegram</a> для связи с организатором</div>
+        <div class="icon-close" onClick="setTimeout(function(){ document.location.href = '/';}, 100);"></div>
+    </div>
+</div>
+
+<div class="modal-wrap modal-wrap--active authPopup" style="display: none;">
+    <form class="modal signin" onSubmit="auth.usePopup(); return false;">
+        <div class="form__row">
+            <label for="phone" class="form__label">Телефон</label>
+            <input id="phone" name="phone" class="form__input auth_phone" value="+7" type="text" required>
+        </div>
+        <div class="form__row">
+            <label for="password" class="form__label">Пароль</label>
+            <input id="password" name="password" class="form__input auth_password" type="password" required>
+        </div>
+        <div class="form__row form__row--button">
+            <label class="form__label"></label>
+            <button class="button button--blue" type="submit" onClick="">Войти</button>
+			<a style="color: #0195ff;vertical-align: bottom;display: inline;cursor: pointer;font-size: 14px;margin-left: 10px;" onClick="$('.authPopup').fadeOut(); $('.restorePopup').fadeIn(500);">Забыли пароль?</a>
+        </div>
+        <div class="icon-close"></div>
+    </form>
+</div>
+
+<div class="modal-wrap modal-wrap--active restorePopup" style="display: none;">
+    <form class="modal signin" onSubmit="auth.restorePassword(); return false;">
+        <div class="form__row">
+            <label for="phone" class="form__label">Телефон</label>
+            <input id="" name="phone" class="form__input auth_phone" value="+7" type="text" required>
+        </div>
+        <div class="form__row form__row--button">
+            <label class="form__label"></label>
+            <button class="button button--blue" type="submit" onClick="">Восстановить пароль</button>
+        </div>
+        <div class="icon-close"></div>
+    </form>
+</div>
+
+<div class="modal-wrap modal-wrap--active yourInfoHelpUsToWin" style="display: none;">
+    <div class="modal modal3">
+        <div class="modal__title">
+            <div class="text-bigger">Спасибо!</div>
+        </div>
+        <div class="">
+            <div class="modal__text">Ваша информация поможет нам победить.
+            </div>
+        </div>
+        <div class="icon-close"></div>
+    </div>
+</div>
+
+<div class="modal-wrap modal-wrap--active uniPopup" style="display: none;">
+    <div class="modal modal3">
+        <div class="modal__title">
+            <div class="text-bigger">Спасибо!</div>
+        </div>
+        <div class="">
+            <div class="modal__text">Ваша информация поможет нам победить.</div>
+        </div>
+        <div class="icon-close" onClick="$('.uniPopup').fadeOut(500);"></div>
+    </div>
+</div>
+
+<div class="helperCommentPopup" style="display: none;">
+	<div style="text-align: left;">
+	<p><span class="user_name"></span> (<span class="user_phone"></span>)</p>
+	
+	<textarea id="operator_comment" placeholder="Ваш комментарий" name="operator_comment" class="form__textarea form__input--long operator_comment"></textarea>
+	<br />
+	<button class="button button--blue button--saveform" type="button" onclick="newUser.updateReqlistComment(this);" style="margin-top: 15px;">Сохранить</button>
+	</div>
+</div>
+
+<style>
+	.cropPopup .jcrop-holder {
+		display: inline-block ;
+	}
+</style>
+<div class="modal-wrap modal-wrap--active cropPopup" style="display: none;">
+    <div class="modal modal3">
+        <div class="">
+            <div class="modal__text">
+				
+				<div id="croppied"></div>
+				
+				<img src="" id="cropped" style="display: none;">
+			
+			</div>
+			
+			<br />
+			<center>
+				<a href="#" class="button button--blue button--small button--short" onclick="special_step.avatar_upload_cropped(); return false;">Сохранить</a>
+			</center>
+        </div>
+
+    </div>
+</div>
+
+
+        <script src="../../static/js/markerclusterer_compiled.js"></script>
+
+        <script src="../../static/vendors/FancySelect/fancySelect.js"></script>
+
+        <script src="../../static/js/script.js" type="text/javascript"></script>
+		
+		
+
+    </body>
+</html> 
