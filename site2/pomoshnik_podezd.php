@@ -34,7 +34,6 @@
             <div class="text-bigger">Расскажи про свой подъезд</div>
         </div>
         <div class="singletask__taskbuttons">
-            <div class="button button--blue singletask__taskbutton singletask__taskbutton--start">Начать</div>
             <div class="singletask__taskbutton singletask__taskbutton--reject">Отказаться</div>
         </div>
         <div class="flexbox">
