@@ -241,15 +241,17 @@
 }
 
 .signin, .modal10, .modal14 {
-    width: 540px;
+    width: 585px;
     padding: 50px 50px 20px 50px;
     text-align: left;
 }
 
 .signin .text-link, .modal10 .text-link, .modal14 .text-link {
     display: inline-block;
-    float: right;
-    margin-right: 75px;
+    vertical-align: middle;
+    /*float: right;*/
+    /*margin-right: 75px;*/
+    margin-left: 10px;
     line-height: 15px;
 }
 
@@ -302,6 +304,63 @@
 }
 
 .signin .button, .modal10 .button, .modal14 .button {
+    /*margin-top: 10px;*/
+    vertical-align: middle;
+}
+
+.likely_login {
     margin-top: 10px;
+}
+
+.likely_login .likely__icon {
+    display: none;
+}
+
+.likely_login .likely__button {
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 16px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    line-height: 30px;
+    transition: background .2s;
+    -webkit-font-smoothing: antialiased;
+}
+
+.likely_login .twitter {
+    background-color: #3cc6ee;
+}
+
+.likely_login .twitter:hover {
+    background-color: #0ebaec;
+}
+
+.likely_login .vkontakte {
+    background-color: #6e8eb3;
+}
+
+.likely_login .vkontakte:hover {
+    background-color: #4c75a3;
+}
+
+.likely_login .facebook {
+    background-color: #5f77af;
+}
+
+.likely_login .facebook:hover {
+    background-color: #3a589e;
+}
+
+.likely_login .odnoklassniki {
+    background-color: #ee9853;
+}
+
+.likely_login .odnoklassniki:hover {
+    background-color: #ed812b;
 }
 

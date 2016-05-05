@@ -38,6 +38,10 @@ $(function() {
         $(this).next('.header__dropdown').toggle();
     });
 
+    $('.form__row--social_login').on('click', '.text-link', function() {
+        $(this).addClass('text-link--hidden').siblings('.text-link').removeClass('text-link--hidden');
+    });
+
     // $('.form__radio-button').on('mousedown', function() {
     //     $(this).addClass('button--pressed');
     // });

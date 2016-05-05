@@ -810,6 +810,29 @@ input[name="street"] {
     width: 290px;
 }*/
 
+.form__row--social_login .form__label {
+    width: auto;
+    margin-right: 50px;
+}
+
+.form__row--social_login > div {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.form__row--social_login .text-link {
+    display: inline-block;
+}
+
+.form__row--social_login .text-link--active {
+    color: #ff0000;
+    border-bottom: 1px solid #ffa3a3;
+}
+
+.form__row--social_login .text-link--hidden {
+    display: none;
+}
+
 
 
 
