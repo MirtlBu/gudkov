@@ -16,6 +16,14 @@ $(function() {
 		$(this).closest('.modal-wrap').fadeOut();
     });
 
+    $('.comment_popup').on('click', '.icon-close', function() {
+        $(this).closest('.comment_popup').fadeOut();
+    });
+
+    $('.table__message').on('click', function() {
+        $(this).next('.comment_popup').fadeIn();
+    });
+
     $('.form').on('click', '.icon-close', function() {
         $(this).closest('.accept__icon').removeClass('accept__icon--inactive');
         $(this).closest('.accept__message').removeClass('accept__message--active');

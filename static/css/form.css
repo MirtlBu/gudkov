@@ -510,6 +510,7 @@ input[name="street"] {
     height: 18px;
     background-image: url(../images/icon-edit.png);
     background-repeat: no-repeat;
+    background-position: 0 0;
 }
 
 .pomoshnik .form--tenant .form__title {

@@ -227,16 +227,16 @@
     width: 190px;
 }
 
-.cause .form__textarea {
+.cause .form__textarea, .modal15 .form__textarea, .modal16 .form__textarea {
     width: 480px;
     height: 90px;
 }
 
-.cause .text-bigger {
+.cause .text-bigger, .modal15 .text-bigger, .modal16 .text-bigger {
     margin: 10px 0 15px 0;
 }
 
-.cause .button {
+.cause .button, .modal15 .button, .modal16 .button {
     width: 160px;
 }
 
@@ -363,4 +363,6 @@
 .likely_login .odnoklassniki:hover {
     background-color: #ed812b;
 }
+
+.modal15 .form__textarea
 
