@@ -124,6 +124,10 @@
     width: 360px;
 }
 
+.form__input--longpopup {
+    width: 470px;
+}
+
 .form__input--short {
     width: 80px;
 }

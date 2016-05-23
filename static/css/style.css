@@ -1,6 +1,6 @@
 @import url("button.css");
 @import url("form.css");
-@import url("header.css");
+@import url("header.css?v=1");
 @import url("footer.css");
 @import url("modal.css");
 @import url("select.css");
@@ -110,6 +110,10 @@ p {
 
 .text-big--done {
     color: #39b54a;
+}
+
+.text-big--halfdone {
+    color: #0018C2;
 }
 
 .text-small {
