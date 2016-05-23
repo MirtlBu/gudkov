@@ -1238,7 +1238,7 @@ span.text-link {
     padding: 6px 15px 9px 0;
 }
 
-.coord.chief .table__cell > span {
+.coord.chief .table__cell > a, .coord.chief .table__cell > span {
     font-size: 13px;
     line-height: 15px;
 }
