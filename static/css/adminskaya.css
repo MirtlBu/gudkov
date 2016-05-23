@@ -1126,6 +1126,11 @@ span.text-link {
     margin-bottom: 5px;
 }
 
+.coordinatorskaya_new .dashboard {
+    padding: 30px 0 60px 0;
+    margin-bottom: 20px;
+}
+
 .coordinatorskaya_new .dashboard__title {
     font-size: 28px;
     line-height: 36px;
@@ -1204,7 +1209,14 @@ span.text-link {
 
 .coord.chief .table {
     width: 100%;
-    display: table;
+}
+
+.table_main {
+    display: none;
+}
+
+.coord.chief .table--active {
+    display: table-row;
 }
 
 .coord.chief .table__header {
@@ -1230,21 +1242,45 @@ span.text-link {
     line-height: 15px;
 }
 
-.coord.chief .table__cell:nth-child(1) {
+.coord.chief .table--application .table__cell:nth-child(1) {
     width: 350px;
 }
 
-.coord.chief .table__cell:nth-child(2) {
+.coord.chief .table--application .table__cell:nth-child(2) {
     width: 105px;
 }
 
-.coord.chief .table__cell:nth-child(3) {
+.coord.chief .table--application .table__cell:nth-child(3) {
     width: 100px;
 }
 
-.coord.chief .table__cell:nth-child(5) {
+.coord.chief .table--application .table__cell:nth-child(5) {
     width: 60px;
     vertical-align: middle;
+}
+
+.coord.chief .table--allpersons .table__cell:nth-child(1) {
+    width: 70px;
+}
+
+.coord.chief .table--allpersons .table__row:not(.table__header) .table__cell {
+    vertical-align: top;
+    padding-bottom: 30px;
+}
+
+/*.coord.chief .table--allpersons .table__cell:nth-child(2) {
+    width: 105px;
+}*/
+
+.coord.chief .table--allpersons .table__cell:nth-child(3) {
+    width: 115px;
+}
+.coord.chief .table--allpersons .table__cell:nth-child(4) {
+    width: 300px;
+}
+
+.coord.chief .table--application .table__cell:nth-child(5) {
+    width: 115px;
 }
 
 .coord.chief .table__message, .coord.chief .person-block {
@@ -1359,6 +1395,56 @@ span.text-link {
     width: 160px;
     display: block;
     margin: 20px auto;
+}
+
+.coord.chief .table_nav {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #b1defe;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.coord.chief .table_nav__item {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+    border: 1px solid #b1defe;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.coord.chief .table_nav__item--active {
+    color: #0096ff;
+    border-bottom: 1px solid #fff;
+    z-index: 1;
+    cursor: default;
+}
+
+.table--sub .table__cell {
+    border-bottom: 0 !important;
+    padding: 0 15px 0 0 !important;
+}
+/*грязный хак*/
+.table--sub .rowspan {
+    display: table-caption !important;
+    margin: 0 !important;
+}
+
+.table--sub .rowspan .table__cell {
+    width: 100% !important;
+}
+
+.table--sub .rowspan span {
+    font-size: 16px !important;
 }
 
 

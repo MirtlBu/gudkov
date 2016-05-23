@@ -50,6 +50,19 @@ $(function() {
         $(this).addClass('text-link--hidden').siblings('.text-link').removeClass('text-link--hidden');
     });
 
+    $('.table_nav__item').on('click', function() {
+        if($(this).hasClass('table_nav__item--active')) {
+            return;
+        }
+        else {
+            $('.table_nav__item').removeClass('table_nav__item--active');
+            $(this).addClass('table_nav__item--active');
+            var data_table = '.' + $(this).attr('data-table');
+            $('.table_main').removeClass('table--active');
+            $(data_table).addClass('table--active');
+        }
+    });
+
     // $('.form__radio-button').on('mousedown', function() {
     //     $(this).addClass('button--pressed');
     // });
