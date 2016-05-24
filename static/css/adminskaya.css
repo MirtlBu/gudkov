@@ -1115,11 +1115,13 @@ span.text-link {
 }
 
 .person-block__text--middle, .person-block__img--middle {
+    width: 300px;
     vertical-align: middle;
 }
 
 .person-block__name.text-big {
-    line-height: 20px;
+    display: inline;
+    line-height: 22px;
 }
 
 .person-block__date {
@@ -1235,7 +1237,7 @@ span.text-link {
 
 .coord.chief .table__cell {
     display: table-cell;
-    padding: 6px 15px 9px 0;
+    padding: 0 15px 9px 0;
 }
 
 .coord.chief .table__cell > span {
@@ -1244,7 +1246,7 @@ span.text-link {
 }
 
 .coord.chief .table--application .table__cell:nth-child(1) {
-    width: 350px;
+    width: 360px;
 }
 
 .coord.chief .table--application .table__cell:nth-child(2) {
@@ -1281,7 +1283,7 @@ span.text-link {
 }
 
 .coord.chief .table--application .table__cell:nth-child(5) {
-    width: 115px;
+    width: 95px;
 }
 
 .coord.chief .table__message, .coord.chief .person-block {
@@ -1292,8 +1294,8 @@ span.text-link {
 .coord.chief .table__message {
     cursor: pointer;
     position: absolute;
-    right: 40px;
-    top: 25px;
+    right: -20px;
+    top: 23px;
 }
 
 .coord.chief .table__message > span {
@@ -1446,6 +1448,10 @@ span.text-link {
 
 .table--sub .rowspan span {
     font-size: 16px !important;
+}
+
+.coord.chief .person-block {
+    margin-top: 15px;
 }
 
 
