@@ -1219,7 +1219,7 @@ span.text-link {
 }
 
 .coord.chief .table--active {
-    display: table-row;
+    display: table;
 }
 
 .coord.chief .table__header {

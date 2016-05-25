@@ -1784,6 +1784,11 @@ p {
         border-bottom: none;
     }
 
+    .text-link:hover {
+        text-decoration: underline;
+        border-bottom: none;
+    }
+
     .coordinatorskaya .dashboard .container, .pomoshnik .dashboard .container {
         padding: 0 20px;
     }
@@ -1915,7 +1920,33 @@ p {
         padding: 15px 10px;
     }
 
+    .coord.chief .table--active, .coord.chief .table__row, .coord.chief .table__cell {
+        display: block;
+    }
 
+    .coord.chief .table__header .table__cell {
+        border-bottom: none;
+    }
+
+    .coord.chief .table_nav__item {
+        display: block;
+        margin-right: 0;
+        top: 0;
+        border-radius: 0;
+        border: none;
+    }
+
+    .coord.chief .table_nav__item--active {
+        border: none;
+    }
+
+    .table__row--removed .text-link {
+        border: none !important;
+    }
+
+    .bubble {
+        display: none;
+    }
 
 
     /*третий сайт*/
