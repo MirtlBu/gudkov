@@ -10,6 +10,7 @@
                         <div class="dashboard__person">
                             <div class="dashboard__position">Координатор</div>
                             <div class="dashboard__title">Владимир Ковалевский</div>
+                            <a href="" class="icon_edit"></a>
                             <div class="dashboard__clusters">Кластеры: 82, 83, 84, 85, 86</div>
                         </div>
                     </div>
@@ -18,7 +19,7 @@
                             <div class="bubble__text">
                                 <span>Жизнь прекрасна. Приходите работать на самой крутой кампании этого года!</span>
                             </div>
-                            <div class="bubble__edit"></div>
+                            <a href="" class="icon_edit"></a>
                         </form>
                     </div>
                 </div>
@@ -42,7 +43,7 @@
                     <span>Все шефы</span>
                 </div>
                 <div class="table_nav__item">
-                    <span>Все задания</span>
+                    <span>Список дел</span>
                 </div>
             </div>
         </div>
@@ -50,35 +51,39 @@
             <div class="table table_main table--application table--active">
                 <div class="table__row table__header">
                     <div class="table__cell"><span class="table__cell--blue">Сначала новые заявки</span></div>
+                    <div class="table__cell"></div>
                     <div class="table__cell"><span>Кто внес</span></div>
                     <div class="table__cell"><span>Соц. сети</span></div>
                     <div class="table__cell"><span>Адрес</span></div>
                     <div class="table__cell"><span class="table__cell--red">Удалить заявку</span></div>
                 </div>
-                <div class="table__row">
+                <div class="table__row table__body">
                     <div class="table__cell">
                         <div class="person-block">
                             <div class="person-block__date person-block__date--marked">
                                 <span>+100% (1 день 12:45:21)</span>
                             </div>
                             <div class="person-block__text person-block__text--middle">
-                                <div class="person-block__name text-big text-link">Виктория Черняховская</div>
+                                <div class="person-block__name text-big text-link">Константин Константинопольский</div>
                                 <div class="person-block__phone text-small">+7 904 335-66-45</div>
                             </div>
-                            <div class="table__message">
-                                <span></span>
-                            </div>
+                        </div>
+                    </div>
+                    <div class="table__cell">
+                        <div class="table__message">
+                            <span></span>
                         </div>
                     </div>
                     <div class="table__cell">
                         <span>Екатерина Преснецова</span>
                     </div>
                     <div class="table__cell">
-                        <span class="text-link text-small">Вконтакте</span>
-                        <span class="text-link text-small">Фейсбук</span>
+                        <span class="text-link">Вконтакте</span><br>
+                        <span class="text-link">Фейсбук</span>
                     </div>
                     <div class="table__cell">
-                        <span>Пр. Маршала Жукова, д. 23</span>
+                        <span>Пр. Маршала Жукова, д. 23</span><br>
+                        <span>Под'eзд №3</span>
                     </div>
                     <div class="table__cell">
                         <div class="table__remove">
@@ -86,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="table__row table__row--removed">
+                <div class="table__row table__row--removed table__body">
                     <div class="table__cell table__cell--right">
                         <div class="person-block">
                             <div class="person-block__date">
@@ -96,21 +101,24 @@
                                 <div class="person-block__name text-big text-link">Алексей Шпановский</div>
                                 <div class="person-block__phone text-small">+7 904 335-66-45</div>
                             </div>
-                            <div class="table__message">
-                                <span></span>
-                            </div>
+                        </div>
+                    </div>
+                    <div class="table__cell">
+                        <div class="table__message">
+                            <span></span>
                         </div>
                     </div>
                     <div class="table__cell">
                         <span>Константин Константинопольский</span>
                     </div>
                     <div class="table__cell">
-                        <span class="text-link text-small">Вконтакте</span>
-                        <span class="text-link text-small">Фейсбук</span>
-                        <span class="text-link text-small">Твиттер</span>
+                        <span class="text-link">Вконтакте</span><br>
+                        <span class="text-link">Фейсбук</span><br>
+                        <span class="text-link">Твиттер</span>
                     </div>
                     <div class="table__cell">
-                        <span>Пр. Константинопольский, Константиновский тупик д. 23</span>
+                        <span>Пр. Константинопольский, Константиновский тупик д. 23</span><br>
+                        <span>Под'eзд №3</span>
                     </div>
                     <div class="table__cell">
                         <div class="table__remove">
@@ -118,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="table__row table__row-commented">
+                <div class="table__row table__row-commented table__body">
                     <div class="table__cell">
                         <div class="person-block">
                             <div class="person-block__date person-block__date--marked">
@@ -128,20 +136,23 @@
                                 <div class="person-block__name text-big text-link">Виктория Черняховская</div>
                                 <div class="person-block__phone text-small">+7 904 335-66-45</div>
                             </div>
-                            <div class="table__message">
-                                <span></span>
-                            </div>
+                        </div>
+                    </div>
+                    <div class="table__cell">
+                        <div class="table__message">
+                            <span></span>
                         </div>
                     </div>
                     <div class="table__cell">
                         <span>Екатерина Преснецова</span>
                     </div>
                     <div class="table__cell">
-                        <span class="text-link text-small">Вконтакте</span>
-                        <span class="text-link text-small">Фейсбук</span>
+                        <span class="text-link">Вконтакте</span><br>
+                        <span class="text-link">Фейсбук</span>
                     </div>
                     <div class="table__cell">
-                        <span>Пр. Маршала Жукова, д. 23</span>
+                        <span>Пр. Маршала Жукова, д. 23</span><br>
+                        <span>Под'eзд №3</span>
                     </div>
                     <div class="table__cell">
                         <div class="table__remove">
@@ -152,103 +163,148 @@
             </div>
             <div class="table table_main table--allpersons">
                 <div class="table__row table__header">
-                    <div class="table__cell"><span class="table__cell--blue">По дате</span></div>
-                    <div class="table__cell"><span class="table__cell--blue">По алфавиту</span></div>
-                    <div class="table__cell"><span></span></div>
-                    <div class="table__cell">
-                        <div class="table table--sub">
-                            <div class="table__row">
-                                <div class="table__cell">
-                                    <span class="table__cell--blue">По УИКУ</span>
-                                </div>
-                                <div class="table__cell">
-                                    <span class="table__cell--blue">По кластеру</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="table__cell"><span class="table__cell--blue">По заданиям</span></div>
+                    <div class="table__cell"><span>Cортировать <span class="table__cell--blue">по дате</span></span></div>
+                    <div class="table__cell"></div>
+                    <div class="table__cell"></div>
+                    <div class="table__cell"></div>
+                    <div class="table__cell"><span>Квартир</span></div>
+                    <div class="table__cell"><span>Уведомлять <br>из колл-центра</span></div>
                 </div>
-                <div class="table__row">
+                <div class="table__row table__body">
                     <div class="table__cell">
-                        <span class="text-light tetx-small">14 мая</span>
-                    </div>
-                    <div class="table__cell">
-                        <div class="person-block">
-                            <div class="person-block__img person-block__img--small person-block__img--middle">
-                                <img src="https://gudkov.ru/static/attach/1e945eb935/1e945eb935bf12063c930e712fb3c2da.jpg">
+                        <div class="person-block flexbox">
+                            <div>
+                                <div class="person-block__img person-block__img--small">
+                                    <img src="https://gudkov.ru/static/attach/1e945eb935/1e945eb935bf12063c930e712fb3c2da.jpg">
+                                </div>
+                                <div class="person-block__date">
+                                    <span class="text-light">14 мар</span>
+                                </div>
                             </div>
                             <div class="person-block__text person-block__text--middle">
                                 <div class="person-block__name text-big">Виктория Черняховская</div>
-                                <div class="person-block__phone text-small">+7 904 335-66-45</div>
+                                <div class="person-block__controls">
+                                    <a href="" class="icon_edit"></a>
+                                    <a href="" class="icon_exit"></a>
+                                </div>
+                                <div class="person-block__phone">+7 904 335-66-45</div>
                             </div>
                         </div>
                     </div>
                     <div class="table__cell">
-                        <span class="text-link text-small">Вконтакте</span>
+                        <div class="table__message">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="table__cell">
+                        <span class="text-link text-small">Вконтакте</span><br>
                         <span class="text-link text-small">Фейсбук</span>
                     </div>
                     <div class="table__cell">
-                        <div class="table table--sub">
-                            <div class="table__row rowspan">
-                                <div class="table__cell">
-                                    <span>Пр. Маршала Жукова, д. 23</span>
-                                </div>
-                            </div>
-                            <div class="table__row">
-                                <div class="table__cell">
-                                    <span>34567</span>
-                                </div>
-                                <div class="table__cell">
-                                    <span>123</span>
-                                </div>
-                            </div>
-                        </div>
+                        <span>Пр. Маршала Жукова, д. 23</span><br>
+                        <span>Под'eзд №3</span>
                     </div>
                     <div class="table__cell">
                         <span>34</span>
                     </div>
-                </div>
-                <div class="table__row table__row--removed">
                     <div class="table__cell">
-                        <span class="text-light tetx-small">14 мая</span>
+                        <div class="">
+                            <input id="notify_me" name="notify_me" value="notify_me" class="form__input form__input--hidden" type="checkbox" checked="checked">
+                            <label for="notify_me" class="form__checkbox"></label>
+                        </div>
                     </div>
+                </div>
+                <div class="table__row table__body">
                     <div class="table__cell">
-                        <div class="person-block">
-                            <div class="person-block__img person-block__img--small person-block__img--middle">
-                                <img src="https://gudkov.ru/static/attach/1e945eb935/1e945eb935bf12063c930e712fb3c2da.jpg">
+                        <div class="person-block flexbox">
+                            <div>
+                                <div class="person-block__img person-block__img--small">
+                                    <img src="https://gudkov.ru/static/attach/1e945eb935/1e945eb935bf12063c930e712fb3c2da.jpg">
+                                </div>
+                                <div class="person-block__date">
+                                    <span class="text-light">14 мар</span>
+                                </div>
                             </div>
                             <div class="person-block__text person-block__text--middle">
-                                <div class="person-block__name text-big">Виктория Черняховская</div>
-                                <div class="person-block__phone text-small">+7 904 335-66-45</div>
+                                <div class="person-block__name text-big">Игнат Борисов</div>
+                                <div class="person-block__controls">
+                                    <a href="" class="icon_edit"></a>
+                                    <a href="" class="icon_exit"></a>
+                                </div>
+                                <div class="person-block__phone">+7 904 335-66-45</div>
                             </div>
                         </div>
                     </div>
                     <div class="table__cell">
-                        <span class="text-link text-small">Вконтакте</span>
+                        <div class="table__message">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="table__cell">
                         <span class="text-link text-small">Фейсбук</span>
                     </div>
                     <div class="table__cell">
-                        <div class="table table--sub">
-                            <div class="table__row rowspan">
-                                <div class="table__cell">
-                                    <span>Пр. Маршала Жукова, д. 23</span>
+                        <span>Пр. Маршала Жукова, ул, Рокоссовского, д. 23</span><br>
+                        <span>Под'eзд №3</span>
+                    </div>
+                    <div class="table__cell">
+                        <span>345</span>
+                    </div>
+                    <div class="table__cell">
+                        <div class="">
+                            <input id="notify_me" name="notify_me" value="notify_me" class="form__input form__input--hidden" type="checkbox">
+                            <label for="notify_me" class="form__checkbox"></label>
+                        </div>
+                    </div>
+                </div>
+                                <div class="table__row table__body">
+                    <div class="table__cell">
+                        <div class="person-block flexbox">
+                            <div>
+                                <div class="person-block__img person-block__img--small">
+                                    <img src="https://gudkov.ru/static/attach/1e945eb935/1e945eb935bf12063c930e712fb3c2da.jpg">
+                                </div>
+                                <div class="person-block__date">
+                                    <span class="text-light">14 мар</span>
                                 </div>
                             </div>
-                            <div class="table__row">
-                                <div class="table__cell">
-                                    <span>34567</span>
+                            <div class="person-block__text person-block__text--middle">
+                                <div class="person-block__name text-big">Константин Константинопольский</div>
+                                <div class="person-block__controls">
+                                    <a href="" class="icon_edit"></a>
+                                    <a href="" class="icon_exit"></a>
                                 </div>
-                                <div class="table__cell">
-                                    <span>123</span>
-                                </div>
+                                <div class="person-block__phone">+7 904 335-66-45</div>
                             </div>
                         </div>
                     </div>
                     <div class="table__cell">
-                        <span>34</span>
+                        <div class="table__message">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="table__cell">
+                        <span class="text-link text-small">Фейсбук</span><br>
+                        <span class="text-link text-small">Вконтакте</span><br>
+                        <span class="text-link text-small">Ок</span>
+                    </div>
+                    <div class="table__cell">
+                        <span>Пр. Маршала Жукова, д. 23</span><br>
+                        <span>Под'eзд №3</span>
+                    </div>
+                    <div class="table__cell">
+                        <span>345</span>
+                    </div>
+                    <div class="table__cell">
+                        <div class="">
+                            <input id="notify_me" name="notify_me" value="notify_me" class="form__input form__input--hidden" type="checkbox">
+                            <label for="notify_me" class="form__checkbox"></label>
+                        </div>
                     </div>
                 </div>
+
+            </div>
+            <div class="table table_main table--alltasks">
             </div>
         </div>
     </div>

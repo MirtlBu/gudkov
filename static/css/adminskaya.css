@@ -1145,8 +1145,10 @@ span.text-link {
 }
 
 .coordinatorskaya_new .dashboard__person {
+    position: relative;
     display: inline-block;
     vertical-align: top;
+    padding-right: 30px;
 }
 
 .coordinatorskaya_new .dashboard__clusters {
@@ -1170,7 +1172,7 @@ span.text-link {
     box-shadow: 0px 17px 30px 7px rgba(1, 72, 139, 0.20);
 }
 
-.bubble__edit {
+.icon_edit {
     position: absolute;
     top: 7px;
     right: 9px;
@@ -1179,9 +1181,29 @@ span.text-link {
     background-image: url(../images/icon-edit.png);
     background-repeat: no-repeat;
     background-position: -18px 0;
-    opacity: .8;
     cursor: pointer;
     z-index: 0;
+}
+
+.icon_exit {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/icon-exit.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.dashboard__person .icon_edit {
+    right: 0px;
+    top: 30px;
+    display: none;
+}
+
+.dashboard__person:hover .icon_edit {
+    display: block;
 }
 
 .bubble:before {
@@ -1246,56 +1268,37 @@ span.text-link {
 }
 
 .coord.chief .table--application .table__cell:nth-child(1) {
-    width: 360px;
+    width: 220px;
 }
 
 .coord.chief .table--application .table__cell:nth-child(2) {
-    width: 105px;
+    width: 125px;
 }
 
 .coord.chief .table--application .table__cell:nth-child(3) {
+    width: 80px;
+}
+
+.coord.chief .table--application .table__body .table__cell:nth-child(5) span:first-child {
+    font-size: 16px;
+}
+
+.coord.chief .table--application .table__cell:nth-child(4) {
     width: 100px;
 }
 
-.coord.chief .table--application .table__cell:nth-child(5) {
+.coord.chief .table--application .table__cell:nth-child(6) {
     width: 60px;
-    vertical-align: middle;
+    text-align: center;
 }
 
-.coord.chief .table--allpersons .table__cell:nth-child(1) {
-    width: 70px;
+.coord.chief .table--application .table__body .table__cell:not(:nth-child(1)) {
+    padding-top: 30px;
 }
 
-.coord.chief .table--allpersons .table__row:not(.table__header) .table__cell {
-    vertical-align: top;
-    padding-bottom: 30px;
-}
-
-/*.coord.chief .table--allpersons .table__cell:nth-child(2) {
-    width: 105px;
-}*/
-
-.coord.chief .table--allpersons .table__cell:nth-child(3) {
-    width: 115px;
-}
-.coord.chief .table--allpersons .table__cell:nth-child(4) {
-    width: 300px;
-}
-
-.coord.chief .table--application .table__cell:nth-child(5) {
-    width: 95px;
-}
-
-.coord.chief .table__message, .coord.chief .person-block {
+.coord.chief .person-block {
     display: inline-block;
     vertical-align: middle;
-}
-
-.coord.chief .table__message {
-    cursor: pointer;
-    position: absolute;
-    right: -20px;
-    top: 23px;
 }
 
 .coord.chief .table__message > span {
@@ -1324,8 +1327,8 @@ span.text-link {
     margin-top: 5px;
 }
 
-.coord.chief .person-block {
-    width: 310px;
+.coord.chief .person-block__text--middle, .coord.chief .person-block__img--middle {
+    width: auto;
 }
 
 .coord.chief .person-block__date--marked {
@@ -1388,7 +1391,7 @@ span.text-link {
 }
 
 .coord.chief .table_nav {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: 1px solid #b1defe;
     font-size: 20px;
     line-height: 24px;
@@ -1419,28 +1422,74 @@ span.text-link {
     cursor: default;
 }
 
-.table--sub .table__cell {
-    border-bottom: 0 !important;
-    padding: 0 15px 0 0 !important;
-}
-/*грязный хак*/
-.table--sub .rowspan {
-    display: table-caption !important;
-    margin: 0 !important;
+.table--allpersons .person-block.flexbox {
+    display: flex;
+    justify-content: flex-start;
 }
 
-.table--sub .rowspan .table__cell {
-    width: 100% !important;
+.coord.chief .table__body .table__cell {
+    vertical-align: top;
+    padding-top: 15px;
 }
 
-.table--sub .rowspan span {
-    font-size: 16px !important;
+.coord.chief .table__message {
+    position: relative;
+    top: 5px;
+    left: 0;
 }
 
-.coord.chief .person-block {
-    margin-top: 15px;
+.coord.chief .table--allpersons .table__cell:nth-child(1) {
+    width: 350px;
 }
 
+.coord.chief .table--allpersons .table__cell:nth-child(2) {
+    width: 55px;
+}
+
+.coord.chief .table--allpersons .table__cell:nth-child(3) {
+    width: 100px;
+}
+
+.coord.chief .table--allpersons .table__body .table__cell:nth-child(4) span:first-child {
+    font-size: 16px;
+}
+
+.coord.chief .table--allpersons .table__cell:nth-child(5) {
+    width: 85px;
+}
+
+.coord.chief .table--allpersons .table__body .table__cell:nth-child(5) span {
+    font-size: 16px;
+}
+
+.coord.chief .table--allpersons .table__cell:nth-child(6) {
+    width: 100px;
+}
+
+.table--allpersons .form__checkbox {
+    top: 3px;
+}
+
+.person-block__controls {
+    display: none;
+    position: relative;
+    top: -18px;
+    left: 5px;
+}
+
+.person-block__controls .icon_edit {
+    top: 0;
+    left: 0;
+}
+
+.person-block__controls .icon_exit {
+    top: 0;
+    left: 25px;
+}
+
+.person-block:hover .person-block__controls {
+    display: inline-block;
+}
 
 
 
