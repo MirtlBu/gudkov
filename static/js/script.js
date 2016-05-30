@@ -43,6 +43,9 @@ $(function() {
     });
 
     $('.table_nav__item').on('click', function() {
+		if ($(this).hasClass('nav__nojs'))
+			return ;
+		
         if($(this).hasClass('table_nav__item--active')) {
             return;
         }

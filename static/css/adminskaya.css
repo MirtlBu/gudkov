@@ -1116,9 +1116,10 @@ span.text-link {
     margin-right: 5px;
 }
 
-.person-block__img--small {
+.person-block__img.person-block__img--small {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
 }
 
 .person-block__img--small img {
