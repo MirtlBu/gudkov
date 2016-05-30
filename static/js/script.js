@@ -55,6 +55,15 @@ $(function() {
         }
     });
 
+    $('#first_row').on('mouseenter', function() {
+        console.log('enter');
+        $('.table--alltasks .table__header .table__cell').css('border-bottom', '1px solid transparent');
+    });
+    $('#first_row').on('mouseleave', function() {
+        console.log('leave');
+        $('.table--alltasks .table__header .table__cell').css('border-bottom', '1px solid #b7b7b7');
+    });
+
     // $('.form__radio-button').on('mousedown', function() {
     //     $(this).addClass('button--pressed');
     // });

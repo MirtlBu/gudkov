@@ -286,7 +286,9 @@
 .modal12 .form__row, .modal13 .centered {
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
 }
 
 .modal13 {
@@ -363,6 +365,3 @@
 .likely_login .odnoklassniki:hover {
     background-color: #ed812b;
 }
-
-.modal15 .form__textarea
-

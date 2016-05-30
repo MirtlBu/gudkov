@@ -2049,7 +2049,9 @@ p {
     }
 
     .slogan > .flexbox, .footer__links {
-        flex-direction: column;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .footer__text {
@@ -2058,7 +2060,9 @@ p {
     }
 
     .header__others > .flexbox {
-        flex-direction: column;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .dashboard > .container {
