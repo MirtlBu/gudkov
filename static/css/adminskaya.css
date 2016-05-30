@@ -1300,8 +1300,19 @@ span.text-link {
 
 .coord.chief .table__cell {
     display: table-cell;
+}
+
+.coord.chief .table--application .table__cell {
     padding: 0 15px 9px 0;
 }
+
+.coord.chief .table--allpersons .table__cell, .coord.chief .table--alltasks .table__cell {
+    padding: 0 10px 9px 0;
+}
+
+/*.coord.chief .table--alltasks .table__header .table__cell {
+    padding: 0 10px 15px 0;
+}*/
 
 .coord.chief .table__cell > a, .coord.chief .table__cell > span {
     font-size: 13px;
@@ -1441,6 +1452,8 @@ span.text-link {
 }
 
 .coord.chief .table_nav__item {
+    height: 32px;
+    line-height: 18px;
     position: relative;
     top: 1px;
     display: inline-block;
@@ -1474,7 +1487,7 @@ span.text-link {
 
 .coord.chief .table__body .table__cell {
     vertical-align: top;
-    padding-top: 15px;
+    padding-top: 12px;
 }
 
 .coord.chief .table__message {
@@ -1566,7 +1579,7 @@ span.text-link {
 
 .slider_header, .slider_body {
     position: relative;
-    padding: 0 35px 0 20px;
+    padding: 2px 35px 0 20px;
     box-sizing: border-box;
 }
 
@@ -1681,15 +1694,15 @@ span.text-link {
 
 .table--alltasks .table__body .table__cell:first-child {
     border-left: 1px solid transparent;
-    border-top-left-radius: 14px;
-    border-bottom-left-radius: 14px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
     padding-left: 20px;
 }
 
 .table--alltasks .table__body .table__cell:last-child {
     border-right: 1px solid transparent;
-    border-top-right-radius: 14px;
-    border-bottom-right-radius: 14px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
     padding-right: 20px;
 }
 
@@ -1709,7 +1722,7 @@ span.text-link {
 .status_board {
     width: 270px;
     margin: 20px 0;
-    padding: 10px 20px;
+    padding: 7px 20px;
     box-sizing: border-box;
     background-color: #ebebeb;
     border-radius: 8px;
