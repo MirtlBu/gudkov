@@ -86,6 +86,7 @@
                     <div class="dashboard__user">
                         <div class="dashboard__img">
                             <img class="dashboard__img" src="/static/images/ron.jpg">
+                            <div class="icon_photo"></div>
                         </div>
                         <div class="dashboard__person">
                             <div class="dashboard__position">Координатор</div>
@@ -122,7 +123,7 @@
                 <div class="table_nav__item" data-table="table--allpersons">
                     <span>Все шефы</span>
                 </div>
-                <div class="table_nav__item">
+                <div class="table_nav__item" data-table="table--alltasks">
                     <span>Список дел</span>
                 </div>
             </div>
@@ -337,7 +338,7 @@
                         </div>
                     </div>
                 </div>
-                                <div class="table__row table__body">
+                <div class="table__row table__body">
                     <div class="table__cell">
                         <div class="person-block flexbox">
                             <div>
@@ -385,6 +386,185 @@
 
             </div>
             <div class="table table_main table--alltasks">
+                <div class="table__row table__header">
+                    <div class="table__cell"><span>Cортировать <span class="table__cell--blue">по количеству выполненных</span></span></div>
+                    <div class="table__cell"></div>
+                    <div class="table__cell">
+                        <div class="slider_header">
+                            <div class="slider_header__title">Дела</div>
+                            <div class="slider_header__content flexbox">
+                                <div class="flexbox__item">
+                                    <div class="slider_header__num text-small">№1</div>
+                                    <div class="slider_header__popup">Знакомство с сайтом</div>
+                                </div>
+                                <div class="flexbox__item">
+                                    <div class="slider_header__num text-small">№2</div>
+                                    <div class="slider_header__popup">Знакомство с сайтом</div>
+                                </div>
+                                <div class="flexbox__item">
+                                    <div class="slider_header__num text-small">№3</div>
+                                    <div class="slider_header__popup">Знакомство с сайтом</div>
+                                </div>
+                                <div class="flexbox__item">
+                                    <div class="slider_header__num text-small">№4</div>
+                                    <div class="slider_header__popup">Знакомство с сайтом</div>
+                                </div>
+                                <div class="flexbox__item">
+                                    <div class="slider_header__num text-small">№5</div>
+                                    <div class="slider_header__popup">Знакомство с сайтом</div>
+                                </div>
+                            </div>
+                            <div class="slider_header__controls slider_header__controls--left"></div>
+                            <div class="slider_header__controls slider_header__controls--right"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table_wrap">
+                    <div class="table__row table__body" id="first_row">
+                        <div class="table__cell">
+                            <div class="person-block flexbox">
+                                <div>
+                                    <div class="person-block__img person-block__img--small">
+                                        <img src="https://gudkov.ru/static/attach/1e945eb935/1e945eb935bf12063c930e712fb3c2da.jpg">
+                                    </div>
+                                    <div class="person-block__date">
+                                        <span class="text-light">14 мар</span>
+                                    </div>
+                                </div>
+                                <div class="person-block__text person-block__text--middle">
+                                    <div class="person-block__name text-big">Виктория Черняховская</div>
+                                    <div class="person-block__controls">
+                                        <a href="" class="icon_edit"></a>
+                                        <a href="" class="icon_exit"></a>
+                                    </div>
+                                    <div class="person-block__phone">+7 904 335-66-45</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__cell">
+                            <span>Пр. Маршала Жукова, д. 23</span><br>
+                            <span>Под'eзд №3</span>
+                        </div>
+                        <div class="table__cell">
+                            <div class="slider_body">
+                                <div class="statuses">
+                                    <div class="flexbox">
+                                        <div class="flexbox__item">
+                                            <div class="statuses__item">
+                                                <div class="icon_status icon_status--undefined"></div>
+                                            </div>
+                                        </div>
+                                        <div class="flexbox__item">
+                                            <div class="statuses__item">
+                                                <div class="icon_status icon_status--check"></div>
+                                            </div>
+                                        </div>
+                                        <div class="flexbox__item">
+                                            <div class="statuses__item">
+                                                <div class="icon_status icon_status--alert"></div>
+                                            </div>
+                                        </div>
+                                        <div class="flexbox__item">
+                                            <div class="statuses__item">
+                                                <div class="icon_status icon_status--check"></div>
+                                            </div>
+                                        </div>
+                                        <div class="flexbox__item">
+                                            <div class="statuses__item">
+                                                <div class="icon_status icon_status--check"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__row table__body">
+                        <div class="table__cell">
+                            <div class="person-block flexbox">
+                                <div>
+                                    <div class="person-block__img person-block__img--small">
+                                        <img src="https://gudkov.ru/static/attach/1e945eb935/1e945eb935bf12063c930e712fb3c2da.jpg">
+                                    </div>
+                                    <div class="person-block__date">
+                                        <span class="text-light">14 мар</span>
+                                    </div>
+                                </div>
+                                <div class="person-block__text person-block__text--middle">
+                                    <div class="person-block__name text-big">Виктория Черняховская</div>
+                                    <div class="person-block__controls">
+                                        <a href="" class="icon_edit"></a>
+                                        <a href="" class="icon_exit"></a>
+                                    </div>
+                                    <div class="person-block__phone">+7 904 335-66-45</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__cell">
+                            <span>Пр. Маршала Жукова, д. 23</span><br>
+                            <span>Под'eзд №3</span>
+                        </div>
+                        <div class="table__cell">
+                            <div class="slider_body">
+                                <div class="statuses">
+                                    <div class="flexbox">
+                                        <div class="flexbox__item">
+                                            <div class="statuses__item">
+                                                <div class="icon_status icon_status--undefined"></div>
+                                            </div>
+                                        </div>
+                                        <div class="flexbox__item">
+                                            <div class="statuses__item">
+                                                <div class="icon_status icon_status--check"></div>
+                                            </div>
+                                        </div>
+                                        <div class="flexbox__item">
+                                            <div class="statuses__item">
+                                                <div class="icon_status icon_status--alert"></div>
+                                            </div>
+                                        </div>
+                                        <div class="flexbox__item">
+                                            <div class="statuses__item">
+                                                <div class="icon_status icon_status--check"></div>
+                                            </div>
+                                        </div>
+                                        <div class="flexbox__item">
+                                            <div class="statuses__item">
+                                                <div class="icon_status icon_status--check"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table_wrap">
+                    <div class="table__cell"></div>
+                    <div class="table__cell"></div>
+                    <div class="table__cell">
+                        <div class="status_board">
+                            <div class="flexbox">
+                                <div class="flexbox__item">
+                                    <div class="status_board__item">
+                                        <div class="icon_status icon_status--check"></div>
+                                        <span class="text-small">Выполнил</span>
+                                    </div>
+                                    <div class="status_board__item">
+                                        <div class="icon_status icon_status--undefined"></div>
+                                        <span class="text-small">Не начал</span>
+                                    </div>
+                                </div>
+                                <div class="flexbox__item">
+                                    <div class="status_board__item">
+                                        <div class="icon_status icon_status--alert"></div>
+                                        <span class="text-small">Ожидает проверки</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
